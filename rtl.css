@@ -1,0 +1,73 @@
+/*
+ * Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+ *
+ * @package	Anarcho Notepad
+ * @since	2.8
+ * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2014, Arthur Gareginyan
+ * @link      	http://mycyberuniverse.com/anarcho-notepad.html
+ * @license   	http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+
+.aligncenter,
+div.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+/* Title
+-------------------------------------------------------------- */
+#title {
+	margin-right: 45%;
+}
+
+/* Search
+-------------------------------------------------------------- */
+.top-search-form {
+	margin-right: 5%;
+}
+
+/* Sidebar
+-------------------------------------------------------------- */
+#sidebar .pages ul {
+	margin-right: 15%;
+}
+
+#sidebar .recent-posts ul li a {
+	padding:4px 30px 4px 25px;
+	background:url(images/bullet.gif) no-repeat 200px 8px;
+}
+
+/* Comment
+-------------------------------------------------------------- */
+
+#commentform .comment-field {
+	float:right;
+}
+
+#commentform .btnComment {
+	float:right;
+	clear:right;
+}
+
+/* Comment list
+-------------------------------------------------------------- */
+.avatar {
+	float:right;
+	clear:right;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/* END-Comment */
