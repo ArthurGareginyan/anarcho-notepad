@@ -3,9 +3,9 @@
  * The template for displaying Home page.
  *
  * @package	Anarcho Notepad
- * @since	2.5
- * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2014, Arthur Gareginyan
+ * @since	2.16
+ * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -15,6 +15,7 @@
 
 <section id="content" role="main">
   <div class="col01">
+
   <?php if (have_posts()) : ?>
   <?php while (have_posts()) : the_post(); ?>
 
@@ -30,20 +31,15 @@
 		<?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
 
       </div>
-      <div class="meta"><?php _e('Category: ', 'anarcho-notepad'); ?><?php the_category(', ') ?></div>
+
+      <?php anarcho_entry_meta(); ?>
+
     </article>
     <?php endwhile; ?>
 
     <?php anarcho_page_nav(); ?>
 
-    <?php else : ?>
-
-	<div class="no-results">
-		<h1><?php _e('Not Found', 'anarcho-notepad'); ?></h1>
-		<p><?php _e('Sorry, but you are looking for something that isn\'t here.', 'anarcho-notepad'); ?></p>
-	</div>
-
-    <?php endif; ?>
+    <?php else : anarcho_not_found(); endif; ?>
   </div>
 
    <?php get_sidebar(); ?>

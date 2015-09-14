@@ -3,9 +3,9 @@
  * The template for displaying Comments.
  *
  * @package	Anarcho Notepad
- * @since	2.5
- * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2014, Arthur Gareginyan
+ * @since	2.22
+ * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -26,12 +26,12 @@ if ( post_password_required() )
 	<?php // You can start editing here -- including this comment! ?>
 
 	<?php if ( have_comments() ) : ?>
-		<h2 class="comments-title">
+		<p class="comments-title">
 			<?php
-				printf( '%1$s thoughts on &ldquo;%2$s&rdquo;',
-					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
+				printf( '%1$s COMMENTS :',
+					number_format_i18n( get_comments_number() ) );
 			?>
-		</h2>
+		</p>
 
 		<ol class="commentlist">
 			<?php wp_list_comments( array( 'callback' => 'anarcho_comment', 'style' => 'ol' ) ); ?>

@@ -3,9 +3,9 @@
  * The template for displaying Archive pages.
  *
  * @package	Anarcho Notepad
- * @since	2.5
- * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2014, Arthur Gareginyan
+ * @since	2.16
+ * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -30,21 +30,14 @@
 
 		<?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
       </div>
-      <div class="meta"><?php _e('Category: ', 'anarcho-notepad'); ?><?php the_category(', ') ?> |  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></div>
+      <?php anarcho_entry_meta(); ?>
     </article>
 
     <?php endwhile; ?>
 
     <?php anarcho_page_nav(); ?>
 
-    <?php else : ?>
-
-	<div class="no-results">
-		<h1><?php _e('Not Found', 'anarcho-notepad'); ?></h1>
-		<p><?php _e('Sorry, but you are looking for something that isn\'t here.', 'anarcho-notepad'); ?></p>
-	</div>
-
-    <?php endif; ?>
+    <?php else : anarcho_not_found(); endif; ?>
 </div>
    <?php get_sidebar(); ?>
 </section><br clear="all" />

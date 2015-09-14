@@ -2,9 +2,9 @@
  * Styles for theme info page.
  *
  * @package	Anarcho Notepad
- * @since	2.15
- * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright © 2013-2014, Arthur Gareginyan
+ * @since	2.26
+ * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright © 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -16,16 +16,6 @@
 	     url('fonts/forum/Forum.woff') format('woff'),
 	     url('fonts/forum/Forum.ttf') format('truetype'),
 	     url('fonts/forum/Forum.svg#Forum') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'FontAwesome';
-	src: url('fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.eot');
-	src: url('fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.woff') format('woff'),
-	     url('fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.ttf') format('truetype'),
-	     url('fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.svg#Forum') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -56,7 +46,7 @@
 	text-decoration: none;
 	font-weight: bold; }
 .cover a:hover {
-	color: #FFF;
+	color: #000;
 	text-decoration: none;
 	font-weight: bold; }
 .cover a img { border:none; }
@@ -100,6 +90,8 @@
 #page .content ul {
 	list-style: inherit;
 	padding: 0 0 0 40px; }
+#page .content ul li {
+    margin-bottom: 0px; }
 
 #page .welcome {
 	font-size: 90%;
@@ -151,11 +143,11 @@ tbody tr:nth-child(odd) {
 	font-size: 120%; }
 #sidebar .comment {
 	border-bottom: 1px solid gray;
-	margin-bottom: 40p }
+	margin-bottom: 40px; }
 #sidebar .follow {
-	border-bottom: 1px solid gray;
-	margin-bottom: 40p }
+	border-bottom: 1px solid gray; }
 #sidebar .follow p {
-	font-size: 30px;
-	letter-spacing: 8px; }
+	font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px; }
 @media only screen and (max-width:700px), only screen and (max-device-width : 700px){ #page>li { width:85%; } }

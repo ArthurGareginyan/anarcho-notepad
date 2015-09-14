@@ -3,15 +3,25 @@
  * The sidebar containing the secondary widget area, displays on posts and pages.
  *
  * @package	Anarcho Notepad
- * @since	2.5
- * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2014, Arthur Gareginyan
+ * @since	2.26
+ * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
 ?>
 
 <aside id="sidebar" role="complementary">
+
+<!--FOLLOW-->
+<?php if(get_theme_mod('disable_rss_icon') !== '1') {  ?>
+  <div class="follow">
+     <a href="http://www.specificfeeds.com/follow" target="_blank" rel="nofollow" >
+        <img src="<?php echo get_template_directory_uri(); ?>/images/follow.png" alt="RSS" />
+     </a>
+  </div>
+<?php }  ?>
+<!--END-FOLLOW-->
 
 <!--PAGES (MENU)-->
 <nav class="pages">
@@ -23,7 +33,7 @@
 <?php dynamic_sidebar( 'sidebar-1' ); ?>
 
 <!--ABOUT BOX-->
-<?php if(get_theme_mod('disable_about_box') == '0') {  ?>
+<?php if(get_theme_mod('disable_about_box') !== '1') {  ?>
 <div class="about-box">
   <p>
     <?php echo sanitize_text_field(get_theme_mod('about_box')); ?>
@@ -35,7 +45,7 @@
 <?php dynamic_sidebar( 'sidebar-2' ); ?>
 
 <!--LINKS BOX-->
-<?php if(get_theme_mod('disable_links_box') == '0') {  ?>
+<?php if(get_theme_mod('disable_links_box') !== '1') {  ?>
 <div class="links-box">
   <p>
     <ul>
@@ -49,14 +59,15 @@
 <?php dynamic_sidebar( 'sidebar-3' ); ?>
 
 <!--RECENT POSTS-->
-<?php if(get_theme_mod('disable_recent_sticker') == '0') {  ?>
+<?php if(get_theme_mod('disable_recent_sticker') !== '1') {  ?>
 <div class="recent-posts-upper"></div>
  <nav class="recent-posts">
-    <?php $query = new WP_Query( array( 'posts_per_page' => '10' ) ); ?>
+    <?php $num_recent_post = get_theme_mod('num_recent_post'); ?>
+    <?php $query = new WP_Query( array( 'posts_per_page' => $num_recent_post ) ); ?>
     <?php while ($query->have_posts()): $query->the_post(); ?>
     <ul>
        <li>
-          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+            <a href="<?php the_permalink(); ?>"><i class="fa fa-asterisk"></i>&nbsp;&nbsp;<?php the_title(); ?></a>
        </li>
     </ul>
     <?php endwhile; ?>

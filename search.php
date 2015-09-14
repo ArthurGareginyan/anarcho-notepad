@@ -3,9 +3,9 @@
  * The template for displaying Search Results pages.
  *
  * @package	Anarcho Notepad
- * @since	2.5
- * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2014, Arthur Gareginyan
+ * @since	2.16
+ * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -15,6 +15,7 @@
 
 <section id="content" role="main">
   <div class="col01">
+
   <?php anarcho_breadcrumbs(); ?>
 
 <div id="center">
@@ -34,15 +35,16 @@
 
 			<?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
       		</div>
-      <div class="meta"><?php _e('Category: ', 'anarcho-notepad'); ?><?php the_category(', ') ?></div>
+
+      		<?php anarcho_entry_meta(); ?>
+
                 </article>
    <?php endwhile; ?>
 
    <?php anarcho_page_nav(); ?>
 
-   <?php else :
-            echo _e('Sorry for your result nothing found', 'anarcho-notepad');
-         endif; ?>
+   <?php else : echo _e('Sorry for your result nothing found', 'anarcho-notepad'); ?>
+   <?php endif; ?>
     </div>
 
   </div>

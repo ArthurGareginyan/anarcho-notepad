@@ -1,12 +1,12 @@
 /*
 Theme Name: Anarcho Notepad
 Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
-Description: Inspired by the idea of anarchy, I designed this theme for your personal blogs and diaries. Anarcho Notepad can be easily customized. It utilizes latest HTML 5, CSS3 and wordpress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalize it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it for you. I would like to thank you for your support, visit the Theme URI for the update history, and Enjoy!
-Version: 2.15
-Author: Arthur (Berserkr) Gareginyan
+Description: Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
+Version: 2.26
+Author: Arthur "Berserkr" Gareginyan
 Author URI: http://mycyberuniverse.com/author.html
 Tags: black, white, light, two-columns, right-sidebar, fluid-layout, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
-Copyright (C) 2013-2014 Arthur Gareginyan
+Copyright (C) 2013-2015 Arthur Gareginyan
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: anarcho-notepad
@@ -25,39 +25,42 @@ Text Domain: anarcho-notepad
 	font-style: normal;
 }
 
-section, article, header, footer, nav, aside, hgroup {
-	display: block; }
+section,
+article,
+header,
+footer,
+nav,
+aside,
+hgroup { display: block; }
 
 [hidden] { display: none; }
 
 /* Links
 -------------------------------------------------------------- */
-/* Стиль для обычной не посещенной ссылки */
-a:link { text-decoration: none;
-	color: black;
- }
-
-/* Стиль для посещенной ссылки. */
+a:link {
+	text-decoration: none;
+	color: black; }
 a:visited {
 	text-decoration: none;
-	color: black;
- }
+	color: black; }
+a:hover,
+a:active {
+	text-decoration: underline;
+	color: black; }
 
-/* Стиль для ссылки при наведении на нее мышью :hover    и 
-стиль для активной ссылки :active  Активной ссылка становится при нажатии на нее. */
-a:hover, a:active {
-	color: black;
-	font-weight: bold; }
-
+/* Align
+-------------------------------------------------------------- */
 .aligncenter,
 div.aligncenter {
 	display: block;
 	margin-left: auto;
-	margin-right: auto; }
+	margin-right: auto;
+	text-align: center; }
 .alignleft {
 	float: left; }
 .alignright {
 	float: right; }
+
 .wp-caption {
 	border: 1px solid #ddd;
 	text-align: center;
@@ -101,6 +104,7 @@ body {
 	overflow: hidden;
 	word-wrap: break-word; }
 #title a { color: #e5e5e5; }
+#title a:hover { text-decoration: none; }
 .logo { position: absolute; }
 .site-title {
 	font-size: 300%;
@@ -230,15 +234,12 @@ blockquote cite:before {
 	color:#000;
 	text-decoration:none; }
 #content .col01 h1 a:hover { font-weight: bold; }
-#content .col01 h4 {
-	font-size:112%;
-	line-height:100%;
-	font-weight:normal;
-	font-family: Forum, Times New Roman, Times, Georgia, serif;
-	margin:0;
-	padding:0 0 16px;
-	overflow: hidden;
-	background:url(images/line.gif) repeat-x bottom; }
+#content .col01 h2,
+#content .col01 h3,
+#content .col01 h4,
+#content .col01 h5,
+#content .col01 h6 {
+	text-align: center; }
 #content .col01 .post {
 	padding-top:5px;
 	padding-bottom:30px; }
@@ -343,26 +344,15 @@ blockquote cite:before {
 /* END-Data-tab (Ribbons) */
 
 #content .col01 .post-inner p {
-	overflow: auto; }
-#content .col01 .post-inner a {
-	color:#000;
-	position:relative;
-	text-decoration:none;
-	border-bottom: 1px solid #868585; }
-#content .col01 .post-inner a:hover {
-	color:#000;
-	text-decoration:none;
-	font-weight: bold; }
+	overflow: visible; }
+#content .col01 .post-inner a { text-decoration: underline; }
 #content .col01 .thumbnail {
 	float:right;
 	margin:12px 0 12px 12px; }
 #content .col01 .meta a {
 	color:#000;
 	text-decoration:none; }
-#content .col01 .meta a:hover {
-	color:#000;
-	text-decoration:none;
-	font-weight: bold; }
+#content .col01 .meta a:hover { text-decoration: underline; }
 /* END-Content (Column 1) */
 
 /* Sidebar (Column 2)
@@ -372,6 +362,15 @@ blockquote cite:before {
 	width:210px;
 	font-size:100%;
 	line-height:110%; }
+
+/* Follow
+-------------------------------------------------------------- */
+.follow {
+	margin-left: 210px;
+	height: 0px; }
+.follow img {
+	height: 80px;
+	width: 80px; }
 
 /* Pages
 -------------------------------------------------------------- */
@@ -396,7 +395,6 @@ blockquote cite:before {
 	width:170px;
 	margin-left: 10px;
 	padding:4px 0 4px 25px;
-	//background:url(images/bullet.gif) no-repeat 5px 8px;
 	-webkit-transition: margin .3s;
 	-moz-transition: margin .3s;
 	-ms-transition: margin .3s;
@@ -441,18 +439,13 @@ blockquote cite:before {
 	color:#21565E;
 	display:block;
 	width:170px;
-	margin-left: 10px;
-	padding:4px 0 4px 25px;
-	background:url(images/bullet.gif) no-repeat 5px 8px;
-	-webkit-transition: margin .3s;
-	-moz-transition: margin .3s;
-	-ms-transition: margin .3s;
-	-o-transition: margin .3s;
-	transition: margin .3s; }
+	padding:4px 0 4px 25px; }
 #sidebar .recent-posts ul li a:hover {
 	text-decoration:none;
-	//margin-left: 20px;
 	color:#000; }
+#sidebar .recent-posts ul li i {
+    color: navy;
+    font-size: 70%; }
 #sidebar .recent-posts-bottom {
 	width:188px;
 	height:62px;
@@ -475,6 +468,7 @@ blockquote cite:before {
 
 /* Links Box */
 #sidebar .links-box {
+	text-align: center;
 	background:url(images/links_box.gif) no-repeat 50% 8px;
 	padding:30px 10px 20px; }
 #sidebar .links-box ul {
@@ -541,7 +535,7 @@ video {
 -------------------------------------------------------------- */
 img { }
 
-/* Image handling
+/* Wrapping text around images
 -------------------------------------------------------------- */
 img.centered {
 	display: block;
@@ -549,14 +543,23 @@ img.centered {
 	margin-right: auto; }
 img.alignright {
 	padding: 4px;
-	margin: 0 0 2px 7px;
+	margin: 0 0 2px 15px;
 	display: inline; }
 img.alignleft {
 	padding: 4px;
-	margin: 0 7px 2px 0;
+	margin: 0 15px 2px 0;
 	display: inline; }
-.alignright { float: right; }
-.alignleft { float: left }
+
+/* Miniatures
+-------------------------------------------------------------- */
+.wp-post-image {
+	margin:10px auto 3px;
+	display: block;
+	border-bottom: 5px solid #bbb;
+	background: #fff;
+	border: 1px #ccc solid;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
 
 /* Footer
 -------------------------------------------------------------- */
@@ -590,6 +593,16 @@ img.alignleft {
 	text-align: center;
 	color: #ccc;
 	font-size: 92%;
+}
+#footer-widgets {
+	display:block;
+	text-align: initial;
+}
+#footer-widgets span {
+	float: left;
+	width: 30%;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 /* END-Footer */
 
@@ -662,6 +675,9 @@ img.alignleft {
 #comment {
 	width: 80%;
 	height: 100px; }
+p.comments-title {
+	font-size: 130%;
+	font-weight: bold; }
 
 /* Comment list
 -------------------------------------------------------------- */
@@ -834,17 +850,6 @@ img.alignleft {
 #back-top:hover { opacity: 1; }
 /* End-Up button */
 /************************** END-Navigation **************************/
-
-/* Miniatures
--------------------------------------------------------------- */
-.wp-post-image {
-	margin:10px auto 3px;
-	display: block;
-	border-bottom: 5px solid #bbb;
-	background: #fff;
-	border: 1px #ccc solid;
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-	box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
 
 /* Sitemap Page
 -------------------------------------------------------------- */

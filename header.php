@@ -3,9 +3,9 @@
  * The Header for our theme.
  *
  * @package	Anarcho Notepad
- * @since	2.14.1
- * @author	Arthur (Berserkr) Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2014, Arthur Gareginyan
+ * @since	2.24
+ * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -40,7 +40,7 @@
 
 <header id="masthead" class="site-header" role="banner">
 
-	<?php if ( get_theme_mod('disable_paper_search') == '0') { ?>
+	<?php if ( get_theme_mod('disable_paper_search') !== '1') { ?>
 		<div class="top-search-form"><?php get_search_form(); ?></div>
 	<?php } ?>
 
