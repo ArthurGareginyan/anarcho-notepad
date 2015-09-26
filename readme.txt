@@ -141,9 +141,15 @@ Everything else used in this theme has been created by me, especially for "Anarc
     2.26  (2015.09.09) - updated: font-awesome updated to v4.4.0.
                          removed: image bullet.gif.
                          minor additions and fixes.
+    2.27  (2015.09.26) - translation: french.
+                         fixed: tag ‘figure’. allow galleries with small pictures align side by side.
+                         added: compatibility for title-tag.
+                         added: backwards compatibility for title-tag less than WordPress version 4.1.
+                         removed: callback for add_editor_style.
+                         removed: function for the customising the title of blog.
 
 
 == Contact & Issues for Anarcho Notepad ==
 
-	If you need to contact me, have questions, or have any problems with the Theme you can contact me by visiting this link http://mycyberuniverse.com/contacts.html
+	If you need to contact me, have questions, or have any problems with the theme you can contact me by visiting this link http://mycyberuniverse.com/contacts.html
 

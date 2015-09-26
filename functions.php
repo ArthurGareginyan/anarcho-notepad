@@ -3,7 +3,7 @@
  * Anarcho Notepad functions and definitions.
  *
  * @package	Anarcho Notepad
- * @since	2.26
+ * @since	2.27
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
@@ -12,7 +12,6 @@
 
 /* Ladies and Gentleman, boys and girls let's start our engine */
 
-add_action('after_setup_theme', 'anarcho_notepad_setup');
 
 function anarcho_notepad_setup() {
 	global $content_width;
@@ -55,10 +54,18 @@ function anarcho_notepad_setup() {
 
 	// This feature enables Link Manager in Admin page.
 	add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+}
+add_action('after_setup_theme', 'anarcho_notepad_setup');
 
-	// Add Callback for Custom TinyMCE editor stylesheets. (editor-style.css)
-	add_editor_style();
+//Adding backwards compatibility for title-tag less than WordPress version 4.1
+if ( ! function_exists( '_wp_render_title_tag' ) ) {
+    function anarcho_render_title() {
+        ?>
+        <title><?php wp_title( '|', true, 'right' ); ?></title>
+        <?php
     }
+}
+add_action( 'wp_head', 'anarcho_render_title' );
 
 /* Add Theme Information Page */
 require get_template_directory() . '/inc/theme_info.php';
@@ -436,32 +443,6 @@ function anarcho_comment( $comment, $args, $depth ) {
 		break;
 	endswitch; // end comment_type check
 }
-
-/*
- * Creates a nicely formatted and more specific title element text
- * for output in head of document, based on current view
- */
-function anarcho_wp_title( $title, $sep ) {
-	global $paged, $page;
-
-	if ( is_feed() )
-		return $title;
-
-	// Add the site name.
-	$title .= get_bloginfo( 'name' );
-
-	// Add the site description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		$title = "$title $sep $site_description";
-
-	// Add a page number if necessary.
-	if ( $paged >= 2 || $page >= 2 )
-		$title = "$title $sep " . sprintf( __( 'Page %s', 'anarcho-notepad' ), max( $paged, $page ) );
-
-	return $title;
-}
-add_filter( 'wp_title', 'anarcho_wp_title', 10, 2 );
 
 /*
  * Copyright

@@ -3,7 +3,7 @@
  * Theme Information Page
  *
  * @package	Anarcho Notepad
- * @since	2.26
+ * @since	2.27
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
@@ -62,7 +62,7 @@ function anarcho_theme_options_do_page() { ?>
                 <li type="none"><i class="fa-li fa fa-check-square-o"></i>Custom logo together or instead of the title of website</li>
                 <li type="none"><i class="fa-li fa fa-check-square-o"></i>Custom background</br>
                 <li type="none"><i class="fa-li fa fa-check-square-o"></i>Custom menu</br>
-                <li type="none"><i class="fa-li fa fa-check-square-o"></i>Ready for translation (Translated to 11 languages)</li>
+                <li type="none"><i class="fa-li fa fa-check-square-o"></i>Ready for translation (Translated to 12 languages)</li>
                 <li type="none"><i class="fa-li fa fa-check-square-o"></i>Published to the repository WordPess.org</li>
             </ul>
             </br>
@@ -82,7 +82,7 @@ function anarcho_theme_options_do_page() { ?>
 
         <h4><i class="fa fa-globe"></i>&nbsp;<?php _e('Translation', 'anarcho-notepad'); ?></h4>
         <p>
-            <?php _e('The theme is in the process of translation into other languages of the world. Already supports 11 languages! If you have the desire then you can help me in translation to your native language. Just send the translation files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will include the translation within the one of the next theme update. Many of theme users would be delighted if you shared your translation with the community.', 'anarcho-notepad'); ?>
+            <?php _e('The theme is in the process of translation into other languages of the world. Already supports 12 languages! If you have the desire then you can help me in translation to your native language. Just send the translation files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will include the translation within the one of the next theme update. Many of theme users would be delighted if you shared your translation with the community.', 'anarcho-notepad'); ?>
         </p>
         <p>
             <?php _e('"Anarcho-Notepad" written on <strong>English</strong> and translated into:', 'anarcho-notepad'); ?>
@@ -97,6 +97,7 @@ function anarcho_theme_options_do_page() { ?>
                 <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Estonian</strong> (translated by <strong>Taavi Tiitsmaa</strong>)</li>
                 <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Catalan</strong> (translated by <strong>Nestor Malet</strong>)</li>
                 <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Danish</strong> (translated by <strong>Chano Klinck Andersen</strong>)</li>
+                <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>French</strong> (translated by <strong>Rolland Dudemaine</strong>)</li>
             </ul>
             </br>
             <em><b><?php _e('Thanks to all who helped me translate "Anarcho-Notepad" into other languages!', 'anarcho-notepad'); ?></b></em>
