@@ -12,7 +12,7 @@ Following guidelines will result in less work for both you and me. Please take t
 
 ## Submitting bug reports
 
-The preferred way to report bugs is to use the [GitHub issue tracker](https://github.com/ArthurGareginyan/my-custom-functions/issues). Before reporting a bug, read these pointers.
+The preferred way to report bugs is to use the [GitHub issue tracker](https://github.com/ArthurGareginyan/anarcho-notepad/issues). Before reporting a bug, read these pointers.
 
 **Note:** The issue tracker is for *bugs*, not requests for help.
 
@@ -31,7 +31,7 @@ The preferred way to report bugs is to use the [GitHub issue tracker](https://gi
 ## Contributing code
 
 - Make sure you have a [GitHub Account](https://github.com/signup/free)
-- Fork [Anarcho Notepad](https://github.com/ArthurGareginyan/my-custom-functions)
+- Fork [Anarcho Notepad](https://github.com/ArthurGareginyan/anarcho-notepad)
   ([how to fork a repo](https://help.github.com/articles/fork-a-repo))
 - Make your changes
 - Submit a pull request
