@@ -38,12 +38,12 @@ Sorry for what I delete some functions from Customizer. I have to do it due to t
 
 ## Contributing
 
-Thank you for considering contributing to the plugin "Anarcho Notepad"! The contribution guide can be found in the [CONTRIBUTING.md](https://github.com/ArthurGareginyan/anarcho-notepad/blob/master/CONTRIBUTING.md).
+Thank you for considering contributing to the theme "Anarcho Notepad"! The contribution guide can be found in the [CONTRIBUTING.md](https://github.com/ArthurGareginyan/anarcho-notepad/blob/master/CONTRIBUTING.md).
 
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within this plugin, please send an e-mail to Arthur Gareginyan at arthurgareginyan@gmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this theme, please send an e-mail to Arthur Gareginyan at arthurgareginyan@gmail.com. All security vulnerabilities will be promptly addressed.
 
 
 ## Copyrights for Resources used in this theme
@@ -63,7 +63,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 ## License
 
-The plugin "Anarcho Notepad" is open-sourced software licensed under the [GNU GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html)
+The theme "Anarcho Notepad" is open-sourced software licensed under the [GNU GPLv3 license](http://www.gnu.org/licenses/gpl-3.0.html)
 
 
 ## Author
