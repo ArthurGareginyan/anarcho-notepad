@@ -79,9 +79,9 @@ Arthur Garegnyan aka Berserkr
 
 ## Links
 
-* [Dedicated Theme Page](http://mycyberuniverse.com/my_programs/wp-theme-anarcho-notepad.html)
+* [Dedicated Theme Page](http://mycyberuniverse.com/web/wp-theme-anarcho-notepad.html)
 
-* [Dedicated Theme Page on WordPress.org](https://wordpress.org/theme/anarcho-notepad/)
+* [Dedicated Theme Page on WordPress.org](https://wordpress.org/themes/anarcho-notepad/)
 
 * [Donation Page](http://mycyberuniverse.com/donate.html)
 
