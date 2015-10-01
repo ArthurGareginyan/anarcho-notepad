@@ -147,6 +147,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
                          added: backwards compatibility for title-tag less than WordPress version 4.1.
                          removed: callback for add_editor_style.
                          removed: function for the customising the title of blog.
+   2.27.1 (2015.09.30) - fixed: callback function anarcho_render_title.
 
 
 == Contact & Issues for Anarcho Notepad ==
