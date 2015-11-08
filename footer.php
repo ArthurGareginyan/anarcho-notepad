@@ -3,7 +3,7 @@
  * The template for displaying the footer.
  *
  * @package	Anarcho Notepad
- * @since	2.17
+ * @since	2.28
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
@@ -29,6 +29,7 @@
 
   <div class="footer">
 	<?php wp_footer(); ?>
+    </br>
   </div>
 
 </footer>

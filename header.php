@@ -3,7 +3,7 @@
  * The Header for our theme.
  *
  * @package	Anarcho Notepad
- * @since	2.24
+ * @since	2.28
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
@@ -13,19 +13,17 @@
 
 <!DOCTYPE html>
 <!--[if IE 7]>
-<html class="ie ie7" <?php language_attributes(); ?>>
-<!--[endif]-->
+    <html class="ie ie7" <?php language_attributes(); ?>>
+<![endif]-->
 <!--[if IE 8]>
-<html class="ie ie8" <?php language_attributes(); ?>>
+    <html class="ie ie8" <?php language_attributes(); ?>>
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html <?php language_attributes(); ?>>
+    <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 
 <head>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-
-	<title><?php wp_title('|', true, 'right'); ?></title>
 
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
 

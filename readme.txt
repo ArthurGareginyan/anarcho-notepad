@@ -6,7 +6,7 @@
 
 	Author URI: http://mycyberuniverse.com/author.html
 
-	Copyright (C) 2013-2015 Arthur “Berserkr” Gareginyan
+	Copyright (C) 2013-2015 Arthur "Berserkr" Gareginyan
 
 	License: GNU General Public License, version 3 (GPLv3)
 
@@ -142,15 +142,19 @@ Everything else used in this theme has been created by me, especially for "Anarc
                          removed: image bullet.gif.
                          minor additions and fixes.
     2.27  (2015.09.26) - translation: french.
-                         fixed: tag ‘figure’. allow galleries with small pictures align side by side.
+                         fixed: tag "figure". allow galleries with small pictures align side by side.
                          added: compatibility for title-tag.
                          added: backwards compatibility for title-tag less than WordPress version 4.1.
                          removed: callback for add_editor_style.
                          removed: function for the customising the title of blog.
    2.27.1 (2015.09.30) - fixed: callback function anarcho_render_title.
+   2.28   (2015.11.7)  - added: css code for removing the wordpress stats smiley face from footer area.
+                         removed: "<title></title>" tag from "<head>" tag.
+                         changed: the style of the post's title on hover.
+                         added: empty line in the end of footer.
+                         changed: text in footer now have 100% size.
 
 
 == Contact & Issues for Anarcho Notepad ==
 
 	If you need to contact me, have questions, or have any problems with the theme you can contact me by visiting this link http://mycyberuniverse.com/contacts.html
-

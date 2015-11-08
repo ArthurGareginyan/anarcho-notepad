@@ -2,7 +2,7 @@
 Theme Name: Anarcho Notepad
 Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 Description: Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
-Version: 2.27.1
+Version: 2.28
 Author: Arthur "Berserkr" Gareginyan
 Author URI: http://mycyberuniverse.com/author.html
 Tags: black, white, light, two-columns, right-sidebar, fluid-layout, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
@@ -233,7 +233,7 @@ blockquote cite:before {
 #content .col01 h1 a {
 	color:#000;
 	text-decoration:none; }
-#content .col01 h1 a:hover { font-weight: bold; }
+#content .col01 h1 a:hover { color: gray; }
 #content .col01 h2,
 #content .col01 h3,
 #content .col01 h4,
@@ -598,7 +598,7 @@ img.alignleft {
 	background-color: #2d3032;
 	text-align: center;
 	color: #ccc;
-	font-size: 92%;
+	font-size: 100%;
 }
 #footer-widgets {
 	display:block;
@@ -876,3 +876,8 @@ p.comments-title {
 	list-style:square; }
 .sitemap-authors li, .sitemap-pages li, .sitemap-archives li {
 	padding-bottom: 5px; }
+
+/* Remove The WordPress Stats Smiley Face added by JetPack plugin
+   because it messes up design
+ -------------------------------------------------------------- */
+img#wpstats { display:none; }

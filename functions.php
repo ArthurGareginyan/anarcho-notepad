@@ -3,7 +3,7 @@
  * Anarcho Notepad functions and definitions.
  *
  * @package	Anarcho Notepad
- * @since	2.27.1
+ * @since	2.28
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
@@ -61,7 +61,7 @@ add_action('after_setup_theme', 'anarcho_notepad_setup');
 if ( ! function_exists( '_wp_render_title_tag' ) ) {
     function anarcho_render_title() {
         ?>
-        <title><?php wp_title( '|', true, 'right' ); ?></title>
+            <title><?php wp_title( '|', true, 'right' ); ?></title>
         <?php
     }
     add_action( 'wp_head', 'anarcho_render_title' );
@@ -452,7 +452,7 @@ function anarcho_copyright() {
  if(get_theme_mod('disable_anarcho_copy') !== '1') {
      $anarcho_copy_uri = "http://mycyberuniverse.com/author.html";
      $anarcho_copy_text = 'Theme "Anarcho Notepad" designed and engineered by Arthur "Berserkr" Gareginyan.';
-     echo '<a title="Theme author" target="_blank" href=' . $anarcho_copy_uri . '>' . $anarcho_copy_text . '</a><br/>';
+     echo '<a title="Theme author" target="_blank" href=' . $anarcho_copy_uri . '>' . $anarcho_copy_text . '</a></br>';
  }
 }
 add_action ('wp_footer','anarcho_copyright', 999);
