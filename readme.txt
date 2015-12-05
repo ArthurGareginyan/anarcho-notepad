@@ -23,10 +23,8 @@
 	III) The Default Background Image (images/background.jpg) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
 	IV) The images notepad-back.gif, pages-back.gif, pages-bottom.gif, postit-back.gif, postit-upper.gif, recent-posts-bottom.gif are under the General Public License. http://www.evaneckard.com/
 	V) The images anarchy-symbol-big.jpg, anarchy-symbol.jpg and anarchy-symbol.png is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
-	VI) The images links_box.gif, about_box.gif, line.gif, outer-back.png, outer-back-search.png and notepad-bottom.png has been created by me and under GPLv3 license.
-	VII) The file html5.js present in the "/js" folder are under the MIT/GPL2 Licnese. https://github.com/aFarkas/html5shiv
-	VIII) The files theme-customizer.js and smoothscroll.js present in the "/js" folder has been created by me and under the GPLv3 Licnese.
-	IX) The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+	VI) The file html5.js present in the "/js" folder are under the MIT/GPL2 Licnese. https://github.com/aFarkas/html5shiv
+	VII) The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
 
 Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
 
