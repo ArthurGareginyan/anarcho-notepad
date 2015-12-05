@@ -55,8 +55,7 @@ If you discover a security vulnerability within this theme, please send an e-mai
 5. The images anarchy-symbol-big.jpg, anarchy-symbol.jpg and anarchy-symbol.png is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
 6. The images links_box.gif, about_box.gif, line.gif, outer-back.png, outer-back-search.png and notepad-bottom.png has been created by me and under GPLv3 license.
 7. The file html5.js present in the "/js" folder are under the MIT/GPL2 Licnese. https://github.com/aFarkas/html5shiv
-8. The files theme-customizer.js and smoothscroll.js present in the "/js" folder has been created by me and under the GPLv3 Licnese.
-9. The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+8. The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
 
 Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
 
@@ -92,6 +91,7 @@ Logos:
 [![HTML5](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/html5-64.png)]()
 [![CSS3](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png)]()
 [![PHP](http://php.net/images/logos/php-med-trans-light.gif)]()
-[![JS](https://upload.wikimedia.org/wikipedia/commons/3/34/Javascript_icon.svg)]()
+[![JS](https://dl.dropboxusercontent.com/s/zumy31fjzyj4p6z/JavaScript.png)]()
+[![JS](https://dl.dropboxusercontent.com/s/dh75pqw99jhga8c/jQurery.png)]()
 [![WordPress](https://cdn2.iconfinder.com/data/icons/publicons/64/wordpress-64.png)](https://wordpress.org)
 [![License](http://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.html)
