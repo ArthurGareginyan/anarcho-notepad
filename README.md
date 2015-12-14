@@ -63,6 +63,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
 ## License
 
 This theme is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
+
 Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
 
 
