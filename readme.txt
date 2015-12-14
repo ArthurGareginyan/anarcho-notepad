@@ -57,6 +57,30 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 	Your selection should immediately become active.
 
+== Other Notes ==
+
+	"Anarcho Notepad" is one of the personal software projects of Arthur Gareginyan.
+
+	**License**
+
+		This theme is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
+		Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+
+	**Support**
+
+		* Did you enjoy this theme? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
+		* Do you have any ideas or suggestions to make the theme better? I can’t wait to hear them! Please share! [Dedicated Theme Page](http://mycyberuniverse.com/web/anarcho-notepad.html)
+
+	**Please Vote and Enjoy**
+
+		* Your votes really make a difference! Thanks.
+
+	**Links**
+
+		* [Developer Website](http://mycyberuniverse.com)
+		* [Dedicated Theme Page](http://mycyberuniverse.com/web/anarcho-notepad.html)
+		* [Dedicated Theme Page on GitHub](https://github.com/ArthurGareginyan/anarcho-notepad.html)
+
 == Premium version of Anarcho Notepad ==
 
 	I'm doing everything possible in order to "Anarcho Notepad" remained a completely free template  for you!
