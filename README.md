@@ -8,6 +8,7 @@ Inspired by the idea of anarchy, I designed this free premium WordPress theme fo
 
 **Current features:**
 
+* Hand-coded, no WYSIWYG stuff
 * HTML5 Inside
 * CSS3 Inside
 * Easy to set up – Theme Customizer
