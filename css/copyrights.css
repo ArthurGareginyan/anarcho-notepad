@@ -1,7 +1,7 @@
 .version.copyrights /* version checker */
 {
-	color: #0000E7;
-	background-color: #CE510B;
+	color: #000009;
+	background-color: #D68273;
 }
 
 .html
@@ -562,8 +562,8 @@
 	line-height: 22px;
 	font-family: adamina, serif;
 	font-weight: 700;
-	margin-left: 42px;
-	margin-top: 29px;
+	margin-left: 60px;
+	margin-top: 56px;
 	position: relative;
 }
 
@@ -579,7 +579,7 @@
 	line-height: 19px;
 	font-family: adamina, serif;
 	font-weight: 400;
-	margin-left: 59px;
+	margin-left: 60px;
 	margin-top: 16px;
 	position: relative;
 }
