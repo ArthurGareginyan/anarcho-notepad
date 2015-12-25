@@ -1,18 +1,18 @@
-<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451068519129">
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451069488793">
   <folder name="css">
     <file name="site_global.css" crc="453856629"/>
     <file name="master_a-master.css" crc="3652045" ref="copyrights:donate:change-log:index:installing:download:contacts"/>
     <file name="copyrights.css" crc="165053043" ref="copyrights"/>
     <file name="donate.css" crc="526230851" ref="donate"/>
     <file name="change-log.css" crc="3985772986" ref="change-log"/>
-    <file name="index.css" crc="3971854856" ref="index"/>
+    <file name="index.css" crc="3903382695" ref="index"/>
     <file name="installing.css" crc="4248225441" ref="installing"/>
     <file name="download.css" crc="3803359385" ref="download"/>
     <file name="contacts.css" crc="410933142" ref="contacts"/>
     <file name="iefonts_copyrights.css" crc="407998066" ref="copyrights"/>
     <file name="iefonts_donate.css" crc="422741242" ref="donate"/>
     <file name="iefonts_change-log.css" crc="235279384" ref="change-log"/>
-    <file name="iefonts_index.css" crc="4249710254" ref="index"/>
+    <file name="iefonts_index.css" crc="3834933577" ref="index"/>
     <file name="iefonts_installing.css" crc="240650907" ref="installing"/>
     <file name="iefonts_download.css" crc="381562049" ref="download"/>
     <file name="iefonts_contacts.css" crc="3887529308" ref="contacts"/>
@@ -36,7 +36,7 @@
     <file name="notepad-bottom.png" crc="49398538" ref="index"/>
     <file name="red-ribbon.png" crc="4040987772" seo="true" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
   </folder>
-  <file name="index.html" crc="4098059205" seo="true" mt="1451068460719" redirect="true"/>
+  <file name="index.html" crc="445742512" seo="true" mt="1451069477546" redirect="true"/>
   <file name="change-log.html" crc="4161662800" seo="true" mt="1451054964599" redirect="true"/>
   <file name="contacts.html" crc="4002433499" seo="true" mt="1451054964599" redirect="true"/>
   <file name="donate.html" crc="235346952" seo="true" mt="1451054964599" redirect="true"/>
