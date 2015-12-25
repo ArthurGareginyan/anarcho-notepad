@@ -1,0 +1,80 @@
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451044546116">
+  <folder name="css">
+    <file name="site_global.css" crc="453856629"/>
+    <file name="master_a-master.css" crc="4278713588" ref="copyrights:donate:change-log:index:installing:download:contacts"/>
+    <file name="copyrights.css" crc="4033066324" ref="copyrights"/>
+    <file name="donate.css" crc="169666968" ref="donate"/>
+    <file name="change-log.css" crc="3786290177" ref="change-log"/>
+    <file name="index.css" crc="4217750601" ref="index"/>
+    <file name="installing.css" crc="4208561413" ref="installing"/>
+    <file name="download.css" crc="139836156" ref="download"/>
+    <file name="contacts.css" crc="4187573290" ref="contacts"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="museutils.js" crc="275725342" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="jquery.musemenu.js" crc="4042164668" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+  </folder>
+  <folder name="images">
+    <file name="background.jpg" crc="531129325" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="notepad-back.gif" crc="4051800376" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="outer-back-search.png" crc="64444917" ref="index"/>
+    <file name="u260-6.png" crc="3961919374" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="pages-back.gif" crc="3908527245" ref="index"/>
+    <file name="pages-bottom.gif" crc="4066227862" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u146.png" crc="403618258" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u146-r.png" crc="4217730258" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u146-m.png" crc="4291304970" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u146-a.png" crc="403618258" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u370.png" crc="60959612" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u370-r.png" crc="4040752204" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u370-m.png" crc="346345295" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u370-a.png" crc="60959612" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u220.png" crc="4259286257" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u220-r.png" crc="230836348" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u220-m.png" crc="181022224" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u220-a.png" crc="4259286257" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u168.png" crc="4269262889" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u168-r.png" crc="319775340" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u168-m.png" crc="4104729313" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u168-a.png" crc="4269262889" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u232.png" crc="347577108" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u232-r.png" crc="520621522" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u232-m.png" crc="385120955" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u232-a.png" crc="347577108" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u181.png" crc="296750674" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u181-r.png" crc="388397750" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u181-m.png" crc="496530047" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u181-a.png" crc="296750674" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u192.png" crc="3904209497" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u192-r.png" crc="3957986585" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u192-m.png" crc="4164823166" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u192-a.png" crc="3904209497" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="follow.png" crc="3812041207" seo="true" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="ribbon.png" crc="248322307" seo="true" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u195-6.png" crc="123739328" ref="index"/>
+    <file name="line.gif" crc="3994314330" seo="true" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="notepad-bottom.png" crc="49398538" ref="index"/>
+    <file name="u124-6.png" crc="3771870484" ref="index:change-log:contacts:donate:installing:copyrights:download"/>
+    <file name="u377-4.png" crc="427193022" ref="change-log"/>
+    <file name="u394-179.png" crc="4111928849" ref="change-log"/>
+    <file name="u242-4.png" crc="3959298958" ref="contacts"/>
+    <file name="u243-4.png" crc="3898405314" ref="contacts"/>
+    <file name="u259-7.png" crc="255759422" ref="donate"/>
+    <file name="u385-4.png" crc="4134784322" ref="donate"/>
+    <file name="u381-4.png" crc="183447641" ref="installing"/>
+    <file name="u236-4.png" crc="4020779554" ref="copyrights"/>
+    <file name="u386-4.png" crc="529594500" ref="download"/>
+  </folder>
+  <file name="index.html" crc="361099883" seo="true" mt="1451044022692" redirect="true"/>
+  <file name="change-log.html" crc="3899060714" seo="true" mt="1451043956818" redirect="true"/>
+  <file name="contacts.html" crc="4133136123" seo="true" mt="1451041326662" redirect="true"/>
+  <file name="donate.html" crc="381238334" seo="true" mt="1451041326662" redirect="true"/>
+  <file name="installing.html" crc="4270789767" seo="true" mt="1451043907481" redirect="true"/>
+  <file name="copyrights.html" crc="4285328505" seo="true" mt="1451044153643" redirect="true"/>
+  <file name="download.html" crc="185663333" seo="true" mt="1451041326662" redirect="true"/>
+</manifest>
