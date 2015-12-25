@@ -1,7 +1,7 @@
 .version.change_log /* version checker */
 {
-	color: #0000F0;
-	background-color: #B04780;
+	color: #0000ED;
+	background-color: #9211BA;
 }
 
 .html
@@ -34,7 +34,7 @@
 #pu276
 {
 	width: 0.01px;
-	margin-left: -100px;
+	margin-left: -111px;
 }
 
 #u276
@@ -42,7 +42,7 @@
 	z-index: 2;
 	width: 960px;
 	margin-right: -10000px;
-	left: 100px;
+	left: 111px;
 }
 
 #u355
@@ -70,7 +70,7 @@
 	height: 191px;
 	margin-right: -10000px;
 	margin-top: 239px;
-	left: 832px;
+	left: 843px;
 }
 
 #u117
@@ -80,7 +80,7 @@
 	height: 77px;
 	margin-right: -10000px;
 	margin-top: 430px;
-	left: 832px;
+	left: 843px;
 }
 
 #menuu140
@@ -89,7 +89,7 @@
 	width: 175px;
 	margin-right: -10000px;
 	margin-top: 257px;
-	left: 855px;
+	left: 866px;
 }
 
 #u141
@@ -454,15 +454,15 @@
 	width: 79px;
 	margin-right: -10000px;
 	margin-top: 218px;
-	left: 1039px;
+	left: 1050px;
 }
 
-#u312
+#u416
 {
 	z-index: 64;
-	width: 234px;
+	width: 212px;
 	margin-right: -10000px;
-	margin-top: 197px;
+	margin-top: 208px;
 }
 
 #u256
@@ -473,7 +473,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 283px;
-	left: 174px;
+	left: 185px;
 }
 
 #u377-4
@@ -490,7 +490,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 249px;
-	left: 219px;
+	left: 230px;
 }
 
 #u394-178
@@ -499,12 +499,12 @@
 	width: 650px;
 	background-color: transparent;
 	font-size: 14px;
-	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-weight: normal;
+	font-family: adamina, serif;
+	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 321px;
-	left: 160px;
+	left: 171px;
 }
 
 #u127

@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000017;
-	background-color: #4177F0;
+	color: #0000F9;
+	background-color: #DFD3E9;
 }
 
 .html
@@ -34,7 +34,7 @@
 #pu276
 {
 	width: 0.01px;
-	margin-left: -100px;
+	margin-left: -111px;
 }
 
 #u276
@@ -42,7 +42,7 @@
 	z-index: 2;
 	width: 960px;
 	margin-right: -10000px;
-	left: 100px;
+	left: 111px;
 }
 
 #u355
@@ -70,7 +70,7 @@
 	height: 191px;
 	margin-right: -10000px;
 	margin-top: 239px;
-	left: 832px;
+	left: 843px;
 }
 
 #u117
@@ -80,7 +80,7 @@
 	height: 77px;
 	margin-right: -10000px;
 	margin-top: 430px;
-	left: 832px;
+	left: 843px;
 }
 
 #menuu140
@@ -89,7 +89,7 @@
 	width: 175px;
 	margin-right: -10000px;
 	margin-top: 257px;
-	left: 855px;
+	left: 866px;
 }
 
 #u141
@@ -454,15 +454,15 @@
 	width: 79px;
 	margin-right: -10000px;
 	margin-top: 218px;
-	left: 1039px;
+	left: 1050px;
 }
 
-#u312
+#u416
 {
 	z-index: 64;
-	width: 234px;
+	width: 212px;
 	margin-right: -10000px;
-	margin-top: 197px;
+	margin-top: 208px;
 }
 
 #u195-6
@@ -477,7 +477,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 243px;
-	left: 231px;
+	left: 242px;
 }
 
 #u195-2
@@ -500,7 +500,7 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 322px;
-	left: 184px;
+	left: 195px;
 }
 
 #u389
@@ -519,7 +519,69 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 379px;
-	left: 159px;
+	left: 170px;
+}
+
+#u422-54
+{
+	z-index: 76;
+	width: 651px;
+	background-color: transparent;
+	font-family: adamina, serif;
+	margin-left: 59px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u422-5,#u422-48
+{
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 700;
+}
+
+#u423-49
+{
+	z-index: 130;
+	width: 650px;
+	background-color: transparent;
+	font-family: adamina, serif;
+	margin-left: 60px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u422-2,#u423-2
+{
+	font-size: 18px;
+	text-align: center;
+	line-height: 22px;
+	font-weight: 700;
+}
+
+#u422-3,#u423-3
+{
+	font-weight: 400;
+}
+
+#u422-7,#u422-9,#u422-11,#u422-13,#u422-15,#u422-17,#u422-19,#u422-21,#u422-23,#u422-25,#u422-27,#u422-29,#u422-31,#u422-33,#u422-35,#u422-37,#u422-39,#u422-41,#u422-43,#u422-45,#u422-50,#u422-52,#u423-14,#u423-17,#u423-20,#u423-23,#u423-26,#u423-29,#u423-32,#u423-35,#u423-38,#u423-41,#u423-44
+{
+	font-size: 16px;
+	line-height: 19px;
+	text-indent: 30px;
+	font-weight: 400;
+}
+
+#u423-8,#u423-12,#u423-15,#u423-18,#u423-21,#u423-24,#u423-27,#u423-30,#u423-33,#u423-36,#u423-39,#u423-42
+{
+	font-weight: 700;
+}
+
+#u422-46,#u423-5,#u423-6,#u423-10,#u423-11,#u423-45,#u423-47
+{
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 400;
 }
 
 #u387
@@ -533,7 +595,7 @@
 	font-family: adamina, serif;
 	font-weight: 400;
 	margin-left: 59px;
-	margin-top: 34px;
+	margin-top: 140px;
 	position: relative;
 }
 
