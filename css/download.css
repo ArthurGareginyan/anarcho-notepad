@@ -1,7 +1,7 @@
 .version.download /* version checker */
 {
-	color: #0000E2;
-	background-color: #7244E4;
+	color: #000018;
+	background-color: #1A7119;
 }
 
 .html
@@ -27,6 +27,7 @@
 
 #page_position_content
 {
+	padding-bottom: 1px;
 	width: 0.01px;
 }
 
@@ -54,7 +55,7 @@
 
 #u260-6
 {
-	z-index: 60;
+	z-index: 58;
 	width: 474px;
 	min-height: 114px;
 	margin-right: -10000px;
@@ -84,7 +85,7 @@
 
 #menuu140
 {
-	z-index: 15;
+	z-index: 13;
 	width: 175px;
 	margin-right: -10000px;
 	margin-top: 257px;
@@ -449,7 +450,7 @@
 
 #u197
 {
-	z-index: 58;
+	z-index: 56;
 	width: 79px;
 	margin-right: -10000px;
 	margin-top: 218px;
@@ -458,7 +459,7 @@
 
 #u312
 {
-	z-index: 66;
+	z-index: 64;
 	width: 234px;
 	margin-right: -10000px;
 	margin-top: 197px;
@@ -466,7 +467,7 @@
 
 #u371
 {
-	z-index: 68;
+	z-index: 66;
 	width: 613px;
 	background-color: transparent;
 	position: relative;
@@ -477,7 +478,7 @@
 
 #u386-4
 {
-	z-index: 70;
+	z-index: 68;
 	width: 568px;
 	min-height: 34px;
 	background-color: transparent;
@@ -510,8 +511,8 @@
 #u123
 {
 	z-index: 8;
-	min-height: 54px;
-	padding-bottom: 6px;
+	min-height: 41px;
+	padding-bottom: 18px;
 }
 
 #u123_align_to_page
@@ -522,20 +523,20 @@
 	left: -100px;
 }
 
-#u124-6
+#u124-4
 {
 	z-index: 9;
-	width: 549px;
-	min-height: 35px;
+	width: 235px;
+	min-height: 24px;
 	margin-right: -10000px;
-	margin-top: 18px;
-	left: 305px;
+	margin-top: 17px;
+	left: 462px;
 }
 
 #u123-bw
 {
 	z-index: 8;
-	min-height: 54px;
+	min-height: 41px;
 }
 
 body
