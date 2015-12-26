@@ -1,7 +1,7 @@
 .version.change_log /* version checker */
 {
-	color: #000018;
-	background-color: #C43F8D;
+	color: #0000EC;
+	background-color: #63A8C6;
 }
 
 .html
@@ -61,6 +61,15 @@
 	margin-right: -10000px;
 	margin-top: 67px;
 	left: 68px;
+}
+
+#u427
+{
+	z-index: 66;
+	width: 249px;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 671px;
 }
 
 #u111
@@ -467,7 +476,7 @@
 
 #u256
 {
-	z-index: 66;
+	z-index: 68;
 	width: 613px;
 	background-color: transparent;
 	position: relative;
@@ -478,7 +487,7 @@
 
 #u377-4
 {
-	z-index: 68;
+	z-index: 70;
 	width: 568px;
 	min-height: 34px;
 	background-color: transparent;
@@ -495,7 +504,7 @@
 
 #u394-178
 {
-	z-index: 72;
+	z-index: 74;
 	width: 650px;
 	background-color: transparent;
 	font-size: 14px;

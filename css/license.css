@@ -1,7 +1,7 @@
 .version.license /* version checker */
 {
-	color: #0000EC;
-	background-color: #12174A;
+	color: #0000F0;
+	background-color: #5D279A;
 }
 
 .html
@@ -62,6 +62,15 @@
 	margin-right: -10000px;
 	margin-top: 67px;
 	left: 68px;
+}
+
+#u427
+{
+	z-index: 66;
+	width: 249px;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 671px;
 }
 
 #u111
@@ -468,7 +477,7 @@
 
 #u236-4
 {
-	z-index: 66;
+	z-index: 68;
 	width: 569px;
 	min-height: 35px;
 	background-color: transparent;
@@ -485,7 +494,7 @@
 
 #u374
 {
-	z-index: 70;
+	z-index: 72;
 	width: 613px;
 	background-color: transparent;
 	position: relative;
@@ -496,7 +505,7 @@
 
 #u425-7
 {
-	z-index: 77;
+	z-index: 79;
 	width: 650px;
 	min-height: 109px;
 	background-color: transparent;
@@ -512,7 +521,7 @@
 
 #u426-34
 {
-	z-index: 84;
+	z-index: 86;
 	width: 650px;
 	min-height: 119px;
 	background-color: transparent;
@@ -558,7 +567,7 @@
 
 #u424-4
 {
-	z-index: 73;
+	z-index: 75;
 	width: 650px;
 	background-color: transparent;
 	text-align: center;
@@ -573,7 +582,7 @@
 
 #u391
 {
-	z-index: 72;
+	z-index: 74;
 	width: 651px;
 	min-height: 451px;
 	border-style: none;

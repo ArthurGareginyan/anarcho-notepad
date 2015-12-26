@@ -1,7 +1,7 @@
 .version.contacts /* version checker */
 {
-	color: #0000FD;
-	background-color: #510B6C;
+	color: #00000A;
+	background-color: #D2EA08;
 }
 
 .html
@@ -61,6 +61,15 @@
 	margin-right: -10000px;
 	margin-top: 67px;
 	left: 68px;
+}
+
+#u427
+{
+	z-index: 66;
+	width: 249px;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 671px;
 }
 
 #u111
@@ -467,7 +476,7 @@
 
 #u242-4
 {
-	z-index: 66;
+	z-index: 68;
 	width: 563px;
 	min-height: 34px;
 	background-color: transparent;
@@ -484,7 +493,7 @@
 
 #u243-4
 {
-	z-index: 70;
+	z-index: 72;
 	width: 639px;
 	min-height: 199px;
 	background-color: transparent;
@@ -500,7 +509,7 @@
 
 #u247
 {
-	z-index: 74;
+	z-index: 76;
 	width: 613px;
 	background-color: transparent;
 	position: relative;
@@ -511,7 +520,7 @@
 
 #u356
 {
-	z-index: 76;
+	z-index: 78;
 	width: 299px;
 	min-height: 382px;
 	border-style: none;
