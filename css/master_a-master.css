@@ -332,6 +332,12 @@
 	cursor: pointer;
 }
 
+#u197,#u416,#u433,#u438
+{
+	background-color: transparent;
+	position: relative;
+}
+
 #u448-4
 {
 	background-color: transparent;
@@ -340,12 +346,6 @@
 	line-height: 14px;
 	font-family: adamina, serif;
 	font-weight: 400;
-	position: relative;
-}
-
-#u197,#u416,#u433,#u438
-{
-	background-color: transparent;
 	position: relative;
 }
 

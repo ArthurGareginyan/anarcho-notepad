@@ -1,7 +1,7 @@
 .version.license /* version checker */
 {
-	color: #00000B;
-	background-color: #10B401;
+	color: #0000ED;
+	background-color: #788D8B;
 }
 
 .html
@@ -14,13 +14,12 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 838.5908849646037px;
+	min-height: 839px;
 	border-style: none;
 	border-color: #000000;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	background: transparent url("../images/notepad-back.gif") repeat-y center top;
@@ -543,7 +542,7 @@
 
 #u425-7
 {
-	z-index: 95;
+	z-index: 138;
 	width: 650px;
 	min-height: 109px;
 	background-color: transparent;
@@ -559,7 +558,7 @@
 
 #u426-34
 {
-	z-index: 102;
+	z-index: 145;
 	width: 650px;
 	min-height: 119px;
 	background-color: transparent;
@@ -603,52 +602,48 @@
 	font-weight: 700;
 }
 
-#ppu424-4
+#pu424-48
 {
 	width: 0.01px;
 	margin-left: 60px;
 	margin-top: 5px;
 }
 
-#pu424-4
+#u424-48
 {
-	width: 0.01px;
+	z-index: 90;
+	width: 650px;
+	background-color: transparent;
+	font-family: adamina, serif;
+	font-weight: 700;
+	position: relative;
 	margin-right: -10000px;
 	margin-top: 44px;
 }
 
-#u424-4
+#u424-2
 {
-	z-index: 91;
-	width: 650px;
-	background-color: transparent;
-	text-align: center;
 	font-size: 18px;
+	text-align: center;
 	line-height: 22px;
-	font-family: adamina, serif;
-	font-weight: 700;
-	position: relative;
 }
 
-#u391
+#u424-3
 {
-	z-index: 90;
-	width: 651px;
-	min-height: 451px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	font-size: 16px;
-	line-height: 19px;
-	font-family: adamina, serif;
-	font-weight: 400;
-	margin-top: 22px;
-	position: relative;
+	font-size: 18px;
+	text-align: left;
+	line-height: 22px;
+}
+
+#u424-5,#u424-8,#u424-9,#u424-11,#u424-12,#u424-14,#u424-17,#u424-18,#u424-20,#u424-23,#u424-24,#u424-26,#u424-29,#u424-30,#u424-32,#u424-35,#u424-36,#u424-38,#u424-41,#u424-42,#u424-46
+{
+	font-size: 14px;
+	text-align: left;
 }
 
 #u466
 {
-	z-index: 136;
+	z-index: 179;
 	width: 212px;
 	border-style: none;
 	border-color: transparent;
@@ -660,7 +655,7 @@
 
 #u455
 {
-	z-index: 137;
+	z-index: 180;
 	width: 212px;
 	background-color: transparent;
 	position: relative;
@@ -670,7 +665,7 @@
 
 #u465
 {
-	z-index: 139;
+	z-index: 182;
 	width: 212px;
 	border-style: none;
 	border-color: transparent;
@@ -681,7 +676,7 @@
 
 #u450
 {
-	z-index: 140;
+	z-index: 183;
 	width: 212px;
 	background-color: transparent;
 	position: relative;
@@ -689,7 +684,7 @@
 
 #u460
 {
-	z-index: 142;
+	z-index: 185;
 	width: 212px;
 	background-color: transparent;
 	margin-top: 56px;

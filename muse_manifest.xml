@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451119847284">
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451120659284">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="master_a-master.css" crc="3986320127" ref="donate:change-log:index:installing:download:contacts:license"/>
+    <file name="master_a-master.css" crc="216348687" ref="donate:change-log:index:installing:download:contacts:license"/>
     <file name="donate.css" crc="302936713" ref="donate"/>
     <file name="change-log.css" crc="156473369" ref="change-log"/>
     <file name="index.css" crc="3993635561" ref="index"/>
@@ -14,8 +14,8 @@
     <file name="iefonts_installing.css" crc="3972506478" ref="installing"/>
     <file name="iefonts_download.css" crc="128164477" ref="download"/>
     <file name="iefonts_contacts.css" crc="25479687" ref="contacts"/>
-    <file name="license.css" crc="185644033" ref="license"/>
-    <file name="iefonts_license.css" crc="3977473666" ref="license"/>
+    <file name="license.css" crc="3984100747" ref="license"/>
+    <file name="iefonts_license.css" crc="3790832290" ref="license"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:change-log:contacts:donate:installing:download:license"/>
@@ -28,12 +28,12 @@
   <folder name="images">
     <file name="background.jpg" crc="531129325" ref="index:change-log:contacts:donate:installing:download:license"/>
     <file name="notepad-back.gif" crc="4051800376" ref="index:change-log:contacts:donate:installing:download:license"/>
-    <file name="outer-back-search.png" crc="64444917" ref="index"/>
-    <file name="pages-back.gif" crc="3908527245" ref="index"/>
-    <file name="pages-bottom.gif" crc="4066227862" ref="index"/>
+    <file name="outer-back-search.png" crc="64444917" ref="index:license"/>
+    <file name="pages-back.gif" crc="3908527245" ref="index:license"/>
+    <file name="pages-bottom.gif" crc="4066227862" ref="index:license"/>
     <file name="follow.png" crc="3812041207" seo="true" ref="index:change-log:contacts:donate:installing:download:license"/>
     <file name="line.gif" crc="3994314330" seo="true" ref="index:change-log:contacts:donate:installing:download:license"/>
-    <file name="notepad-bottom.png" crc="49398538" ref="index"/>
+    <file name="notepad-bottom.png" crc="49398538" ref="index:license"/>
     <file name="red-ribbon.png" crc="4040987772" seo="true" ref="index:change-log:contacts:donate:installing:download:license"/>
     <file name="search.jpg" crc="3910780083" seo="true" ref="index:change-log:contacts:donate:installing:license:download"/>
     <file name="about_box.gif" crc="441352451" seo="true" ref="index:change-log:contacts:donate:installing:license:download"/>
@@ -48,5 +48,5 @@
   <file name="donate.html" crc="516638830" seo="true" mt="1451119792140" redirect="true"/>
   <file name="installing.html" crc="402940293" seo="true" mt="1451119792140" redirect="true"/>
   <file name="download.html" crc="112643542" seo="true" mt="1451119792140" redirect="true"/>
-  <file name="license.html" crc="4119726062" seo="true" mt="1451119816214" redirect="true"/>
+  <file name="license.html" crc="4167237430" seo="true" mt="1451120652534" redirect="true"/>
 </manifest>
