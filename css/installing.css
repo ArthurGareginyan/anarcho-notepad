@@ -1,7 +1,7 @@
 .version.installing /* version checker */
 {
-	color: #000015;
-	background-color: #DB2240;
+	color: #0000E6;
+	background-color: #BECDDD;
 }
 
 .html
@@ -529,9 +529,9 @@
 	width: 568px;
 	min-height: 34px;
 	background-color: transparent;
+	line-height: 30px;
 	text-align: center;
 	font-size: 25px;
-	line-height: 30px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;

@@ -48,8 +48,13 @@
 	font-family: buenard-n4, serif;
 }
 
-#u386-4
+#u386-4,#u555-4,#u556-4,#u553-4,#u554-21
 {
 	font-family: adamina-n4, serif;
+}
+
+#u554-16 > #u554-11:before,#u554-16 > #u554-13:before,#u554-16 > #u554-15:before
+{
+	font-family: adamina-n4, Georgia;
 }
 

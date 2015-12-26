@@ -1,7 +1,7 @@
 .version.change_log /* version checker */
 {
-	color: #000009;
-	background-color: #539819;
+	color: #0000E2;
+	background-color: #753B22;
 }
 
 .html
@@ -529,9 +529,9 @@
 	width: 568px;
 	min-height: 34px;
 	background-color: transparent;
+	line-height: 30px;
 	text-align: center;
 	font-size: 25px;
-	line-height: 30px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;

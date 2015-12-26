@@ -1,7 +1,7 @@
 .version.contacts /* version checker */
 {
-	color: #0000F5;
-	background-color: #8E1201;
+	color: #000005;
+	background-color: #E1D36F;
 }
 
 .html
@@ -481,9 +481,9 @@
 	width: 563px;
 	min-height: 34px;
 	background-color: transparent;
+	line-height: 30px;
 	text-align: center;
 	font-size: 25px;
-	line-height: 30px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -498,8 +498,8 @@
 	width: 639px;
 	min-height: 199px;
 	background-color: transparent;
-	font-size: 16px;
 	line-height: 19px;
+	font-size: 16px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
