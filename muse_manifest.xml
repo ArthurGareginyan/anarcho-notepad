@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451119713121">
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451119847284">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="3986320127" ref="donate:change-log:index:installing:download:contacts:license"/>
@@ -42,11 +42,11 @@
     <file name="postit-upper.gif" crc="4244868270" seo="true" ref="index:change-log:contacts:donate:installing:license:download"/>
     <file name="recent-posts-bottom.gif" crc="3794763633" seo="true" ref="index:change-log:contacts:donate:installing:license:download"/>
   </folder>
-  <file name="index.html" crc="17586508" seo="true" mt="1451119686766" redirect="true"/>
-  <file name="change-log.html" crc="3878830491" seo="true" mt="1451119501967" redirect="true"/>
-  <file name="contacts.html" crc="3848582027" seo="true" mt="1451119517189" redirect="true"/>
-  <file name="donate.html" crc="3885891535" seo="true" mt="1451119529820" redirect="true"/>
-  <file name="installing.html" crc="501169190" seo="true" mt="1451119480762" redirect="true"/>
-  <file name="download.html" crc="363600498" seo="true" mt="1451119450031" redirect="true"/>
-  <file name="license.html" crc="218698562" seo="true" mt="1451119431438" redirect="true"/>
+  <file name="index.html" crc="443538685" seo="true" mt="1451119792140" redirect="true"/>
+  <file name="change-log.html" crc="4208690776" seo="true" mt="1451119792140" redirect="true"/>
+  <file name="contacts.html" crc="463118857" seo="true" mt="1451119792140" redirect="true"/>
+  <file name="donate.html" crc="516638830" seo="true" mt="1451119792140" redirect="true"/>
+  <file name="installing.html" crc="402940293" seo="true" mt="1451119792140" redirect="true"/>
+  <file name="download.html" crc="112643542" seo="true" mt="1451119792140" redirect="true"/>
+  <file name="license.html" crc="4119726062" seo="true" mt="1451119816214" redirect="true"/>
 </manifest>
