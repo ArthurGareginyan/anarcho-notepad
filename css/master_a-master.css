@@ -38,14 +38,6 @@
 	background: transparent url("../images/pages-bottom.gif") no-repeat left top;
 }
 
-#menuu140
-{
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-}
-
 #u427,#u141,#u144
 {
 	background-color: transparent;
@@ -343,12 +335,6 @@
 	position: relative;
 }
 
-#u197,#u416,#u433,#u438
-{
-	background-color: transparent;
-	position: relative;
-}
-
 #u449-8
 {
 	background-color: transparent;
@@ -358,6 +344,20 @@
 	color: #006A4D;
 	font-family: adamina, serif;
 	font-weight: 400;
+	position: relative;
+}
+
+#menuu140,#u558,#u561
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u197,#u416,#u433,#u438,#u559,#u564,#u562
+{
+	background-color: transparent;
 	position: relative;
 }
 
