@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451120659284">
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451121344795">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="216348687" ref="donate:change-log:index:installing:download:contacts:license"/>
