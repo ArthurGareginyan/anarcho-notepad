@@ -1,11 +1,11 @@
-<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451117954261">
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451118063972">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="4282090355" ref="donate:change-log:index:installing:download:contacts:license"/>
     <file name="donate.css" crc="4143748239" ref="donate"/>
     <file name="change-log.css" crc="415514509" ref="change-log"/>
     <file name="index.css" crc="3909364091" ref="index"/>
-    <file name="installing.css" crc="4123185643" ref="installing"/>
+    <file name="installing.css" crc="446308223" ref="installing"/>
     <file name="download.css" crc="4075885293" ref="download"/>
     <file name="contacts.css" crc="4249946988" ref="contacts"/>
     <file name="iefonts_donate.css" crc="216355124" ref="donate"/>
@@ -40,7 +40,7 @@
   <file name="change-log.html" crc="15355278" seo="true" mt="1451117844681" redirect="true"/>
   <file name="contacts.html" crc="425739294" seo="true" mt="1451117844681" redirect="true"/>
   <file name="donate.html" crc="503598545" seo="true" mt="1451117844681" redirect="true"/>
-  <file name="installing.html" crc="227617658" seo="true" mt="1451117947985" redirect="true"/>
+  <file name="installing.html" crc="227617658" seo="true" mt="1451118036755" redirect="true"/>
   <file name="download.html" crc="4148562455" seo="true" mt="1451117844681" redirect="true"/>
   <file name="license.html" crc="3759643613" seo="true" mt="1451117844681" redirect="true"/>
 </manifest>
