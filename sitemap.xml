@@ -25,6 +25,36 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://arthurgareginyan.github.io/anarcho-notepad/images/about_box.gif</loc>
+    <lastmod>2015-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://arthurgareginyan.github.io/anarcho-notepad/images/links_box.gif</loc>
+    <lastmod>2015-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://arthurgareginyan.github.io/anarcho-notepad/images/postit-back.gif</loc>
+    <lastmod>2015-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://arthurgareginyan.github.io/anarcho-notepad/images/postit-upper.gif</loc>
+    <lastmod>2015-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://arthurgareginyan.github.io/anarcho-notepad/images/recent-posts-bottom.gif</loc>
+    <lastmod>2015-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://arthurgareginyan.github.io/anarcho-notepad/index.html</loc>
     <lastmod>2015-12-26</lastmod>
     <changefreq>weekly</changefreq>

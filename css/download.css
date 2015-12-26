@@ -1,7 +1,7 @@
 .version.download /* version checker */
 {
-	color: #0000E8;
-	background-color: #8ACA12;
+	color: #0000EE;
+	background-color: #A39207;
 }
 
 .html
@@ -14,12 +14,13 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 839px;
+	min-height: 838.6250000000005px;
 	border-style: none;
 	border-color: #000000;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	background: transparent url("../images/notepad-back.gif") repeat-y center top;
@@ -476,7 +477,7 @@
 
 #u371
 {
-	z-index: 68;
+	z-index: 84;
 	width: 613px;
 	background-color: transparent;
 	position: relative;
@@ -487,7 +488,7 @@
 
 #u386-4
 {
-	z-index: 70;
+	z-index: 86;
 	width: 568px;
 	min-height: 34px;
 	background-color: transparent;
@@ -502,11 +503,94 @@
 	left: 230px;
 }
 
+#u433
+{
+	z-index: 68;
+	width: 200px;
+	margin-left: 736px;
+	margin-top: 15px;
+}
+
+#u448-4
+{
+	z-index: 72;
+	width: 200px;
+	min-height: 61px;
+	margin-left: 739px;
+	margin-top: 6px;
+}
+
+#u438
+{
+	z-index: 70;
+	width: 200px;
+	margin-left: 736px;
+	margin-top: 22px;
+}
+
+#u449-8
+{
+	z-index: 76;
+	width: 200px;
+	min-height: 34px;
+	margin-left: 736px;
+	margin-top: 5px;
+}
+
+#u467
+{
+	z-index: 90;
+	width: 212px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 731px;
+	margin-top: 15px;
+	position: relative;
+}
+
+#u468
+{
+	z-index: 91;
+	width: 212px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 124px;
+}
+
+#u470
+{
+	z-index: 93;
+	width: 212px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u471
+{
+	z-index: 94;
+	width: 212px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u473
+{
+	z-index: 96;
+	width: 212px;
+	background-color: transparent;
+	margin-top: 56px;
+	position: relative;
+}
+
 #u127
 {
 	z-index: 4;
 	width: 960px;
-	margin-top: 197px;
 }
 
 #u351

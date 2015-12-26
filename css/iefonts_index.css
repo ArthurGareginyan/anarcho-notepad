@@ -38,12 +38,22 @@
 	font-family: buenard-n4, serif;
 }
 
+#u448-4,#u449-8
+{
+	font-family: adamina-n4, serif;
+}
+
 #u124-4
 {
 	font-family: buenard-n4, serif;
 }
 
-#u195-6,#u389,#u422-58,#u423-49
+#u422-48 > #u422-9:before,#u422-48 > #u422-11:before,#u422-48 > #u422-13:before,#u422-48 > #u422-15:before,#u422-48 > #u422-17:before,#u422-48 > #u422-19:before,#u422-48 > #u422-21:before,#u422-48 > #u422-23:before,#u422-48 > #u422-25:before,#u422-48 > #u422-27:before,#u422-48 > #u422-29:before,#u422-48 > #u422-31:before,#u422-48 > #u422-33:before,#u422-48 > #u422-35:before,#u422-48 > #u422-37:before,#u422-48 > #u422-39:before,#u422-48 > #u422-41:before,#u422-48 > #u422-43:before,#u422-48 > #u422-45:before,#u422-48 > #u422-47:before,#u422-58 > #u422-55:before,#u422-58 > #u422-57:before
+{
+	font-family: adamina-n4, Georgia;
+}
+
+#u195-6,#u389,#u422-60,#u423-49
 {
 	font-family: adamina-n4, serif;
 }

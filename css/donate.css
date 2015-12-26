@@ -1,7 +1,7 @@
 .version.donate /* version checker */
 {
-	color: #0000E6;
-	background-color: #14BAD9;
+	color: #000012;
+	background-color: #0E7289;
 }
 
 .html
@@ -474,9 +474,28 @@
 	margin-top: 208px;
 }
 
-#u253
+#u433
 {
 	z-index: 68;
+	width: 200px;
+	margin-right: -10000px;
+	margin-top: 522px;
+	left: 847px;
+}
+
+#u448-4
+{
+	z-index: 72;
+	width: 200px;
+	min-height: 61px;
+	margin-right: -10000px;
+	margin-top: 558px;
+	left: 850px;
+}
+
+#u253
+{
+	z-index: 84;
 	width: 613px;
 	background-color: transparent;
 	position: relative;
@@ -487,7 +506,7 @@
 
 #u259-16
 {
-	z-index: 70;
+	z-index: 86;
 	width: 650px;
 	min-height: 230px;
 	background-color: transparent;
@@ -503,7 +522,7 @@
 
 #u305
 {
-	z-index: 86;
+	z-index: 102;
 	width: 93px;
 	min-height: 47px;
 	border-style: none;
@@ -517,7 +536,7 @@
 
 #u385-4
 {
-	z-index: 87;
+	z-index: 103;
 	width: 567px;
 	min-height: 34px;
 	background-color: transparent;
@@ -532,11 +551,77 @@
 	left: 229px;
 }
 
+#u438
+{
+	z-index: 70;
+	width: 200px;
+	margin-left: 736px;
+	margin-top: 22px;
+}
+
+#u449-8
+{
+	z-index: 76;
+	width: 200px;
+	min-height: 34px;
+	margin-left: 736px;
+	margin-top: 5px;
+}
+
+#u511
+{
+	z-index: 107;
+	width: 212px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 732px;
+	margin-top: 5px;
+	position: relative;
+}
+
+#u512
+{
+	z-index: 108;
+	width: 212px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 124px;
+}
+
+#u514
+{
+	z-index: 110;
+	width: 212px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u515
+{
+	z-index: 111;
+	width: 212px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u517
+{
+	z-index: 113;
+	width: 212px;
+	background-color: transparent;
+	margin-top: 56px;
+	position: relative;
+}
+
 #u127
 {
 	z-index: 4;
 	width: 960px;
-	margin-top: 137px;
 }
 
 #u351

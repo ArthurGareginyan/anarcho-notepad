@@ -1,7 +1,7 @@
 .version.installing /* version checker */
 {
-	color: #0000F3;
-	background-color: #F56A89;
+	color: #000015;
+	background-color: #DB2240;
 }
 
 .html
@@ -474,9 +474,47 @@
 	margin-top: 208px;
 }
 
-#u250
+#u433
 {
 	z-index: 68;
+	width: 200px;
+	margin-right: -10000px;
+	margin-top: 522px;
+	left: 847px;
+}
+
+#u438
+{
+	z-index: 70;
+	width: 200px;
+	margin-right: -10000px;
+	margin-top: 641px;
+	left: 847px;
+}
+
+#u448-4
+{
+	z-index: 72;
+	width: 200px;
+	min-height: 61px;
+	margin-right: -10000px;
+	margin-top: 558px;
+	left: 850px;
+}
+
+#u449-8
+{
+	z-index: 76;
+	width: 200px;
+	min-height: 34px;
+	margin-right: -10000px;
+	margin-top: 676px;
+	left: 847px;
+}
+
+#u250
+{
+	z-index: 84;
 	width: 613px;
 	background-color: transparent;
 	position: relative;
@@ -487,7 +525,7 @@
 
 #u381-4
 {
-	z-index: 70;
+	z-index: 86;
 	width: 568px;
 	min-height: 34px;
 	background-color: transparent;
@@ -504,7 +542,7 @@
 
 #u393-79
 {
-	z-index: 74;
+	z-index: 90;
 	width: 650px;
 	background-color: transparent;
 	font-family: adamina, serif;
@@ -537,6 +575,57 @@
 #u393-3,#u393-5,#u393-18,#u393-20,#u393-45,#u393-47,#u393-48,#u393-51,#u393-52,#u393-53,#u393-56,#u393-58,#u393-75,#u393-77
 {
 	font-weight: 400;
+}
+
+#u478
+{
+	z-index: 169;
+	width: 212px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 715px;
+	left: 841px;
+}
+
+#u479
+{
+	z-index: 170;
+	width: 212px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 124px;
+}
+
+#u481
+{
+	z-index: 172;
+	width: 212px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u482
+{
+	z-index: 173;
+	width: 212px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u484
+{
+	z-index: 175;
+	width: 212px;
+	background-color: transparent;
+	margin-top: 56px;
+	position: relative;
 }
 
 #u127

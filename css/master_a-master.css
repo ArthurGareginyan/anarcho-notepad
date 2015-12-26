@@ -332,9 +332,32 @@
 	cursor: pointer;
 }
 
-#u197,#u416
+#u448-4
 {
 	background-color: transparent;
+	text-align: justify;
+	font-size: 12px;
+	line-height: 14px;
+	font-family: adamina, serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u197,#u416,#u433,#u438
+{
+	background-color: transparent;
+	position: relative;
+}
+
+#u449-8
+{
+	background-color: transparent;
+	color: #006A4D;
+	text-align: center;
+	font-size: 12px;
+	line-height: 14px;
+	font-family: adamina, serif;
+	font-weight: 400;
 	position: relative;
 }
 
