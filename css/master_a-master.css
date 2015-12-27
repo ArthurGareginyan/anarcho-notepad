@@ -7,8 +7,8 @@
 #u260-6
 {
 	background-color: transparent;
-	color: #FFFFFF;
 	text-align: center;
+	color: #FFFFFF;
 	font-family: fredericka-the-great, sans-serif;
 	font-weight: 400;
 	position: relative;
@@ -49,11 +49,11 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #21575E;
 	text-align: left;
 	text-indent: 20px;
-	line-height: 20px;
+	color: #21575E;
 	font-size: 17px;
+	line-height: 20px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;
@@ -88,11 +88,11 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #21575E;
 	text-align: left;
 	text-indent: 20px;
-	line-height: 20px;
+	color: #21575E;
 	font-size: 17px;
+	line-height: 20px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;
@@ -127,11 +127,11 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #21575E;
 	text-align: left;
 	text-indent: 20px;
-	line-height: 20px;
+	color: #21575E;
 	font-size: 17px;
+	line-height: 20px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;
@@ -166,11 +166,11 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #21575E;
 	text-align: left;
 	text-indent: 20px;
-	line-height: 20px;
+	color: #21575E;
 	font-size: 17px;
+	line-height: 20px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;
@@ -205,11 +205,11 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #21575E;
 	text-align: left;
 	text-indent: 20px;
-	line-height: 20px;
+	color: #21575E;
 	font-size: 17px;
+	line-height: 20px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;
@@ -244,11 +244,11 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #21575E;
 	text-align: left;
 	text-indent: 20px;
-	line-height: 20px;
+	color: #21575E;
 	font-size: 17px;
+	line-height: 20px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;
@@ -283,11 +283,11 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #21575E;
 	text-align: left;
 	text-indent: 20px;
-	line-height: 20px;
+	color: #21575E;
 	font-size: 17px;
+	line-height: 20px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;
@@ -327,9 +327,9 @@
 #u448-4
 {
 	background-color: transparent;
-	line-height: 14px;
 	text-align: justify;
 	font-size: 12px;
+	line-height: 14px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -338,10 +338,10 @@
 #u449-8
 {
 	background-color: transparent;
-	line-height: 14px;
+	color: #006A4D;
 	text-align: center;
 	font-size: 12px;
-	color: #006A4D;
+	line-height: 14px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -398,10 +398,10 @@
 #u124-4
 {
 	background-color: transparent;
-	line-height: 18px;
+	color: #8F938F;
 	text-align: center;
 	font-size: 15px;
-	color: #8F938F;
+	line-height: 18px;
 	font-family: buenard, serif;
 	font-weight: 400;
 	position: relative;

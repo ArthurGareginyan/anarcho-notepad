@@ -1,7 +1,7 @@
 .version.contacts /* version checker */
 {
-	color: #000006;
-	background-color: #A6599D;
+	color: #0000E5;
+	background-color: #71503B;
 }
 
 .html
@@ -68,7 +68,7 @@
 	z-index: 66;
 	width: 249px;
 	margin-right: -10000px;
-	margin-top: 4px;
+	margin-top: 1px;
 	left: 671px;
 }
 
@@ -480,9 +480,9 @@
 	width: 563px;
 	min-height: 34px;
 	background-color: transparent;
-	line-height: 30px;
 	text-align: center;
 	font-size: 25px;
+	line-height: 30px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -497,8 +497,8 @@
 	width: 639px;
 	min-height: 199px;
 	background-color: transparent;
-	line-height: 19px;
 	font-size: 16px;
+	line-height: 19px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;

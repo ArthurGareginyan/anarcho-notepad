@@ -1,7 +1,7 @@
 .version.download /* version checker */
 {
-	color: #000014;
-	background-color: #3E8399;
+	color: #0000F3;
+	background-color: #623226;
 }
 
 .html
@@ -68,7 +68,7 @@
 	z-index: 66;
 	width: 249px;
 	margin-right: -10000px;
-	margin-top: 4px;
+	margin-top: 1px;
 	left: 671px;
 }
 
@@ -491,9 +491,9 @@
 	width: 568px;
 	min-height: 34px;
 	background-color: transparent;
-	line-height: 30px;
 	text-align: center;
 	font-size: 25px;
+	line-height: 30px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -522,8 +522,8 @@
 	width: 650px;
 	min-height: 25px;
 	background-color: transparent;
-	line-height: 19px;
 	font-size: 16px;
+	line-height: 19px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -545,8 +545,8 @@
 	width: 650px;
 	min-height: 28px;
 	background-color: transparent;
-	line-height: 19px;
 	font-size: 16px;
+	line-height: 19px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -619,8 +619,8 @@
 	width: 386px;
 	min-height: 24px;
 	background-color: transparent;
-	line-height: 19px;
 	font-size: 16px;
+	line-height: 19px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
