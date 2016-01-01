@@ -1,7 +1,7 @@
 .version.license /* version checker */
 {
-	color: #00000C;
-	background-color: #F7FD93;
+	color: #00001D;
+	background-color: #56CBC3;
 }
 
 .html
@@ -508,8 +508,8 @@
 	width: 523px;
 	min-height: 60px;
 	background-color: transparent;
-	font-size: 16px;
 	line-height: 19px;
+	font-size: 16px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;
@@ -534,8 +534,8 @@
 	z-index: 193;
 	width: 650px;
 	background-color: transparent;
-	font-size: 16px;
 	line-height: 19px;
+	font-size: 16px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;

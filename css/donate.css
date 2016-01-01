@@ -1,7 +1,7 @@
 .version.donate /* version checker */
 {
-	color: #000000;
-	background-color: #12B82A;
+	color: #0000F0;
+	background-color: #6F12CC;
 }
 
 .html
@@ -510,8 +510,8 @@
 	width: 650px;
 	min-height: 230px;
 	background-color: transparent;
-	font-size: 16px;
 	line-height: 19px;
+	font-size: 16px;
 	font-family: adamina, serif;
 	font-weight: 400;
 	position: relative;

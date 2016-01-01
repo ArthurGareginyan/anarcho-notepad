@@ -1,20 +1,20 @@
-<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451217802271">
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="http://arthurgareginyan.github.io/anarcho-notepad" resolutions="1x" timestamp="1451610241542">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="3922439555" ref="donate:change-log:index:installing:download:contacts:license"/>
-    <file name="donate.css" crc="1226794" ref="donate"/>
+    <file name="donate.css" crc="4033811148" ref="donate"/>
     <file name="change-log.css" crc="4243278781" ref="change-log"/>
     <file name="index.css" crc="4058192353" ref="index"/>
     <file name="installing.css" crc="18331322" ref="installing"/>
-    <file name="download.css" crc="4083298854" ref="download"/>
-    <file name="contacts.css" crc="3849408571" ref="contacts"/>
+    <file name="download.css" crc="419021870" ref="download"/>
+    <file name="contacts.css" crc="4120387778" ref="contacts"/>
     <file name="iefonts_donate.css" crc="4222430479" ref="donate"/>
     <file name="iefonts_change-log.css" crc="439586082" ref="change-log"/>
     <file name="iefonts_index.css" crc="302514595" ref="index"/>
     <file name="iefonts_installing.css" crc="3972506478" ref="installing"/>
     <file name="iefonts_download.css" crc="4214773944" ref="download"/>
     <file name="iefonts_contacts.css" crc="25479687" ref="contacts"/>
-    <file name="license.css" crc="217578899" ref="license"/>
+    <file name="license.css" crc="492227523" ref="license"/>
     <file name="iefonts_license.css" crc="41823849" ref="license"/>
   </folder>
   <folder name="scripts">
@@ -43,11 +43,11 @@
     <file name="recent-posts-bottom.gif" crc="3794763633" seo="true" ref="index:change-log:contacts:donate:installing:license:download"/>
     <file name="gplv3.png" crc="164541578" seo="true" ref="license"/>
   </folder>
-  <file name="index.html" crc="4269332240" seo="true" mt="1451217748418" redirect="true"/>
-  <file name="change-log.html" crc="4106119465" seo="true" mt="1451217748418" redirect="true"/>
-  <file name="contacts.html" crc="4268704005" seo="true" mt="1451217748418" redirect="true"/>
-  <file name="donate.html" crc="433588815" seo="true" mt="1451217748418" redirect="true"/>
-  <file name="installing.html" crc="3810501337" seo="true" mt="1451217748418" redirect="true"/>
-  <file name="download.html" crc="127964027" seo="true" mt="1451217748418" redirect="true"/>
-  <file name="license.html" crc="4153128653" seo="true" mt="1451217748418" redirect="true"/>
+  <file name="index.html" crc="3949120882" seo="true" mt="1451610231737" redirect="true"/>
+  <file name="change-log.html" crc="3778616013" seo="true" mt="1451610231737" redirect="true"/>
+  <file name="contacts.html" crc="4128494443" seo="true" mt="1451610231737" redirect="true"/>
+  <file name="donate.html" crc="330315948" seo="true" mt="1451610231737" redirect="true"/>
+  <file name="installing.html" crc="4262477093" seo="true" mt="1451610231737" redirect="true"/>
+  <file name="download.html" crc="511598158" seo="true" mt="1451610231737" redirect="true"/>
+  <file name="license.html" crc="365518120" seo="true" mt="1451610231737" redirect="true"/>
 </manifest>
