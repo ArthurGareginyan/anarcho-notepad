@@ -4,7 +4,7 @@
 
 	Author: Arthur "Berserkr" Gareginyan
 
-	Author URI: http://mycyberuniverse.com/author.html
+	Author URI: http://www.arthurgareginyan.com
 
 	Copyright (C) 2013-2015 Arthur "Berserkr" Gareginyan
 
@@ -77,7 +77,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 	**Links**
 
-		* [Developer Website](http://mycyberuniverse.com)
+		* [Developer Website](http://www.arthurgareginyan.com)
 		* [Dedicated Theme Page](http://mycyberuniverse.com/web/anarcho-notepad.html)
 		* [Dedicated Theme Page on GitHub](https://github.com/ArthurGareginyan/anarcho-notepad.html)
 

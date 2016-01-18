@@ -540,5 +540,5 @@ msgid "Arthur \"Berserkr\" Gareginyan"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://mycyberuniverse.com/author.html"
+msgid "http://www.arthurgareginyan.com"
 msgstr ""

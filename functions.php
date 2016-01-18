@@ -450,7 +450,7 @@ function anarcho_comment( $comment, $args, $depth ) {
  */
 function anarcho_copyright() {
  if(get_theme_mod('disable_anarcho_copy') !== '1') {
-     $anarcho_copy_uri = "http://mycyberuniverse.com/author.html";
+     $anarcho_copy_uri = "http://www.arthurgareginyan.com";
      $anarcho_copy_text = 'Theme "Anarcho Notepad" designed and engineered by Arthur "Berserkr" Gareginyan.';
      echo '<a title="Theme author" target="_blank" href=' . $anarcho_copy_uri . '>' . $anarcho_copy_text . '</a></br>';
  }

@@ -21,7 +21,7 @@ add_action('admin_print_styles-appearance_page_theme_options', 'anarcho_include_
 function anarcho_theme_options_do_page() { ?>
 
     <?php
-        $anarcho_author_uri = "http://mycyberuniverse.com/author.html";
+        $anarcho_author_uri = "http://www.arthurgareginyan.com";
         $anarcho_theme_uri = "http://mycyberuniverse.com/anarcho-notepad.html";
         $anarcho_twitter = "https://twitter.com/AGareginyan";
         $anarcho_facebook = "https://www.facebook.com/arthur.gareginyan";
