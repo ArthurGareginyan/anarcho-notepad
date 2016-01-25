@@ -179,4 +179,4 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 == Contact & Issues for Anarcho Notepad ==
 
-	If you need to contact me, have questions, or have any problems with the theme you can contact me by visiting this link http://mycyberuniverse.com/contacts.html
+	If you need to contact me, have questions, or have any problems with the theme you can contact me by visiting this link http://www.arthurgareginyan.com/contact.html
