@@ -1,4 +1,6 @@
-# WP Theme "Anarcho Notepad"
+# Anarcho Notepad
+
+**Free Premium WorPress Theme**
 
 Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. I'm glad to present you the most anarchist WP-theme Of All! Enjoy!
 
