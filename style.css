@@ -1,15 +1,17 @@
 /*
 Theme Name: Anarcho Notepad
 Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
-Description: Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
-Version: 2.28
 Author: Arthur "Berserkr" Gareginyan
 Author URI: http://www.arthurgareginyan.com
-Tags: black, white, light, two-columns, right-sidebar, fluid-layout, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
-Copyright (C) 2013-2015 Arthur Gareginyan
+Description: Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
+Version: 2.29
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: black, white, light, two-columns, right-sidebar, fluid-layout, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
 Text Domain: anarcho-notepad
+
+Copyright (C) 2013-2016 Arthur Gareginyan
+
 */
 
 /* Fonts
@@ -86,14 +88,14 @@ div.aligncenter {
 /* Background
 -------------------------------------------------------------- */
 body {
-	margin:0;
-	font-size:100%;
+	margin: 0;
+	font-size: 100%;
 	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif; }
 .site-header {
-	width:960px;
-	margin:0 auto;
-	position:relative;
-	height:238px; }
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 238px; }
 
 /* Blog Title
 -------------------------------------------------------------- */
@@ -114,17 +116,17 @@ body {
 	position: relative;
 	padding: 58px 0 10px; }
 .site-description {
-	font-size:120%;
+	font-size: 120%;
 	color: #9b9b9b;
 	text-align: center;
 	position: relative;
 	margin: 0; }
 .site-description .home-link a {
-	text-decoration:none;
+	text-decoration: none;
 	text-shadow: 0 4px 0 rgba(0, 0, 0, 0.6); }
 .site-header .home-link a:hover {
-	text-decoration:none;
-	border-bottom:1px solid #e7d8cf; }
+	text-decoration: none;
+	border-bottom: 1px solid #e7d8cf; }
 
 /* Search Form (Header)
 -------------------------------------------------------------- */
@@ -150,40 +152,40 @@ body {
 /* Content (Column 1)
 -------------------------------------------------------------- */
 #content {
-	background:url(images/notepad-back.gif) repeat-y;
-	width:870px;
-	margin:0 auto;
-	padding:0 20px 0 70px;
+	background: url(images/notepad-back.gif) repeat-y;
+	width: 870px;
+	margin: 0 auto;
+	padding: 0 20px 0 70px;
 	word-wrap: break-word; }
 
 pre, code {
 	margin: 3px;
-	padding:10px;
+	padding: 10px;
 	background: #ececec;
-	box-sizing:border-box;
+	box-sizing: border-box;
 	border: 1px solid #939393;
-	-moz-box-sizing:border-box;
-	webkit-box-sizing:border-box;
-	display:block; 
-	overflow-x:auto; }
+	-moz-box-sizing: border-box;
+	webkit-box-sizing: border-box;
+	display: block;
+	overflow-x: auto; }
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	text-align:left;
-	width:100%;
-	margin:1.5em 0;
-	padding:1em;
-	line-height:2;
-	font-size:90%; }
+	text-align: left;
+	width: 100%;
+	margin: 1.5em 0;
+	padding: 1em;
+	line-height: 2;
+	font-size: 90%; }
 td,
 th {
 	border: 1px solid #111;
 	padding: .5em .5em;
 	text-align: center; }
 tbody tr:nth-child(odd) {
-	background:#EEE;
-	background:rgba(0, 0, 0, 0.08);
-	border:none; }
+	background: #EEE;
+	background: rgba(0, 0, 0, 0.08);
+	border: none; }
 
 blockquote {
 	border-left: 1px solid #bbb;
@@ -196,7 +198,7 @@ blockquote {
 	line-height: 1.45;
 	position: relative;
 	color: #383838;
-	background:#ececec; }
+	background: #ececec; }
 blockquote:before {
 	display: block;
 	content: "\201C";
@@ -215,24 +217,24 @@ blockquote cite:before {
 	content: "\2014 \2009"; }
 
 #content .col01 {
-	float:left;
-	width:73%;
+	float: left;
+	width: 73%;
 	padding-bottom: 3px;
-	font-size:100%;
-	line-height:150%; }
+	font-size: 100%;
+	line-height: 150%; }
 #content .col01 h1 {
 	text-align: center;
-	font-size:180%;
-	line-height:110%;
-	font-weight:normal;
+	font-size: 180%;
+	line-height: 110%;
+	font-weight: normal;
 	font-family: Forum, Times New Roman, Times, Georgia, serif;
-	margin:0;
-	padding:0 0 10px;
+	margin: 0;
+	padding: 0 0 10px;
 	overflow: hidden;
-	background:url(images/line.gif) repeat-x bottom; }
+	background: url(images/line.gif) repeat-x bottom; }
 #content .col01 h1 a {
-	color:#000;
-	text-decoration:none; }
+	color: #000;
+	text-decoration: none; }
 #content .col01 h1 a:hover { color: gray; }
 #content .col01 h2,
 #content .col01 h3,
@@ -241,11 +243,11 @@ blockquote cite:before {
 #content .col01 h6 {
 	text-align: center; }
 #content .col01 .post {
-	padding-top:5px;
-	padding-bottom:30px; }
+	padding-top: 5px;
+	padding-bottom: 30px; }
 #content .col01 .thumbnail {
-	float:right;
-	margin:10px 0 10px 10px; }
+	float: right;
+	margin: 10px 0 10px 10px; }
 #content .col01 .tagsandcopy {
 	font-size: 90%;
 	margin-bottom: 0; }
@@ -267,27 +269,27 @@ blockquote cite:before {
 	border-top: 2px solid #939393;
 	border-bottom: 2px solid #939393;
 	text-align: left;
-	font-size: 100%;
+	font-size: 120%;
 	margin-top: 10px; }
 #content .col01 .author-info .author-description {
 	margin-top: -13px; }
 #content .col01 .author-info .author-title {
 	width: 85%;
-	text-align:center;
+	text-align: center;
 	line-height: 100%;
-	padding-top:1px; }
+	padding-top: 1px; }
 #content .col01 .author-info p.author-bio {
 	margin-left: 1px; }
 
 #content .col01 .meta {
-	font-size:90%;
-	text-align:right;
-	padding-top:8px;
+	font-size: 90%;
+	text-align: right;
+	padding-top: 8px;
 	background: url(images/line.gif) repeat-x top; }
 #content .bypostauthor { }
 
 #content .col01 .post-inner {
-	position:relative;
+	position: relative;
 	padding-top: 20px; }
 
 /* Data-tab (Ribbons)
@@ -331,27 +333,27 @@ blockquote cite:before {
 	border-style: solid;
 	border-color: #6D0404 #6D0404 transparent transparent; }
 #content .col01 .date-tab .month {
-	text-align:right;
-	display:block;
-	padding:6px 16px 6px 0;
-	font-size:70%; }
+	text-align: right;
+	display: block;
+	padding: 6px 16px 6px 0;
+	font-size: 70%; }
 #content .col01 .date-tab .day {
-	text-align:right;
-	display:block;
-	padding:6px 16px 2px 0;
-	font-size:112%;
-	font-weight:bold; }
+	text-align: right;
+	display: block;
+	padding: 6px 16px 2px 0;
+	font-size: 112%;
+	font-weight: bold; }
 /* END-Data-tab (Ribbons) */
 
 #content .col01 .post-inner p {
 	overflow: visible; }
 #content .col01 .post-inner a { text-decoration: underline; }
 #content .col01 .thumbnail {
-	float:right;
-	margin:12px 0 12px 12px; }
+	float: right;
+	margin: 12px 0 12px 12px; }
 #content .col01 .meta a {
-	color:#000;
-	text-decoration:none; }
+	color: #000;
+	text-decoration: none; }
 #content .col01 .meta a:hover { text-decoration: underline; }
 
 #content .col01 figure  {
@@ -364,10 +366,10 @@ blockquote cite:before {
 /* Sidebar (Column 2)
 -------------------------------------------------------------- */
 #sidebar {
-	float:right;
-	width:210px;
-	font-size:100%;
-	line-height:110%; }
+	float: right;
+	width: 210px;
+	font-size: 100%;
+	line-height: 110%; }
 
 /* Follow
 -------------------------------------------------------------- */
@@ -381,42 +383,42 @@ blockquote cite:before {
 /* Pages
 -------------------------------------------------------------- */
 #sidebar .pages {
-	width:212px;
-	background:url(images/pages-back.gif) repeat-y; }
+	width: 212px;
+	background: url(images/pages-back.gif) repeat-y; }
 #sidebar .pages ul {
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 	overflow: hidden; }
 #sidebar .pages ul li {
-	font-size:100%;
-	line-height:110%;
-	list-style:none;
-	padding:0;
-	margin:0; }
-#sidebar .pages ul li .listMeta { font-size:10px; }
+	font-size: 100%;
+	line-height: 110%;
+	list-style: none;
+	padding: 0;
+	margin: 0; }
+#sidebar .pages ul li .listMeta { font-size: 10px; }
 #sidebar .pages ul li a {
-	color:#21565E;
-	border-top:1px solid #FFE5BE;
-	display:block;
-	width:170px;
+	color: #21565E;
+	border-top: 1px solid #FFE5BE;
+	display: block;
+	width: 170px;
 	margin-left: 10px;
-	padding:4px 0 4px 25px;
+	padding: 4px 0 4px 25px;
 	-webkit-transition: margin .3s;
 	-moz-transition: margin .3s;
 	-ms-transition: margin .3s;
 	-o-transition: margin .3s;
 	transition: margin .3s; }
 #sidebar .pages ul li a:hover {
-	text-decoration:none;
+	text-decoration: none;
 	margin-left: 20px;
-	color:#000; }
+	color: #000; }
 #sidebar .pages-bottom {
-	width:188px;
-	height:62px;
-	background:url(images/pages-bottom.gif) no-repeat left bottom;
-	padding:12px 12px 0;
-	font-size:100%;
-	text-align:right; }
+	width: 188px;
+	height: 62px;
+	background: url(images/pages-bottom.gif) no-repeat left bottom;
+	padding: 12px 12px 0;
+	font-size: 100%;
+	text-align: right; }
 #sidebar .pages ul .sub-menu {
 	padding-left: 10px;
 	overflow: hidden; }
@@ -427,78 +429,78 @@ blockquote cite:before {
 /* Recent posts
 -------------------------------------------------------------- */
 #sidebar .recent-posts-upper {
-	height:124px;
-	background:url(images/postit-upper.gif) no-repeat; }
+	height: 124px;
+	background: url(images/postit-upper.gif) no-repeat; }
 #sidebar .recent-posts {
-	width:212px;
-	background:url(images/postit-back.gif) repeat-y; }
+	width: 212px;
+	background: url(images/postit-back.gif) repeat-y; }
 #sidebar .recent-posts ul {
-	padding:0;
-	margin:0; }
+	padding: 0;
+	margin: 0; }
 #sidebar .recent-posts ul li {
-	font-size:93%;
-	line-height:130%;
-	list-style:none;
-	padding:0;
-	margin:0; }
+	font-size: 93%;
+	line-height: 130%;
+	list-style: none;
+	padding: 0;
+	margin: 0; }
 #sidebar .recent-posts ul li a {
-	color:#21565E;
-	display:block;
-	width:170px;
-	padding:4px 0 4px 25px; }
+	color: #21565E;
+	display: block;
+	width: 170px;
+	padding: 4px 0 4px 25px; }
 #sidebar .recent-posts ul li a:hover {
-	text-decoration:none;
-	color:#000; }
+	text-decoration: none;
+	color: #000; }
 #sidebar .recent-posts ul li i {
     color: navy;
     font-size: 70%; }
 #sidebar .recent-posts-bottom {
-	width:188px;
-	height:62px;
-	background:url(images/recent-posts-bottom.gif) no-repeat;
-	padding:12px 12px 0;
-	font-size:70%;
-	text-align:right; }
-#sidebar .recent-posts-bottom a { color:#21565E; }
+	width: 188px;
+	height: 62px;
+	background: url(images/recent-posts-bottom.gif) no-repeat;
+	padding: 12px 12px 0;
+	font-size: 70%;
+	text-align: right; }
+#sidebar .recent-posts-bottom a { color: #21565E; }
 #sidebar .recent-posts-bottom a:hover {
-	color:#21565E;
-	text-decoration:none; }
+	color: #21565E;
+	text-decoration: none; }
 
 /* About Box */
 #sidebar .about-box {
-	background:url(images/about_box.gif) no-repeat 10px 5px;
-	padding:30px 10px 20px;
+	background: url(images/about_box.gif) no-repeat 10px 5px;
+	padding: 30px 10px 20px;
 	font-family: Forum, Times New Roman, Times, Georgia, serif;
-	font-size:90%;
-	line-height:110%; }
+	font-size: 100%;
+	line-height: 110%; }
 
 /* Links Box */
 #sidebar .links-box {
 	text-align: center;
-	background:url(images/links_box.gif) no-repeat 50% 8px;
-	padding:30px 10px 20px; }
+	background: url(images/links_box.gif) no-repeat 50% 8px;
+	padding: 30px 10px 20px; }
 #sidebar .links-box ul {
-	margin:0;
-	padding:0; }
+	margin: 0;
+	padding: 0; }
 #sidebar .links-box ul li {
-	font-size:100%;
-	line-height:110%;
-	list-style:none;
-	background:url(images/line.gif) no-repeat bottom; }
+	font-size: 100%;
+	line-height: 110%;
+	list-style: none;
+	background: url(images/line.gif) no-repeat bottom; }
 #sidebar .links-box ul li a {
-	color:#21565E;
-	margin:0 auto;
-	display:block;
-	width:186px;
-	padding:3px 0; }
+	color: #21565E;
+	margin: 0 auto;
+	display: block;
+	width: 186px;
+	padding: 3px 0; }
 #sidebar .links-box ul li a:hover {
-	text-decoration:none;
-	color:#000; }
+	text-decoration: none;
+	color: #000; }
 
 /* Widgets */
 #sidebar .widget {
-	display:block;
-	padding:10px 10px;
+	display: block;
+	padding: 10px 10px;
     	width: 90%; }
 
 select {
@@ -559,7 +561,7 @@ img.alignleft {
 /* Miniatures
 -------------------------------------------------------------- */
 .wp-post-image {
-	margin:10px auto 3px;
+	margin: 10px auto 3px;
 	display: block;
 	border-bottom: 5px solid #bbb;
 	background: #fff;
@@ -576,12 +578,12 @@ img.alignleft {
 	text-decoration: none;
 	color: #909490; }
 #footer .notepad-bottom {
-	width:960px;
-	margin:0 auto;
+	width: 960px;
+	margin: 0 auto;
 	margin-top: -20px;
-	position:relative;
-	background:url(images/notepad-bottom.png) no-repeat;
-	min-height:60px; }
+	position: relative;
+	background: url(images/notepad-bottom.png) no-repeat;
+	min-height: 60px; }
 #footer .site-info {
 	text-align: center;
 	font-size: 92%;
@@ -601,7 +603,7 @@ img.alignleft {
 	font-size: 100%;
 }
 #footer-widgets {
-	display:block;
+	display: block;
 	text-align: initial;
 }
 #footer-widgets span {
@@ -630,33 +632,33 @@ img.alignleft {
 	background-clip: padding-box;
 	border-radius: 10px; }
 #commentform {
-	padding:0;
-	margin:0; }
+	padding: 0;
+	margin: 0; }
 #commentform .comment-field {
-	border:1px solid #939393;
-	width:290px;
-	margin:0;
-	padding:3px;
+	border: 1px solid #939393;
+	width: 290px;
+	margin: 0;
+	padding: 3px;
 	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
-	font-size:75%;
-	background:#fff;
-	float:left; }
+	font-size: 75%;
+	background: #fff;
+	float: left; }
 #commentform .comment-box {
-	border:1px solid #939393;
-	width:70%;
-	margin:0 0 10px;
-	padding:3px;
+	border: 1px solid #939393;
+	width: 70%;
+	margin: 0 0 10px;
+	padding: 3px;
 	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
-	background:#fff;
+	background: #fff;
 	border-radius: 10px;
 	opacity: 0.6;
 	position: relative; }
 #commentform .btnComment {
-	margin:0;
-	padding:2px;
+	margin: 0;
+	padding: 2px;
 	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
-	float:left;
-	clear:left; }
+	float: left;
+	clear: left; }
 #commentform .comment-notes {
 	display: none; }
 #commentform label {
@@ -671,7 +673,7 @@ img.alignleft {
 	font-family: Forum, Tahoma, Arial, Helvetica, sans-serif; }
 #commentform .form-allowed-tags {
 	margin-top: 0;
-	font-size:90%; }
+	font-size: 90%; }
 #author,
 #email,
 #url,
@@ -688,41 +690,41 @@ p.comments-title {
 /* Comment list
 -------------------------------------------------------------- */
 .avatar {
-	float:left;
-	clear:left;
+	float: left;
+	clear: left;
 	margin-top: 10px;
 	margin-right: 10px;	
-	-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
-	box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2); }
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2); }
 .edit-link {
 	display: inline; }
 .reply {
 	display: inline; }
 .commentlist {
-	margin:20px 0;
-	padding:0; }
+	margin: 20px 0;
+	padding: 0; }
 .commentlist li {
-	padding:12px 0;
-	background:url(images/line.gif) no-repeat bottom;
-	line-height:125%;
-	list-style:none; }
+	padding: 12px 0;
+	background: url(images/line.gif) no-repeat bottom;
+	line-height: 125%;
+	list-style: none; }
 .commentlist li a {
-	color:#000;
-	position:relative;
-	text-decoration:none; }
+	color: #000;
+	position: relative;
+	text-decoration: none; }
 .commentlist li a:hover {
-	color:#000;
-	text-decoration:none;
-	border-bottom:1px solid #000;
-	background:#fffbc1; }
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	background: #fffbc1; }
 .commentdate {
-	display:block;
-	padding:0 0 6px;
-	font-size:60%; }
+	display: block;
+	padding: 0 0 6px;
+	font-size: 60%; }
 .commentlist li cite {
-	font-weight:bold;
-	font-style:normal; }
+	font-weight: bold;
+	font-style: normal; }
 /* END-Comment */
 
 /************************** Navigation **************************/
@@ -805,7 +807,7 @@ p.comments-title {
 	border: 1px solid #BFBFBF;
 	padding: 3px 12px;
 	background-color: whitesmoke;
-	background-clip:padding-box;
+	background-clip: padding-box;
 	border-radius: 10px;
 	text-transform: uppercase; } 
 #page-nav a:hover,
@@ -862,7 +864,7 @@ p.comments-title {
 .html-sitemap h2{
 	padding-top: 10px; }
 .category {
-	list-style:none;
+	list-style: none;
 	padding-bottom: 5px; }
 .grey {
 	color: #777;
@@ -873,11 +875,11 @@ p.comments-title {
 	overflow: hidden; }
 .cat-posts li{
 	padding-bottom: 5px;
-	list-style:square; }
+	list-style: square; }
 .sitemap-authors li, .sitemap-pages li, .sitemap-archives li {
 	padding-bottom: 5px; }
 
 /* Remove The WordPress Stats Smiley Face added by JetPack plugin
    because it messes up design
  -------------------------------------------------------------- */
-img#wpstats { display:none; }
+img#wpstats { display: none; }

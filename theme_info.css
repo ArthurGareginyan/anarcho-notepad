@@ -4,7 +4,7 @@
  * @package	Anarcho Notepad
  * @since	2.26
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright © 2013-2015, Arthur Gareginyan
+ * @copyright 	Copyright © 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -26,18 +26,18 @@
 	background-repeat: repeat;
 	background-position: top center;
 	background-attachment: fixed;
-	color:#000;
+	color: #000;
 	font-family: sans-serif;
-	font-size:1.2em;
+	font-size: 1.2em;
 	height: 100%;
-	text-align:center;
+	text-align: center;
 	width: 99%; }
 .cover h4 {
 	text-align: center;
-	font-size:2em;
-	line-height:normal;
+	font-size: 2em;
+	line-height: normal;
 	-family: sans-serif;
-	clear:both; }
+	clear: both; }
 .cover a {
 	-webkit-transition: color 0.12s ease-in-out;
 	-moz-transition: color 0.12s ease-in-out;
@@ -49,7 +49,7 @@
 	color: #000;
 	text-decoration: none;
 	font-weight: bold; }
-.cover a img { border:none; }
+.cover a img { border: none; }
 #header {
 	width: 960px;
 	margin: 0 auto;
@@ -60,8 +60,8 @@
 	-moz-transform: scale(1,-1);
 	-o-transform: scale(1,-1); }
 #footer {
-	clear:both;
-	height:100px;
+	clear: both;
+	height: 100px;
 	width: 960px;
 	margin: 0 auto;
 	margin-top: -20px;
@@ -108,30 +108,30 @@
 	line-height: 1px;
 	text-align: center; }
 #page .content table {
-	text-align:left;
-	width:100%;
-	margin:1.5em 0;
-	padding:1em;
-	line-height:1.5em;
-	font-size:.9em; }
-#page .content table th { border-right:1px solid #111;
-	padding:.5em .5em;
-	text-align:center; }
-#page .content table tr th:last-child { border-right:none; }
+	text-align: left;
+	width: 100%;
+	margin: 1.5em 0;
+	padding: 1em;
+	line-height: 1.5em;
+	font-size: .9em; }
+#page .content table th { border-right: 1px solid #111;
+	padding: .5em .5em;
+	text-align: center; }
+#page .content table tr th:last-child { border-right: none; }
 #page .content table td {
-	border-top:1px solid #111;
-	border-right:1px solid #111;
-	padding:.5em .5em;
-	text-align:center; }
+	border-top: 1px solid #111;
+	border-right: 1px solid #111;
+	padding: .5em .5em;
+	text-align: center; }
 #page .content table tr td:last-child { border-right:none; }
 tbody tr:nth-child(odd) {
-	background:#EEE;
-	background:rgba(0, 0, 0, 0.08);
-	border:none; }
+	background: #EEE;
+	background: rgba(0, 0, 0, 0.08);
+	border: none; }
 .button-primary.review-customizr {
 	margin-top: 10px;
 	font-size: 90%; }
-.justify { text-align:justify; }
+.justify { text-align: justify; }
 #sidebar {
 	float: right;
 	width: 210px;
@@ -150,4 +150,4 @@ tbody tr:nth-child(odd) {
 	font-size: 40px;
     margin-top: 0px;
     margin-bottom: 10px; }
-@media only screen and (max-width:700px), only screen and (max-device-width : 700px){ #page>li { width:85%; } }
+@media only screen and (max-width: 700px), only screen and (max-device-width : 700px){ #page>li { width: 85%; } }

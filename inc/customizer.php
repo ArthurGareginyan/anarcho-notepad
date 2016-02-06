@@ -3,9 +3,9 @@
  * Theme Customizer support
  *
  * @package	Anarcho Notepad
- * @since	2.24
+ * @since	2.29
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -45,7 +45,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Copyright after post
 		$wp_customize->add_setting( 'copyright_post', array(
-				'default'			=> 'Copyright 2015. All rights reserved.',
+				'default'			=> 'Copyright 2016. All rights reserved.',
 				'sanitize_callback' => 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'copyright_post', array(
@@ -57,7 +57,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Site-info in footer
 		$wp_customize->add_setting( 'site-info', array(
-				'default'			=> 'Copyright 2015. All rights reserved.',
+				'default'			=> 'Copyright 2016. All rights reserved.',
 				'sanitize_callback' => 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'site-info', array(
@@ -277,7 +277,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Scripts before posts
 		$wp_customize->add_setting( 'scripts_before_posts', array(
-				'Default'               => '',
+				'default'               => '',
 				'sanitize_callback'     => 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_before_posts', array(
@@ -289,7 +289,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Scripts at the beginning of the posts
 		$wp_customize->add_setting( 'scripts_beginning_posts', array(
-				'Default'               => '',
+				'default'               => '',
 				'sanitize_callback'     => 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_beginning_posts', array(
@@ -301,7 +301,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Scripts at the end of the posts
 		$wp_customize->add_setting( 'scripts_end_posts', array(
-				'Default'               => '',
+				'default'               => '',
 				'sanitize_callback'     => 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_end_posts', array(
@@ -313,7 +313,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Scripts after posts
 		$wp_customize->add_setting( 'scripts_after_posts', array(
-				'Default'           	=> '',
+				'default'           	=> '',
 				'sanitize_callback'		=> 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_after_posts', array(
@@ -344,7 +344,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Enable font size for posts
 		$wp_customize->add_setting( 'post_font_size', array(
-				'Default'           => 'Default',
+				'default'           => 'Default',
 				'control'           => 'select',
 				'sanitize_callback' => 'esc_attr',
 		));
@@ -654,7 +654,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Enable Google Fonts for posts
 		$wp_customize->add_setting( 'post_font', array(
-				'Default'               => 'Default',
+				'default'               => 'Default',
 				'control'               => 'select',
 				'sanitize_callback'		=> 'esc_attr',
 		));
@@ -675,7 +675,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Enable Google Fonts for Title
 		$wp_customize->add_setting( 'titlefontstyle_setting', array(
-				'Default'               => 'Permanent+Marker',
+				'default'               => 'Permanent+Marker',
 				'control'               => 'select',
 				'sanitize_callback'		=> 'esc_attr',
 		));
@@ -690,7 +690,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Enable Google Fonts for Tagline
 		$wp_customize->add_setting( 'taglinefontstyle_setting', array(
-				'Default'          		=> 'Permanent+Marker',
+				'default'          		=> 'Permanent+Marker',
 				'control'               => 'select',
 				'sanitize_callback'		=> 'esc_attr',
 		));

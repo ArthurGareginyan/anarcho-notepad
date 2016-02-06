@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
-"POT-Creation-Date: 2015-09-07 06:15+0300\n"
+"POT-Creation-Date: 2016-02-05 18:37+0300\n"
 "PO-Revision-Date: 2015-08-11 10:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -58,196 +58,191 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: functions.php:54
+#: functions.php:53
 msgid "Primary"
 msgstr ""
 
-#: functions.php:82
+#: functions.php:89
 msgid "Sidebar Area 1"
 msgstr ""
 
-#: functions.php:84
+#: functions.php:91
 msgid "Widgets in this area will be shown below \"Pages\"."
 msgstr ""
 
-#: functions.php:91
+#: functions.php:98
 msgid "Sidebar Area 2"
 msgstr ""
 
-#: functions.php:93
+#: functions.php:100
 msgid "Widgets in this area will be shown below \"What is this place\"."
 msgstr ""
 
-#: functions.php:100
+#: functions.php:107
 msgid "Sidebar Area 3"
 msgstr ""
 
-#: functions.php:102
+#: functions.php:109
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
 msgstr ""
 
-#: functions.php:109
+#: functions.php:116
 msgid "Sidebar Area 4"
 msgstr ""
 
-#: functions.php:111
+#: functions.php:118
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
 msgstr ""
 
-#: functions.php:123
+#: functions.php:130
 msgid "Footer Area 1"
 msgstr ""
 
-#: functions.php:125
+#: functions.php:132
 msgid "Widgets in this area will be shown left."
 msgstr ""
 
-#: functions.php:132
+#: functions.php:139
 msgid "Footer Area 2"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:141
 msgid "Widgets in this area will be shown center."
 msgstr ""
 
-#: functions.php:141
+#: functions.php:148
 msgid "Footer Area 3"
 msgstr ""
 
-#: functions.php:143
+#: functions.php:150
 msgid "Widgets in this area will be shown right."
 msgstr ""
 
-#: functions.php:234
+#: functions.php:241
 msgid "Archive by category "
 msgstr ""
 
-#: functions.php:238
+#: functions.php:245
 msgid "Archive by date "
 msgstr ""
 
-#: functions.php:241
+#: functions.php:248
 msgid "Archive by month "
 msgstr ""
 
-#: functions.php:243
+#: functions.php:250
 msgid "Archive by year "
 msgstr ""
 
-#: functions.php:253 functions.php:281
+#: functions.php:260 functions.php:288
 msgid "You currently reading "
 msgstr ""
 
-#: functions.php:283
+#: functions.php:290
 msgid "Search results for "
 msgstr ""
 
-#: functions.php:285
+#: functions.php:292
 msgid "Archive by tag "
 msgstr ""
 
-#: functions.php:289
+#: functions.php:296
 msgid "Articles posted by "
 msgstr ""
 
-#: functions.php:291
+#: functions.php:298
 msgid "You got it "
 msgstr ""
 
-#: functions.php:318
+#: functions.php:325
 msgid "Previous page"
 msgstr ""
 
-#: functions.php:319
+#: functions.php:326
 msgid "Next page"
 msgstr ""
 
-#: functions.php:321
+#: functions.php:328
 msgid "Page "
 msgstr ""
 
-#: functions.php:321
+#: functions.php:328
 msgid " of the "
 msgstr ""
 
-#: functions.php:333
+#: functions.php:340
 msgid "Posts navigation"
 msgstr ""
 
-#: functions.php:365
+#: functions.php:372
 msgid "Post navigation"
 msgstr ""
 
-#: functions.php:397
+#: functions.php:404
 msgid "Pingback:"
 msgstr ""
 
-#: functions.php:397
+#: functions.php:404
 msgid "(Edit)"
 msgstr ""
 
-#: functions.php:412
+#: functions.php:419
 msgid "(Post author) "
 msgstr ""
 
-#: functions.php:423
+#: functions.php:430
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: functions.php:428
+#: functions.php:435
 msgid "Edit"
 msgstr ""
 
-#: functions.php:432
+#: functions.php:439
 msgid "Reply"
 msgstr ""
 
-#: functions.php:460
-#, php-format
-msgid "Page %s"
-msgstr ""
-
-#: functions.php:485
+#: functions.php:468
 msgid " queries in "
 msgstr ""
 
-#: functions.php:487
+#: functions.php:470
 msgid " seconds"
 msgstr ""
 
-#: functions.php:490
+#: functions.php:473
 msgid " mb"
 msgstr ""
 
-#: functions.php:514
+#: functions.php:497
 msgid "Not Found"
 msgstr ""
 
-#: functions.php:515
+#: functions.php:498
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr ""
 
-#: functions.php:530 functions.php:540 functions.php:542 sitemap.php:52
+#: functions.php:513 functions.php:523 functions.php:525 sitemap.php:52
 msgid "Category: "
 msgstr ""
 
-#: functions.php:532 functions.php:534 functions.php:540 functions.php:542
-msgid "&#9998; EDIT"
+#: functions.php:515 functions.php:517 functions.php:523 functions.php:525
+msgid "EDIT"
 msgstr ""
 
-#: functions.php:534
+#: functions.php:517
 msgid "Posted "
 msgstr ""
 
-#: functions.php:534
+#: functions.php:517
 msgid " by "
 msgstr ""
 
-#: functions.php:534
+#: functions.php:517
 msgid " in category \""
 msgstr ""
 
-#: functions.php:540 functions.php:542
+#: functions.php:523 functions.php:525
 msgid "LEAVE A COMMENT"
 msgstr ""
 
@@ -419,40 +414,39 @@ msgstr ""
 msgid "Cover"
 msgstr ""
 
-#. Description of the plugin/theme
-#: inc/theme_info.php:30
+#: inc/theme_info.php:41
 msgid ""
 "Inspired by the idea of anarchy, I designed this free premium WordPress "
 "theme for your personal blogs and diaries. This theme is perfect for writers "
 "and artists. \"Anarcho Notepad\" can be easily customised and already "
 "translated to different languages. It utilises latest HTML-5, CSS-3, PHP and "
 "WordPress native functions for creating the awesomeness that looks good on "
-"every browser. I’m constantly adding new features to this theme to allow you "
+"every browser. I'm constantly adding new features to this theme to allow you "
 "to personalise it to your own needs. If you want a new feature or just want "
 "to be able to change something just ask me and I would be happy to add it. "
 "I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
-#: inc/theme_info.php:65
+#: inc/theme_info.php:76
 msgid ""
 "Sorry for what I delete some functions from Customizer. I have to do it due "
 "to the rules of wordpress.org."
 msgstr ""
 
-#: inc/theme_info.php:68
+#: inc/theme_info.php:79
 msgid ""
 "If you have any questions or suggestions for improving and adding new "
 "features, feel free to contact me at:"
 msgstr ""
 
-#: inc/theme_info.php:72
+#: inc/theme_info.php:83
 msgid "Translation"
 msgstr ""
 
-#: inc/theme_info.php:74
+#: inc/theme_info.php:85
 msgid ""
 "The theme is in the process of translation into other languages of the "
-"world. Already supports 11 languages! If you have the desire then you can "
+"world. Already supports 12 languages! If you have the desire then you can "
 "help me in translation to your native language. Just send the translation "
 "files (*.po, *.mo) to me at the arthurgareginyan@gmail.com and I will "
 "include the translation within the one of the next theme update. Many of "
@@ -460,46 +454,46 @@ msgid ""
 "community."
 msgstr ""
 
-#: inc/theme_info.php:77
+#: inc/theme_info.php:88
 msgid ""
 "\"Anarcho-Notepad\" written on <strong>English</strong> and translated into:"
 msgstr ""
 
-#: inc/theme_info.php:91
+#: inc/theme_info.php:103
 msgid ""
 "Thanks to all who helped me translate \"Anarcho-Notepad\" into other "
 "languages!"
 msgstr ""
 
-#: inc/theme_info.php:92
+#: inc/theme_info.php:104
 msgid "Thank you very much for your contribution!"
 msgstr ""
 
-#: inc/theme_info.php:99
+#: inc/theme_info.php:111
 msgid "Happy to enjoy the Anarcho-Notepad?"
 msgstr ""
 
-#: inc/theme_info.php:101
+#: inc/theme_info.php:113
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/theme_info.php:106
+#: inc/theme_info.php:121
 msgid "Please consider making a donation"
 msgstr ""
 
-#: inc/theme_info.php:113
+#: inc/theme_info.php:128
 msgid "Follow me :"
 msgstr ""
 
-#: inc/theme_info.php:137 inc/theme_info.php:138
+#: inc/theme_info.php:152 inc/theme_info.php:153
 msgid "Theme Info"
 msgstr ""
 
-#: inc/theme_info.php:153
+#: inc/theme_info.php:167
 msgid "Help"
 msgstr ""
 
-#: inc/theme_info.php:156
+#: inc/theme_info.php:170
 msgid "Need help with Anarcho-Notepad? Click here!"
 msgstr ""
 
@@ -533,6 +527,19 @@ msgstr ""
 
 #. Theme URI of the plugin/theme
 msgid "http://mycyberuniverse.com/anarcho-notepad.html"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Inspired by the idea of anarchy, I designed this free premium WordPress "
+"theme for your personal blogs and diaries. This theme is perfect for writers "
+"and artists. \"Anarcho Notepad\" can be easily customised and already "
+"translated to different languages. It utilises latest HTML-5, CSS-3, PHP and "
+"WordPress native functions for creating the awesomeness that looks good on "
+"every browser. I’m constantly adding new features to this theme to allow you "
+"to personalise it to your own needs. If you want a new feature or just want "
+"to be able to change something just ask me and I would be happy to add it. "
+"I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
 #. Author of the plugin/theme

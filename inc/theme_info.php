@@ -3,9 +3,9 @@
  * Theme Information Page
  *
  * @package	Anarcho Notepad
- * @since	2.27
+ * @since	2.29
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -13,7 +13,7 @@
 /* Add some CSS so I can Style the Theme Options Page */
 function anarcho_include_theme_options_style() {
 	wp_enqueue_style('anarcho_theme_options_styles', get_template_directory_uri() . '/theme_info.css', false, '1.0');
-	wp_enqueue_style('font_awesome_styles', get_template_directory_uri() . '/fonts/font-awesome-4.4.0/css/font-awesome.min.css', 'screen');
+	wp_enqueue_style('font_awesome_styles', get_template_directory_uri() . '/fonts/font-awesome-4.5.0/css/font-awesome.min.css', 'screen');
 }
 add_action('admin_print_styles-appearance_page_theme_options', 'anarcho_include_theme_options_style');
 
@@ -116,7 +116,7 @@ function anarcho_theme_options_do_page() { ?>
 
             <div class="donate">
                 <?php
-                    $anarcho_donate = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2EBT6E8BQ5RRQ";
+                    $anarcho_donate = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS";
                 ?>
                 <h3><?php _e('Please consider making a donation', 'anarcho-notepad');?></h3>
                 <p>

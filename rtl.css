@@ -6,7 +6,7 @@ of your CSS stylesheet in a separate stylesheet file named rtl.css.
  * @package	Anarcho Notepad
  * @since	2.26
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -45,26 +45,26 @@ div.aligncenter {
 }
 
 #sidebar .recent-posts ul li a {
-	padding:4px 30px 4px 25px;
+	padding: 4px 30px 4px 25px;
 }
 
 /* Comment
 -------------------------------------------------------------- */
 
 #commentform .comment-field {
-	float:right;
+	float: right;
 }
 
 #commentform .btnComment {
-	float:right;
-	clear:right;
+	float: right;
+	clear: right;
 }
 
 /* Comment list
 -------------------------------------------------------------- */
 .avatar {
-	float:right;
-	clear:right;
+	float: right;
+	clear: right;
 	margin-left: 10px;
 	margin-right: auto;
 }

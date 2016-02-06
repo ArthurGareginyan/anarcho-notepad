@@ -3,9 +3,9 @@
  * Anarcho Notepad functions and definitions.
  *
  * @package	Anarcho Notepad
- * @since	2.28
+ * @since	2.29
  * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2015, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -166,7 +166,7 @@ add_filter( 'avatar_defaults', 'anarcho_avatar' );
 
 /* Include Font-Awesome styles */
 function anarcho_include_font_awesome_styles() {
-    wp_register_style( 'font_awesome_styles', get_template_directory_uri() . '/fonts/font-awesome-4.4.0/css/font-awesome.min.css', 'screen' );
+    wp_register_style( 'font_awesome_styles', get_template_directory_uri() . '/fonts/font-awesome-4.5.0/css/font-awesome.min.css', 'screen' );
     wp_enqueue_style( 'font_awesome_styles' );
 }
 add_action( 'wp_enqueue_scripts', 'anarcho_include_font_awesome_styles' );

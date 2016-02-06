@@ -6,11 +6,12 @@
 
 	Author URI: http://www.arthurgareginyan.com
 
-	Copyright (C) 2013-2015 Arthur "Berserkr" Gareginyan
+	Copyright (C) 2013-2016 Arthur "Berserkr" Gareginyan
 
 	License: GNU General Public License, version 3 (GPLv3)
 
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
 
 == About Anarcho Notepad ==
 
@@ -18,15 +19,16 @@
 
 == Copyrights for Resources used in this theme.
 
-	I) Font-Awesome Icons are under the MIT Licnese. http://fontawesome.io
+	I) Font-Awesome Icons are under the MIT License. http://fontawesome.io
 	II) Font Name "Forum" are under the SIL Open Font License v1.1.
 	III) The Default Background Image (images/background.jpg) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
-	IV) The images notepad-back.gif, pages-back.gif, pages-bottom.gif, postit-back.gif, postit-upper.gif, recent-posts-bottom.gif are under the General Public License. http://www.evaneckard.com/
+	IV) The images notepad-back.gif, pages-back.gif, pages-bottom.gif, postit-back.gif, postit-upper.gif, recent-posts-bottom.gif are under public domain: http://www.notepadchaos.com
 	V) The images anarchy-symbol-big.jpg, anarchy-symbol.jpg and anarchy-symbol.png is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
 	VI) The file html5.js present in the "/js" folder are under the MIT/GPL2 Licnese. https://github.com/aFarkas/html5shiv
 	VII) The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
 
 Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
+
 
 == Installing Anarcho Notepad Manually (FTP) ==
 
@@ -47,6 +49,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 	Note: If the Theme preview is blank, do not activate the new Theme without investigating further. Your site may not be displayed correctly, otherwise.
 
+
 == Customizing Anarcho Notepad ==
 
 	To customise Anarcho Notepad using the built in options, Anarcho Notepad should already be active:
@@ -57,6 +60,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 	Your selection should immediately become active.
 
+
 == Other Notes ==
 
 	"Anarcho Notepad" is one of the personal software projects of Arthur Gareginyan.
@@ -65,6 +69,10 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 		This theme is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
 		Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+
+	**Credits**
+
+		In the theme "Anarcho Notepad" is used several images from theme ("Notepad Chaos v2.0")[http://www.notepadchaos.com] by (Evan Eckard)[http://www.evaneckard.com].
 
 	**Support**
 
@@ -81,11 +89,8 @@ Everything else used in this theme has been created by me, especially for "Anarc
 		* [Dedicated Theme Page](http://mycyberuniverse.com/web/anarcho-notepad.html)
 		* [Dedicated Theme Page on GitHub](https://github.com/ArthurGareginyan/anarcho-notepad.html)
 
-== Premium version of Anarcho Notepad ==
 
-	I'm doing everything possible in order to "Anarcho Notepad" remained a completely free template  for you!
-
-== Change log ==
+== Changelog ==
 
     2.1   (2013.10.22) - added : russian translation.
                          added : (css) rtl styles for hebrew or arabic.
@@ -158,23 +163,32 @@ Everything else used in this theme has been created by me, especially for "Anarc
                          fixed : some options in the customizer was not worked.
                          fixed : many more minor fixes and changes.
     2.25  (2015.09.07) - translation : danish.
-                         added: new screenshot 1200x900px.
+                         added : new screenshot 1200x900px.
                          minor additions and fixes.
-    2.26  (2015.09.09) - updated: font-awesome updated to v4.4.0.
-                         removed: image bullet.gif.
+    2.26  (2015.09.09) - updated : font-awesome updated to v4.4.0.
+                         removed : image bullet.gif.
                          minor additions and fixes.
-    2.27  (2015.09.26) - translation: french.
-                         fixed: tag "figure". allow galleries with small pictures align side by side.
-                         added: compatibility for title-tag.
-                         added: backwards compatibility for title-tag less than WordPress version 4.1.
-                         removed: callback for add_editor_style.
-                         removed: function for the customising the title of blog.
-   2.27.1 (2015.09.30) - fixed: callback function anarcho_render_title.
-   2.28   (2015.11.7)  - added: css code for removing the wordpress stats smiley face from footer area.
-                         removed: "<title></title>" tag from "<head>" tag.
-                         changed: the style of the post's title on hover.
-                         added: empty line in the end of footer.
-                         changed: text in footer now have 100% size.
+    2.27  (2015.09.26) - translation : french.
+                         fixed : tag "figure". allow galleries with small pictures align side by side.
+                         added : compatibility for title-tag.
+                         added : backwards compatibility for title-tag less than WordPress version 4.1.
+                         removed : callback for add_editor_style.
+                         removed : function for the customising the title of blog.
+   2.27.1 (2015.09.30) - fixed : callback function anarcho_render_title.
+   2.28   (2015.11.7)  - added : css code for removing the wordpress stats smiley face from footer area.
+                         removed : "<title></title>" tag from "<head>" tag.
+                         changed : the style of the post's title on hover.
+                         added : empty line in the end of footer.
+                         changed : text in footer now have 100% size.
+   2.29   (2016.2.5)   - fixed : default options in the customizer.php.
+                         changed : the code in the files style.css, theme_info.css, admin.css and rtl.css formatted.
+                         changed : font size in the block about author after post now have 120% size.
+                         changed : font size in the block about website in sidebar now have 100% size.
+                         changed : authors URI.
+                         changed : donate link.
+                         updated : @copyright in all my files.
+                         updated : .pot file.
+                         updated : font-awesome updated to v4.5.0.
 
 
 == Contact & Issues for Anarcho Notepad ==

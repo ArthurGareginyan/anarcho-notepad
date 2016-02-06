@@ -55,7 +55,7 @@ If you discover a security vulnerability within this theme, please send an e-mai
 1. Font-Awesome Icons are under the MIT Licnese. http://fontawesome.io
 2. Font Name "Forum" are under the SIL Open Font License v1.1.
 3. The Default Background Image (images/background.jpg) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
-4. The images notepad-back.gif, pages-back.gif, pages-bottom.gif, postit-back.gif, postit-upper.gif, recent-posts-bottom.gif are under the General Public License. http://www.evaneckard.com/
+4. The images notepad-back.gif, pages-back.gif, pages-bottom.gif, postit-back.gif, postit-upper.gif, recent-posts-bottom.gif are under public domain: http://www.notepadchaos.com
 5. The images anarchy-symbol-big.jpg, anarchy-symbol.jpg and anarchy-symbol.png is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
 6. The file html5.js present in the "/js" folder are under the MIT/GPL2 Licnese. https://github.com/aFarkas/html5shiv
 7. The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
