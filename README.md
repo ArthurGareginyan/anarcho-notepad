@@ -97,6 +97,6 @@ Logos:
 [![CSS3](https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png)]()
 [![PHP](http://php.net/images/logos/php-med-trans-light.gif)]()
 [![JS](https://dl.dropboxusercontent.com/s/zumy31fjzyj4p6z/JavaScript.png)]()
-[![JS](https://dl.dropboxusercontent.com/s/dh75pqw99jhga8c/jQurery.png)]()
+[![JQuery](https://dl.dropboxusercontent.com/s/dh75pqw99jhga8c/jQurery.png)]()
 [![WordPress](https://cdn2.iconfinder.com/data/icons/publicons/64/wordpress-64.png)](https://wordpress.org)
 [![License](http://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.html)
