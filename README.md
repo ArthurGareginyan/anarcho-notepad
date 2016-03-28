@@ -35,7 +35,8 @@ Inspired by the idea of anarchy, I designed this free premium WordPress theme fo
 
 * Responsive designe
 * Sticky Posts
-* (Got more ideas? Tell me!)
+
+**Got more ideas? Tell me!**
 
 Sorry for what I delete some functions from Customizer. I have to do it due to the rules of wordpress.org.
 
@@ -82,8 +83,6 @@ Arthur Garegnyan aka Berserkr
 
 
 ## Links
-
-* [Dedicated Theme Page](http://mycyberuniverse.com/web/anarcho-notepad.html)
 
 * [Dedicated Theme Page on WordPress.org](https://wordpress.org/themes/anarcho-notepad/)
 
