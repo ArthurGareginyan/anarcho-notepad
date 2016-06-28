@@ -6,6 +6,9 @@ Inspired by the idea of anarchy, I designed this free premium WordPress theme fo
 
 [![screenshot](https://github.com/ArthurGareginyan/anarcho-notepad/blob/master/screenshot.png)]()
 
+This theme is used simultaneously by more than three thousands people worldwide!
+
+
 ## Features
 
 **Current features:**
@@ -38,8 +41,6 @@ Inspired by the idea of anarchy, I designed this free premium WordPress theme fo
 
 **Got more ideas? Tell me!**
 
-Sorry for what I delete some functions from Customizer. I have to do it due to the rules of wordpress.org.
-
 
 ## Contributing
 
@@ -68,8 +69,6 @@ Everything else used in this theme has been created by me, especially for "Anarc
 
 This theme is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
 
-Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
-
 
 ## Author
 
@@ -81,12 +80,12 @@ Arthur Garegnyan aka Berserkr
 
 * My Website: [http://www.arthurgareginyan.com](http://www.arthurgareginyan.com)
 
+* Donation Page: [http://www.arthurgareginyan.com/donate.html](http://www.arthurgareginyan.com/donate.html)
+
 
 ## Links
 
 * [Dedicated Theme Page on WordPress.org](https://wordpress.org/themes/anarcho-notepad/)
-
-* [Donation Page](http://www.arthurgareginyan.com/donate.html)
 
 
 ---
