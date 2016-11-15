@@ -3,9 +3,9 @@
 It's easy, just a matter of overwriting all the horizontal positioning attributes
 of your CSS stylesheet in a separate stylesheet file named rtl.css.
  *
- * @package	Anarcho Notepad
- * @since	2.26
- * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @package     Anarcho Notepad
+ * @since       2.30
+ * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
@@ -40,11 +40,11 @@ div.aligncenter {
 
 /* Sidebar
 -------------------------------------------------------------- */
-#sidebar .pages ul {
+#sidebar .yellow-sticker ul {
 	margin-right: 15%;
 }
 
-#sidebar .recent-posts ul li a {
+#sidebar .white-sticker ul li a {
 	padding: 4px 30px 4px 25px;
 }
 

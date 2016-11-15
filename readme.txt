@@ -1,12 +1,12 @@
 = Anarcho Notepad =
 
-	Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
+Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 
-	Author: Arthur "Berserkr" Gareginyan
+	Author: Arthur Gareginyan
 
 	Author URI: http://www.arthurgareginyan.com
 
-	Copyright (C) 2013-2016 Arthur "Berserkr" Gareginyan
+	Copyright (c) 2013-2016, Arthur Gareginyan
 
 	License: GNU General Public License, version 3 (GPLv3)
 
@@ -19,15 +19,15 @@
 
 == Copyrights for Resources used in this theme.
 
-	I) Font-Awesome Icons are under the MIT License. http://fontawesome.io
-	II) Font Name "Forum" are under the SIL Open Font License v1.1.
-	III) The Default Background Image (images/background.jpg) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
-	IV) The images notepad-back.gif, pages-back.gif, pages-bottom.gif, postit-back.gif, postit-upper.gif, recent-posts-bottom.gif are under public domain: http://www.notepadchaos.com
-	V) The images anarchy-symbol-big.jpg, anarchy-symbol.jpg and anarchy-symbol.png is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
-	VI) The file html5.js present in the "/js" folder are under the MIT/GPL2 Licnese. https://github.com/aFarkas/html5shiv
-	VII) The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+	I) The "Font Awesome" iconic font are under the MIT License. http://fontawesome.io
+	II) The "Forum" font are under the SIL Open Font License v1.1.
+	III) The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
+	IV) The notepad-middle.png, yellow-sticker-middle, yellow-sticker-bottom, white-sticker-top, white-sticker-middle, white-sticker-bottom images are under : http://www.notepadchaos.com
+	V) The anarchy-symbol-big.png and anarchy-symbol.png images is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
+	VI) The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
+	VII) The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
 
-Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
+	Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
 
 
 == Installing Anarcho Notepad Manually (FTP) ==
@@ -77,7 +77,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
 	**Support**
 
 		* Did you enjoy this theme? Please [donate to support ongoing development](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS). Your contribution would be greatly appreciated.
-		* Do you have any ideas or suggestions to make the theme better? I can’t wait to hear them! Please share! [Dedicated Theme Page](http://mycyberuniverse.com/web/anarcho-notepad.html)
+		* Do you have any ideas or suggestions to make the theme better? I can’t wait to hear them! Please share! [Dedicated Theme Page](http://mycyberuniverse.com/anarcho-notepad.html)
 
 	**Please Vote and Enjoy**
 
@@ -86,7 +86,7 @@ Everything else used in this theme has been created by me, especially for "Anarc
 	**Links**
 
 		* [Developer Website](http://www.arthurgareginyan.com)
-		* [Dedicated Theme Page](http://mycyberuniverse.com/web/anarcho-notepad.html)
+		* [Dedicated Theme Page](http://mycyberuniverse.com/anarcho-notepad.html)
 		* [Dedicated Theme Page on GitHub](https://github.com/ArthurGareginyan/anarcho-notepad.html)
 
 
@@ -189,6 +189,23 @@ Everything else used in this theme has been created by me, especially for "Anarc
                          updated : @copyright in all my files.
                          updated : .pot file.
                          updated : font-awesome updated to v4.5.0.
+   2.30   (2016.11.15) - * Theme page improved.
+			 * The "smoothscroll.js" file updated to version 1.1.
+			 * Code commenting and formatting improved.
+			 * Some CSS classes renamed.
+			 * Removed mention about the "#wpadminbar" in CSS because of strict WP rules.
+			 * New SpecificFeeds link: http://click-to-follow.me.
+			 * All image files optimized, renamed and now in png format.
+			 * Preview image updated.
+			 * Donate image placed in the "images" catalog.
+			 * Links in the links widget now sorting by rating.
+			 * Ready for translation improved.
+			 * POT file updated.
+			 * Russian translation updated.
+			 * Added the Readme.txt file to "languages" catalog for translation contribution.
+			 * Text of theme author copyright updated.
+			 * The "Disable copyright of the author..." option in customizer removed.
+			 * Minor additions and fixes.
 
 
 == Contact & Issues for Anarcho Notepad ==

@@ -2,9 +2,9 @@
 /**
  * Theme Customizer support
  *
- * @package	Anarcho Notepad
- * @since	2.29
- * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @package     Anarcho Notepad
+ * @since       2.30
+ * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
@@ -31,9 +31,9 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		'priority'			=> 1,
    ));
 
-		// About box in sidebar
+		// About widget in sidebar
 		$wp_customize->add_setting( 'about_box', array(
-				'default'			=> __( 'Paste here small text about You and/or about site', 'anarcho-notepad' ),
+				'default'			=> __( 'Paste here small text about you and/or about your site.', 'anarcho-notepad' ),
 				'sanitize_callback' => 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'about_box', array(
@@ -67,18 +67,6 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 				'settings'			=> 'site-info',
 		)));
 
-		// Disable copyright of the author of theme in footer
-		$wp_customize->add_setting('disable_anarcho_copy', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
-		));
-		$wp_customize->add_control( 'disable_anarcho_copy', array(
-				'priority'			=> 4,
-		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Disable copyright of the author of theme in footer', 'anarcho-notepad' ),
-		        'section'			=> 'meta_section',
-		));
-
 
    // STUFF SECTION
    $wp_customize->add_section( 'stuff_section', array(
@@ -110,7 +98,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		        'section'			=> 'stuff_section',
 		));
 
-		// Disable box "What is this place"
+		// Disable widget "What is this place"
 		$wp_customize->add_setting('disable_about_box', array(
 				'default'           => '0',
 				'sanitize_callback' => 'esc_attr',
@@ -122,7 +110,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		        'section'			=> 'stuff_section',
 		));
 
-		// Disable box "Friends & Links"
+		// Disable widget "Friends & Links"
 		$wp_customize->add_setting('disable_links_box', array(
 				'default'           => '0',
 				'sanitize_callback' => 'esc_attr',
@@ -206,7 +194,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		        'section'			=> 'stuff_section',
 		));
 
-		// Disable button "To Top"
+		// Disable button "Scroll To Top"
 		$wp_customize->add_setting('disable_top_button', array(
 				'default'           => '0',
 				'sanitize_callback' => 'esc_attr',
@@ -214,7 +202,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		$wp_customize->add_control( 'disable_top_button', array(
 				'priority'			=> 11,
 		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Disable button "To Top"', 'anarcho-notepad' ),
+		        'label'				=> __( 'Disable button "Scroll To Top"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
@@ -785,8 +773,8 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 add_action( 'customize_register', 'anarcho_customize_register' );
 
 /* Inject the Customizer Choices into the Theme */
-add_action('wp_head', 'anarcho_notepad_inline_css');
-function anarcho_notepad_inline_css() {
+add_action('wp_head', 'anarcho_inline_css');
+function anarcho_inline_css() {
 
 		if ( ( get_theme_mod('enable_title_animation') == '1' ) ) echo '<script>
 var tit=document.title,c=0;function writetitle(){document.title=tit.substring(0,c);c==tit.length?(c=0,setTimeout("writetitle()",3E3)):(c++,setTimeout("writetitle()",200))}writetitle(); 

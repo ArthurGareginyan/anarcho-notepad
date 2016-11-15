@@ -1,18 +1,18 @@
 /*
-Theme Name: Anarcho Notepad
-Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
-Author: Arthur "Berserkr" Gareginyan
-Author URI: http://www.arthurgareginyan.com
-Description: Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
-Version: 2.29
-License: GNU General Public License v3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Tags: black, white, light, two-columns, right-sidebar, fluid-layout, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
-Text Domain: anarcho-notepad
-
-Copyright (C) 2013-2016 Arthur Gareginyan
-
+ Theme Name: Anarcho Notepad
+ Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
+ Author: Arthur Gareginyan
+ Author URI: http://www.arthurgareginyan.com
+ Description: Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
+ Version: 2.30
+ License: GNU General Public License v3
+ License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: two-columns, right-sidebar, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
+ Text Domain: anarcho-notepad
+ 
+ Copyright (c) 2013-2016, Arthur Gareginyan
 */
+
 
 /* Fonts
 -------------------------------------------------------------- */
@@ -152,7 +152,7 @@ body {
 /* Content (Column 1)
 -------------------------------------------------------------- */
 #content {
-	background: url(images/notepad-back.gif) repeat-y;
+	background: url(images/notepad-middle.png) repeat-y;
 	width: 870px;
 	margin: 0 auto;
 	padding: 0 20px 0 70px;
@@ -231,7 +231,7 @@ blockquote cite:before {
 	margin: 0;
 	padding: 0 0 10px;
 	overflow: hidden;
-	background: url(images/line.gif) repeat-x bottom; }
+	background: url(images/line.png) repeat-x bottom; }
 #content .col01 h1 a {
 	color: #000;
 	text-decoration: none; }
@@ -261,7 +261,7 @@ blockquote cite:before {
 	-o-transform: rotate(-9deg);
 	transform: rotate(-9deg);
 	-ms-transform: rotate(-9eg);
-	-ms-filter:'progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod="auto expand", enabled=true)'; }
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod="auto expand", enabled=true)'; }
  
 *+html .transform img{ 
 	filter:progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true); }
@@ -285,7 +285,7 @@ blockquote cite:before {
 	font-size: 90%;
 	text-align: right;
 	padding-top: 8px;
-	background: url(images/line.gif) repeat-x top; }
+	background: url(images/line.png) repeat-x top; }
 #content .bypostauthor { }
 
 #content .col01 .post-inner {
@@ -380,23 +380,23 @@ blockquote cite:before {
 	height: 80px;
 	width: 80px; }
 
-/* Pages
+/* Yellow Sticker
 -------------------------------------------------------------- */
-#sidebar .pages {
+#sidebar .yellow-sticker-middle {
 	width: 212px;
-	background: url(images/pages-back.gif) repeat-y; }
-#sidebar .pages ul {
+	background: url(images/yellow-sticker-middle.png) repeat-y; }
+#sidebar .yellow-sticker-middle ul {
 	padding: 0;
 	margin: 0;
 	overflow: hidden; }
-#sidebar .pages ul li {
+#sidebar .yellow-sticker-middle ul li {
 	font-size: 100%;
 	line-height: 110%;
 	list-style: none;
 	padding: 0;
 	margin: 0; }
-#sidebar .pages ul li .listMeta { font-size: 10px; }
-#sidebar .pages ul li a {
+#sidebar .yellow-sticker-middle ul li .listMeta { font-size: 10px; }
+#sidebar .yellow-sticker-middle ul li a {
 	color: #21565E;
 	border-top: 1px solid #FFE5BE;
 	display: block;
@@ -408,100 +408,99 @@ blockquote cite:before {
 	-ms-transition: margin .3s;
 	-o-transition: margin .3s;
 	transition: margin .3s; }
-#sidebar .pages ul li a:hover {
+#sidebar .yellow-sticker-middle ul li a:hover {
 	text-decoration: none;
 	margin-left: 20px;
 	color: #000; }
-#sidebar .pages-bottom {
+#sidebar .yellow-sticker-middle ul .sub-menu {
+	padding-left: 10px;
+	overflow: hidden; }
+#sidebar .yellow-sticker-bottom {
 	width: 188px;
 	height: 62px;
-	background: url(images/pages-bottom.gif) no-repeat left bottom;
+	background: url(images/yellow-sticker-bottom.png) no-repeat left bottom;
 	padding: 12px 12px 0;
 	font-size: 100%;
 	text-align: right; }
-#sidebar .pages ul .sub-menu {
-	padding-left: 10px;
-	overflow: hidden; }
-#sidebar .widget-title {
-	font-family: 'Permanent Marker'; }
 
-
-/* Recent posts
+/* White Sticker
 -------------------------------------------------------------- */
-#sidebar .recent-posts-upper {
+#sidebar .white-sticker-top {
 	height: 124px;
-	background: url(images/postit-upper.gif) no-repeat; }
-#sidebar .recent-posts {
+	background: url(images/white-sticker-top.png) no-repeat; }
+#sidebar .white-sticker-middle {
 	width: 212px;
-	background: url(images/postit-back.gif) repeat-y; }
-#sidebar .recent-posts ul {
+	background: url(images/white-sticker-middle.png) repeat-y; }
+#sidebar .white-sticker-middle ul {
 	padding: 0;
 	margin: 0; }
-#sidebar .recent-posts ul li {
+#sidebar .white-sticker-middle ul li {
 	font-size: 93%;
 	line-height: 130%;
 	list-style: none;
 	padding: 0;
 	margin: 0; }
-#sidebar .recent-posts ul li a {
+#sidebar .white-sticker-middle ul li a {
 	color: #21565E;
 	display: block;
 	width: 170px;
 	padding: 4px 0 4px 25px; }
-#sidebar .recent-posts ul li a:hover {
+#sidebar .white-sticker-middle ul li a:hover {
 	text-decoration: none;
 	color: #000; }
-#sidebar .recent-posts ul li i {
-    color: navy;
-    font-size: 70%; }
-#sidebar .recent-posts-bottom {
+#sidebar .white-sticker-middle ul li i {
+	color: navy;
+	font-size: 70%; }
+#sidebar .white-sticker-bottom {
 	width: 188px;
 	height: 62px;
-	background: url(images/recent-posts-bottom.gif) no-repeat;
+	background: url(images/white-sticker-bottom.png) no-repeat;
 	padding: 12px 12px 0;
 	font-size: 70%;
 	text-align: right; }
-#sidebar .recent-posts-bottom a { color: #21565E; }
-#sidebar .recent-posts-bottom a:hover {
+#sidebar .white-sticker-bottom a { color: #21565E; }
+#sidebar .white-sticker-bottom a:hover {
 	color: #21565E;
 	text-decoration: none; }
 
-/* About Box */
-#sidebar .about-box {
-	background: url(images/about_box.gif) no-repeat 10px 5px;
+/* About Widget */
+#sidebar .about-widget {
+	background: url(images/about-label.png) no-repeat 10px 5px;
 	padding: 30px 10px 20px;
 	font-family: Forum, Times New Roman, Times, Georgia, serif;
 	font-size: 100%;
 	line-height: 110%; }
 
-/* Links Box */
-#sidebar .links-box {
+/* Links Widget */
+#sidebar .links-widget {
 	text-align: center;
-	background: url(images/links_box.gif) no-repeat 50% 8px;
+	background: url(images/links-label.png) no-repeat 10px 5px;
 	padding: 30px 10px 20px; }
-#sidebar .links-box ul {
+#sidebar .links-widget ul {
 	margin: 0;
 	padding: 0; }
-#sidebar .links-box ul li {
+#sidebar .links-widget ul li {
 	font-size: 100%;
 	line-height: 110%;
 	list-style: none;
-	background: url(images/line.gif) no-repeat bottom; }
-#sidebar .links-box ul li a {
+	background: url(images/line.png) no-repeat bottom; }
+#sidebar .links-widget ul li a {
 	color: #21565E;
 	margin: 0 auto;
 	display: block;
 	width: 186px;
 	padding: 3px 0; }
-#sidebar .links-box ul li a:hover {
+#sidebar .links-widget ul li a:hover {
 	text-decoration: none;
 	color: #000; }
 
-/* Widgets */
+/* Other Widgets */
 #sidebar .widget {
 	display: block;
 	padding: 10px 10px;
-    	width: 90%; }
+	width: 90%; }
+#sidebar .widget-title {
+	font-family: 'Permanent Marker'; }
 
 select {
 	width: 100%; }
@@ -706,7 +705,7 @@ p.comments-title {
 	padding: 0; }
 .commentlist li {
 	padding: 12px 0;
-	background: url(images/line.gif) no-repeat bottom;
+	background: url(images/line.png) no-repeat bottom;
 	line-height: 125%;
 	list-style: none; }
 .commentlist li a {

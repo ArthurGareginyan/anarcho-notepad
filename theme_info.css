@@ -1,10 +1,10 @@
 /**
  * Styles for theme info page.
  *
- * @package	Anarcho Notepad
- * @since	2.26
- * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright © 2013-2016, Arthur Gareginyan
+ * @package     Anarcho Notepad
+ * @since       2.30
+ * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -22,7 +22,7 @@
 
 .cover {
 	background-color: #000000;
-	background-image: url(images/background.jpg);
+	background-image: url(images/background.png);
 	background-repeat: repeat;
 	background-position: top center;
 	background-attachment: fixed;
@@ -72,10 +72,15 @@
 	font-size: 110%;
 	line-height: 150%;
 	position: relative;
-	background: url(images/notepad-back.gif) repeat-y;
+	background: url(images/notepad-middle.png) repeat-y;
 	width: 870px;
 	margin: 0 auto;
 	padding: 0 20px 0 70px; }
+#page .author-img {
+    padding: 10px;
+    margin: 0 15px 2px 0;
+    display: inline;
+}
 #page .content {
 	float: left;
 	width: 73%;
@@ -92,13 +97,6 @@
 	padding: 0 0 0 40px; }
 #page .content ul li {
     margin-bottom: 0px; }
-
-#page .welcome {
-	font-size: 90%;
-	line-height: 150%;
-	color: #333;
-	text-align: justify;
-	text-shadow: 0 0 1px #AAA; }
 #page .content h3  {
 	font-size: 2em;
 	line-height: 1px;
@@ -123,7 +121,7 @@
 	border-right: 1px solid #111;
 	padding: .5em .5em;
 	text-align: center; }
-#page .content table tr td:last-child { border-right:none; }
+#page .content table tr td:last-child { border-right: none; }
 tbody tr:nth-child(odd) {
 	background: #EEE;
 	background: rgba(0, 0, 0, 0.08);
@@ -139,13 +137,14 @@ tbody tr:nth-child(odd) {
 	line-height: 110%; }
 #sidebar .donate {
 	border-bottom: 1px solid gray; }
+#sidebar .donate img {
+    padding-bottom: 8px; }
 #sidebar .donate p {
-	font-size: 120%; }
-#sidebar .comment {
-	border-bottom: 1px solid gray;
-	margin-bottom: 40px; }
+	font-size: 100%; }
 #sidebar .follow {
 	border-bottom: 1px solid gray; }
+#sidebar .follow h3 {
+    margin-bottom: 8px; }
 #sidebar .follow p {
 	font-size: 40px;
     margin-top: 0px;

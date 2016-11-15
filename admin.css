@@ -1,10 +1,10 @@
 /**
  * Styles for admin panel.
  *
- * @package	Anarcho Notepad
- * @since	2.26
- * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright © 2013-2016, Arthur Gareginyan
+ * @package     Anarcho Notepad
+ * @since       2.30
+ * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
+ * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -13,7 +13,7 @@
 /* ADMIN BAR
 -------------------------------------------------- */
 /* Help Button */
-#wpadminbar #wp-admin-bar-anarcho-help .ab-item:before,
+#wp-admin-bar-anarcho-help .ab-item:before,
 li#wp-admin-bar-anarcho-help a:before {
     font-family: 'FontAwesome';
     content: "\f05a";
@@ -42,7 +42,7 @@ li#wp-admin-bar-anarcho-help a {
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
-#wpadminbar .ab-top-menu>li#wp-admin-bar-anarcho-help:hover>.ab-item {
+.ab-top-menu>li#wp-admin-bar-anarcho-help:hover>.ab-item {
     color: #FFF;
     background: #768d44;                                                                /* Old browsers */
     background: -moz-linear-gradient(top,  #768d44 1%, #9db668 100%, #9DB668 100%);     /* FF3.6+ */

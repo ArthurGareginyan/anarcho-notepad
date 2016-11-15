@@ -2,18 +2,17 @@
 /**
  * Anarcho Notepad functions and definitions.
  *
- * @package	Anarcho Notepad
- * @since	2.29
- * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @package     Anarcho Notepad
+ * @since       2.30
+ * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
 
+
 /* Ladies and Gentleman, boys and girls let's start our engine */
-
-
-function anarcho_notepad_setup() {
+function anarcho_setup() {
 	global $content_width;
 
 	// Localization Init
@@ -21,7 +20,7 @@ function anarcho_notepad_setup() {
 
 	// This feature enables Custom Backgrounds.
 	add_theme_support( 'custom-background', array(
-		'default-image' => get_template_directory_uri() . '/images/background.jpg', ) );
+		'default-image' => get_template_directory_uri() . '/images/background.png', ) );
 
 	// This feature enables Custom Header.
 	add_theme_support( 'custom-header', array(
@@ -31,7 +30,7 @@ function anarcho_notepad_setup() {
 	  'height'        	   => 150,
 	  //'default-text-color'     => '#e5e5e5',
 	  'header-text'            => true,
-	  //'default-image' 	   => get_template_directory_uri() . '/images/logotype.jpg',
+	  //'default-image' 	   => get_template_directory_uri() . '/images/logotype.png',
 	  'uploads'       	   => true,
 	) );
 
@@ -55,7 +54,7 @@ function anarcho_notepad_setup() {
 	// This feature enables Link Manager in Admin page.
 	add_filter( 'pre_option_link_manager_enabled', '__return_true' );
 }
-add_action('after_setup_theme', 'anarcho_notepad_setup');
+add_action('after_setup_theme', 'anarcho_setup');
 
 //Adding backwards compatibility for title-tag less than WordPress version 4.1
 if ( ! function_exists( '_wp_render_title_tag' ) ) {
@@ -171,12 +170,6 @@ function anarcho_include_font_awesome_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'anarcho_include_font_awesome_styles' );
 
-/* Enable smoothscroll.js */
-function anarcho_include_smoothscroll_script() {
-	wp_enqueue_script( 'back-top', get_template_directory_uri() . '/js/smoothscroll.js', array( 'jquery' ), '',  true );
-}
-add_action( 'wp_enqueue_scripts', 'anarcho_include_smoothscroll_script' );
-
 /* Display block "About the Author" */
 function anarcho_author_bio() {
     if(get_theme_mod('disable_about_bio') !== '1') {
@@ -196,7 +189,7 @@ function anarcho_ribbons() {
         printf( '<div class="date-tab">
                      <span class="month">%1$s</span>
                      <span class="day">%2$s</span>
-                 </div><!-- .date-tab -->',
+                 </div>',
              esc_attr( get_the_date('F') ),
              esc_attr( get_the_date('j') )
         );
@@ -211,7 +204,7 @@ function anarcho_ribbons() {
         printf( '<div class="date-tab">
                      <span class="month">%1$s</span>
                      <span class="day">%2$s</span>
-                 </div><!-- .date-tab -->',
+                 </div>',
              esc_attr( get_the_date('F j') ),
              esc_attr( get_the_date('Y') )
         );
@@ -348,8 +341,8 @@ function anarcho_page_nav() {
 			<div class="nav-next"><?php previous_posts_link( 'Newer posts <i class="fa fa-arrow-right"></i>' ); ?></div>
 			<?php endif; ?>
 
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
+		</div>
+	</nav>
 	<?php
  }
 }
@@ -375,8 +368,8 @@ function anarcho_post_nav() {
 			<?php previous_post_link( '%link', '<i class="fa fa-arrow-left"></i> %title' ); ?>
 			<?php next_post_link( '%link', '%title <i class="fa fa-arrow-right"></i>' ); ?>
 
-		</div><!-- .nav-links -->
-	</nav><!-- .navigation -->
+		</div>
+	</nav>
 	<?php
 }
 
@@ -418,13 +411,13 @@ function anarcho_comment( $comment, $args, $depth ) {
 						// If current post author is also comment author, make it known visually.
 						( $comment->user_id === $post->post_author ) ? '<span>' . __( '(Post author) ', 'anarcho-notepad' ) . '</span>' : ''
 					);
-					printf( '<b>on <a href="%1$s"><time datetime="%2$s">%3$s</time></a></b>',
+					printf( '<b> on <a href="%1$s"><time datetime="%2$s">%3$s</time></a></b>',
 						esc_url( get_comment_link( $comment->comment_ID ) ),
 						get_comment_time( 'c' ),
 						sprintf( '%1$s', get_comment_date( 'j F, Y' ) )
 					);
 				?>
-			</header><!-- .comment-meta -->
+			</header>
 
 			<?php if ( '0' == $comment->comment_approved ) : ?>
 				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'anarcho-notepad' ); ?></p>
@@ -433,12 +426,12 @@ function anarcho_comment( $comment, $args, $depth ) {
 			<section class="comment-content comment">
 				<?php comment_text(); ?>
 				<?php edit_comment_link( __( 'Edit', 'anarcho-notepad' ), '<p class="edit-link">', '</p>' ); ?>
-			</section><!-- .comment-content -->
+			</section>
 
 			<div class="reply">
 				<?php comment_reply_link( array_merge( $args, array( 'reply_text' => __( 'Reply', 'anarcho-notepad' ), 'after' => ' <span>&darr;</span>', 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
-			</div><!-- .reply -->
-		</article><!-- #comment-## -->
+			</div>
+		</article>
 	<?php
 		break;
 	endswitch; // end comment_type check
@@ -446,46 +439,56 @@ function anarcho_comment( $comment, $args, $depth ) {
 
 /*
  * Copyright
- * Enable info about copyright
  */
 function anarcho_copyright() {
- if(get_theme_mod('disable_anarcho_copy') !== '1') {
-     $anarcho_copy_uri = "http://www.arthurgareginyan.com";
-     $anarcho_copy_text = 'Theme "Anarcho Notepad" designed and engineered by Arthur "Berserkr" Gareginyan.';
-     echo '<a title="Theme author" target="_blank" href=' . $anarcho_copy_uri . '>' . $anarcho_copy_text . '</a></br>';
- }
+
+    $anarcho_copy_theme_uri = "http://mycyberuniverse.com/anarcho-notepad.html";
+    $anarcho_copy_theme_name = "Anarcho Notepad";
+    $anarcho_copy_theme_link = '<a title="Theme page" target="_blank" href=' . $anarcho_copy_theme_uri . '>' . $anarcho_copy_theme_name . '</a>';
+
+    $anarcho_copy_author_uri = "http://www.arthurgareginyan.com";
+    $anarcho_copy_author_name = "Arthur Gareginyan";
+    $anarcho_copy_author_link = '<a title="Theme author" target="_blank" href=' . $anarcho_copy_author_uri . '>' . $anarcho_copy_author_name . '</a>';
+
+    echo 'Theme "' . $anarcho_copy_theme_link . '" by ' . $anarcho_copy_author_link . '.</br>';
+
 }
-add_action ('wp_footer','anarcho_copyright', 999);
+add_action('wp_footer','anarcho_copyright', 999);
 
 /*
  * Queries
  * Display info about a database queries
  */
 function anarcho_mysql_queries() {
- if(get_theme_mod('show_info_line') == '1') {
- 	echo "\n";
-	echo get_num_queries();
-	_e(' queries in ', 'anarcho-notepad');
-	timer_stop(1);
-	_e(' seconds', 'anarcho-notepad');
-	echo ' / ';
-	echo round(memory_get_usage()/1024/1024, 2);
-	_e(' mb', 'anarcho-notepad');
-	echo "\n";
- }
+    if (get_theme_mod('show_info_line') == '1') {
+        echo "\n";
+        echo get_num_queries();
+        _e(' queries in ', 'anarcho-notepad');
+        timer_stop(1);
+        _e(' seconds', 'anarcho-notepad');
+        echo ' / ';
+        echo round(memory_get_usage()/1024/1024, 2);
+        _e(' mb', 'anarcho-notepad');
+        echo "\n";
+    }
 }
-add_action ('wp_footer','anarcho_mysql_queries', 999);
+add_action('wp_footer','anarcho_mysql_queries', 999);
 
 /*
- * Top Button
- * Enable Top Button
+ * Scroll to Top Button
+ * Load smoothscroll.js and Enable Scroll to Top Button
  */
 function anarcho_top_button() {
- if(get_theme_mod('disable_top_button') !== '1') {
-	echo '<a id="back-top" href="#top"><i class="fa fa-arrow-up fa-lg"></i></a>';
- }
+    if (get_theme_mod('disable_top_button') !== '1') {
+        echo '<a id="back-top" href="#top"><i class="fa fa-arrow-up fa-lg"></i></a>';
+    }
 }
-add_action ('wp_footer','anarcho_top_button', 999);
+add_action('wp_footer','anarcho_top_button', 999);
+
+function anarcho_include_smoothscroll_script() {
+    wp_enqueue_script( 'back-top', get_template_directory_uri() . '/js/smoothscroll.js', array( 'jquery' ), '',  true );
+}
+add_action( 'wp_enqueue_scripts', 'anarcho_include_smoothscroll_script' );
 
 /*
  * No Content
@@ -505,8 +508,8 @@ function anarcho_not_found() {
  * Display Entry Meta
  */
 function anarcho_entry_meta() {
-	?>
-           <div class="meta">
+    ?>
+    <div class="meta">
 	<?php
 		if ( is_page() ) {
 			if ((the_category() != '')) {
@@ -525,8 +528,8 @@ function anarcho_entry_meta() {
 			?><i class="fa fa-folder-open"></i> <?php _e('Category: ', 'anarcho-notepad'); the_category(', '); ?> | <i class="fa fa-comment"></i> <?php comments_popup_link(__('LEAVE A COMMENT', 'anarcho-notepad' )); edit_post_link(__('EDIT', 'anarcho-notepad' ), ' | <i class="fa fa-pencil"> ', '</i>');
 		}
 	?>
-           </div>
-	<?php
+    </div>
+    <?php
 }
 
 ?>

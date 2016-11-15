@@ -2,9 +2,9 @@
 /**
  * The template for displaying Archive pages.
  *
- * @package	Anarcho Notepad
- * @since	2.16
- * @author	Arthur "Berserkr" Gareginyan <arthurgareginyan@gmail.com>
+ * @package     Anarcho Notepad
+ * @since       2.16
+ * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
  * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
