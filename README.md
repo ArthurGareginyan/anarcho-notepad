@@ -2,11 +2,11 @@
 
 **Free Premium WorPress Theme**
 
-Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. I'm glad to present you the most anarchist WP-theme Of All! Enjoy!
+Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the most anarchist WP-theme Of All! Enjoy!
 
 [![screenshot](https://github.com/ArthurGareginyan/anarcho-notepad/blob/master/screenshot.png)]()
 
-This theme is used simultaneously by more than three thousands people worldwide!
+>This theme is used simultaneously by more than 3.000 people worldwide!
 
 
 ## Features
@@ -28,16 +28,10 @@ This theme is used simultaneously by more than three thousands people worldwide!
 * Custom text of copyright below posts
 * Custom text of copyright in footer
 * Custom header image
-* Custom logo together or instead of the title of website
 * Custom background
 * Custom menu
 * Ready for translation (Translated to 12 languages)
 * Published to the repository WordPess.org
-
-**Coming soon:**
-
-* Responsive designe
-* Sticky Posts
 
 **Got more ideas? Tell me!**
 
@@ -54,13 +48,13 @@ If you discover a security vulnerability within this theme, please send an e-mai
 
 ## Copyrights for Resources used in this theme
 
-1. Font-Awesome Icons are under the MIT Licnese. http://fontawesome.io
-2. Font Name "Forum" are under the SIL Open Font License v1.1.
-3. The Default Background Image (images/background.jpg) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
-4. The images notepad-back.gif, pages-back.gif, pages-bottom.gif, postit-back.gif, postit-upper.gif, recent-posts-bottom.gif are under GPL license: http://www.notepadchaos.com
-5. The images anarchy-symbol-big.jpg, anarchy-symbol.jpg and anarchy-symbol.png is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
-6. The file html5.js present in the "/js" folder are under the MIT/GPL2 Licnese. https://github.com/aFarkas/html5shiv
-7. The file follow.png in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+1. The "Font Awesome" iconic font are under the MIT License. http://fontawesome.io
+2. The "Forum" font are under the SIL Open Font License v1.1.
+3. The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
+4. The notepad-middle.png, yellow-sticker-middle, yellow-sticker-bottom, white-sticker-top, white-sticker-middle, white-sticker-bottom images are under : http://www.notepadchaos.com
+5. The anarchy-symbol-big.png and anarchy-symbol.png images is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
+6. The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
+7. The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
 
 Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
 
