@@ -3,9 +3,9 @@
  * The template for displaying all single posts.
  *
  * @package     Anarcho Notepad
- * @since       2.24
+ * @since       2.31
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -25,7 +25,7 @@
 
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-      <?php anarcho_ribbons(); ?>
+      <?php anarcho_date_tag(); ?>
 
       <h1><?php the_title(); ?></h1>
       <div class="post-inner">
@@ -38,10 +38,14 @@
 
       <div class="after-posts"><?php echo get_theme_mod('scripts_after_posts'); ?></div>
       <br/>
-      <p class="tagsandcopy"><?php the_tags(); ?>
-      <br/>
-      <br/>
-      <?php echo esc_html(get_theme_mod('copyright_post')); ?></p>
+      <p class="tagsandcopy">
+            <?php the_tags(); ?>
+            <br/>
+            <?php
+                $anarcho_copy_post = __( 'Copyright 2017. All rights reserved.', 'anarcho-notepad' );
+                echo esc_html( get_theme_mod( 'copyright_post', $anarcho_copy_post ) );
+            ?>
+      </p>
 
       <?php anarcho_entry_meta(); ?>
       <?php anarcho_post_nav(); ?>
@@ -56,6 +60,7 @@
   </div>
 
    <?php get_sidebar(); ?>
-</section><br clear="all" />
+</section>
+<br clear="all" />
 
 <?php get_footer(); ?>

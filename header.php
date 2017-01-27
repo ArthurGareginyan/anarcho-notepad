@@ -3,9 +3,9 @@
  * The Header for our theme.
  *
  * @package     Anarcho Notepad
- * @since       2.28
+ * @since       2.31
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -13,13 +13,13 @@
 
 <!DOCTYPE html>
 <!--[if IE 7]>
-    <html class="ie ie7" <?php language_attributes(); ?>>
+	<html class="ie ie7" <?php language_attributes(); ?>>
 <![endif]-->
 <!--[if IE 8]>
-    <html class="ie ie8" <?php language_attributes(); ?>>
+	<html class="ie ie8" <?php language_attributes(); ?>>
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
-    <html <?php language_attributes(); ?>>
+	<html <?php language_attributes(); ?>>
 <!--<![endif]-->
 
 <head>
@@ -29,6 +29,7 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link href="//fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
 
 	<?php wp_head(); ?>
 
@@ -43,23 +44,23 @@
 	<?php } ?>
 
 	<div id="title">
-	  <a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+		<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 
-	   <?php $header_image = get_header_image();
-		if ( !empty( $header_image ) ) : ?>
-			<img
-				class="logo"
-				src="<?php esc_url(header_image()); ?>" 
-				height="<?php echo esc_attr(get_custom_header()->height); ?>" 
-				width="<?php echo esc_attr(get_custom_header()->width); ?>" 
-				alt="<?php bloginfo('name'); ?>" 
-			/>
-	   <?php endif; ?>
+			<?php $header_image = get_header_image();
+					if ( !empty( $header_image ) ) : ?>
+						<img
+							class="logo"
+							src="<?php esc_url(header_image()); ?>"
+							height="<?php echo esc_attr(get_custom_header()->height); ?>"
+							width="<?php echo esc_attr(get_custom_header()->width); ?>"
+							alt="<?php bloginfo('name'); ?>"
+						/>
+			<?php endif; ?>
 
-	    <h1 class="site-title"><?php bloginfo('name'); ?></h1>
-	    <h2 class="site-description"><?php bloginfo('description'); ?></h2>
+			<h1 class="site-title"><?php bloginfo('name'); ?></h1>
+			<h2 class="site-description"><?php bloginfo('description'); ?></h2>
 
-	  </a>
+		</a>
 	</div>
 
 </header>

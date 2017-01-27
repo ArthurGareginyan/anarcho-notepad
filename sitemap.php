@@ -1,13 +1,13 @@
 <?php
 /**
- * The template for displaying Author bios.
+ * The template for displaying Sitemap.
  *
  * Template Name: Sitemap Page
  *
  * @package     Anarcho Notepad
  * @since       2.6
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -29,27 +29,27 @@
 
 <!-- HTML Sitemap -->
 <div class="html-sitemap">
-   <!-- <h2><?php _e('Author(s):', 'anarcho-notepad'); ?></h2>
+   <!-- <h2><?php _e( 'Author(s):', 'anarcho-notepad' ); ?></h2>
     <ul class="sitemap-authors">
     <?php
        wp_list_authors('exclude_admin=1&optioncount=1');
     ?>
     </ul>-->
 
-    <h2><?php _e('Pages:', 'anarcho-notepad'); ?></h2>
+    <h2><?php _e( 'Pages:', 'anarcho-notepad' ); ?></h2>
     <ul class="sitemap-pages">
     <?php
       wp_list_pages('exclude=889&title_li='); //***Exclude page Id, separated. I excluded the sitemap of this blog (page_ID=889).
     ?>
     </ul>
 
-    <h2><?php _e('Posts:', 'anarcho-notepad'); ?></h2>
+    <h2><?php _e( 'Posts:', 'anarcho-notepad' ); ?></h2>
     <ul>
     <?php
     $cats = get_categories('exclude='); //***Exclude categories by ID, separated if you like.
 
     foreach ($cats as $cat) {?>
-      <li class="category"><h3><span class="grey"><?php _e('Category: ', 'anarcho-notepad'); ?></span><?php echo $cat->cat_name; ?></h3>
+      <li class="category"><h3><span class="grey"><?php _e( 'Category: ', 'anarcho-notepad' ); ?></span><?php echo $cat->cat_name; ?></h3>
       <ul class="cat-posts">
       <?php
       $query = new WP_Query( array( 'posts_per_page' => '-1' ) ); //-1 shows all posts per category. 1 to show most recent post.
@@ -71,7 +71,7 @@
     <?php
     wp_reset_query();
     ?>
-    <h2><?php _e('Archives:', 'anarcho-notepad'); ?></h2>
+    <h2><?php _e( 'Archives:', 'anarcho-notepad' ); ?></h2>
     <ul class="sitemap-archives">
     <?php
       wp_get_archives('type=monthly&show_post_count=true');
@@ -88,6 +88,7 @@
   </div>
 
    <?php get_sidebar(); ?>
-</section><br clear="all" />
+</section>
+<br clear="all" />
 
 <?php get_footer(); ?>

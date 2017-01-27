@@ -3,9 +3,9 @@
  * The template for displaying Search Results pages.
  *
  * @package     Anarcho Notepad
- * @since       2.16
+ * @since       2.31
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -20,13 +20,15 @@
 
 <div id="center">
 
-<h3><?php printf( 'Search Results for: %s', get_search_query() ); ?></h3>
+<strong><?php printf( 'Search Results for: %s', get_search_query() ); ?></strong>
+<br>
+<br>
 
   <?php if (have_posts()) : ?>
   <?php while (have_posts()) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<?php anarcho_ribbons(); ?>
+		<?php anarcho_date_tag(); ?>
 
 		<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h1>
 
@@ -43,13 +45,14 @@
 
    <?php anarcho_page_nav(); ?>
 
-   <?php else : echo _e('Sorry for your result nothing found', 'anarcho-notepad'); ?>
+   <?php else : echo _e( 'Sorry for your result nothing found', 'anarcho-notepad' ); ?>
    <?php endif; ?>
     </div>
 
   </div>
 
    <?php get_sidebar(); ?>
-</section><br clear="all" />
+</section>
+<br clear="all" />
 
 <?php get_footer(); ?>

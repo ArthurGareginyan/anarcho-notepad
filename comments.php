@@ -5,7 +5,7 @@
  * @package     Anarcho Notepad
  * @since       2.22
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -57,4 +57,4 @@ if ( post_password_required() )
 
 	<?php comment_form(); ?>
 
-</div><!-- #comments .comments-area -->
+</div>

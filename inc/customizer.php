@@ -3,9 +3,9 @@
  * Theme Customizer support
  *
  * @package     Anarcho Notepad
- * @since       2.30
+ * @since       2.31
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -14,14 +14,19 @@
 /* Implement Theme Customizer additions and adjustments */
 function anarcho_customize_register( $wp_customize ) {
 
-/* Class Anarcho_Customize_Textarea_Control */
-class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
-		public $type = 'textarea';
-		public function render_content() { ?>
-        		<label>
-        		<span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
-        		<textarea rows="5" style="width:100%;" <?php $this->link(); ?>><?php echo esc_textarea( $this->value() ); ?></textarea>
-        		</label> <?php } }
+    /* Class Anarcho_Customize_Textarea_Control */
+    class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
+
+        public $type = 'textarea';
+        public function render_content() {
+                ?>
+                    <label>
+                        <span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
+                        <textarea rows="5" style="width:100%;" <?php $this->link(); ?>><?php echo esc_textarea( $this->value() ); ?></textarea>
+                    </label>
+                <?php
+        }
+    }
 
    $wp_customize->remove_section( 'colors' );
 
@@ -31,40 +36,40 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		'priority'			=> 1,
    ));
 
-		// About widget in sidebar
+		// Text for the About widget
 		$wp_customize->add_setting( 'about_box', array(
-				'default'			=> __( 'Paste here small text about you and/or about your site.', 'anarcho-notepad' ),
-				'sanitize_callback' => 'esc_attr',
+		        'default'			=> __( 'Paste here small text about you and/or about your site.', 'anarcho-notepad' ),
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'about_box', array(
-				'priority'			=> 1,
-				'label'				=> __( 'About box - "What is this place?"', 'anarcho-notepad' ),
-				'section'			=> 'meta_section',
-				'settings'			=> 'about_box',
+		        'priority'			=> 1,
+		        'label'				=> __( 'About widget - "What is this place?"', 'anarcho-notepad' ),
+		        'section'			=> 'meta_section',
+		        'settings'			=> 'about_box',
 		)));
 
 		// Copyright after post
 		$wp_customize->add_setting( 'copyright_post', array(
-				'default'			=> 'Copyright 2016. All rights reserved.',
-				'sanitize_callback' => 'esc_attr',
+		        'default'			=> 'Copyright 2017. All rights reserved.',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'copyright_post', array(
-				'priority'			=> 2,
-				'label'				=> __( 'Copyright after post', 'anarcho-notepad' ),
-				'section'			=> 'meta_section',
-				'settings'			=> 'copyright_post',
+		        'priority'			=> 2,
+		        'label'				=> __( 'Copyright after post', 'anarcho-notepad' ),
+		        'section'			=> 'meta_section',
+		        'settings'			=> 'copyright_post',
 		)));
 
-		// Site-info in footer
+		// Copyright in footer
 		$wp_customize->add_setting( 'site-info', array(
-				'default'			=> 'Copyright 2016. All rights reserved.',
-				'sanitize_callback' => 'esc_attr',
+		        'default'			=> 'Copyright 2017. All rights reserved.',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'site-info', array(
-				'priority'			=> 3,
-				'label'				=> __( 'Site-info in footer', 'anarcho-notepad' ),
-				'section'			=> 'meta_section',
-				'settings'			=> 'site-info',
+		        'priority'			=> 3,
+		        'label'				=> __( 'Copyright in footer', 'anarcho-notepad' ),
+		        'section'			=> 'meta_section',
+		        'settings'			=> 'site-info',
 		)));
 
 
@@ -74,97 +79,109 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		'priority'			=> 2,
    ));
 
-		// Enable Title Animation
-		$wp_customize->add_setting('enable_title_animation', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
-		));
-		$wp_customize->add_control( 'enable_title_animation', array(
-				'priority'			=> 1,
-		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Enable "Title animation"', 'anarcho-notepad' ),
-		        'section'			=> 'stuff_section',
-		));
-
 		// Disable "Paper Search"
 		$wp_customize->add_setting('disable_paper_search', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'disable_paper_search', array(
-				'priority'			=> 2,
+		        'priority'			=> 1,
 		        'type'				=> 'checkbox',
 		        'label'				=> __( 'Disable "Paper Search"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
+		// Disable Red Date Ribbons
+		$wp_customize->add_setting('disable_ribbons', array(
+		        'default'           		=> '0',
+		        'sanitize_callback'		=> 'esc_attr',
+		));
+		$wp_customize->add_control( 'disable_ribbons', array(
+		        'priority'			=> 6,
+		        'type'				=> 'checkbox',
+		        'label'				=> __( 'Disable "Red Date Ribbons"', 'anarcho-notepad' ),
+		        'section'			=> 'stuff_section',
+		));
+
+		// Enable Year in Red Date Ribbons
+		$wp_customize->add_setting('enable_year_ribbons', array(
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
+		));
+		$wp_customize->add_control( 'enable_year_ribbons', array(
+		        'priority'			=> 5,
+		        'type'				=> 'checkbox',
+		        'label'				=> __( 'Enable Year in "Red Date Ribbons"', 'anarcho-notepad' ),
+		        'section'			=> 'stuff_section',
+		));
+
+		// Disable RSS feed ribbon tag
+		$wp_customize->add_setting('disable_rss_icon', array(
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
+		));
+		$wp_customize->add_control( 'disable_rss_icon', array(
+		        'priority'			=> 13,
+		        'type'				=> 'checkbox',
+		        'label'				=> __( 'Disable RSS feed ribbon tag', 'anarcho-notepad' ),
+		        'section'			=> 'stuff_section',
+		));
+
 		// Disable widget "What is this place"
 		$wp_customize->add_setting('disable_about_box', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'disable_about_box', array(
-				'priority'			=> 3,
+		        'priority'			=> 3,
 		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Disable box "What is this place?"', 'anarcho-notepad' ),
+		        'label'				=> __( 'Disable widget "What is this place?"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
 		// Disable widget "Friends & Links"
 		$wp_customize->add_setting('disable_links_box', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'disable_links_box', array(
-				'priority'			=> 4,
+		        'priority'			=> 4,
 		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Disable box "Friends & Links"', 'anarcho-notepad' ),
-		        'section'			=> 'stuff_section',
-		));
-
-		// Enable Year in Red Data Ribbons
-		$wp_customize->add_setting('enable_year_ribbons', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
-		));
-		$wp_customize->add_control( 'enable_year_ribbons', array(
-				'priority'			=> 5,
-		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Enable Year in "Red Data Ribbons"', 'anarcho-notepad' ),
-		        'section'			=> 'stuff_section',
-		));
-
-		// Disable Red Data Ribbons
-		$wp_customize->add_setting('disable_ribbons', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
-		));
-		$wp_customize->add_control( 'disable_ribbons', array(
-				'priority'			=> 6,
-		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Disable "Red Data Ribbons"', 'anarcho-notepad' ),
+		        'label'				=> __( 'Disable widget "Friends & Links"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
 		// Disable Recent Posts Sticker
 		$wp_customize->add_setting('disable_recent_sticker', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'disable_recent_sticker', array(
-				'priority'			=> 7,
+		        'priority'			=> 7,
 		        'type'				=> 'checkbox',
 		        'label'				=> __( 'Disable "Recent Posts Sticker"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
+		// Disable "About the Author"
+		$wp_customize->add_setting('disable_about_bio', array(
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
+		));
+		$wp_customize->add_control( 'disable_about_bio', array(
+		        'priority'			=> 10,
+		        'type'				=> 'checkbox',
+		        'label'				=> __( 'Disable block "About the Author"', 'anarcho-notepad' ),
+		        'section'			=> 'stuff_section',
+		));
+
 		// Enable "Breadcrumbs"
 		$wp_customize->add_setting('enable_breadcrumbs', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'enable_breadcrumbs', array(
-				'priority'			=> 8,
+		        'priority'			=> 8,
 		        'type'				=> 'checkbox',
 		        'label'				=> __( 'Enable "Breadcrumbs"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
@@ -172,35 +189,35 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Enable "Page Navigation"
 		$wp_customize->add_setting('enable_page-nav', array(
-				'default'           => '1',
-				'sanitize_callback' => 'esc_attr',
+		        'default'           		=> '1',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'enable_page-nav', array(
-				'priority'			=> 9,
+		        'priority'			=> 9,
 		        'type'				=> 'checkbox',
 		        'label'				=> __( 'Enable "Page Navigation"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
-		// Disable "About the Author"
-		$wp_customize->add_setting('disable_about_bio', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		// Enable Title Animation
+		$wp_customize->add_setting('enable_title_animation', array(
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
-		$wp_customize->add_control( 'disable_about_bio', array(
-				'priority'			=> 10,
+		$wp_customize->add_control( 'enable_title_animation', array(
+		        'priority'			=> 1,
 		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Disable block "About the Author"', 'anarcho-notepad' ),
+		        'label'				=> __( 'Enable "Title animation"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
 		// Disable button "Scroll To Top"
-		$wp_customize->add_setting('disable_top_button', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		$wp_customize->add_setting('disable_scroll_to_top', array(
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
-		$wp_customize->add_control( 'disable_top_button', array(
-				'priority'			=> 11,
+		$wp_customize->add_control( 'disable_scroll_to_top', array(
+		        'priority'			=> 11,
 		        'type'				=> 'checkbox',
 		        'label'				=> __( 'Disable button "Scroll To Top"', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
@@ -208,25 +225,13 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Show info line in footer
 		$wp_customize->add_setting('show_info_line', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
+		        'default'           		=> '0',
+		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'show_info_line', array(
-				'priority'			=> 12,
+		        'priority'			=> 12,
 		        'type'				=> 'checkbox',
 		        'label'				=> __( 'Show info line in footer', 'anarcho-notepad' ),
-		        'section'			=> 'stuff_section',
-		));
-
-		// Disable RSS icon in sidebar
-		$wp_customize->add_setting('disable_rss_icon', array(
-				'default'           => '0',
-				'sanitize_callback' => 'esc_attr',
-		));
-		$wp_customize->add_control( 'disable_rss_icon', array(
-				'priority'			=> 13,
-		        'type'				=> 'checkbox',
-		        'label'				=> __( 'Disable RSS icon in sidebar', 'anarcho-notepad' ),
 		        'section'			=> 'stuff_section',
 		));
 
@@ -243,23 +248,23 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		);
 		// Enable number of recent post
 		$wp_customize->add_setting( 'num_recent_post', array(
-				'default'	           	=> '6',
+				'default'	        => '6',
 				'control'               => 'select',
-				'sanitize_callback'		=> 'esc_attr',
+				'sanitize_callback'	=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'num_recent_post', array(
-				'label'					=> __('Numbers of recent posts in sidebar', 'anarcho-notepad'),
-				'priority'				=> 14,
-				'section'				=> 'stuff_section',
-				'settings'				=> 'num_recent_post',
-				'type'					=> 'select',
-				'choices'				=> $num_recent_post_array,
+				'label'			=> __( 'Numbers of recent posts in sidebar', 'anarcho-notepad' ),
+		        	'priority'		=> 14,
+				'section'		=> 'stuff_section',
+				'settings'		=> 'num_recent_post',
+				'type'			=> 'select',
+				'choices'		=> $num_recent_post_array,
 		));
 
     // SCRIPTS SECTION
     $wp_customize->add_section( 'scripts_section', array(
 		'title'				=> __( 'Scripts', 'anarcho-notepad' ),
-		'description'       => __( 'Put here your scripts', 'anarcho-notepad' ),
+		'description'      		=> __( 'Put here your scripts', 'anarcho-notepad' ),
 		'priority'			=> 3,
     ));
 
@@ -302,7 +307,7 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		// Scripts after posts
 		$wp_customize->add_setting( 'scripts_after_posts', array(
 				'default'           	=> '',
-				'sanitize_callback'		=> 'esc_attr',
+				'sanitize_callback'	=> 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_after_posts', array(
 				'priority'              => 5,
@@ -319,42 +324,41 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 
 		// Create an Array for font size
 		$font_size_array = array(
-				'Default'               => 'Default',
-				'80%'                   => '80%',
-				'90%'                   => '90%',
-				'100%'                  => '100%',
-				'110%'                  => '110%',
-				'120%'                  => '120%',
-				'130%'                  => '130%',
-				'140%'                  => '140%',
-				'150%'                  => '150%'
+				'Default'	=> 'Default',
+				'80%'	=> '80%',
+				'90%'	=> '90%',
+				'100%'	=> '100%',
+				'110%'	=> '110%',
+				'120%'	=> '120%',
+				'130%'	=> '130%',
+				'140%'	=> '140%',
+				'150%'	=> '150%'
 		);
-
 		// Enable font size for posts
 		$wp_customize->add_setting( 'post_font_size', array(
-				'default'           => 'Default',
-				'control'           => 'select',
-				'sanitize_callback' => 'esc_attr',
+				'default'           	=> 'Default',
+				'control'           	=> 'select',
+				'sanitize_callback' 	=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'post_font_size', array(
-				'label'             => __('Font size of posts', 'anarcho-notepad'),
-				'priority'          => 1,
-				'section'           => 'post_section',
-				'settings'          => 'post_font_size',
-				'type'              => 'select',
-				'choices'           => $font_size_array,
+				'label'             	=> __( 'Font size of posts', 'anarcho-notepad' ),
+				'priority'          	=> 1,
+				'section'           	=> 'post_section',
+				'settings'          	=> 'post_font_size',
+				'type'              	=> 'select',
+				'choices'           	=> $font_size_array,
 		));
 
-		// Create an Array with a ton of Google Fonts
-		$google_font_array = array(
+		// Create an Array with a list of Google Fonts
+		$google_fonts_array = array(
 			'Default'				=> 'Default',
 			'Questrial'				=> 'Questrial',
 			'Astloch'				=> 'Astloch',
-			'IM+Fell+English+SC'    => 'IM+Fell+English+SC',
+			'IM+Fell+English+SC'    		=> 'IM+Fell+English+SC',
 			'Lekton'				=> 'Lekton',
-			'Nova+Round'            => 'Nova+Round',
+			'Nova+Round'            		=> 'Nova+Round',
 			'Nova+Oval'				=> 'Nova+Oval',
-			'League+Script'         => 'League+Script',
+			'League+Script'         		=> 'League+Script',
 			'Caudex'				=> 'Caudex',
 			'IM+Fell+DW+Pica'			=> 'IM+Fell+DW+Pica',
 			'Nova+Script'				=> 'Nova+Script',
@@ -610,49 +614,49 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 			'Gruppo'				=> 'Gruppo',
 			'Cuprum'				=> 'Cuprum',
 			'Anonymous+Pro'				=> 'Anonymous+Pro',
-			'UnifrakturMaguntia'        => 'UnifrakturMaguntia',
-			'Covered+By+Your+Grace'     => 'Covered+By+Your+Grace',
+			'UnifrakturMaguntia'        		=> 'UnifrakturMaguntia',
+			'Covered+By+Your+Grace'     		=> 'Covered+By+Your+Grace',
 			'Homemade+Apple'			=> 'Homemade+Apple',
 			'Lobster+Two'				=> 'Lobster+Two',
 			'Coming+Soon'				=> 'Coming+Soon',
-			'Mountains+of+Christmas'    => 'Mountains+of+Christmas',
-			'Architects+Daughter'       => 'Architects+Daughter',
-			'Dawning+of+a+New+Day'      => 'Dawning+of+a+New+Day',
-			'Kranky'                    => 'Kranky',
-			'Adamina'                   => 'Adamina',
+			'Mountains+of+Christmas'    		=> 'Mountains+of+Christmas',
+			'Architects+Daughter'       		=> 'Architects+Daughter',
+			'Dawning+of+a+New+Day'      		=> 'Dawning+of+a+New+Day',
+			'Kranky'                    		=> 'Kranky',
+			'Adamina'                   		=> 'Adamina',
 			'Carter+One'				=> 'Carter+One',
-			'Bentham'                   => 'Bentham',
-			'IM+Fell+Great+Primer+SC'   => 'IM+Fell+Great+Primer+SC',
-			'Chewy'                     => 'Chewy',
+			'Bentham'                   		=> 'Bentham',
+			'IM+Fell+Great+Primer+SC'   		=> 'IM+Fell+Great+Primer+SC',
+			'Chewy'                     		=> 'Chewy',
 			'IM+Fell+English'			=> 'IM+Fell+English',
 			'Inconsolata'				=> 'Inconsolata',
-			'Vibur'                     => 'Vibur',
-			'Andada'                    => 'Andada',
-			'IM+Fell+Double+Pica'       => 'IM+Fell+Double+Pica',
-			'Kenia'                     => 'Kenia',
-			'Meddon'                    => 'Meddon',
-			'Metrophobic'               => 'Metrophobic',
-			'Play'                      => 'Play',
+			'Vibur'                     		=> 'Vibur',
+			'Andada'                    		=> 'Andada',
+			'IM+Fell+Double+Pica'       		=> 'IM+Fell+Double+Pica',
+			'Kenia'                     		=> 'Kenia',
+			'Meddon'                    		=> 'Meddon',
+			'Metrophobic'               		=> 'Metrophobic',
+			'Play'                      		=> 'Play',
 			'Special+Elite'				=> 'Special+Elite',
-			'IM+Fell+Double+Pica+SC'    => 'IM+Fell+Double+Pica+SC',
+			'IM+Fell+Double+Pica+SC'    		=> 'IM+Fell+Double+Pica+SC',
 			'Didact+Gothic'				=> 'Didact+Gothic',
 			'Modern+Antiqua'			=> 'Modern+Antiqua',
-			'VT323'                     => 'VT323',
-			'Annie+Use+Your+Telescope'  => 'Annie+Use+Your+Telescope');
+			'VT323'                     		=> 'VT323',
+			'Annie+Use+Your+Telescope'  		=> 'Annie+Use+Your+Telescope');
 
 		// Enable Google Fonts for posts
 		$wp_customize->add_setting( 'post_font', array(
 				'default'               => 'Default',
 				'control'               => 'select',
-				'sanitize_callback'		=> 'esc_attr',
+				'sanitize_callback'	=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'post_font', array(
-				'label'					=> __('Font of posts (Google Webfonts)', 'anarcho-notepad'),
-				'priority'				=> 1,
-				'section'				=> 'post_section',
-				'settings'				=> 'post_font',
-				'type'					=> 'select',
-				'choices'				=> $google_font_array,
+				'label'			=> __( 'Font of posts (Google Webfonts)', 'anarcho-notepad' ),
+				'priority'		=> 1,
+				'section'		=> 'post_section',
+				'settings'		=> 'post_font',
+				'type'			=> 'select',
+				'choices'		=> $google_fonts_array,
 		));
 
 
@@ -665,88 +669,88 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 		$wp_customize->add_setting( 'titlefontstyle_setting', array(
 				'default'               => 'Permanent+Marker',
 				'control'               => 'select',
-				'sanitize_callback'		=> 'esc_attr',
+				'sanitize_callback'	=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'titlefontstyle_control', array(
-				'label'					=> __('Site Title font (Google Webfonts)', 'anarcho-notepad'),
-				'priority'				=> 10,
-				'section'				=> 'title_tagline',
-				'settings'				=> 'titlefontstyle_setting',
-				'type'					=> 'select',
-				'choices'				=> $google_font_array,
+				'label'			=> __( 'Site Title font (Google Webfonts)', 'anarcho-notepad' ),
+				'priority'		=> 10,
+				'section'		=> 'title_tagline',
+				'settings'		=> 'titlefontstyle_setting',
+				'type'			=> 'select',
+				'choices'		=> $google_fonts_array,
 		));
 
 		// Enable Google Fonts for Tagline
 		$wp_customize->add_setting( 'taglinefontstyle_setting', array(
-				'default'          		=> 'Permanent+Marker',
+				'default'          	=> 'Permanent+Marker',
 				'control'               => 'select',
-				'sanitize_callback'		=> 'esc_attr',
+				'sanitize_callback'	=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'taglinefontstyle_control', array(
-				'label'					=> __('Site Tagline font (Google Webfonts)', 'anarcho-notepad'),
-				'priority'				=> 11,
-				'section'				=> 'title_tagline',
-				'settings'				=> 'taglinefontstyle_setting',
-				'type'					=> 'select',
-				'choices'				=> $google_font_array,
+				'label'			=> __( 'Site Tagline font (Google Webfonts)', 'anarcho-notepad' ),
+				'priority'		=> 11,
+				'section'		=> 'title_tagline',
+				'settings'		=> 'taglinefontstyle_setting',
+				'type'			=> 'select',
+				'choices'		=> $google_fonts_array,
 		));
 
 		// Title color
 		$wp_customize->add_setting( 'title_color', array(
 				'default'               => '#e5e5e5',
 				'transport'             => 'postMessage',
-				'type'           		=> 'option',
-				'sanitize_callback'		=> 'esc_attr',
+				'type'           	=> 'option',
+				'sanitize_callback'	=> 'esc_attr',
 		));
 		$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'title_color', array(
-                'label' 				=> __('Site Title color', 'anarcho-notepad'),
-                'section' 				=> 'title_tagline',
-                'settings' 				=> 'title_color',
-                'priority'				=> 12,
+                		'label' 		=> __( 'Site Title color', 'anarcho-notepad' ),
+                		'section' 		=> 'title_tagline',
+                		'settings' 		=> 'title_color',
+                		'priority'		=> 12,
 		)));
 
 		// Tagline color
-        $wp_customize->add_setting( 'tagline_color', array(
-                'default'               => '#9b9b9b',
-                'transport'             => 'postMessage',
-                'type'           		=> 'option',
-                'sanitize_callback'		=> 'esc_attr',
+        	$wp_customize->add_setting( 'tagline_color', array(
+                		'default'               => '#9b9b9b',
+                		'transport'             => 'postMessage',
+                		'type'           	=> 'option',
+                		'sanitize_callback'	=> 'esc_attr',
 		));
 		$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'tagline_color', array(
-                'label' 				=> __('Site Tagline color', 'anarcho-notepad'),
-                'section' 				=> 'title_tagline',
-				'settings' 				=> 'tagline_color',
-                'priority'				=> 13,
-        )));
+                		'label' 		=> __( 'Site Tagline color', 'anarcho-notepad' ),
+                		'section' 		=> 'title_tagline',
+				'settings' 		=> 'tagline_color',
+                		'priority'		=> 13,
+        	)));
 
-        // Title Position
-        $wp_customize->add_setting( 'title_position', array(
+        	// Title Position
+        	$wp_customize->add_setting( 'title_position', array(
 				'default'               => 'left',
-				'sanitize_callback'		=> 'esc_attr',
+				'sanitize_callback'	=> 'esc_attr',
 		));
-        $wp_customize->add_control( 'title_position', array(
-				'label' 				=> __('Site Title Position', 'anarcho-notepad'),
-                'section' 				=> 'title_tagline',
-                'settings' 				=> 'title_position',
-                'priority'				=> 14,
-                'type'                  => 'radio',
-                'choices'               => array(
-                                                 'left'     => __('Left', 'anarcho-notepad'),
-                                                 'center'   => __('Center', 'anarcho-notepad')
+        	$wp_customize->add_control( 'title_position', array(
+				'label' 		=> __( 'Site Title Position', 'anarcho-notepad' ),
+                		'section' 		=> 'title_tagline',
+                		'settings' 		=> 'title_position',
+                		'priority'		=> 14,
+                		'type'                  => 'radio',
+                		'choices'               => array(
+                                                 'left'     => __( 'Left', 'anarcho-notepad' ),
+                                                 'center'   => __( 'Center', 'anarcho-notepad' )
                                                  ),
-        ));
+        	));
 
     // BACKGROUND SECTION
     $wp_customize->get_section( 'background_image' );
 
 		// Background color
-        $wp_customize->add_setting( 'background_color' , array(
+        	$wp_customize->add_setting( 'background_color' , array(
 				'default'     			=> '000000',
 				'transport'   			=> 'postMessage',
 				'sanitize_callback'		=> 'esc_attr',
 		));
 		$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'background_color', array(
-				'label'                 => __('Background Color', 'anarcho-notepad'),
+				'label'                 => __( 'Background Color', 'anarcho-notepad' ),
 				'section'               => 'background_image',
 		)));
 
@@ -757,15 +761,15 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 				'sanitize_callback'		=> 'esc_attr',
 		));
 		$wp_customize->add_control( 'backgroundsize_control', array(
-				'label'                 => __('Background Size', 'anarcho-notepad'),
+				'label'                 => __( 'Background Size', 'anarcho-notepad' ),
 				'section'               => 'background_image',
 				'settings'              => 'backgroundsize_setting',
 				'priority'              => 10,
 				'type'                  => 'radio',
 				'choices'               => array(
-												'auto'		=> __('Auto (Default)', 'anarcho-notepad'),
-												'contain'	=> __('Contain', 'anarcho-notepad'),
-                                                'cover'		=> __('Cover', 'anarcho-notepad'),
+												'auto'		=> __( 'Auto (Default)', 'anarcho-notepad' ),
+												'contain'	=> __( 'Contain', 'anarcho-notepad' ),
+                                                'cover'		=> __( 'Cover', 'anarcho-notepad' ),
                                             ),
 		));
 
@@ -773,50 +777,31 @@ class Anarcho_Customize_Textarea_Control extends WP_Customize_Control {
 add_action( 'customize_register', 'anarcho_customize_register' );
 
 /* Inject the Customizer Choices into the Theme */
-add_action('wp_head', 'anarcho_inline_css');
 function anarcho_inline_css() {
 
-		if ( ( get_theme_mod('enable_title_animation') == '1' ) ) echo '<script>
-var tit=document.title,c=0;function writetitle(){document.title=tit.substring(0,c);c==tit.length?(c=0,setTimeout("writetitle()",3E3)):(c++,setTimeout("writetitle()",200))}writetitle(); 
-</script>' . "\n";
-
-		/* Custom Font Styles */
-		if ( ( get_theme_mod('titlefontstyle_setting') != 'Default' ) && ( get_theme_mod('titlefontstyle_setting') != '' ) ) {
-			echo "<link href='//fonts.googleapis.com/css?family=" . get_theme_mod('titlefontstyle_setting') . "' rel='stylesheet' type='text/css'>"  . "\n";
-			$q = get_theme_mod('titlefontstyle_setting');
-			$q = preg_replace('/[^a-zA-Z0-9]+/', ' ', $q);
-			echo '<style type="text/css" media="screen">' . "\n";
-		 	echo	".site-title {font-family: '" . $q . "';}" . "\n";
-			echo '</style>' . "\n";
-		}
-		if ( ( get_theme_mod('taglinefontstyle_setting') != 'Default' ) && ( get_theme_mod('taglinefontstyle_setting') != '' ) ) {
-			echo "<link href='//fonts.googleapis.com/css?family=" . get_theme_mod('taglinefontstyle_setting') . "' rel='stylesheet' type='text/css'>"  . "\n";
-			echo '<style type="text/css" media="screen">' . "\n";
-			$x = get_theme_mod('taglinefontstyle_setting');
-			$x = preg_replace('/[^a-zA-Z0-9]+/', ' ', $x);
-			echo	".site-description {font-family: '" . $x . "';}" . "\n";
-			echo '</style>' . "\n";
-		}
-		if ( ( get_theme_mod('post_font') != 'Default' ) && ( get_theme_mod('post_font') != '' ) ) {
-			echo "<link href='//fonts.googleapis.com/css?family=" . get_theme_mod('post_font') . "' rel='stylesheet' type='text/css'>"  . "\n";
-			echo '<style type="text/css" media="screen">' . "\n";
-			$x = get_theme_mod('post_font');
-			$x = preg_replace('/[^a-zA-Z0-9]+/', ' ', $x);
-			echo	"#content .col01 .post-inner {font-family: '" . $x . "';}" . "\n";
-			echo '</style>' . "\n";
-		}
-                if ( ( get_theme_mod('post_font_size') != 'Default' ) && ( get_theme_mod('post_font_size') != '' ) ) {
-                        echo '<style type="text/css" media="screen">' . "\n";
-                        $x = get_theme_mod('post_font_size');
-                        echo    "#content .col01 .post-inner {font-size: " . $x . ";}" . "\n";
-                        echo '</style>' . "\n";
+    if ( ( get_theme_mod('enable_title_animation') == '1' ) ) {
+        echo '
+            <script>
+                var tit=document.title,c=0;
+                function writetitle() {
+                        document.title=tit.substring(0,c);c==tit.length?(c=0,setTimeout("writetitle()",3E3)):(c++,setTimeout("writetitle()",200))
                 }
-		/* End - Custom Font Styles */
+                writetitle();
+            </script>
+            ' . "\n";
+    }
 
-	?><style type="text/css"><?php
+    /* Load Custom Fonts from the Google library */
+    echo "<link href='//fonts.googleapis.com/css?family=" . get_theme_mod( 'titlefontstyle_setting', 'Permanent+Marker' ) . "' rel='stylesheet' type='text/css'>"  . "\n";
+    echo "<link href='//fonts.googleapis.com/css?family=" . get_theme_mod( 'taglinefontstyle_setting', 'Permanent+Marker' ) . "' rel='stylesheet' type='text/css'>"  . "\n";
+    echo "<link href='//fonts.googleapis.com/css?family=" . get_theme_mod( 'post_font' ) . "' rel='stylesheet' type='text/css'>"  . "\n";
 
-		/* Background-size */
-		?>
+    ?>
+        <style type="text/css" media="screen">
+    <?php
+
+	/* Background-size */
+	?>
 			body.custom-background {
 				-webkit-background-size: <?php echo get_theme_mod( 'backgroundsize_setting' ); ?>;
 				-moz-background-size: <?php echo get_theme_mod( 'backgroundsize_setting' ); ?>;
@@ -824,78 +809,88 @@ var tit=document.title,c=0;function writetitle(){document.title=tit.substring(0,
 				background-size: <?php echo get_theme_mod( 'backgroundsize_setting' ); ?>;
 			}
 		<?php
-		/* End - Background-size */
 
 		/* Has the text been hidden? */
 		if ( ! display_header_text() ) {
-		?>
-			.site-title,
-			.site-description {
-				position: absolute;
-				clip: rect(1px 1px 1px 1px); /* IE7 */
-				clip: rect(1px, 1px, 1px, 1px);
-			}
-		<?php
+            ?>
+                .site-title,
+                .site-description {
+                    position: absolute;
+                    clip: rect(1px 1px 1px 1px); /* IE7 */
+                    clip: rect(1px, 1px, 1px, 1px);
+                }
+            <?php
 		}
-		/* End - Has the text been hidden? */
 
-		/* Title & Description Color. */
+	/* Title & Description */
+        $titlefont = get_theme_mod( 'titlefontstyle_setting', 'Permanent+Marker' );
+        $titlefont = preg_replace('/[^a-zA-Z0-9]+/', ' ', $titlefont);
+        $taglinefont = get_theme_mod( 'taglinefontstyle_setting', 'Permanent+Marker' );
+        $taglinefont = preg_replace('/[^a-zA-Z0-9]+/', ' ', $taglinefont);
 		?>
-		.site-title { color: <?php echo get_option('title_color'); ?>; }
-		.site-description { color: <?php echo get_option('tagline_color'); ?>; }
+            .site-title {
+                font-family: <?php echo $titlefont; ?>;
+                color: <?php echo get_option('title_color'); ?>;
+            }
+            .site-description {
+                font-family: <?php echo $taglinefont; ?>;
+                color: <?php echo get_option( 'tagline_color', '#9b9b9b' ); ?>;
+            }
 		<?php
 
-		/* If the user has set a custom color for the text in admin panel, use that. */
-	       	/*if ( 'blank' != get_header_textcolor() ) {
-    		?>
-        		.site-title,
-        		.site-description {
-            			color: #<?php echo get_header_textcolor(); ?>;
-       		 	}
-		<?php
-		}*/
-		/* End - Title & Description Color. */
-
-		/* Site Title Position. */
-		if ( get_theme_mod('title_position') == 'left') {
-    		?>
-        		#title { margin-left: 4%; }
-		<?php
-		}
-		if ( get_theme_mod('title_position') == 'center') {
+		/* Title Position. */
+		if ( get_theme_mod('title_position') == 'center' ) {
     		?>
         		#title { margin-left: 20%; }
 		<?php
 		}
-		/*End - Site Title Position. */
+
+        /* Post */
+        $post_font = get_theme_mod( 'post_font', 'Forum' );
+        $post_font = preg_replace('/[^a-zA-Z0-9]+/', ' ', $post_font);
+        ?>
+            #content .col01 .post-inner {
+                font-family: <?php echo $post_font; ?>;
+            }
+        <?php
+        $post_font_size = get_theme_mod( 'post_font_size', '' );
+        ?>
+            #content .col01 .post-inner {
+                font-size: <?php echo $post_font_size; ?>;
+            }
+        <?php
 
 		/* Disable Paper Search */
-		if ( get_theme_mod('disable_paper_search') == '1') {
-		$outer_back=get_template_directory_uri() . '/images/outer-back.png';
-		?>
-			#title { height: 80%; }
-			.logo { margin-top: 4%; }
-			.site-title { margin-top: 4%; }
-			.site-header {
-				background:url( <?php echo $outer_back ?> ) no-repeat top center;
-				margin-top: -2.8%; }
-			.top-search-form {
-				position: absolute;
-				clip: rect(1px 1px 1px 1px); /* IE7 */
-				clip: rect(1px, 1px, 1px, 1px); }
-		<?php
+		if ( get_theme_mod('disable_paper_search') == '1' ) {
+            $outer_back=get_template_directory_uri() . '/images/outer-back.png';
+            ?>
+                #title { height: 80%; }
+                .logo { margin-top: 4%; }
+                .site-title { margin-top: 4%; }
+                .site-header {
+                    background:url( <?php echo $outer_back ?> ) no-repeat top center;
+                    margin-top: -2.8%; }
+                .top-search-form {
+                    position: absolute;
+                    clip: rect(1px 1px 1px 1px); /* IE7 */
+                    clip: rect(1px, 1px, 1px, 1px); }
+            <?php
 		}
-		if ( get_theme_mod('disable_paper_search') !== '1') {
-		$outer_back_search=get_template_directory_uri() . '/images/outer-back-search.png';
-		?>
-			.site-header { background:url( <?php echo $outer_back_search ?> ) no-repeat top center; }
-		<?php
+		if ( get_theme_mod('disable_paper_search') !== '1' ) {
+            $outer_back_search=get_template_directory_uri() . '/images/outer-back-search.png';
+            ?>
+                .site-header {
+                    background:url( <?php echo $outer_back_search ?> ) no-repeat top center;
+                }
+            <?php
 		}
-		/* End - Disable Paper Search */
 
-	?></style><?php
+    ?>
+        </style>
+    <?php
 
 }
+add_action('wp_head', 'anarcho_inline_css');
 
 function anarcho_customizer_live_preview() {
 	wp_enqueue_script(

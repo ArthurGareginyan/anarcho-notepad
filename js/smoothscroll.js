@@ -1,23 +1,23 @@
 /*
- Smooth scroll v1.1 | @agareginyan | GPL v3 Licensed
+ Smooth scroll v1.2 | @agareginyan | GPL v3 Licensed
 */
 
 
 jQuery(document).ready(function($) {
 
-    $('#back-top').hide();
+	$('.scroll-to-top').hide();
 
-    $(window).scroll(function() {
-        if ($(this).scrollTop() < 200) {
-			$('#back-top') .fadeOut();
-        } else {
-			$('#back-top') .fadeIn();
-        }
-    });
+	$(window).scroll(function() {
+		if ($(this).scrollTop() < 200) {
+			$('.scroll-to-top') .fadeOut();
+		} else {
+			$('.scroll-to-top') .fadeIn();
+		}
+	});
 
-	$('#back-top').on('click', function() {
+	$('.scroll-to-top').on('click', function() {
 		$('html, body').animate({scrollTop:0}, 'fast');
 		return false;
-    });
+	});
 
 });

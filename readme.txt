@@ -1,12 +1,12 @@
 = Anarcho Notepad =
 
-Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
+	Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 
 	Author: Arthur Gareginyan
 
 	Author URI: http://www.arthurgareginyan.com
 
-	Copyright (c) 2013-2016, Arthur Gareginyan
+	Copyright (c) 2013-2017, Arthur Gareginyan
 
 	License: GNU General Public License, version 3 (GPLv3)
 
@@ -15,19 +15,20 @@ Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 
 == About Anarcho Notepad ==
 
-	Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customised and already translated to different languages. It utilises latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalise it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the most anarchist WP-theme Of All! Enjoy!
+	Inspired by the idea of anarchy, I designed this free premium WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. I’m constantly adding new features to this theme to allow you to personalize it to your own needs. If you want a new feature or just want to be able to change something just ask me and I would be happy to add it. I'm glad to present you the most anarchist WP-theme Of All! Enjoy!
+
 
 == Copyrights for Resources used in this theme.
 
 	I) The "Font Awesome" iconic font are under the MIT License. http://fontawesome.io
 	II) The "Forum" font are under the SIL Open Font License v1.1.
-	III) The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
-	IV) The notepad-middle.png, yellow-sticker-middle, yellow-sticker-bottom, white-sticker-top, white-sticker-middle, white-sticker-bottom images are under : http://www.notepadchaos.com
-	V) The anarchy-symbol-big.png and anarchy-symbol.png images is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
-	VI) The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
-	VII) The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+	III) The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
+	IV) The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+	V) The notepad-middle.png, yellow-sticker-middle, yellow-sticker-bottom, white-sticker-top, white-sticker-middle, white-sticker-bottom images are from the theme ("Notepad Chaos v2.0")[http://www.notepadchaos.com] by (Evan Eckard)[http://www.evaneckard.com].
+	VI) The anarchy-symbol-big.png and anarchy-symbol.png images is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
+	VII) The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
 
-	Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
+	Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme.
 
 
 == Installing Anarcho Notepad Manually (FTP) ==
@@ -43,7 +44,7 @@ Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 		3. From the Available Themes section, click on the Theme title (or Theme screenshot) for Anarcho Notepad to activate.
 		4. A preview of the Theme will be shown.
 		5. To activate the Theme click the Activate "Anarcho Notepad" link in the top right.
-		6. Then you need to go to the Appearance —> Customize for further customisation of your theme.
+		6. Then you need to go to the Appearance —> Customize for further customization of your theme.
 
 	Your selection should immediately become active.
 
@@ -52,11 +53,11 @@ Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 
 == Customizing Anarcho Notepad ==
 
-	To customise Anarcho Notepad using the built in options, Anarcho Notepad should already be active:
+	To customize Anarcho Notepad using the built in options, Anarcho Notepad should already be active:
 		1. Log in to the WordPress Administration Panel.
 		2. Select the Appearance panel, then Customize.
 		3. A page explaining the options will be displayed.
-		4. Click save to finalise your selections.
+		4. Click save to finalize your selections.
 
 	Your selection should immediately become active.
 
@@ -67,12 +68,12 @@ Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 
 	**License**
 
-		This theme is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
-		Commercial licensing (e.g. for projects that can’t use an open-source license) is available upon request.
+		All PHP code, and PDF/POT/PO/MO files is released under the [GNU General Public License version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html).
+		All HTML/CSS/JAVASCRIPT code, and PNG files is released under the restrictive proprietary license.
 
 	**Credits**
 
-		In the theme "Anarcho Notepad" is used several images from theme ("Notepad Chaos v2.0")[http://www.notepadchaos.com] by (Evan Eckard)[http://www.evaneckard.com].
+		In the theme "Anarcho Notepad" is used several images from the theme ("Notepad Chaos v2.0")[http://www.notepadchaos.com] by (Evan Eckard)[http://www.evaneckard.com].
 
 	**Support**
 
@@ -206,6 +207,39 @@ Theme URI: http://mycyberuniverse.com/anarcho-notepad.html
 			 * Text of theme author copyright updated.
 			 * The "Disable copyright of the author..." option in customizer removed.
 			 * Minor additions and fixes.
+   2.31   (2017.01.26) - * The copyright date updated.
+			 * Author's copyright text in the footer updated.
+			 * All code better formatted.
+			 * All CSS code improved.
+			 * Better cross browser compatibility.
+			 * Better RTL compatibility.
+			 * The 'screenshot.png' file updated.
+			 * Some images better optimized for web purposes.
+			 * The 'Font Awesome' iconic font updated to version 4.7.
+			 * Theme page improved.
+			 * Some functions moved from the theme_info.php file to the functions.php file.
+			 * The 'theme_info.css' file moved to 'inc' catalog.
+			 * The 'admin.css' file moved to 'inc' catalog.
+			 * Added a function for upgrading the DB settings.
+			 * The 'anarcho_ribbons' function renamed to 'anarcho_date_tag'.
+			 * Added a default values to every use of 'get_theme_mods'.
+			 * The 'Scroll to Top' button updated. The 'anarcho_top_button' function renamed to 'anarcho_scroll_to_top'.
+			   The 'disable_top_button' option renamed to 'disable_scroll_to_top'. The 'back-top' class changed to ID 'scroll-to-top'.
+			   The 'smoothscroll.js' file updated to version 1.2.
+			 * The customizer options better sorted and improved.
+			 * The 'theme-customizer.js' file updated to version 1.2.
+			 * Link to the default font ('Permanent Marker') for website title added to the 'head' section.
+			 * Added the default text of the 'What is this place' widget into sidebar.
+			 * Added the default text of copyright below a posts.
+			 * Grammar mistake in the "You're currently reading" fixed.
+			 * Added default values of the font for Title and Tagline.
+			 * Added default text of the copyright in footer.
+			 * Font size of sidebar widgets title changed to 18 pixels.
+			 * Comment icon in the meta section changed from the fa-comment to the fa-commenting (Font-Awesome).
+			 * The 'follow.png' image optimized. Position of the RSS follow icon fixed.
+			 * Code in the footer.php file restructured.
+			 * Position of the widgets in footer optimized.
+			 * Added an admin notice about the premium versions of this theme.
 
 
 == Contact & Issues for Anarcho Notepad ==

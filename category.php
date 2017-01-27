@@ -3,9 +3,9 @@
  * The template for displaying Category pages.
  *
  * @package     Anarcho Notepad
- * @since       2.16
+ * @since       2.31
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -23,7 +23,7 @@
 
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-      <?php anarcho_ribbons(); ?>
+      <?php anarcho_date_tag(); ?>
 
       <h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h1>
       <div class="post-inner">
@@ -44,6 +44,7 @@
   </div>
 
    <?php get_sidebar(); ?>
-</section><br clear="all" />
+</section>
+<br clear="all" />
 
 <?php get_footer(); ?>

@@ -4,67 +4,74 @@ It's easy, just a matter of overwriting all the horizontal positioning attribute
 of your CSS stylesheet in a separate stylesheet file named rtl.css.
  *
  * @package     Anarcho Notepad
- * @since       2.30
+ * @since       2.31
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
- * @link      	http://mycyberuniverse.com/anarcho-notepad.html
- * @license   	http://www.gnu.org/licenses/gpl-3.0.html
+ * @copyright   Copyright (c) 2013-2017, Arthur Gareginyan
+ * @link        http://mycyberuniverse.com/anarcho-notepad.html
+ * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
 
 
 .aligncenter,
 div.aligncenter {
-	margin-right: auto;
-	margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .alignright {
-	float: right;
+    float: right;
 }
 
 .alignleft {
-	float: left;
+    float: left;
 }
 
 /* Title
 -------------------------------------------------------------- */
 #title {
-	margin-right: 45%;
+    margin-right: 45%;
 }
 
 /* Search
 -------------------------------------------------------------- */
 .top-search-form {
-	margin-right: 5%;
+    margin-right: 5%;
 }
 
 /* Sidebar
 -------------------------------------------------------------- */
 #sidebar .yellow-sticker ul {
-	margin-right: 15%;
+    margin-right: 15%;
+}
+#sidebar .yellow-sticker-middle ul li a {
+    padding: 4px 25px 4px 0;
 }
 
-#sidebar .white-sticker ul li a {
-	padding: 4px 30px 4px 25px;
+#sidebar .white-sticker-middle ul li a {
+    padding: 4px 25px 4px 0;
+}
+
+.follow {
+    margin-right: -80px;
 }
 
 /* Comment
 -------------------------------------------------------------- */
 
 #commentform .comment-field {
-	float: right;
+    float: right;
 }
 
 #commentform .btnComment {
-	float: right;
-	clear: right;
+    float: right;
+    clear: right;
 }
 
 /* Comment list
 -------------------------------------------------------------- */
 .avatar {
-	float: right;
-	clear: right;
-	margin-left: 10px;
-	margin-right: auto;
+    float: right;
+    clear: right;
+    margin-left: 10px;
+    margin-right: auto;
 }

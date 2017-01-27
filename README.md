@@ -50,18 +50,20 @@ If you discover a security vulnerability within this theme, please send an e-mai
 
 1. The "Font Awesome" iconic font are under the MIT License. http://fontawesome.io
 2. The "Forum" font are under the SIL Open Font License v1.1.
-3. The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
-4. The notepad-middle.png, yellow-sticker-middle, yellow-sticker-bottom, white-sticker-top, white-sticker-middle, white-sticker-bottom images are under : http://www.notepadchaos.com
-5. The anarchy-symbol-big.png and anarchy-symbol.png images is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
-6. The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
-7. The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+3. The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
+4. The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+5. The notepad-middle.png, yellow-sticker-middle, yellow-sticker-bottom, white-sticker-top, white-sticker-middle, white-sticker-bottom images are from the theme ("Notepad Chaos v2.0")[http://www.notepadchaos.com] by (Evan Eckard)[http://www.evaneckard.com].
+6. The anarchy-symbol-big.png and anarchy-symbol.png images is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
+7. The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
 
-Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme and is distributed under GPLv3 license.
+Everything else used in this theme has been created by me, especially for "Anarcho Notepad" theme.
 
 
 ## License
 
-This theme is open-sourced software licensed under the [GNU General Public License, version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html) and is distributed free of charge.
+All PHP code, and PDF/POT/PO/MO files is released under the [GNU General Public License version 3 (GPLv3)](http://www.gnu.org/licenses/gpl-3.0.html).
+
+All HTML/CSS/JAVASCRIPT code, and PNG files is released under the restrictive proprietary license.
 
 
 ## Author

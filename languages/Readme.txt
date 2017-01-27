@@ -2,7 +2,7 @@
 CONTRIBUTING YOUR TRANSLATION
 
 
-"Anarcho-Notepad" theme is ready for translation. It written on English and translated into:
+"Anarcho Notepad" theme is ready for translation. It written on English and translated into:
   * Russian (translated by Arthur Gareginyan)
   * Ukrainian (translated by Svetlana Drotyanko)
   * Slovak (translated by Martin Petrus)

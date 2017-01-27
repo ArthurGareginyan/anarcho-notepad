@@ -3,9 +3,9 @@
  * The sidebar containing the secondary widget area, displays on posts and pages.
  *
  * @package     Anarcho Notepad
- * @since       2.30
+ * @since       2.31
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2016, Arthur Gareginyan
+ * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
  * @link      	http://mycyberuniverse.com/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -14,7 +14,7 @@
 <aside id="sidebar" role="complementary">
 
 <!--FOLLOW-->
-<?php if(get_theme_mod('disable_rss_icon') !== '1') {  ?>
+<?php if ( get_theme_mod('disable_rss_icon') !== '1' ) {  ?>
     <div class="follow">
         <a href="http://click-to-follow.me" target="_blank" rel="nofollow" >
             <img src="<?php echo get_template_directory_uri(); ?>/images/follow.png" alt="RSS" />
@@ -33,10 +33,13 @@
 <?php dynamic_sidebar( 'sidebar-1' ); ?>
 
 <!--ABOUT (WIDGET)-->
-<?php if(get_theme_mod('disable_about_box') !== '1') {  ?>
+<?php if ( get_theme_mod('disable_about_box') !== '1' ) {  ?>
     <div class="about-widget">
         <p>
-            <?php echo sanitize_text_field(get_theme_mod('about_box')); ?>
+            <?php
+                $about_text = __( 'Paste here small text about you and/or about your site.', 'anarcho-notepad' );
+                echo sanitize_text_field( get_theme_mod( 'about_box', $about_text ) );
+            ?>
         </p>
     </div>
 <?php }  ?>
@@ -45,7 +48,7 @@
 <?php dynamic_sidebar( 'sidebar-2' ); ?>
 
 <!--LINKS (WIDGET)-->
-<?php if(get_theme_mod('disable_links_box') !== '1') {  ?>
+<?php if ( get_theme_mod('disable_links_box') !== '1' ) {  ?>
     <div class="links-widget">
         <p>
             <ul>
@@ -59,23 +62,24 @@
 <?php dynamic_sidebar( 'sidebar-3' ); ?>
 
 <!--WHITE STICKER-->
-<?php if(get_theme_mod('disable_recent_sticker') !== '1') {  ?>
+<?php if ( get_theme_mod('disable_recent_sticker') !== '1' ) {  ?>
     <div class="white-sticker-top"></div>
-        <nav class="white-sticker-middle">
-            <?php $num_recent_post = get_theme_mod('num_recent_post'); ?>
-            <?php $query = new WP_Query( array( 'posts_per_page' => $num_recent_post ) ); ?>
-            <?php while ($query->have_posts()): $query->the_post(); ?>
-                <ul>
-                    <li>
-                        <a href="<?php the_permalink(); ?>"><i class="fa fa-asterisk"></i>&nbsp;&nbsp;<?php the_title(); ?></a>
-                    </li>
-                </ul>
-            <?php endwhile; ?>
-        </nav>
+    <nav class="white-sticker-middle">
+        <?php $num_recent_post = get_theme_mod('num_recent_post'); ?>
+        <?php $query = new WP_Query( array( 'posts_per_page' => $num_recent_post ) ); ?>
+        <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+            <ul>
+                <li>
+                    <a href="<?php the_permalink(); ?>"><i class="fa fa-asterisk"></i>&nbsp;&nbsp;<?php the_title(); ?></a>
+                </li>
+            </ul>
+        <?php endwhile; ?>
+    </nav>
     <div class="white-sticker-bottom"></div>
 <?php }  ?>
 <!--END-WHITE STICKER-->
 
 <?php dynamic_sidebar( 'sidebar-4' ); ?>
 
-</aside><br clear="all" />
+</aside>
+<br clear="all" />
