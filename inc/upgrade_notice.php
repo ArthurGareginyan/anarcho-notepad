@@ -3,10 +3,10 @@
  * Upgrade notice
  *
  * @package     Anarcho Notepad
- * @since       2.31
+ * @since       2.32
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
- * @link      	http://mycyberuniverse.com/anarcho-notepad.html
+ * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
+ * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
 
@@ -19,28 +19,26 @@ function anarcho_upgrade_notice() {
         <div class="notice anarcho-notice">
             <div class="anarcho-notice-item anarcho-notice">
 
-                <span class="dashicons dashicons-star-filled anarcho-notice-icon-1"></span>
-                <span class="dashicons dashicons-star-filled anarcho-notice-icon-2"></span>
-                <span class="dashicons dashicons-admin-appearance anarcho-notice-icon-3"></span>
+                <img src="<?php echo get_template_directory_uri() . '/images/theme_info/spacexchimp-logo.png'; ?>" alt="Anarcho Notepad" class="anarcho-notice-icon">
 
                 <div class="anarcho-notice-message-container">
                     <h3 class="anarcho-notice-title">
-                        <?php _e( 'Upgrade the Anarcho-Notepad theme to PREMIUM version for only $59!', 'anarcho-notepad' ); ?>
+                        <?php _e( 'Upgrade the Anarcho-Notepad theme to PREMIUM version!', 'anarcho-notepad' ); ?>
                     </h3>
                     <span class="anarcho-notice-message">
-                        <?php _e( 'Hello, My name is Arthur, I\'m a man behind the Anarcho-Notepad theme. I\'m pleased to inform you that now available two premium versions of this theme: the Author\'s-Notepad and the Simple-Notepad. Note that they has much more advanced Customizer options, a much more improved design and lots of more improvements. And also they both are optimized for mobile devices (has a responsive/mobile friendly layout). Lift up your website to the next level by upgrading the Anarcho-Notepad theme to PREMIUM version!', 'anarcho-notepad' ); ?>
+                        <?php _e( 'Hello. My name is Arthur, and I\'m a man behind the Anarcho-Notepad theme. I\'m pleased to inform you that there are now two premium versions of this theme available: the Author\'s-Notepad and the Simple-Notepad. These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are optimized for mobile devices by having a responsive/mobile friendly layout. Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions!', 'anarcho-notepad' ); ?>
                     </span>
                 </div>
 
                 <div class="anarcho-notice-buttons">
-                    <a  href="//www.arthurgareginyan.com/theme-authors-notepad.html"
+                    <a  href="//www.spacexchimp.com/themes/authors-notepad.html"
                         target="_blank"
                         class="anarcho-notice-button button button-primary"
                     >
                         <span class="dashicons dashicons-star-filled"></span>
                         <?php _e( 'Author\'s Notepad', 'anarcho-notepad' ); ?>
                     </a>
-                    <a  href="//www.arthurgareginyan.com/theme-simple-notepad.html"
+                    <a  href="//www.spacexchimp.com/themes/simple-notepad.html"
                         target="_blank"
                         class="anarcho-notice-button button button-primary"
                     >

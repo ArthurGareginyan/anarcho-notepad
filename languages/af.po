@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-12 20:20+0300\n"
-"PO-Revision-Date: 2018-02-12 20:20+0300\n"
+"POT-Creation-Date: 2018-02-12 20:19+0300\n"
+"PO-Revision-Date: 2018-02-12 20:19+0300\n"
 "Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
 "Language-Team: \n"
-"Language: fr\n"
+"Language: af_ZA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,200 +21,207 @@ msgstr ""
 
 #: 404.php:21
 msgid "Page Not Found"
-msgstr "Page Introuvable"
+msgstr "Jammer, ons kry nie die bladsy nie"
 
 #: 404.php:22
 msgid ""
 "We're very sorry, but the page you requested has not been found! It may have "
 "been moved or deleted."
 msgstr ""
-"Désolé, cette page est introuvable ! Elle a peut-être été déplacée ou "
-"supprimée."
+"Ons is baie jammer, maar ons kry nie die bladsy wat jy soek nie. Dit is dalk "
+"geskuif of uitgevee."
 
 #: 404.php:23
 msgid ""
 "I'm not blaming you, but have you checked your address bar? There might be a "
 "typo in the URL."
 msgstr ""
-"Vérifiez peut-être la barre d'addresse ? Il y a peut-être une erreur dans "
-"l'URL."
+"Ek sê nie dis jou skuld nie, maar het jy die adresbalk nagegaan? Dalk het jy "
+"'n spelfout in die URL gemaak."
 
 #: 404.php:24
 msgid ""
 "If there isn't, you could try searching my website for the content you were "
 "looking for:"
 msgstr ""
-"Sinon, vous pouvez utiliser la recherche sur le site pour trouver ce que "
-"vous cherchez :"
+"As jy dit nie hier opspoor nie, kan jy probeer om op my webwerf te kyk vir "
+"die inligting waarvoor jy soek:"
 
 #: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
 #: page_without_date.php:31 search.php:38 single.php:35
 msgid "Continue reading"
-msgstr "Lire plus"
+msgstr "Lees verder"
 
 #: author-bio.php:19
 msgid "About the Author"
-msgstr "A propos de l'Auteur"
+msgstr "Wie is ek?"
 
 #: comments.php:42
 msgid "Comment navigation"
-msgstr "Navigation commentaires"
+msgstr "Boodskap navigasie"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Commentaires désactivés"
+msgstr "Boodskappe is nou gesluit."
 
 #: functions.php:68
 msgid "Primary"
-msgstr "Principal"
+msgstr "Primêr"
 
 #: functions.php:147
 msgid "Help"
-msgstr "Aide"
+msgstr "Help"
 
 #: functions.php:150
 msgid "Need help with Anarcho-Notepad? Click here!"
-msgstr "Besin d'aide sur Anarcho-Notepad ? Cliquez ici !"
+msgstr "Het jy hulp nodig met Anarcho-Notepad? Klik hier!"
 
 #: functions.php:207
 msgid "Sidebar Area 1"
-msgstr "Barre Latérale 1"
+msgstr "Kantblok area 1"
 
 #: functions.php:209
 msgid "Widgets in this area will be shown below \"Pages\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Pages\""
+msgstr ""
+"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Bladsye\" wys."
 
 #: functions.php:216
 msgid "Sidebar Area 2"
-msgstr "Barre Latérale 2"
+msgstr "Kantblok area 2"
 
 #: functions.php:218
 msgid "Widgets in this area will be shown below \"What is this place\"."
-msgstr "Les Widgets de cette zone seront affichés après \"A Propos\"."
+msgstr ""
+"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Wat gaan hier aan"
+"\" wys."
 
 #: functions.php:225
 msgid "Sidebar Area 3"
-msgstr "Barre Latérale 3"
+msgstr "Kantblok area 3"
 
 #: functions.php:227
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Liens & Amis\"."
+msgstr ""
+"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Vriende en skakels"
+"\" wys."
 
 #: functions.php:234
 msgid "Sidebar Area 4"
-msgstr "Barre Latérale 4"
+msgstr "Kantblok area 4"
 
 #: functions.php:236
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Recent Posts\"."
+msgstr ""
+"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Onlangse "
+"inskrywingsplakker\" wys."
 
 #: functions.php:248
 msgid "Footer Area 1"
-msgstr "Bas de Page 1"
+msgstr ""
 
 #: functions.php:250
 msgid "Widgets in this area will be shown left."
-msgstr "Les Widgets de cette zone seront alignés à gauche."
+msgstr ""
 
 #: functions.php:257
 msgid "Footer Area 2"
-msgstr "Bas de Page 2"
+msgstr ""
 
 #: functions.php:259
 msgid "Widgets in this area will be shown center."
-msgstr "Les Widgets de cette zone seront centrés."
+msgstr ""
 
 #: functions.php:266
 msgid "Footer Area 3"
-msgstr "Bas de Page 3"
+msgstr ""
 
 #: functions.php:268
 msgid "Widgets in this area will be shown right."
-msgstr "Les Widgets de cette zone seront alignés à droite."
+msgstr ""
 
 #: functions.php:350
 msgid "Archive by category "
-msgstr "Archive par catégorie"
+msgstr "Argieveer volgens categorie "
 
 #: functions.php:354
 msgid "Archive by date "
-msgstr "Archive par date"
+msgstr "Argieveer volgens datum "
 
 #: functions.php:357
 msgid "Archive by month "
-msgstr "Archive par mois"
+msgstr "Argieveer volgens maand "
 
 #: functions.php:359
 msgid "Archive by year "
-msgstr "Archive par année"
+msgstr "Argieveer volgens jaar "
 
 #: functions.php:369 functions.php:397
 msgid "You&apos;re currently reading "
-msgstr "Vous lisez actuellement "
+msgstr "Jy lees tans "
 
 #: functions.php:399
 msgid "Search results for "
-msgstr "Résultats de recherche pour"
+msgstr "Soektogresultate vir "
 
 #: functions.php:401
 msgid "Archive by tag "
-msgstr "Archive par tag "
+msgstr "Argieveer volgens tag "
 
 #: functions.php:405
 msgid "Articles posted by "
-msgstr "Articles postés par "
+msgstr "Artikels opgelaaid deur "
 
 #: functions.php:407
 msgid "You got it "
-msgstr "Introuvable, Voilà "
+msgstr "Jy het dit! "
 
 #: functions.php:434
 msgid "Previous page"
-msgstr "Page précédente"
+msgstr "Vorige bladsy"
 
 #: functions.php:435
 msgid "Next page"
-msgstr "Page suivante"
+msgstr "Volgende bladsy"
 
 #: functions.php:437
 msgid "Page "
-msgstr "Page"
+msgstr "Bladsy "
 
 #: functions.php:437
 msgid " of the "
-msgstr " sur "
+msgstr " van die "
 
 #: functions.php:447
 msgid "Posts navigation"
-msgstr "Navigation des articles"
+msgstr "Navigeer inskrywings"
 
 #: functions.php:478
 msgid "Post navigation"
-msgstr "Navigation de l'article"
+msgstr "Navigeer inskrywing"
 
 #: functions.php:501
 msgid "Pingback:"
-msgstr "Pinback :"
+msgstr "Terug pieng:"
 
 #: functions.php:501
 msgid "(Edit)"
-msgstr "(Modifier)"
+msgstr "(Verander)"
 
 #: functions.php:516
 msgid "(Post author) "
-msgstr "(Auteur) "
+msgstr "(Inskrywing deur my) "
 
 #: functions.php:527
 msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de modération."
+msgstr "Jou boodskap word goedgekeur."
 
 #: functions.php:532
 msgid "Edit"
-msgstr "Modifier"
+msgstr "Verander"
 
 #: functions.php:536
 msgid "Reply"
-msgstr "Répondre"
+msgstr "Antwoord"
 
 #: functions.php:549 single.php:45
 msgid "Copyright 2018. All rights reserved."
@@ -222,51 +229,51 @@ msgstr ""
 
 #: functions.php:573
 msgid " queries in "
-msgstr " requêtes en "
+msgstr ""
 
 #: functions.php:575
 msgid " seconds"
-msgstr " secondes"
+msgstr " sekonde"
 
 #: functions.php:578
 msgid " mb"
-msgstr " Mo"
+msgstr " mb"
 
 #: functions.php:606
 msgid "Not Found"
-msgstr "Introuvable"
+msgstr "Jammer, ons kry dit nie"
 
 #: functions.php:607
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr "Désolé, ce que vous cherchez n'est pas ici."
+msgstr "Jammer, maar jy soek iets wat nie hier is nie."
 
 #: functions.php:622 functions.php:632 functions.php:634 sitemap.php:52
 msgid "Category: "
-msgstr "Catégorie : "
+msgstr "Kategorie: "
 
 #: functions.php:624 functions.php:626 functions.php:632 functions.php:634
 msgid "EDIT"
-msgstr "Modifier"
+msgstr ""
 
 #: functions.php:626
 msgid "Posted "
-msgstr "Ecrit "
+msgstr "Inskrywing "
 
 #: functions.php:626
 msgid " by "
-msgstr " par "
+msgstr " deur "
 
 #: functions.php:626
 msgid " in category \""
-msgstr " dans la catégorie \""
+msgstr ""
 
 #: functions.php:632 functions.php:634
 msgid "LEAVE A COMMENT"
-msgstr "Commenter"
+msgstr ""
 
 #: inc/customizer.php:35
 msgid "Meta"
-msgstr "Méta"
+msgstr "Meta"
 
 #: inc/customizer.php:41 sidebar.php:40
 msgid "Paste here small text about you and/or about your site."
@@ -278,7 +285,7 @@ msgstr ""
 
 #: inc/customizer.php:58
 msgid "Copyright after post"
-msgstr "Copyright après article"
+msgstr "Kopiereg na die inskrywing"
 
 #: inc/customizer.php:70
 msgid "Copyright in footer"
@@ -286,11 +293,11 @@ msgstr ""
 
 #: inc/customizer.php:78
 msgid "Stuff"
-msgstr "Divers"
+msgstr "Allerande dinge"
 
 #: inc/customizer.php:90
 msgid "Disable \"Paper Search\""
-msgstr "Désactiver \"Recherche\""
+msgstr "De-aktiveer \"Papier soektog\""
 
 #: inc/customizer.php:102
 msgid "Disable \"Red Date Ribbons\""
@@ -314,23 +321,23 @@ msgstr ""
 
 #: inc/customizer.php:162
 msgid "Disable \"Recent Posts Sticker\""
-msgstr "Désactiver \"Recent Posts\""
+msgstr "De-aktiveer \"Onlangse inskrywingsplakker\""
 
 #: inc/customizer.php:174
 msgid "Disable block \"About the Author\""
-msgstr "Désactiver \"A propos de l'auteur\""
+msgstr ""
 
 #: inc/customizer.php:186
 msgid "Enable \"Breadcrumbs\""
-msgstr "Activer \"Breadcrumbs\""
+msgstr "Aktiveer \"Breadcrumbs\""
 
 #: inc/customizer.php:198
 msgid "Enable \"Page Navigation\""
-msgstr "Activer \"Navigation\""
+msgstr "Aktiveer \"Bladsy navigasie\""
 
 #: inc/customizer.php:210
 msgid "Enable \"Title animation\""
-msgstr "Activer \"Animation du titre\""
+msgstr "Aktiveer \"Titel animasie\""
 
 #: inc/customizer.php:222
 msgid "Disable button \"Scroll To Top\""
@@ -338,95 +345,95 @@ msgstr ""
 
 #: inc/customizer.php:234
 msgid "Show info line in footer"
-msgstr "Montrer information dans le bas de page"
+msgstr "Wys inligtingslyn in die footer"
 
 #: inc/customizer.php:256
 msgid "Numbers of recent posts in sidebar"
-msgstr "Nombres d'articles dans la barre latérale"
+msgstr ""
 
 #: inc/customizer.php:266
 msgid "Scripts"
-msgstr "Scripts"
+msgstr "Kodes"
 
 #: inc/customizer.php:267
 msgid "Put here your scripts"
-msgstr "Placer vos scripts ici"
+msgstr "Sit jou kode hier"
 
 #: inc/customizer.php:278
 msgid "Scripts before posts"
-msgstr "Scripts avant les articles"
+msgstr "Kode voor inskrywings"
 
 #: inc/customizer.php:290
 msgid "Scripts at the beginning of the posts"
-msgstr "Scripts au début des articles"
+msgstr "Kode aan die begin van inskrywings"
 
 #: inc/customizer.php:302
 msgid "Scripts at the end of the posts"
-msgstr "Scripts à la fin des articles"
+msgstr "Kode aan die einde van inskrywings"
 
 #: inc/customizer.php:314
 msgid "Scripts after posts"
-msgstr "Scripts après les articles"
+msgstr "Kode na inskrywings"
 
 #: inc/customizer.php:321
 msgid "Post"
-msgstr "Article"
+msgstr "Inskrywing"
 
 #: inc/customizer.php:344
 msgid "Font size of posts"
-msgstr "Taille de la police des articles"
+msgstr "Lettergrootte poste"
 
 #: inc/customizer.php:654
 msgid "Font of posts (Google Webfonts)"
-msgstr "Police des articles (Google Webfonts)"
+msgstr "Lettertipe van inskrywings (Google Webfonts)"
 
 #: inc/customizer.php:675
 msgid "Site Title font (Google Webfonts)"
-msgstr "Police du Titre du Site (Google Webfonts)"
+msgstr "Lettertipe van webwerf titel (Google Webfonts)"
 
 #: inc/customizer.php:690
 msgid "Site Tagline font (Google Webfonts)"
-msgstr "Police du Sous-Titre (Google Webfonts)"
+msgstr "Lettertipe van webwerf etiket (Google Webfonts)"
 
 #: inc/customizer.php:706
 msgid "Site Title color"
-msgstr "Couleur du Titre du Site"
+msgstr "Kleur van webwerf titel"
 
 #: inc/customizer.php:720
 msgid "Site Tagline color"
-msgstr "Couleur du Sous-Titre"
+msgstr "Webwerf etiket kleur"
 
 #: inc/customizer.php:732
 msgid "Site Title Position"
-msgstr "Position du Titre du Site"
+msgstr "Posisie van webwerf titel"
 
 #: inc/customizer.php:738
 msgid "Left"
-msgstr "Gauche"
+msgstr "Links"
 
 #: inc/customizer.php:739
 msgid "Center"
-msgstr "Centre"
+msgstr "Middel"
 
 #: inc/customizer.php:753
 msgid "Background Color"
-msgstr "Couleur de fond"
+msgstr "Agtergrond kleur"
 
 #: inc/customizer.php:764
 msgid "Background Size"
-msgstr "Taille du fond"
+msgstr "Agtergrond grootte"
 
 #: inc/customizer.php:770
 msgid "Auto (Default)"
-msgstr "Automatique (par Défaut)"
+msgstr "Outomaties (Default)"
 
 #: inc/customizer.php:771
 msgid "Contain"
-msgstr "Contient"
+msgstr "Bevat"
 
 #: inc/customizer.php:772
 msgid "Cover"
-msgstr "Couverture"
+msgstr "Aangesig"
 
 #: inc/theme_info.php:55
 msgid "Theme \"Anarcho Notepad\""
@@ -545,12 +552,12 @@ msgid ""
 "If you have any questions or suggestions for improving and adding new "
 "features, feel free to "
 msgstr ""
-"Si vous avez des questions ou des suggestions pour améliorer ou rajouter des "
-"fonctionnalités, n'hésitez pas à me contacter sur :"
+"Indien jy enige vrae of voorstelle het om die tema te verbeter, of nuwe "
+"funksies wil byvoeg, kontak my gerus vir bystand "
 
 #: inc/theme_info.php:94
 msgid "Translation"
-msgstr "Traduction"
+msgstr ""
 
 #: inc/theme_info.php:95
 msgid ""
@@ -585,12 +592,10 @@ msgstr ""
 #: inc/theme_info.php:117
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr ""
-"Merci à tous ceux qui m'ont aidé a traduire \"Anarcho-Notepad\" dans "
-"d'autres langues !"
 
 #: inc/theme_info.php:118
 msgid "Thank you very much for your contribution!"
-msgstr "Merci pour votre contribution !"
+msgstr ""
 
 #: inc/theme_info.php:121
 msgid "PREMIUM versions"
@@ -656,7 +661,7 @@ msgstr ""
 
 #: inc/theme_info.php:160
 msgid "Happy to enjoy the theme?"
-msgstr "Vous appréciez \"Anarcho-Notepad\" ?"
+msgstr "Is jy gelukkig met die tema?"
 
 #: inc/theme_info.php:164
 msgid "Thanks for your support!"
@@ -664,7 +669,7 @@ msgstr ""
 
 #: inc/theme_info.php:169
 msgid "Follow our Founder"
-msgstr "Suivez-moi aussi sur :"
+msgstr "Volg my"
 
 #: inc/theme_info.php:179
 msgid "Explore our website"
@@ -672,7 +677,7 @@ msgstr ""
 
 #: inc/theme_info.php:201 inc/theme_info.php:202
 msgid "Theme Info"
-msgstr "Informations sur le thème"
+msgstr "Tema Info"
 
 #: inc/upgrade_notice.php:26
 msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
@@ -691,11 +696,11 @@ msgstr ""
 
 #: inc/upgrade_notice.php:39
 msgid "Author's Notepad"
-msgstr ""
+msgstr "Author's Notepad"
 
 #: inc/upgrade_notice.php:46
 msgid "Simple Notepad"
-msgstr ""
+msgstr "Simple Notepad"
 
 #: inc/upgrade_notice.php:53
 msgid "or please DONATE"
@@ -703,24 +708,24 @@ msgstr ""
 
 #: search.php:48
 msgid "Sorry for your result nothing found"
-msgstr "Désolé, aucun résultat de recherche"
+msgstr "Jammer, ons kry niks vir jou soektog nie"
 
 #: searchform.php:17
 msgid "Write your search and hit Enter"
-msgstr "Tapez votre recherche puis Entrée"
+msgstr "Tik jou soektog en kliek Enter"
 
 #: single.php:36 sitemap.php:39
 msgid "Pages:"
-msgstr "Pages :"
+msgstr "Bladsye:"
 
 #: sitemap.php:32
 msgid "Author(s):"
-msgstr "Auteur(s) :"
+msgstr "Outeur(s):"
 
 #: sitemap.php:46
 msgid "Posts:"
-msgstr "Articles :"
+msgstr "Inskrywings:"
 
 #: sitemap.php:74
 msgid "Archives:"
-msgstr "Archives :"
+msgstr "Argief:"

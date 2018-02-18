@@ -3,11 +3,27 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.31
+ * @since       2.32
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
- * @link      	http://mycyberuniverse.com/anarcho-notepad.html
+ * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
+ * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ *
+ *               █████╗ ██████╗ ████████╗██╗  ██╗██╗   ██╗██████╗
+ *              ██╔══██╗██╔══██╗╚══██╔══╝██║  ██║██║   ██║██╔══██╗
+ *              ███████║██████╔╝   ██║   ███████║██║   ██║██████╔╝
+ *              ██╔══██║██╔══██╗   ██║   ██╔══██║██║   ██║██╔══██╗
+ *              ██║  ██║██║  ██║   ██║   ██║  ██║╚██████╔╝██║  ██║
+ *              ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+ *
+ *   ██████╗  █████╗ ██████╗ ███████╗ ██████╗ ██╗███╗   ██╗██╗   ██╗ █████╗ ███╗   ██╗
+ *  ██╔════╝ ██╔══██╗██╔══██╗██╔════╝██╔════╝ ██║████╗  ██║╚██╗ ██╔╝██╔══██╗████╗  ██║
+ *  ██║  ███╗███████║██████╔╝█████╗  ██║  ███╗██║██╔██╗ ██║ ╚████╔╝ ███████║██╔██╗ ██║
+ *  ██║   ██║██╔══██║██╔══██╗██╔══╝  ██║   ██║██║██║╚██╗██║  ╚██╔╝  ██╔══██║██║╚██╗██║
+ *  ╚██████╔╝██║  ██║██║  ██║███████╗╚██████╔╝██║██║ ╚████║   ██║   ██║  ██║██║ ╚████║
+ *   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝
+ *
  */
 
 
@@ -138,24 +154,49 @@ function anarcho_add_help_button() {
 }
 add_action ( 'wp_before_admin_bar_render', 'anarcho_add_help_button' );
 
-/* Enqueue additional stylesheet for admin screens */
-function anarcho_include_admin_style() {
-    wp_enqueue_style( 'anarcho_admin_styles', get_template_directory_uri() . '/inc/admin.css' );
-}
-add_action( 'admin_init', 'anarcho_include_admin_style' );
-
 /* Add the Upgrade notice */
 require get_template_directory() . '/inc/upgrade_notice.php';
 
 /* Add IE conditional HTML5 shim to header */
-function anarcho_add_ie_html5_shim () {
+function anarcho_add_ie_html5_shiv () {
      global $is_IE;
      if ( $is_IE )
     	echo '<!--[if lt IE 9]>';
-    	echo '<script src="', get_template_directory_uri() .'/js/html5.js"></script>';
+    	echo '<script src="', get_template_directory_uri() .'/js/html5shiv.min.js"></script>';
     	echo '<![endif]-->';
 }
-add_action( 'wp_head', 'anarcho_add_ie_html5_shim' );
+add_action( 'wp_head', 'anarcho_add_ie_html5_shiv' );
+
+/**
+ * Enqueue scripts and styles on the admin pages.
+ */
+function anarcho_scripts_admin() {
+
+    // Load additional stylesheet for admin screens
+    wp_enqueue_style( 'anarcho-admin-css', get_template_directory_uri() . '/inc/admin.css' );
+
+}
+add_action( 'admin_enqueue_scripts', 'anarcho_scripts_admin' );
+
+/**
+ * Enqueue scripts and styles on the front end.
+ */
+function anarcho_scripts_frontend() {
+
+    // Load JQuery library
+    wp_enqueue_script( 'jquery' );
+
+    // Load the Font-Awesome iconic font
+    wp_enqueue_style( 'anarcho-font-awesome-css', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css', 'screen' );
+
+    // Comments. Enable comment_reply
+    if ( is_singular() ) wp_enqueue_script( "comment-reply" );
+
+    // Scroll to Top Button. Load the smoothscroll.js
+    wp_enqueue_script( 'anarcho-smooth-scroll-js', get_template_directory_uri() . '/js/smoothscroll.js', array( 'jquery' ), '',  true );
+
+}
+add_action( 'wp_enqueue_scripts', 'anarcho_scripts_frontend' );
 
 /* Add Theme Customizer functionality */
 require get_template_directory() . '/inc/customizer.php';
@@ -240,13 +281,6 @@ function anarcho_avatar( $avatar_defaults ) {
 	return $avatar_defaults;
 }
 add_filter( 'avatar_defaults', 'anarcho_avatar' );
-
-/* Include Font-Awesome iconic font */
-function anarcho_include_font_awesome_styles() {
-    wp_register_style( 'font_awesome_styles', get_template_directory_uri() . '/fonts/font-awesome-4.7.0/css/font-awesome.min.css', 'screen' );
-    wp_enqueue_style( 'font_awesome_styles' );
-}
-add_action( 'wp_enqueue_scripts', 'anarcho_include_font_awesome_styles' );
 
 /* Display block "About the Author" */
 function anarcho_author_bio() {
@@ -453,15 +487,6 @@ function anarcho_post_nav() {
 }
 
 /*
- * Comments
- * Enable comment_reply
- */
-function anarcho_include_comment_reply() {
-	if ( is_singular() ) wp_enqueue_script( "comment-reply" );
-}
-add_action( 'wp_enqueue_scripts', 'anarcho_include_comment_reply' );
-
-/*
  * Template for comments and pingbacks.
  * Used as a callback by wp_list_comments() for displaying the comments.
  */
@@ -521,18 +546,18 @@ function anarcho_comment( $comment, $args, $depth ) {
  */
 function anarcho_copyright() {
 
-    $anarcho_copy_website = __( 'Copyright 2017. All rights reserved.', 'anarcho-notepad' );
+    $anarcho_copy_website = __( 'Copyright 2018. All rights reserved.', 'anarcho-notepad' );
     echo get_theme_mod( 'site-info', $anarcho_copy_website ) . "</br>";
 
-    $anarcho_copy_theme_uri = "http://mycyberuniverse.com/anarcho-notepad.html";
+    $anarcho_copy_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
     $anarcho_copy_theme_name = "Anarcho Notepad";
     $anarcho_copy_theme_link = '<a title="Theme page" target="_blank" href=' . $anarcho_copy_theme_uri . '>' . $anarcho_copy_theme_name . '</a>';
 
-    $anarcho_copy_author_uri = "http://www.arthurgareginyan.com";
-    $anarcho_copy_author_name = "Arthur Gareginyan";
+    $anarcho_copy_author_uri = "https://www.spacexchimp.com/";
+    $anarcho_copy_author_name = "Space X-Chimp";
     $anarcho_copy_author_link = '<a title="Theme author" target="_blank" href=' . $anarcho_copy_author_uri . '>' . $anarcho_copy_author_name . '</a>';
 
-    echo 'Theme "' . $anarcho_copy_theme_link . '" designed by ' . $anarcho_copy_author_link . '.</br>';
+    echo '<div class="anarchocopy" style="margin-top:10px;">' . 'WordPress theme "' . $anarcho_copy_theme_link . '" by ' . $anarcho_copy_author_link . '.' . '</div>';
 
 }
 add_action( 'wp_footer','anarcho_copyright', 999 );
@@ -570,11 +595,6 @@ function anarcho_scroll_to_top() {
     }
 }
 add_action( 'wp_footer','anarcho_scroll_to_top', 999 );
-
-function anarcho_include_smoothscroll_script() {
-    wp_enqueue_script( 'smooth-scroll', get_template_directory_uri() . '/js/smoothscroll.js', array( 'jquery' ), '',  true );
-}
-add_action( 'wp_enqueue_scripts', 'anarcho_include_smoothscroll_script' );
 
 /*
  * No Content

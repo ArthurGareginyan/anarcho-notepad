@@ -1,30 +1,28 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Anarcho Notepad v2.21\n"
+"Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-26 23:05+0300\n"
-"PO-Revision-Date: 2017-01-26 23:05+0300\n"
-"Last-Translator: Alex v. Falkenhausen <me@avf-works.com>\n"
+"POT-Creation-Date: 2018-02-12 20:20+0300\n"
+"PO-Revision-Date: 2018-02-12 20:20+0300\n"
+"Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
 "Language-Team: avf works mediastudio <me@avf-works.com>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.4\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-# @ anarcho-notepad
 #: 404.php:21
 msgid "Page Not Found"
 msgstr "Seite nicht gefunden"
 
-# @ anarcho-notepad
 #: 404.php:22
 msgid ""
 "We're very sorry, but the page you requested has not been found! It may have "
@@ -32,7 +30,6 @@ msgid ""
 msgstr ""
 "Die Seite, die Sie suchen, konnte nicht gefunden werden. Das tut uns leid!"
 
-# @ anarcho-notepad
 #: 404.php:23
 msgid ""
 "I'm not blaming you, but have you checked your address bar? There might be a "
@@ -41,283 +38,231 @@ msgstr ""
 "Ich will Sie nicht ärgern, aber haben Sie die Adressleiste überprüft? Es "
 "könnte ein Tippfehler in der URL sein."
 
-# @ anarcho-notepad
 #: 404.php:24
 msgid ""
 "If there isn't, you could try searching my website for the content you were "
 "looking for:"
 msgstr "Falls nicht, versuchen Sie doch mal die Suche auf meiner Webseite:"
 
-# @ anarcho-notepad
 #: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
 #: page_without_date.php:31 search.php:38 single.php:35
 msgid "Continue reading"
 msgstr "Weiterlesen"
 
-# @ anarcho-notepad
 #: author-bio.php:19
 msgid "About the Author"
 msgstr "Über den Autor"
 
-# @ anarcho-notepad
 #: comments.php:42
 msgid "Comment navigation"
 msgstr "Kommentar-Navigation"
 
-# @ anarcho-notepad
 #: comments.php:53
 msgid "Comments are closed."
 msgstr "Kommentare sind hier deaktiviert."
 
-# @ anarcho-notepad
-#: functions.php:52
+#: functions.php:68
 msgid "Primary"
 msgstr "Haupt"
 
-# @ anarcho-notepad
-#: functions.php:131
+#: functions.php:147
 msgid "Help"
 msgstr "Hilfe"
 
-# @ anarcho-notepad
-#: functions.php:134
+#: functions.php:150
 msgid "Need help with Anarcho-Notepad? Click here!"
 msgstr "Benötigst du Hilfe für \"Anarcho-Notepad\"? Klick hier!"
 
-# @ anarcho-notepad
-#: functions.php:166
+#: functions.php:207
 msgid "Sidebar Area 1"
 msgstr "Sidebar Bereich 1"
 
-# @ anarcho-notepad
-#: functions.php:168
+#: functions.php:209
 msgid "Widgets in this area will be shown below \"Pages\"."
 msgstr "Widgets in diesem Bereich erscheinen unterhalb von \"Pages\"."
 
-# @ anarcho-notepad
-#: functions.php:175
+#: functions.php:216
 msgid "Sidebar Area 2"
 msgstr "Sidebar Bereich 2"
 
-# @ anarcho-notepad
-#: functions.php:177
+#: functions.php:218
 msgid "Widgets in this area will be shown below \"What is this place\"."
 msgstr ""
 "Widgets in diesem Bereich erscheinen unterhalb von \"What is this place\"."
 
-# @ anarcho-notepad
-#: functions.php:184
+#: functions.php:225
 msgid "Sidebar Area 3"
 msgstr "Sidebar Bereich 3"
 
-# @ anarcho-notepad
-#: functions.php:186
+#: functions.php:227
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
 msgstr ""
 "Widgets in diesem Bereich erscheinen unterhalb der \"Freunde & Links\"-Box."
 
-# @ anarcho-notepad
-#: functions.php:193
+#: functions.php:234
 msgid "Sidebar Area 4"
 msgstr "Sidebar Bereich 4"
 
-# @ anarcho-notepad
-#: functions.php:195
+#: functions.php:236
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
 msgstr "Widgets in diesem Bereich erscheinen unterhalb von \"Recent Posts\"."
 
-# @ anarcho-notepad
-#: functions.php:207
+#: functions.php:248
 msgid "Footer Area 1"
 msgstr "Footer Bereich 1"
 
-# @ anarcho-notepad
-#: functions.php:209
+#: functions.php:250
 msgid "Widgets in this area will be shown left."
 msgstr "Widgets in diesem Bereich erscheinen auf der linken Seite"
 
-# @ anarcho-notepad
-#: functions.php:216
+#: functions.php:257
 msgid "Footer Area 2"
 msgstr "Footer Bereich 2"
 
-# @ anarcho-notepad
-#: functions.php:218
+#: functions.php:259
 msgid "Widgets in this area will be shown center."
 msgstr "Widgets in diesem Bereich erscheinen in der Mitte"
 
-# @ anarcho-notepad
-#: functions.php:225
+#: functions.php:266
 msgid "Footer Area 3"
 msgstr "Footer Bereich 3"
 
-# @ anarcho-notepad
-#: functions.php:227
+#: functions.php:268
 msgid "Widgets in this area will be shown right."
 msgstr "Widgets in diesem Bereich erscheinen rechts"
 
-# @ anarcho-notepad
-#: functions.php:316
+#: functions.php:350
 msgid "Archive by category "
 msgstr "Archive nach Kategorie "
 
-# @ anarcho-notepad
-#: functions.php:320
+#: functions.php:354
 msgid "Archive by date "
 msgstr "Archive nach Datum "
 
-# @ anarcho-notepad
-#: functions.php:323
+#: functions.php:357
 msgid "Archive by month "
 msgstr "Archive nach Monat "
 
-# @ anarcho-notepad
-#: functions.php:325
+#: functions.php:359
 msgid "Archive by year "
 msgstr "Archive nach Jahr "
 
-#: functions.php:335 functions.php:363
+#: functions.php:369 functions.php:397
 msgid "You&apos;re currently reading "
-msgstr ""
+msgstr "Sie lesen gerade "
 
-# @ anarcho-notepad
-#: functions.php:365
+#: functions.php:399
 msgid "Search results for "
 msgstr "Suchergebnisse für "
 
-# @ anarcho-notepad
-#: functions.php:367
+#: functions.php:401
 msgid "Archive by tag "
 msgstr "Archive nach Schlagworten "
 
-# @ anarcho-notepad
-#: functions.php:371
+#: functions.php:405
 msgid "Articles posted by "
 msgstr "Beiträge von "
 
-# @ anarcho-notepad
-#: functions.php:373
+#: functions.php:407
 msgid "You got it "
 msgstr "Sie haben es "
 
-# @ anarcho-notepad
-#: functions.php:400
+#: functions.php:434
 msgid "Previous page"
 msgstr "Vorherige Seite"
 
-# @ anarcho-notepad
-#: functions.php:401
+#: functions.php:435
 msgid "Next page"
 msgstr "Nächste Seite"
 
-# @ anarcho-notepad
-#: functions.php:403
+#: functions.php:437
 msgid "Page "
 msgstr "Seite "
 
-# @ anarcho-notepad
-#: functions.php:403
+#: functions.php:437
 msgid " of the "
 msgstr " von "
 
-# @ anarcho-notepad
-#: functions.php:413
+#: functions.php:447
 msgid "Posts navigation"
 msgstr "Posts navigation"
 
-# @ anarcho-notepad
-#: functions.php:444
+#: functions.php:478
 msgid "Post navigation"
 msgstr "Post navigation"
 
-# @ anarcho-notepad
-#: functions.php:476
+#: functions.php:501
 msgid "Pingback:"
 msgstr "Pingback:"
 
-# @ anarcho-notepad
-#: functions.php:476
+#: functions.php:501
 msgid "(Edit)"
 msgstr "(Bearbeiten)"
 
-# @ anarcho-notepad
-#: functions.php:491
+#: functions.php:516
 msgid "(Post author) "
 msgstr "(Autor) "
 
-# @ anarcho-notepad
-#: functions.php:502
+#: functions.php:527
 msgid "Your comment is awaiting moderation."
 msgstr "Ihr Kommentar wartet auf Freischaltung"
 
-# @ anarcho-notepad
-#: functions.php:507
+#: functions.php:532
 msgid "Edit"
 msgstr "Bearbeiten"
 
-# @ anarcho-notepad
-#: functions.php:511
+#: functions.php:536
 msgid "Reply"
 msgstr "Antworten"
 
-#: functions.php:524 single.php:45
-msgid "Copyright 2017. All rights reserved."
+#: functions.php:549 single.php:45
+msgid "Copyright 2018. All rights reserved."
 msgstr ""
 
-# @ anarcho-notepad
-#: functions.php:548
+#: functions.php:573
 msgid " queries in "
 msgstr " suche in "
 
-# @ anarcho-notepad
-#: functions.php:550
+#: functions.php:575
 msgid " seconds"
 msgstr " Sekunden"
 
-# @ anarcho-notepad
-#: functions.php:553
+#: functions.php:578
 msgid " mb"
 msgstr " mb"
 
-# @ anarcho-notepad
-#: functions.php:586
+#: functions.php:606
 msgid "Not Found"
 msgstr "Nicht gefunden"
 
-# @ anarcho-notepad
-#: functions.php:587
+#: functions.php:607
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr "Sorry, Ihre Suche brachte kein Ergebnis."
 
-# @ anarcho-notepad
-#: functions.php:602 functions.php:612 functions.php:614 sitemap.php:52
+#: functions.php:622 functions.php:632 functions.php:634 sitemap.php:52
 msgid "Category: "
 msgstr "Kategorie: "
 
-#: functions.php:604 functions.php:606 functions.php:612 functions.php:614
+#: functions.php:624 functions.php:626 functions.php:632 functions.php:634
 msgid "EDIT"
 msgstr ""
 
-# @ anarcho-notepad
-#: functions.php:606
+#: functions.php:626
 msgid "Posted "
 msgstr "Verfasst "
 
-# @ anarcho-notepad
-#: functions.php:606
+#: functions.php:626
 msgid " by "
 msgstr " von "
 
-#: functions.php:606
+#: functions.php:626
 msgid " in category \""
 msgstr ""
 
-# @ anarcho-notepad
-#: functions.php:612 functions.php:614
+#: functions.php:632 functions.php:634
 msgid "LEAVE A COMMENT"
 msgstr "SCHREIBE EINEN KOMMENTAR"
 
-# @ anarcho-notepad
 #: inc/customizer.php:35
 msgid "Meta"
 msgstr "Meta"
@@ -330,7 +275,6 @@ msgstr ""
 msgid "About widget - \"What is this place?\""
 msgstr ""
 
-# @ anarcho-notepad
 #: inc/customizer.php:58
 msgid "Copyright after post"
 msgstr "Copyright am Ende jedes Posts"
@@ -339,12 +283,10 @@ msgstr "Copyright am Ende jedes Posts"
 msgid "Copyright in footer"
 msgstr ""
 
-# @ anarcho-notepad
 #: inc/customizer.php:78
 msgid "Stuff"
 msgstr "Diverses"
 
-# @ anarcho-notepad
 #: inc/customizer.php:90
 msgid "Disable \"Paper Search\""
 msgstr "\"Papier-Suche\" deaktivieren"
@@ -369,27 +311,22 @@ msgstr ""
 msgid "Disable widget \"Friends & Links\""
 msgstr ""
 
-# @ anarcho-notepad
 #: inc/customizer.php:162
 msgid "Disable \"Recent Posts Sticker\""
 msgstr "\"Letzte Beiträge\"-Sticker deaktivieren"
 
-# @ anarcho-notepad
 #: inc/customizer.php:174
 msgid "Disable block \"About the Author\""
 msgstr "Box \"Über den Autor\" deaktivieren"
 
-# @ anarcho-notepad
 #: inc/customizer.php:186
 msgid "Enable \"Breadcrumbs\""
 msgstr "\"Breadcrumbs\" aktivieren"
 
-# @ anarcho-notepad
 #: inc/customizer.php:198
 msgid "Enable \"Page Navigation\""
 msgstr "Seiten-Navigation aktivieren"
 
-# @ anarcho-notepad
 #: inc/customizer.php:210
 msgid "Enable \"Title animation\""
 msgstr "Titel-Animation einschalten"
@@ -398,7 +335,6 @@ msgstr "Titel-Animation einschalten"
 msgid "Disable button \"Scroll To Top\""
 msgstr ""
 
-# @ anarcho-notepad
 #: inc/customizer.php:234
 msgid "Show info line in footer"
 msgstr "Info-Zeile im Footer anzeigen"
@@ -407,539 +343,381 @@ msgstr "Info-Zeile im Footer anzeigen"
 msgid "Numbers of recent posts in sidebar"
 msgstr ""
 
-# @ anarcho-notepad
 #: inc/customizer.php:266
 msgid "Scripts"
 msgstr "Skripte"
 
-# @ anarcho-notepad
 #: inc/customizer.php:267
 msgid "Put here your scripts"
 msgstr "Platziere deine Skripte hier"
 
-# @ anarcho-notepad
 #: inc/customizer.php:278
 msgid "Scripts before posts"
 msgstr "Skripte vor den Beiträgen"
 
-# @ anarcho-notepad
 #: inc/customizer.php:290
 msgid "Scripts at the beginning of the posts"
 msgstr "Skripte am Anfang der Beiträge"
 
-# @ anarcho-notepad
 #: inc/customizer.php:302
 msgid "Scripts at the end of the posts"
 msgstr "Skripte am Ende der Beiträge"
 
-# @ anarcho-notepad
 #: inc/customizer.php:314
 msgid "Scripts after posts"
 msgstr "Skripte nach den Beiträgen"
 
-# @ anarcho-notepad
 #: inc/customizer.php:321
 msgid "Post"
 msgstr "Artikel"
 
-# @ anarcho-notepad
 #: inc/customizer.php:344
 msgid "Font size of posts"
 msgstr "Schriftgröße für die Artikel"
 
-# @ anarcho-notepad
 #: inc/customizer.php:654
 msgid "Font of posts (Google Webfonts)"
 msgstr "Schriftart für die Artikel (Google Webfonts)"
 
-# @ anarcho-notepad
 #: inc/customizer.php:675
 msgid "Site Title font (Google Webfonts)"
 msgstr "Schriftart Seitentitel (Google Webfonts)"
 
-# @ anarcho-notepad
 #: inc/customizer.php:690
 msgid "Site Tagline font (Google Webfonts)"
 msgstr "Schriftart Untertitel (Google Webfonts)"
 
-# @ anarcho-notepad
 #: inc/customizer.php:706
 msgid "Site Title color"
 msgstr "Seitentitel Schriftarbe"
 
-# @ anarcho-notepad
 #: inc/customizer.php:720
 msgid "Site Tagline color"
 msgstr "Untertitel Schriftfarbe"
 
-# @ anarcho-notepad
 #: inc/customizer.php:732
 msgid "Site Title Position"
 msgstr "Position des Seitentitels"
 
-# @ anarcho-notepad
 #: inc/customizer.php:738
 msgid "Left"
 msgstr "Links"
 
-# @ anarcho-notepad
 #: inc/customizer.php:739
 msgid "Center"
 msgstr "Zentriert"
 
-# @ anarcho-notepad
 #: inc/customizer.php:753
 msgid "Background Color"
 msgstr "Hintergrundfarbe"
 
-# @ anarcho-notepad
 #: inc/customizer.php:764
 msgid "Background Size"
 msgstr "Hintergrundbild Größe"
 
-# @ anarcho-notepad
 #: inc/customizer.php:770
 msgid "Auto (Default)"
 msgstr "Auto (Voreinstellung)"
 
-# @ anarcho-notepad
 #: inc/customizer.php:771
 msgid "Contain"
 msgstr "Contain"
 
-# @ anarcho-notepad
 #: inc/customizer.php:772
 msgid "Cover"
 msgstr "Cover"
 
-#: inc/theme_info.php:46
+#: inc/theme_info.php:55
 msgid "Theme \"Anarcho Notepad\""
 msgstr ""
 
-#: inc/theme_info.php:47
-msgid "by Arthur Gareginyan"
-msgstr ""
-
-#: inc/theme_info.php:52
-msgid ""
-"Inspired by the idea of anarchy, I designed this free premium WordPress "
-"theme for your personal blogs and diaries. This theme is perfect for writers "
-"and artists. \"Anarcho Notepad\" can be easily customised and already "
-"translated to different languages. It utilises latest HTML-5, CSS-3, PHP and "
-"WordPress native functions for creating the awesomeness that looks good on "
-"every browser. I'm constantly adding new features to this theme to allow you "
-"to personalise it to your own needs. If you want a new feature or just want "
-"to be able to change something just ask me and I would be happy to add it. "
-"I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
-msgstr ""
-
 #: inc/theme_info.php:56
-msgid "Features"
-msgstr ""
-
-#: inc/theme_info.php:58
-msgid "Current features:"
+msgid "by Space X-Chimp"
 msgstr ""
 
 #: inc/theme_info.php:61
-msgid "Cross browser compatible (work smooth in any modern browser)"
-msgstr ""
-
-#: inc/theme_info.php:62
-msgid "RTL compatible (right to left)"
-msgstr ""
-
-#: inc/theme_info.php:63
-msgid "Ready for translation (Translated to 12 languages)"
+msgid ""
+"Inspired by the idea of anarchy, we designed this free WordPress theme for "
+"your personal blogs and diaries. This theme is perfect for writers and "
+"artists. \"Anarcho Notepad\" can be easily customized and already translated "
+"to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress "
+"native functions for creating the awesomeness that looks good on every "
+"browser. We are constantly adding new features to this theme to allow you to "
+"personalize it to your own needs. We are glad to present you the Most "
+"Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
 #: inc/theme_info.php:64
-msgid "Hand-coded, no WYSIWYG stuff"
-msgstr ""
-
-#: inc/theme_info.php:65
-msgid "HTML5 Inside"
+msgid "Features"
 msgstr ""
 
 #: inc/theme_info.php:66
-msgid "CSS3 Inside"
+msgid "Cross browser compatible (work smooth in any modern browser)"
 msgstr ""
 
 #: inc/theme_info.php:67
-msgid "Easy to set up - Theme Customizer"
+msgid "RTL compatible (right to left)"
 msgstr ""
 
 #: inc/theme_info.php:68
-msgid "Customize using \"Google Web Fonts\""
+msgid "Ready for translation (Translated to 12 languages)"
 msgstr ""
 
 #: inc/theme_info.php:69
-msgid "Built-in iconic font \"Font Awesome\""
+msgid "Hand-coded, no WYSIWYG stuff"
 msgstr ""
 
 #: inc/theme_info.php:70
-msgid "Widget ready (in sidebar and footer)"
+msgid "HTML5 Inside"
 msgstr ""
 
 #: inc/theme_info.php:71
-msgid "Built-in Pagination"
+msgid "CSS3 Inside"
 msgstr ""
 
 #: inc/theme_info.php:72
-msgid "Built-in Breadcrumbs"
+msgid "Easy to set up - Theme Customizer"
 msgstr ""
 
 #: inc/theme_info.php:73
-msgid "Template page \"HTML map of the website\""
+msgid "Customize using \"Google Web Fonts\""
 msgstr ""
 
 #: inc/theme_info.php:74
-msgid "Template page \"Without date\""
+msgid "Built-in iconic font \"Font Awesome\""
 msgstr ""
 
 #: inc/theme_info.php:75
-msgid "Block \"About Author\" below posts"
+msgid "Widget ready (in sidebar and footer)"
 msgstr ""
 
 #: inc/theme_info.php:76
-msgid "Custom text of copyright below posts"
+msgid "Built-in Pagination"
 msgstr ""
 
 #: inc/theme_info.php:77
-msgid "Custom text of copyright in footer"
+msgid "Built-in Breadcrumbs"
 msgstr ""
 
 #: inc/theme_info.php:78
-msgid "Custom header image"
+msgid "Template page \"HTML map of the website\""
 msgstr ""
 
 #: inc/theme_info.php:79
-msgid "Custom background"
+msgid "Template page \"Without date\""
 msgstr ""
 
 #: inc/theme_info.php:80
-msgid "Custom menu"
+msgid "Block \"About Author\" below posts"
 msgstr ""
 
 #: inc/theme_info.php:81
-msgid "Published to the repository WordPess.org"
+msgid "Custom text of copyright below posts"
+msgstr ""
+
+#: inc/theme_info.php:82
+msgid "Custom text of copyright in footer"
+msgstr ""
+
+#: inc/theme_info.php:83
+msgid "Custom header image"
+msgstr ""
+
+#: inc/theme_info.php:84
+msgid "Custom background"
 msgstr ""
 
 #: inc/theme_info.php:85
-msgid "Coming soon:"
+msgid "Custom menu"
+msgstr ""
+
+#: inc/theme_info.php:86
+msgid "And many more..."
 msgstr ""
 
 #: inc/theme_info.php:87
-msgid "Got more ideas? Tell me!"
+msgid "Got more ideas? Tell us!"
 msgstr ""
 
-# @ anarcho-notepad
 #: inc/theme_info.php:90
 msgid ""
 "If you have any questions or suggestions for improving and adding new "
-"features, feel free to contact me at:"
+"features, feel free to "
 msgstr ""
 
-# @ anarcho-notepad
-#: inc/theme_info.php:95
+#: inc/theme_info.php:94
 msgid "Translation"
 msgstr "Übersetzung"
 
-#: inc/theme_info.php:97
+#: inc/theme_info.php:95
 msgid ""
-"\"Anarcho-Notepad\" theme is ready for translation. It written on "
-"<strong>English</strong> and translated into:"
+"This theme is ready for translation. It written on <strong>English</strong> "
+"and translated into:"
 msgstr ""
 
-#: inc/theme_info.php:113
+#: inc/theme_info.php:110
 msgid ""
 "If you want to help translate this theme, please use the POT file, that is "
 "included and placed in the \"languages\" folder, in order to create a "
 "translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) "
-"to me at"
+"to us at"
 msgstr ""
 
-#: inc/theme_info.php:115
-msgid "and I will include the translation within the next theme update."
+#: inc/theme_info.php:112
+msgid "and we will include the translation within the next theme update."
 msgstr ""
 
-#: inc/theme_info.php:116
+#: inc/theme_info.php:113
 msgid ""
 "Also you can use an existing PO file that placed in the \"languages\" "
 "folder, in order to make corrections."
 msgstr ""
 
-#: inc/theme_info.php:117
+#: inc/theme_info.php:114
 msgid ""
-"Many of plugin users would be delighted if you share your translation with "
+"Many of theme users would be delighted if you share your translation with "
 "the community. Thanks for your contribution!"
 msgstr ""
 
-# @ anarcho-notepad
-#: inc/theme_info.php:120
-msgid ""
-"Thanks to all who helped me translate \"Anarcho-Notepad\" into other "
-"languages!"
+#: inc/theme_info.php:117
+msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr ""
 "Danke an alle, die geholfen haben, \"Anarcho-Notepad\" in andere Sprachen zu "
 "übersetzen!"
 
-# @ anarcho-notepad
-#: inc/theme_info.php:121
+#: inc/theme_info.php:118
 msgid "Thank you very much for your contribution!"
 msgstr ""
 
-# @ anarcho-notepad
+#: inc/theme_info.php:121
+msgid "PREMIUM versions"
+msgstr ""
+
+#: inc/theme_info.php:122
+msgid ""
+"Elevate your website to the next level by upgrading to one of the PREMIUM "
+"Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
+msgstr ""
+
+#: inc/theme_info.php:126
+msgid "Responsive layout"
+msgstr ""
+
+#: inc/theme_info.php:127
+msgid "Better SEO"
+msgstr ""
+
 #: inc/theme_info.php:128
-msgid "Happy to enjoy the Anarcho-Notepad?"
-msgstr "Dir gefällt das  \"Anarcho-Notepad\"?"
+msgid "Optimized load time"
+msgstr ""
+
+#: inc/theme_info.php:131
+msgid "More secure"
+msgstr ""
 
 #: inc/theme_info.php:132
+msgid "Improved design"
+msgstr ""
+
+#: inc/theme_info.php:133
+msgid "Better typography"
+msgstr ""
+
+#: inc/theme_info.php:136
+msgid "WooCommerce supported"
+msgstr ""
+
+#: inc/theme_info.php:137
+msgid "More settings"
+msgstr ""
+
+#: inc/theme_info.php:138
+msgid "More features"
+msgstr ""
+
+#: inc/theme_info.php:142
+msgid ""
+"These premium versions have significantly more customization options, "
+"improved design and many functional improvements. Importantly, both are "
+"<b>optimized for mobile devices</b> by having a responsive/mobile friendly "
+"layout."
+msgstr ""
+
+#: inc/theme_info.php:146
+msgid "Theme \"Author's Notepad\""
+msgstr ""
+
+#: inc/theme_info.php:152
+msgid "Theme \"Simple Notepad\""
+msgstr ""
+
+#: inc/theme_info.php:160
+msgid "Happy to enjoy the theme?"
+msgstr "Dir gefällt das \"Anarcho-Notepad\"?"
+
+#: inc/theme_info.php:164
 msgid "Thanks for your support!"
 msgstr ""
 
-# @ anarcho-notepad
-#: inc/theme_info.php:137
-msgid "Follow me :"
-msgstr "Follow me :"
+#: inc/theme_info.php:169
+msgid "Follow our Founder"
+msgstr "Follow our Founder"
 
-# @ anarcho-notepad
-#: inc/theme_info.php:162 inc/theme_info.php:163
+#: inc/theme_info.php:179
+msgid "Explore our website"
+msgstr ""
+
+#: inc/theme_info.php:201 inc/theme_info.php:202
 msgid "Theme Info"
 msgstr "Theme-Informationen"
 
-#: inc/upgrade_notice.php:28
-msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version for only $59!"
+#: inc/upgrade_notice.php:26
+msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
 msgstr ""
 
-#: inc/upgrade_notice.php:31
+#: inc/upgrade_notice.php:29
 msgid ""
-"Hello, My name is Arthur, I'm a man behind the Anarcho-Notepad theme. I'm "
-"pleased to inform you that now available two premium versions of this theme: "
-"the Author's-Notepad and the Simple-Notepad. Note that they has much more "
-"advanced Customizer options, a much more improved design and lots of more "
-"improvements. And also they both are optimized for mobile devices (has a "
-"responsive/mobile friendly layout). Lift up your website to the next level "
-"by upgrading the Anarcho-Notepad theme to PREMIUM version!"
+"Hello. My name is Arthur, and I'm a man behind the Anarcho-Notepad theme. "
+"I'm pleased to inform you that there are now two premium versions of this "
+"theme available: the Author's-Notepad and the Simple-Notepad. These premium "
+"versions have significantly more customization options, improved design and "
+"many functional improvements. Importantly, both are optimized for mobile "
+"devices by having a responsive/mobile friendly layout. Elevate your website "
+"to the next level by upgrading to one of the PREMIUM Anarcho versions!"
 msgstr ""
 
-#: inc/upgrade_notice.php:41
+#: inc/upgrade_notice.php:39
 msgid "Author's Notepad"
 msgstr ""
 
-#: inc/upgrade_notice.php:48
+#: inc/upgrade_notice.php:46
 msgid "Simple Notepad"
 msgstr ""
 
-#: inc/upgrade_notice.php:55
+#: inc/upgrade_notice.php:53
 msgid "or please DONATE"
 msgstr ""
 
-# @ anarcho-notepad
 #: search.php:48
 msgid "Sorry for your result nothing found"
 msgstr "Sorry, deine Suchanfrage brachte kein Ergebnis."
 
-# @ anarcho-notepad
-#: searchform.php:18
+#: searchform.php:17
 msgid "Write your search and hit Enter"
 msgstr "Suchbegriff eintippen und Enter drücken"
 
-# @ anarcho-notepad
 #: single.php:36 sitemap.php:39
 msgid "Pages:"
 msgstr "Seiten:"
 
-# @ anarcho-notepad
 #: sitemap.php:32
 msgid "Author(s):"
 msgstr "Autor(en):"
 
-# @ anarcho-notepad
 #: sitemap.php:46
 msgid "Posts:"
 msgstr "Artikel:"
 
-# @ anarcho-notepad
 #: sitemap.php:74
 msgid "Archives:"
 msgstr "Archive:"
-
-#. Theme Name of the plugin/theme
-msgid "Anarcho Notepad"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "http://mycyberuniverse.com/anarcho-notepad.html"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Inspired by the idea of anarchy, I designed this free premium WordPress "
-"theme for your personal blogs and diaries. This theme is perfect for writers "
-"and artists. \"Anarcho Notepad\" can be easily customised and already "
-"translated to different languages. It utilises latest HTML-5, CSS-3, PHP and "
-"WordPress native functions for creating the awesomeness that looks good on "
-"every browser. I’m constantly adding new features to this theme to allow you "
-"to personalise it to your own needs. If you want a new feature or just want "
-"to be able to change something just ask me and I would be happy to add it. "
-"I'm glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Arthur Gareginyan"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "http://www.arthurgareginyan.com"
-msgstr ""
-
-# @ anarcho-notepad
-#~ msgid "You currently reading "
-#~ msgstr "Sie lesen gerade "
-
-# @ anarcho-notepad
-#~ msgid "About box - \"What is this place?\""
-#~ msgstr "Über-uns-Box - \"Worum geht es hier?\""
-
-# @ anarcho-notepad
-#~ msgid "Site-info in footer"
-#~ msgstr "Seiten-Info in der Fußzeile"
-
-# @ anarcho-notepad
-#~ msgid "Disable box \"What is this place?\""
-#~ msgstr "Über-uns-Box deaktivieren"
-
-# @ anarcho-notepad
-#~ msgid "Disable box \"Friends & Links\""
-#~ msgstr "\"Freunde & Links\"-Box deaktivieren"
-
-# @ anarcho-notepad
-#~ msgid "Enable Year in \"Red Data Ribbons\""
-#~ msgstr "Jahr in den roten Datumsbändern anzeigen"
-
-# @ anarcho-notepad
-#~ msgid "Disable \"Red Data Ribbons\""
-#~ msgstr "Rote Datums-Bänder deaktivieren"
-
-# @ anarcho-notepad
-#~ msgid "Paste here small text about You and/or about site"
-#~ msgstr ""
-#~ "Hier kannst du einen kurzen Text über dich und/oder deine Seite einfügen."
-
-# @ anarcho-notepad
-#~ msgid ""
-#~ "Sorry for what I delete some functions from Customizer. I have to do it "
-#~ "due to the rules of wordpress.org."
-#~ msgstr ""
-#~ "Sorry, einige Funktionen des Customizers mussten aufgrund der "
-#~ "Bestimmungen von wordpress.org entfernt werden."
-
-# @ anarcho-notepad
-#~ msgid "Leave a comment"
-#~ msgstr "Schreibe einen Kommentar"
-
-# @ anarcho-notepad
-#~ msgid "Please consider making a donation"
-#~ msgstr "Über eine Spende würde ich mich freuen"
-
-# @ anarcho-notepad
-#~ msgid "Page %s"
-#~ msgstr "Seite %s"
-
-# @ anarcho-notepad
-#~ msgid "&#9998; EDIT"
-#~ msgstr "&#9998; BEARBEITEN"
-
-# @ anarcho-notepad
-#~ msgid "Disable copyright of the author of theme in footer"
-#~ msgstr "Copyright des Theme-Autors in der Fußzeile deaktivieren"
-
-# @ anarcho-notepad
-#~ msgid "Disable button \"To Top\""
-#~ msgstr "\"Nach-oben\"-Button deaktivieren"
-
-# @ anarcho-notepad
-#~ msgid ""
-#~ "If you liked the theme \"Anarcho Notepad\", then I'll be glad if you "
-#~ "consider donating:"
-#~ msgstr ""
-#~ "Wenn dir das Theme \"Anarcho Notepad\" gefällt, würde ich mich über eine "
-#~ "kleine Spende freuen:"
-
-# @ anarcho-notepad
-#~ msgid "Name:"
-#~ msgstr "Name:"
-
-# @ anarcho-notepad
-#~ msgid "Name"
-#~ msgstr "Name"
-
-# @ anarcho-notepad
-#~ msgid "Email:"
-#~ msgstr "Email:"
-
-# @ anarcho-notepad
-#~ msgid "Email"
-#~ msgstr "Email"
-
-# @ anarcho-notepad
-#~ msgid "Website:"
-#~ msgstr "Website:"
-
-# @ anarcho-notepad
-#~ msgid "Website"
-#~ msgstr "Website"
-
-# @ anarcho-notepad
-#~ msgctxt "noun"
-#~ msgid "Comment:"
-#~ msgstr "Kommentar:"
-
-# @ anarcho-notepad
-#~ msgid "Comment"
-#~ msgstr "Kommentar"
-
-# @ anarcho-notepad
-#~ msgid "Leave a Comment"
-#~ msgstr "Schreibe einen Kommentar"
-
-# @ anarcho-notepad
-#~ msgid ""
-#~ "The theme is in the process of translation into other languages of the "
-#~ "world. If you have the desire then you can help me in translation to your "
-#~ "native language."
-#~ msgstr ""
-#~ "Dieses Theme wird zur Zeit in viele weitere Sprachen übersetzt. Wenn du "
-#~ "magst, kannst du mir gern helfen, indem du es in deine Muttersprache "
-#~ "übersetzt."
-
-# @ anarcho-notepad
-#~ msgid " in category "
-#~ msgstr " Kategorie "
-
-# @ anarcho-notepad
-#~ msgid ""
-#~ "Inspired by the idea of Anarchy, I designed this theme for your personal "
-#~ "blogs and diaries. \"Anarcho Notepad\" can be easily customized. It "
-#~ "utilizes latest HTML 5, CSS3 and wordpress native functions for creating "
-#~ "the awesomeness that looks good on every browser. I'm constantly adding "
-#~ "new features to this theme to allow you to personalize it to your own "
-#~ "needs. If you want a new feature or just want to be able to change "
-#~ "something just ask me and I would be happy to add it for you. I would "
-#~ "like to thank you for your support, visit the Theme URI for the update "
-#~ "history, and Enjoy!"
-#~ msgstr ""
-#~ "Inspiriert von der Idee der Anarchie habe ich dieses Theme für private "
-#~ "Blogs und Tagebücher entwickelt.  \"Anarcho Notepad\" kann sehr leicht "
-#~ "konfiguriert und angepasst werden. Es verwendet neueste HTML5-, CSS3- und "
-#~ "native Worpress-Funktionen, um in jedem Browser gut auszusehen. Ich "
-#~ "erweitere dieses Theme ständig um neue Funktionen, so dass es möglichst "
-#~ "felxibel an deine Bedürfnisse angepasst werden kann. Wenn du Ideen für "
-#~ "neue Features oder auch nur Fragen hast, wie sich z.B. etwas ändern "
-#~ "lässt, freue ich mich über eine Nachricht. Vielen Dank für deinen "
-#~ "Support! Besuche die Theme-Website für Updates, und nun viel Spaß!"
-
-# @ anarcho-notepad
-#~ msgid "\"Anarcho-Notepad\" written in English and translated into:"
-#~ msgstr "\"Anarcho-Notepad\" wurde in Englisch verfasst und übersetzt in:"

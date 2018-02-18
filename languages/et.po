@@ -6,7 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2018-02-12 20:20+0300\n"
 "Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
 "Language-Team: \n"
-"Language: fr\n"
+"Language: et_EE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,200 +21,197 @@ msgstr ""
 
 #: 404.php:21
 msgid "Page Not Found"
-msgstr "Page Introuvable"
+msgstr "Lehte ei leitud"
 
 #: 404.php:22
 msgid ""
 "We're very sorry, but the page you requested has not been found! It may have "
 "been moved or deleted."
 msgstr ""
-"Désolé, cette page est introuvable ! Elle a peut-être été déplacée ou "
-"supprimée."
+"Vabandame, otsitavat lehte ei leitud! Leht on ümber tõstetud või kustutatud."
 
 #: 404.php:23
 msgid ""
 "I'm not blaming you, but have you checked your address bar? There might be a "
 "typo in the URL."
 msgstr ""
-"Vérifiez peut-être la barre d'addresse ? Il y a peut-être une erreur dans "
-"l'URL."
+"Me ei süüdista sind, kuid oled sa aadressi õigsuses kindel? Aadressis võib "
+"olla viga."
 
 #: 404.php:24
 msgid ""
 "If there isn't, you could try searching my website for the content you were "
 "looking for:"
-msgstr ""
-"Sinon, vous pouvez utiliser la recherche sur le site pour trouver ce que "
-"vous cherchez :"
+msgstr "Kui ei ole, siis vaata, kas leiad otsitava minu kodulehelt:"
 
 #: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
 #: page_without_date.php:31 search.php:38 single.php:35
 msgid "Continue reading"
-msgstr "Lire plus"
+msgstr "Jätka lugemist"
 
 #: author-bio.php:19
 msgid "About the Author"
-msgstr "A propos de l'Auteur"
+msgstr "Autorist"
 
 #: comments.php:42
 msgid "Comment navigation"
-msgstr "Navigation commentaires"
+msgstr "Kommentaari haldamine"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Commentaires désactivés"
+msgstr "Kommentaarid on keelatud."
 
 #: functions.php:68
 msgid "Primary"
-msgstr "Principal"
+msgstr "Esmane"
 
 #: functions.php:147
 msgid "Help"
-msgstr "Aide"
+msgstr "Abi"
 
 #: functions.php:150
 msgid "Need help with Anarcho-Notepad? Click here!"
-msgstr "Besin d'aide sur Anarcho-Notepad ? Cliquez ici !"
+msgstr "Vajad Anarcho-Notepad teema kasutamisel abi? Vajuta siia!"
 
 #: functions.php:207
 msgid "Sidebar Area 1"
-msgstr "Barre Latérale 1"
+msgstr "Sidebar Area 1"
 
 #: functions.php:209
 msgid "Widgets in this area will be shown below \"Pages\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Pages\""
+msgstr "Selle ala vidinaid kuvatakse all pool \"Lehed\"."
 
 #: functions.php:216
 msgid "Sidebar Area 2"
-msgstr "Barre Latérale 2"
+msgstr "Sidebar Area 2"
 
 #: functions.php:218
 msgid "Widgets in this area will be shown below \"What is this place\"."
-msgstr "Les Widgets de cette zone seront affichés après \"A Propos\"."
+msgstr "Selle ala vidinaid kuvatakse all pool  \"Mis koht see on\"."
 
 #: functions.php:225
 msgid "Sidebar Area 3"
-msgstr "Barre Latérale 3"
+msgstr "Sidebar Area 3"
 
 #: functions.php:227
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Liens & Amis\"."
+msgstr "Selle ala vidinaid kuvatakse all pool \"Sõbrad & Lingid\"."
 
 #: functions.php:234
 msgid "Sidebar Area 4"
-msgstr "Barre Latérale 4"
+msgstr "Sidebar Area 4"
 
 #: functions.php:236
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Recent Posts\"."
+msgstr "Selle ala vidinaid kuvatakse all pool \"Hiljutised Postitused\"."
 
 #: functions.php:248
 msgid "Footer Area 1"
-msgstr "Bas de Page 1"
+msgstr "Footer Area 1"
 
 #: functions.php:250
 msgid "Widgets in this area will be shown left."
-msgstr "Les Widgets de cette zone seront alignés à gauche."
+msgstr "Selle ala vidinaid kuvatakse vasakul."
 
 #: functions.php:257
 msgid "Footer Area 2"
-msgstr "Bas de Page 2"
+msgstr "Footer Area 2"
 
 #: functions.php:259
 msgid "Widgets in this area will be shown center."
-msgstr "Les Widgets de cette zone seront centrés."
+msgstr "Selle ala vidinaid kuvatakse keskel."
 
 #: functions.php:266
 msgid "Footer Area 3"
-msgstr "Bas de Page 3"
+msgstr "Footer Area 3"
 
 #: functions.php:268
 msgid "Widgets in this area will be shown right."
-msgstr "Les Widgets de cette zone seront alignés à droite."
+msgstr "Selle ala vidinaid kuvatakse paremal."
 
 #: functions.php:350
 msgid "Archive by category "
-msgstr "Archive par catégorie"
+msgstr "Arhiveeri kategooria järgi "
 
 #: functions.php:354
 msgid "Archive by date "
-msgstr "Archive par date"
+msgstr "Arhiveeri kuupäeva järgi "
 
 #: functions.php:357
 msgid "Archive by month "
-msgstr "Archive par mois"
+msgstr "Arhiveeri kuu järgi "
 
 #: functions.php:359
 msgid "Archive by year "
-msgstr "Archive par année"
+msgstr "Arhiveeri aasta järgi "
 
 #: functions.php:369 functions.php:397
 msgid "You&apos;re currently reading "
-msgstr "Vous lisez actuellement "
+msgstr "Praegu loed "
 
 #: functions.php:399
 msgid "Search results for "
-msgstr "Résultats de recherche pour"
+msgstr "Vasted otsingule "
 
 #: functions.php:401
 msgid "Archive by tag "
-msgstr "Archive par tag "
+msgstr "Arhiveeri sildi järgi "
 
 #: functions.php:405
 msgid "Articles posted by "
-msgstr "Articles postés par "
+msgstr "Postituse avaldas "
 
 #: functions.php:407
 msgid "You got it "
-msgstr "Introuvable, Voilà "
+msgstr "Õigesti tehtud "
 
 #: functions.php:434
 msgid "Previous page"
-msgstr "Page précédente"
+msgstr "Eelmine"
 
 #: functions.php:435
 msgid "Next page"
-msgstr "Page suivante"
+msgstr "Järgmine"
 
 #: functions.php:437
 msgid "Page "
-msgstr "Page"
+msgstr "Leht "
 
 #: functions.php:437
 msgid " of the "
-msgstr " sur "
+msgstr " sellest "
 
 #: functions.php:447
 msgid "Posts navigation"
-msgstr "Navigation des articles"
+msgstr "Postituste haldamine"
 
 #: functions.php:478
 msgid "Post navigation"
-msgstr "Navigation de l'article"
+msgstr "Postituse haldamine"
 
 #: functions.php:501
 msgid "Pingback:"
-msgstr "Pinback :"
+msgstr ""
 
 #: functions.php:501
 msgid "(Edit)"
-msgstr "(Modifier)"
+msgstr "(Muuda)"
 
 #: functions.php:516
 msgid "(Post author) "
-msgstr "(Auteur) "
+msgstr "(Postituse autor) "
 
 #: functions.php:527
 msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de modération."
+msgstr "Teie kommentaar ootab modereerimist."
 
 #: functions.php:532
 msgid "Edit"
-msgstr "Modifier"
+msgstr "Muuda"
 
 #: functions.php:536
 msgid "Reply"
-msgstr "Répondre"
+msgstr "Vasta"
 
 #: functions.php:549 single.php:45
 msgid "Copyright 2018. All rights reserved."
@@ -222,51 +219,51 @@ msgstr ""
 
 #: functions.php:573
 msgid " queries in "
-msgstr " requêtes en "
+msgstr " päringuid "
 
 #: functions.php:575
 msgid " seconds"
-msgstr " secondes"
+msgstr " sekundis"
 
 #: functions.php:578
 msgid " mb"
-msgstr " Mo"
+msgstr " mb"
 
 #: functions.php:606
 msgid "Not Found"
-msgstr "Introuvable"
+msgstr "Ei Leitud"
 
 #: functions.php:607
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr "Désolé, ce que vous cherchez n'est pas ici."
+msgstr "Vabdandust, aga sa otsid midagi, mida siin ei ole."
 
 #: functions.php:622 functions.php:632 functions.php:634 sitemap.php:52
 msgid "Category: "
-msgstr "Catégorie : "
+msgstr "Kategooria: "
 
 #: functions.php:624 functions.php:626 functions.php:632 functions.php:634
 msgid "EDIT"
-msgstr "Modifier"
+msgstr ""
 
 #: functions.php:626
 msgid "Posted "
-msgstr "Ecrit "
+msgstr "Avaldas "
 
 #: functions.php:626
 msgid " by "
-msgstr " par "
+msgstr ""
 
 #: functions.php:626
 msgid " in category \""
-msgstr " dans la catégorie \""
+msgstr ""
 
 #: functions.php:632 functions.php:634
 msgid "LEAVE A COMMENT"
-msgstr "Commenter"
+msgstr "KOMMENTEERI"
 
 #: inc/customizer.php:35
 msgid "Meta"
-msgstr "Méta"
+msgstr "Meta"
 
 #: inc/customizer.php:41 sidebar.php:40
 msgid "Paste here small text about you and/or about your site."
@@ -278,7 +275,7 @@ msgstr ""
 
 #: inc/customizer.php:58
 msgid "Copyright after post"
-msgstr "Copyright après article"
+msgstr "Autoriõigused postituse lõpus"
 
 #: inc/customizer.php:70
 msgid "Copyright in footer"
@@ -286,11 +283,11 @@ msgstr ""
 
 #: inc/customizer.php:78
 msgid "Stuff"
-msgstr "Divers"
+msgstr "Kraam"
 
 #: inc/customizer.php:90
 msgid "Disable \"Paper Search\""
-msgstr "Désactiver \"Recherche\""
+msgstr "Lülita välja \"Otsing\""
 
 #: inc/customizer.php:102
 msgid "Disable \"Red Date Ribbons\""
@@ -314,23 +311,23 @@ msgstr ""
 
 #: inc/customizer.php:162
 msgid "Disable \"Recent Posts Sticker\""
-msgstr "Désactiver \"Recent Posts\""
+msgstr "Lülita välja \"Hiljutised postitused\""
 
 #: inc/customizer.php:174
 msgid "Disable block \"About the Author\""
-msgstr "Désactiver \"A propos de l'auteur\""
+msgstr "Lülita välja blokk \"Autorist\""
 
 #: inc/customizer.php:186
 msgid "Enable \"Breadcrumbs\""
-msgstr "Activer \"Breadcrumbs\""
+msgstr "Lülita sisse \"Breadcrumbs\""
 
 #: inc/customizer.php:198
 msgid "Enable \"Page Navigation\""
-msgstr "Activer \"Navigation\""
+msgstr "Lülita sisse \"Lehel navigeerimine\""
 
 #: inc/customizer.php:210
 msgid "Enable \"Title animation\""
-msgstr "Activer \"Animation du titre\""
+msgstr "Lülita sisse \"Animeeritud pealkiri\""
 
 #: inc/customizer.php:222
 msgid "Disable button \"Scroll To Top\""
@@ -338,95 +335,95 @@ msgstr ""
 
 #: inc/customizer.php:234
 msgid "Show info line in footer"
-msgstr "Montrer information dans le bas de page"
+msgstr "Kuva jaluses infot"
 
 #: inc/customizer.php:256
 msgid "Numbers of recent posts in sidebar"
-msgstr "Nombres d'articles dans la barre latérale"
+msgstr ""
 
 #: inc/customizer.php:266
 msgid "Scripts"
-msgstr "Scripts"
+msgstr "Skriptid"
 
 #: inc/customizer.php:267
 msgid "Put here your scripts"
-msgstr "Placer vos scripts ici"
+msgstr "Pane skriptid siia"
 
 #: inc/customizer.php:278
 msgid "Scripts before posts"
-msgstr "Scripts avant les articles"
+msgstr "Skriptid enne postitusi"
 
 #: inc/customizer.php:290
 msgid "Scripts at the beginning of the posts"
-msgstr "Scripts au début des articles"
+msgstr "Skriptitid postituste alguses"
 
 #: inc/customizer.php:302
 msgid "Scripts at the end of the posts"
-msgstr "Scripts à la fin des articles"
+msgstr "Skriptid postituste lõpus"
 
 #: inc/customizer.php:314
 msgid "Scripts after posts"
-msgstr "Scripts après les articles"
+msgstr "Skriptid pärast postitusi"
 
 #: inc/customizer.php:321
 msgid "Post"
-msgstr "Article"
+msgstr "Postitused"
 
 #: inc/customizer.php:344
 msgid "Font size of posts"
-msgstr "Taille de la police des articles"
+msgstr "Postituste fondi suurus"
 
 #: inc/customizer.php:654
 msgid "Font of posts (Google Webfonts)"
-msgstr "Police des articles (Google Webfonts)"
+msgstr "Postituste font (Google Webfonts)"
 
 #: inc/customizer.php:675
 msgid "Site Title font (Google Webfonts)"
-msgstr "Police du Titre du Site (Google Webfonts)"
+msgstr "Lehe pealkirja font (Google Webfonts)"
 
 #: inc/customizer.php:690
 msgid "Site Tagline font (Google Webfonts)"
-msgstr "Police du Sous-Titre (Google Webfonts)"
+msgstr "Lehe Tagline font (Google Webfonts)"
 
 #: inc/customizer.php:706
 msgid "Site Title color"
-msgstr "Couleur du Titre du Site"
+msgstr "Lehe pealkirja värv"
 
 #: inc/customizer.php:720
 msgid "Site Tagline color"
-msgstr "Couleur du Sous-Titre"
+msgstr "Lehe Tagline värv"
 
 #: inc/customizer.php:732
 msgid "Site Title Position"
-msgstr "Position du Titre du Site"
+msgstr "Lehe pealkirja positsioon"
 
 #: inc/customizer.php:738
 msgid "Left"
-msgstr "Gauche"
+msgstr "Vasak"
 
 #: inc/customizer.php:739
 msgid "Center"
-msgstr "Centre"
+msgstr "Keskel"
 
 #: inc/customizer.php:753
 msgid "Background Color"
-msgstr "Couleur de fond"
+msgstr "Taustavärv"
 
 #: inc/customizer.php:764
 msgid "Background Size"
-msgstr "Taille du fond"
+msgstr "Tausta suurus"
 
 #: inc/customizer.php:770
 msgid "Auto (Default)"
-msgstr "Automatique (par Défaut)"
+msgstr "Automaatne (Vaikimisi)"
 
 #: inc/customizer.php:771
 msgid "Contain"
-msgstr "Contient"
+msgstr "Sisaldab"
 
 #: inc/customizer.php:772
 msgid "Cover"
-msgstr "Couverture"
+msgstr "Katab"
 
 #: inc/theme_info.php:55
 msgid "Theme \"Anarcho Notepad\""
@@ -545,12 +542,12 @@ msgid ""
 "If you have any questions or suggestions for improving and adding new "
 "features, feel free to "
 msgstr ""
-"Si vous avez des questions ou des suggestions pour améliorer ou rajouter des "
-"fonctionnalités, n'hésitez pas à me contacter sur :"
+"Kui tekkib mingeid küsimusi või soovitusi teema arendamise ja uute "
+"funktsioonide lisamise kohta, siis võta minuga julgelt ühendust:"
 
 #: inc/theme_info.php:94
 msgid "Translation"
-msgstr "Traduction"
+msgstr "Tõlkimine"
 
 #: inc/theme_info.php:95
 msgid ""
@@ -585,12 +582,12 @@ msgstr ""
 #: inc/theme_info.php:117
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr ""
-"Merci à tous ceux qui m'ont aidé a traduire \"Anarcho-Notepad\" dans "
-"d'autres langues !"
+"Tänan kõiki, kes on aidanud mul \"Anarcho-Notepad\" teemat teistesse "
+"keeltesse tõlkida!"
 
 #: inc/theme_info.php:118
 msgid "Thank you very much for your contribution!"
-msgstr "Merci pour votre contribution !"
+msgstr "Tänan abi eest!"
 
 #: inc/theme_info.php:121
 msgid "PREMIUM versions"
@@ -656,7 +653,7 @@ msgstr ""
 
 #: inc/theme_info.php:160
 msgid "Happy to enjoy the theme?"
-msgstr "Vous appréciez \"Anarcho-Notepad\" ?"
+msgstr "Oled Anarcho-Notepad teemaga rahul?"
 
 #: inc/theme_info.php:164
 msgid "Thanks for your support!"
@@ -664,7 +661,7 @@ msgstr ""
 
 #: inc/theme_info.php:169
 msgid "Follow our Founder"
-msgstr "Suivez-moi aussi sur :"
+msgstr "Ole mu tegevusega kursis :"
 
 #: inc/theme_info.php:179
 msgid "Explore our website"
@@ -672,7 +669,7 @@ msgstr ""
 
 #: inc/theme_info.php:201 inc/theme_info.php:202
 msgid "Theme Info"
-msgstr "Informations sur le thème"
+msgstr "Teema Info"
 
 #: inc/upgrade_notice.php:26
 msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
@@ -703,24 +700,24 @@ msgstr ""
 
 #: search.php:48
 msgid "Sorry for your result nothing found"
-msgstr "Désolé, aucun résultat de recherche"
+msgstr "Otsingule ei leitud vastet"
 
 #: searchform.php:17
 msgid "Write your search and hit Enter"
-msgstr "Tapez votre recherche puis Entrée"
+msgstr "kirjuta otsitav sõna ja vajuta Enter klahvi"
 
 #: single.php:36 sitemap.php:39
 msgid "Pages:"
-msgstr "Pages :"
+msgstr "Lehed:"
 
 #: sitemap.php:32
 msgid "Author(s):"
-msgstr "Auteur(s) :"
+msgstr "Autorid(d):"
 
 #: sitemap.php:46
 msgid "Posts:"
-msgstr "Articles :"
+msgstr "Postitused:"
 
 #: sitemap.php:74
 msgid "Archives:"
-msgstr "Archives :"
+msgstr "Arhiivid:"

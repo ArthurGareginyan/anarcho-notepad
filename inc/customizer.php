@@ -3,10 +3,10 @@
  * Theme Customizer support
  *
  * @package     Anarcho Notepad
- * @since       2.31
+ * @since       2.32
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
- * @link      	http://mycyberuniverse.com/anarcho-notepad.html
+ * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
+ * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
 
@@ -50,7 +50,7 @@ function anarcho_customize_register( $wp_customize ) {
 
 		// Copyright after post
 		$wp_customize->add_setting( 'copyright_post', array(
-		        'default'			=> 'Copyright 2017. All rights reserved.',
+		        'default'			=> 'Copyright 2018. All rights reserved.',
 		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'copyright_post', array(
@@ -62,7 +62,7 @@ function anarcho_customize_register( $wp_customize ) {
 
 		// Copyright in footer
 		$wp_customize->add_setting( 'site-info', array(
-		        'default'			=> 'Copyright 2017. All rights reserved.',
+		        'default'			=> 'Copyright 2018. All rights reserved.',
 		        'sanitize_callback' 		=> 'esc_attr',
 		));
 		$wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'site-info', array(

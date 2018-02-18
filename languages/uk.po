@@ -2,15 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-12 20:20+0300\n"
-"PO-Revision-Date: 2018-02-12 20:20+0300\n"
+"POT-Creation-Date: 2018-02-12 19:59+0300\n"
+"PO-Revision-Date: 2018-02-12 20:06+0300\n"
 "Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
 "Language-Team: \n"
-"Language: fr\n"
+"Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
@@ -21,420 +22,418 @@ msgstr ""
 
 #: 404.php:21
 msgid "Page Not Found"
-msgstr "Page Introuvable"
+msgstr "Сторiнка не знайдена"
 
 #: 404.php:22
 msgid ""
 "We're very sorry, but the page you requested has not been found! It may have "
 "been moved or deleted."
 msgstr ""
-"Désolé, cette page est introuvable ! Elle a peut-être été déplacée ou "
-"supprimée."
+"Вибачте, але сторiнка, яку ви запрошуєте, не знайдена. Вона, можливо, "
+"переміщена або знищена."
 
 #: 404.php:23
 msgid ""
 "I'm not blaming you, but have you checked your address bar? There might be a "
 "typo in the URL."
 msgstr ""
-"Vérifiez peut-être la barre d'addresse ? Il y a peut-être une erreur dans "
-"l'URL."
+"Я  вас не звинувачую, але чи перевірили ви адресу? Можливо в URL у вас "
+"опечатка."
 
 #: 404.php:24
 msgid ""
 "If there isn't, you could try searching my website for the content you were "
 "looking for:"
-msgstr ""
-"Sinon, vous pouvez utiliser la recherche sur le site pour trouver ce que "
-"vous cherchez :"
+msgstr "Ви можете скористуватися пошуком на моєму сайті:"
 
 #: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
 #: page_without_date.php:31 search.php:38 single.php:35
 msgid "Continue reading"
-msgstr "Lire plus"
+msgstr "Продовжити читання"
 
 #: author-bio.php:19
 msgid "About the Author"
-msgstr "A propos de l'Auteur"
+msgstr "Про Автора"
 
 #: comments.php:42
 msgid "Comment navigation"
-msgstr "Navigation commentaires"
+msgstr "Навігація по коментарям"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Commentaires désactivés"
+msgstr "Коментарі вимкнені."
 
 #: functions.php:68
 msgid "Primary"
-msgstr "Principal"
+msgstr "Головне"
 
 #: functions.php:147
 msgid "Help"
-msgstr "Aide"
+msgstr "Допомога"
 
 #: functions.php:150
 msgid "Need help with Anarcho-Notepad? Click here!"
-msgstr "Besin d'aide sur Anarcho-Notepad ? Cliquez ici !"
+msgstr "Потрібна допомога з Anarcho-Notepad? Натисніть тут!"
 
 #: functions.php:207
 msgid "Sidebar Area 1"
-msgstr "Barre Latérale 1"
+msgstr "Бічна зона 1"
 
 #: functions.php:209
 msgid "Widgets in this area will be shown below \"Pages\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Pages\""
+msgstr "Віджети у цій зоні будуть показані нижче \"Сторінки\"."
 
 #: functions.php:216
 msgid "Sidebar Area 2"
-msgstr "Barre Latérale 2"
+msgstr "Бічна зона 2"
 
 #: functions.php:218
 msgid "Widgets in this area will be shown below \"What is this place\"."
-msgstr "Les Widgets de cette zone seront affichés après \"A Propos\"."
+msgstr "Віджети у цій зоні будуть показані нижче \"Що це за місце?\"."
 
 #: functions.php:225
 msgid "Sidebar Area 3"
-msgstr "Barre Latérale 3"
+msgstr "Бічна зона 3"
 
 #: functions.php:227
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Liens & Amis\"."
+msgstr "Віджети у цій зоні будуть показані нижче \"Друзі та посилання\"."
 
 #: functions.php:234
 msgid "Sidebar Area 4"
-msgstr "Barre Latérale 4"
+msgstr "Бічна зона 4"
 
 #: functions.php:236
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Recent Posts\"."
+msgstr "Віджети у цій зоні будуть показані нижче \"Останні Записи”."
 
 #: functions.php:248
 msgid "Footer Area 1"
-msgstr "Bas de Page 1"
+msgstr "Область колонтитула 1"
 
 #: functions.php:250
 msgid "Widgets in this area will be shown left."
-msgstr "Les Widgets de cette zone seront alignés à gauche."
+msgstr "Віджети у цій зоні будуть показані зліва."
 
 #: functions.php:257
 msgid "Footer Area 2"
-msgstr "Bas de Page 2"
+msgstr "Область колонтитула 2"
 
 #: functions.php:259
 msgid "Widgets in this area will be shown center."
-msgstr "Les Widgets de cette zone seront centrés."
+msgstr "Віджети у цій зоні будуть показані в центрі."
 
 #: functions.php:266
 msgid "Footer Area 3"
-msgstr "Bas de Page 3"
+msgstr "Область колонтитула 3"
 
 #: functions.php:268
 msgid "Widgets in this area will be shown right."
-msgstr "Les Widgets de cette zone seront alignés à droite."
+msgstr "Віджети у цій зоні будуть показані справа."
 
 #: functions.php:350
 msgid "Archive by category "
-msgstr "Archive par catégorie"
+msgstr "Архів по категорії "
 
 #: functions.php:354
 msgid "Archive by date "
-msgstr "Archive par date"
+msgstr "Архів по даті "
 
 #: functions.php:357
 msgid "Archive by month "
-msgstr "Archive par mois"
+msgstr "Архів по місяцю "
 
 #: functions.php:359
 msgid "Archive by year "
-msgstr "Archive par année"
+msgstr "Архів по року "
 
 #: functions.php:369 functions.php:397
 msgid "You&apos;re currently reading "
-msgstr "Vous lisez actuellement "
+msgstr "Ви зараз читаєте "
 
 #: functions.php:399
 msgid "Search results for "
-msgstr "Résultats de recherche pour"
+msgstr "Знайти результати для "
 
 #: functions.php:401
 msgid "Archive by tag "
-msgstr "Archive par tag "
+msgstr "Архів по тегу "
 
 #: functions.php:405
 msgid "Articles posted by "
-msgstr "Articles postés par "
+msgstr "Записи оприлюднени "
 
 #: functions.php:407
 msgid "You got it "
-msgstr "Introuvable, Voilà "
+msgstr "Ось воно "
 
 #: functions.php:434
 msgid "Previous page"
-msgstr "Page précédente"
+msgstr "Попередня сторінка"
 
 #: functions.php:435
 msgid "Next page"
-msgstr "Page suivante"
+msgstr "Наступна сторінка"
 
 #: functions.php:437
 msgid "Page "
-msgstr "Page"
+msgstr "Сторінка "
 
 #: functions.php:437
 msgid " of the "
-msgstr " sur "
+msgstr " з "
 
 #: functions.php:447
 msgid "Posts navigation"
-msgstr "Navigation des articles"
+msgstr "Навігація по записам"
 
 #: functions.php:478
 msgid "Post navigation"
-msgstr "Navigation de l'article"
+msgstr "Навігація по запису"
 
 #: functions.php:501
 msgid "Pingback:"
-msgstr "Pinback :"
+msgstr "Сповіщення:"
 
 #: functions.php:501
 msgid "(Edit)"
-msgstr "(Modifier)"
+msgstr "(Редактувати)"
 
 #: functions.php:516
 msgid "(Post author) "
-msgstr "(Auteur) "
+msgstr "(Автор запису) "
 
 #: functions.php:527
 msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de modération."
+msgstr "Ваш коментар чекає перевірки."
 
 #: functions.php:532
 msgid "Edit"
-msgstr "Modifier"
+msgstr "Редактувати"
 
 #: functions.php:536
 msgid "Reply"
-msgstr "Répondre"
+msgstr "Відповісти"
 
 #: functions.php:549 single.php:45
 msgid "Copyright 2018. All rights reserved."
-msgstr ""
+msgstr "Копірайт 2018. Всі права захищені."
 
 #: functions.php:573
 msgid " queries in "
-msgstr " requêtes en "
+msgstr " запитів в "
 
 #: functions.php:575
 msgid " seconds"
-msgstr " secondes"
+msgstr " секунд"
 
 #: functions.php:578
 msgid " mb"
-msgstr " Mo"
+msgstr " мб"
 
 #: functions.php:606
 msgid "Not Found"
-msgstr "Introuvable"
+msgstr "Не знайдено"
 
 #: functions.php:607
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr "Désolé, ce que vous cherchez n'est pas ici."
+msgstr "Пробачте, але тут немає того, що ви шукаєте."
 
 #: functions.php:622 functions.php:632 functions.php:634 sitemap.php:52
 msgid "Category: "
-msgstr "Catégorie : "
+msgstr "Категорія: "
 
 #: functions.php:624 functions.php:626 functions.php:632 functions.php:634
 msgid "EDIT"
-msgstr "Modifier"
+msgstr "Редагувати"
 
 #: functions.php:626
 msgid "Posted "
-msgstr "Ecrit "
+msgstr "Оприлюднено "
 
 #: functions.php:626
 msgid " by "
-msgstr " par "
+msgstr ""
 
 #: functions.php:626
 msgid " in category \""
-msgstr " dans la catégorie \""
+msgstr " в категоріі \""
 
 #: functions.php:632 functions.php:634
 msgid "LEAVE A COMMENT"
-msgstr "Commenter"
+msgstr "ЗАЛИШИТИ КОМЕНТАР"
 
 #: inc/customizer.php:35
 msgid "Meta"
-msgstr "Méta"
+msgstr "Мета"
 
 #: inc/customizer.php:41 sidebar.php:40
 msgid "Paste here small text about you and/or about your site."
-msgstr ""
+msgstr "Впишіть сюди невеликий текст про себе i/чи про свій сайт."
 
 #: inc/customizer.php:46
 msgid "About widget - \"What is this place?\""
-msgstr ""
+msgstr "Віджет - “What is this place?” (Що це за місце?)"
 
 #: inc/customizer.php:58
 msgid "Copyright after post"
-msgstr "Copyright après article"
+msgstr "Копірайт після запису"
 
 #: inc/customizer.php:70
 msgid "Copyright in footer"
-msgstr ""
+msgstr "Копірайт в нижньому колонтитулі"
 
 #: inc/customizer.php:78
 msgid "Stuff"
-msgstr "Divers"
+msgstr "Stuff"
 
 #: inc/customizer.php:90
 msgid "Disable \"Paper Search\""
-msgstr "Désactiver \"Recherche\""
+msgstr "Вимкнути \"Сторінка пошуку\""
 
 #: inc/customizer.php:102
 msgid "Disable \"Red Date Ribbons\""
-msgstr ""
+msgstr "Вимкнути \"Червоні стрічки з датою\""
 
 #: inc/customizer.php:114
 msgid "Enable Year in \"Red Date Ribbons\""
-msgstr ""
+msgstr "Показувати рік в \"Червоні стрічки з датою\""
 
 #: inc/customizer.php:126
 msgid "Disable RSS feed ribbon tag"
-msgstr ""
+msgstr "Вимкнути стрічку-іконку RSS каналу"
 
 #: inc/customizer.php:138
 msgid "Disable widget \"What is this place?\""
-msgstr ""
+msgstr "Вимкнути \"What is this place?\" (Що це за місце?)"
 
 #: inc/customizer.php:150
 msgid "Disable widget \"Friends & Links\""
-msgstr ""
+msgstr "Вимкнути \"Friends & Links\" (Друзі та Посилання)"
 
 #: inc/customizer.php:162
 msgid "Disable \"Recent Posts Sticker\""
-msgstr "Désactiver \"Recent Posts\""
+msgstr "Вимкнути \"Стікер з останніми записами\""
 
 #: inc/customizer.php:174
 msgid "Disable block \"About the Author\""
-msgstr "Désactiver \"A propos de l'auteur\""
+msgstr "Вимкнути блок \"Про Автора\""
 
 #: inc/customizer.php:186
 msgid "Enable \"Breadcrumbs\""
-msgstr "Activer \"Breadcrumbs\""
+msgstr "Увімкнути \"Хлібні крихти\""
 
 #: inc/customizer.php:198
 msgid "Enable \"Page Navigation\""
-msgstr "Activer \"Navigation\""
+msgstr "Увімкнути \"Посторінкова навігація\""
 
 #: inc/customizer.php:210
 msgid "Enable \"Title animation\""
-msgstr "Activer \"Animation du titre\""
+msgstr "Увімкнути \"Анімація заголовка\""
 
 #: inc/customizer.php:222
 msgid "Disable button \"Scroll To Top\""
-msgstr ""
+msgstr "Вимкнути кнопку ”Нагору\""
 
 #: inc/customizer.php:234
 msgid "Show info line in footer"
-msgstr "Montrer information dans le bas de page"
+msgstr "Показати інформаційний рядок в"
 
 #: inc/customizer.php:256
 msgid "Numbers of recent posts in sidebar"
-msgstr "Nombres d'articles dans la barre latérale"
+msgstr "Число останніх записів в бічній панелі"
 
 #: inc/customizer.php:266
 msgid "Scripts"
-msgstr "Scripts"
+msgstr "Скрипти"
 
 #: inc/customizer.php:267
 msgid "Put here your scripts"
-msgstr "Placer vos scripts ici"
+msgstr "Оголошення тут ваші скрипти"
 
 #: inc/customizer.php:278
 msgid "Scripts before posts"
-msgstr "Scripts avant les articles"
+msgstr "Скрипти перед записами"
 
 #: inc/customizer.php:290
 msgid "Scripts at the beginning of the posts"
-msgstr "Scripts au début des articles"
+msgstr "Скрипты на початку записів"
 
 #: inc/customizer.php:302
 msgid "Scripts at the end of the posts"
-msgstr "Scripts à la fin des articles"
+msgstr "Скрипты в кінці записів"
 
 #: inc/customizer.php:314
 msgid "Scripts after posts"
-msgstr "Scripts après les articles"
+msgstr "Скрипты після записів"
 
 #: inc/customizer.php:321
 msgid "Post"
-msgstr "Article"
+msgstr "Запис"
 
 #: inc/customizer.php:344
 msgid "Font size of posts"
-msgstr "Taille de la police des articles"
+msgstr "Розмір шрифту в записах"
 
 #: inc/customizer.php:654
 msgid "Font of posts (Google Webfonts)"
-msgstr "Police des articles (Google Webfonts)"
+msgstr "Шрифт записів (Google Webfonts)"
 
 #: inc/customizer.php:675
 msgid "Site Title font (Google Webfonts)"
-msgstr "Police du Titre du Site (Google Webfonts)"
+msgstr "Шрифт заголовка (Google Webfonts)"
 
 #: inc/customizer.php:690
 msgid "Site Tagline font (Google Webfonts)"
-msgstr "Police du Sous-Titre (Google Webfonts)"
+msgstr "Шрифт підзаголовка (Google Webfonts)"
 
 #: inc/customizer.php:706
 msgid "Site Title color"
-msgstr "Couleur du Titre du Site"
+msgstr "Колір заголовка"
 
 #: inc/customizer.php:720
 msgid "Site Tagline color"
-msgstr "Couleur du Sous-Titre"
+msgstr "Колір підзаголовка"
 
 #: inc/customizer.php:732
 msgid "Site Title Position"
-msgstr "Position du Titre du Site"
+msgstr "Позиція заголовка"
 
 #: inc/customizer.php:738
 msgid "Left"
-msgstr "Gauche"
+msgstr "Зліва"
 
 #: inc/customizer.php:739
 msgid "Center"
-msgstr "Centre"
+msgstr "По центру"
 
 #: inc/customizer.php:753
 msgid "Background Color"
-msgstr "Couleur de fond"
+msgstr "Колір фону"
 
 #: inc/customizer.php:764
 msgid "Background Size"
-msgstr "Taille du fond"
+msgstr "Розмір фону"
 
 #: inc/customizer.php:770
 msgid "Auto (Default)"
-msgstr "Automatique (par Défaut)"
+msgstr "Автоматично (Стандарт)"
 
 #: inc/customizer.php:771
 msgid "Contain"
-msgstr "Contient"
+msgstr "Помістити"
 
 #: inc/customizer.php:772
 msgid "Cover"
-msgstr "Couverture"
+msgstr "Обкладинка"
 
 #: inc/theme_info.php:55
 msgid "Theme \"Anarcho Notepad\""
-msgstr ""
+msgstr "Тема \"Anarcho Notepad\""
 
 #: inc/theme_info.php:56
 msgid "by Space X-Chimp"
-msgstr ""
+msgstr "від Space X-Chimp"
 
 #: inc/theme_info.php:61
 msgid ""
@@ -450,23 +449,24 @@ msgstr ""
 
 #: inc/theme_info.php:64
 msgid "Features"
-msgstr ""
+msgstr "Особливості"
 
 #: inc/theme_info.php:66
 msgid "Cross browser compatible (work smooth in any modern browser)"
 msgstr ""
+"Кросс-браузерна сумісність (працює гладко в будь-якому сучасному браузері)"
 
 #: inc/theme_info.php:67
 msgid "RTL compatible (right to left)"
-msgstr ""
+msgstr "RTL сумісний (справа наліво)"
 
 #: inc/theme_info.php:68
 msgid "Ready for translation (Translated to 12 languages)"
-msgstr ""
+msgstr "Готовий до перекладу (Перекладено на 12 мов)"
 
 #: inc/theme_info.php:69
 msgid "Hand-coded, no WYSIWYG stuff"
-msgstr ""
+msgstr "Код написаний вручну, ніяких WYSIWYG"
 
 #: inc/theme_info.php:70
 msgid "HTML5 Inside"
@@ -478,59 +478,59 @@ msgstr ""
 
 #: inc/theme_info.php:72
 msgid "Easy to set up - Theme Customizer"
-msgstr ""
+msgstr "Простота установки - Theme Customizer"
 
 #: inc/theme_info.php:73
 msgid "Customize using \"Google Web Fonts\""
-msgstr ""
+msgstr "Налаштування за допомогою “Google Web Fonts”"
 
 #: inc/theme_info.php:74
 msgid "Built-in iconic font \"Font Awesome\""
-msgstr ""
+msgstr "Вбудований шрифт-іконки \"Font Awesome\""
 
 #: inc/theme_info.php:75
 msgid "Widget ready (in sidebar and footer)"
-msgstr ""
+msgstr "Готовий до віджетів (в бічній панелі і нижньому колонтитулі)"
 
 #: inc/theme_info.php:76
 msgid "Built-in Pagination"
-msgstr ""
+msgstr "Вбудовано розбиття на сторінці"
 
 #: inc/theme_info.php:77
 msgid "Built-in Breadcrumbs"
-msgstr ""
+msgstr "Вбудовано “Хлібні крихти”"
 
 #: inc/theme_info.php:78
 msgid "Template page \"HTML map of the website\""
-msgstr ""
+msgstr "Шаблон сторінки \"HTML мапа сайту\""
 
 #: inc/theme_info.php:79
 msgid "Template page \"Without date\""
-msgstr ""
+msgstr "Шаблон сторінки \"Без дати\""
 
 #: inc/theme_info.php:80
 msgid "Block \"About Author\" below posts"
-msgstr ""
+msgstr "Блок “Про автора\" нижче записів"
 
 #: inc/theme_info.php:81
 msgid "Custom text of copyright below posts"
-msgstr ""
+msgstr "Користувацький текст копірайту нижче записів"
 
 #: inc/theme_info.php:82
 msgid "Custom text of copyright in footer"
-msgstr ""
+msgstr "Користувацький текст копірайту в нижньому колонтитулі"
 
 #: inc/theme_info.php:83
 msgid "Custom header image"
-msgstr ""
+msgstr "Користувацьке зображення в верхньому колонтитулі"
 
 #: inc/theme_info.php:84
 msgid "Custom background"
-msgstr ""
+msgstr "Користувацький фон"
 
 #: inc/theme_info.php:85
 msgid "Custom menu"
-msgstr ""
+msgstr "Користувацьке меню"
 
 #: inc/theme_info.php:86
 msgid "And many more..."
@@ -538,25 +538,27 @@ msgstr ""
 
 #: inc/theme_info.php:87
 msgid "Got more ideas? Tell us!"
-msgstr ""
+msgstr "Є ще ідеї? Скажи мені!"
 
 #: inc/theme_info.php:90
 msgid ""
 "If you have any questions or suggestions for improving and adding new "
 "features, feel free to "
 msgstr ""
-"Si vous avez des questions ou des suggestions pour améliorer ou rajouter des "
-"fonctionnalités, n'hésitez pas à me contacter sur :"
+"Якщо у вас є які-небудь питання або пропозиції щодо поліпшення і додавання "
+"нових можливостей, не соромтеся зв'язатися зі мною за адресою:"
 
 #: inc/theme_info.php:94
 msgid "Translation"
-msgstr "Traduction"
+msgstr "Переклад"
 
 #: inc/theme_info.php:95
 msgid ""
 "This theme is ready for translation. It written on <strong>English</strong> "
 "and translated into:"
 msgstr ""
+"Ця тема готова до перекладу. Вона написана на "
+"<strong>English</strong> і переведена на:"
 
 #: inc/theme_info.php:110
 msgid ""
@@ -568,7 +570,7 @@ msgstr ""
 
 #: inc/theme_info.php:112
 msgid "and we will include the translation within the next theme update."
-msgstr ""
+msgstr "і я додам переклад в наступне оновлення теми."
 
 #: inc/theme_info.php:113
 msgid ""
@@ -581,16 +583,17 @@ msgid ""
 "Many of theme users would be delighted if you share your translation with "
 "the community. Thanks for your contribution!"
 msgstr ""
+"Багато з користувачів теми були б раді, якщо ви поділитеся своїм перекладом "
+"з спільнотою. Дякуемо за ваш внесок!"
 
 #: inc/theme_info.php:117
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr ""
-"Merci à tous ceux qui m'ont aidé a traduire \"Anarcho-Notepad\" dans "
-"d'autres langues !"
+"Дякуемо всіх, хто допоміг нам перекласти цю тему на інші мови!"
 
 #: inc/theme_info.php:118
 msgid "Thank you very much for your contribution!"
-msgstr "Merci pour votre contribution !"
+msgstr "Спасибі вам велике за ваш внесок!"
 
 #: inc/theme_info.php:121
 msgid "PREMIUM versions"
@@ -656,15 +659,16 @@ msgstr ""
 
 #: inc/theme_info.php:160
 msgid "Happy to enjoy the theme?"
-msgstr "Vous appréciez \"Anarcho-Notepad\" ?"
+msgstr "Щасливий володар Anarcho-Notepad?"
 
 #: inc/theme_info.php:164
 msgid "Thanks for your support!"
-msgstr ""
+msgstr "Дякуємо за вашу підтримку!"
 
 #: inc/theme_info.php:169
+#, fuzzy
 msgid "Follow our Founder"
-msgstr "Suivez-moi aussi sur :"
+msgstr "Ідіть за мною"
 
 #: inc/theme_info.php:179
 msgid "Explore our website"
@@ -672,11 +676,11 @@ msgstr ""
 
 #: inc/theme_info.php:201 inc/theme_info.php:202
 msgid "Theme Info"
-msgstr "Informations sur le thème"
+msgstr "Інфо про тему"
 
 #: inc/upgrade_notice.php:26
 msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
-msgstr ""
+msgstr "Оновити тему Anarcho-Notepad до преміум версії!"
 
 #: inc/upgrade_notice.php:29
 msgid ""
@@ -688,39 +692,46 @@ msgid ""
 "devices by having a responsive/mobile friendly layout. Elevate your website "
 "to the next level by upgrading to one of the PREMIUM Anarcho versions!"
 msgstr ""
+"Вітання! Мене звати Артур, Я той хто стоїть за темой Anarcho-Notepad. Я "
+"радий повідомити вам, що тепер доступні дві преміум версії цієї теми: это "
+"Author’s-Notepad і Simple-Notepad. Зверніть увагу на те, що вони мають "
+"набагато більш просунуті опції Customizer’а, набагато більш покращений "
+"дизайн та багато більше поліпшень. А також вони обидві оптимізовані для "
+"мобільних пристроїв (має responsive/mobile friendly макет). Підніміть ваш "
+"сайт на новий рівень шляхом оновлення теми Anarcho-Notepad до преміум версії!"
 
 #: inc/upgrade_notice.php:39
 msgid "Author's Notepad"
-msgstr ""
+msgstr "Author's Notepad"
 
 #: inc/upgrade_notice.php:46
 msgid "Simple Notepad"
-msgstr ""
+msgstr "Simple Notepad"
 
 #: inc/upgrade_notice.php:53
 msgid "or please DONATE"
-msgstr ""
+msgstr "або будь-ласка підтримайте"
 
 #: search.php:48
 msgid "Sorry for your result nothing found"
-msgstr "Désolé, aucun résultat de recherche"
+msgstr "Вибачте, але по вашому запросу нічого не знайдено"
 
 #: searchform.php:17
 msgid "Write your search and hit Enter"
-msgstr "Tapez votre recherche puis Entrée"
+msgstr "Впишіть слово і нажміть Enter"
 
 #: single.php:36 sitemap.php:39
 msgid "Pages:"
-msgstr "Pages :"
+msgstr "Сторінки:"
 
 #: sitemap.php:32
 msgid "Author(s):"
-msgstr "Auteur(s) :"
+msgstr "Автор(и)"
 
 #: sitemap.php:46
 msgid "Posts:"
-msgstr "Articles :"
+msgstr "Записи:"
 
 #: sitemap.php:74
 msgid "Archives:"
-msgstr "Archives :"
+msgstr "Архіви:"

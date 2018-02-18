@@ -7,8 +7,8 @@
  * @package     Anarcho Notepad
  * @since       2.6
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
- * @link      	http://mycyberuniverse.com/anarcho-notepad.html
+ * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
+ * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
 ?>
@@ -39,7 +39,7 @@
     <h2><?php _e( 'Pages:', 'anarcho-notepad' ); ?></h2>
     <ul class="sitemap-pages">
     <?php
-      wp_list_pages('exclude=889&title_li='); //***Exclude page Id, separated. I excluded the sitemap of this blog (page_ID=889).
+      wp_list_pages('exclude=889&title_li='); //***Exclude page ID, separated. We excluded the sitemap of this blog (page_ID=889).
     ?>
     </ul>
 

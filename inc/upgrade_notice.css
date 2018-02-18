@@ -2,10 +2,10 @@
  * Styles for the Upgrade notice.
  *
  * @package     Anarcho Notepad
- * @since       2.31
+ * @since       2.32
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
- * @link      	http://mycyberuniverse.com/anarcho-notepad.html
+ * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
+ * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
 
@@ -13,15 +13,15 @@
 /*
  -------------------------------------------------- */
 .anarcho-notice.notice {
-    padding: 0px;
-    border: 0px;
+    padding: 0;
+    border: 0;
     background-color: transparent;
     box-shadow: none;
 }
+
 .anarcho-notice {
     padding: 15px;
     margin-bottom: 20px;
-    border: 1px solid transparent;
     border-radius: 4px;
     background-color: #f7f7f7;
     color: #111;
@@ -38,6 +38,7 @@
     font-weight: 300;
     font-size: 21px;
 }
+
 .anarcho-notice-message {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 14px;
@@ -49,43 +50,31 @@
 .anarcho-notice-buttons {
     padding-top: 10px;
 }
+
 .anarcho-notice-button {
     margin-right: 8px !important;
 }
+
 .anarcho-notice-button span {
     vertical-align: middle;
     margin-top: -1px;
     font-size: 18px;
 }
+
 .anarcho-notice-button-white {
-    background-color: #ffffff !important;
+    background-color: #fff !important;
+}
+
+.anarcho-notice-button-white span {
+    color: rgb(255, 165, 208);
 }
 
 /* Dashicons
  -------------------------------------------------- */
-.anarcho-notice-icon-1 {
-    font-size: 100px;
-    line-height: 100px;
+.anarcho-notice-icon {
     float: left;
     margin-right: 15px;
-    color: #ffffff;
     position: relative;
     top: -5px;
-    text-shadow: 0 1px 0 #fff;
-    width: 100px;
-    height: 100px;
-}
-.anarcho-notice-icon-2 {
-    font-size: 80px;
-    margin-left: -105px;
-    margin-top: 5px;
-    color: #0085ba;
-    position: absolute;
-}
-.anarcho-notice-icon-3 {
-    position: absolute;
-    font-size: 60px;
-    color: #00a7e9;;
-    margin-top: 40px;
-    margin-left: -110px;
+    width: 145px;
 }

@@ -3,10 +3,10 @@
  * The template for displaying all single posts.
  *
  * @package     Anarcho Notepad
- * @since       2.31
+ * @since       2.32
  * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
- * @copyright 	Copyright (c) 2013-2017, Arthur Gareginyan
- * @link      	http://mycyberuniverse.com/anarcho-notepad.html
+ * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
+ * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  */
 ?>
@@ -42,7 +42,7 @@
             <?php the_tags(); ?>
             <br/>
             <?php
-                $anarcho_copy_post = __( 'Copyright 2017. All rights reserved.', 'anarcho-notepad' );
+                $anarcho_copy_post = __( 'Copyright 2018. All rights reserved.', 'anarcho-notepad' );
                 echo esc_html( get_theme_mod( 'copyright_post', $anarcho_copy_post ) );
             ?>
       </p>
