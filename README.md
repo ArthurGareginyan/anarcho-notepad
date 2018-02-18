@@ -11,8 +11,6 @@ Inspired by the idea of anarchy, we designed this free WordPress theme for your 
 
 ## Features
 
-**Current features:**
-
 * Hand-coded, no WYSIWYG stuff
 * HTML5 Inside
 * CSS3 Inside
