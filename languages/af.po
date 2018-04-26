@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-12 20:19+0300\n"
-"PO-Revision-Date: 2018-02-12 20:19+0300\n"
-"Last-Translator: Arthur Gareginyan <arthurgareginyan@gmail.com>\n"
+"POT-Creation-Date: 2018-04-12 18:48+0300\n"
+"PO-Revision-Date: 2018-04-12 18:48+0300\n"
+"Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: af_ZA\n"
 "MIME-Version: 1.0\n"
@@ -13,8 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -24,28 +23,16 @@ msgid "Page Not Found"
 msgstr "Jammer, ons kry nie die bladsy nie"
 
 #: 404.php:22
-msgid ""
-"We're very sorry, but the page you requested has not been found! It may have "
-"been moved or deleted."
-msgstr ""
-"Ons is baie jammer, maar ons kry nie die bladsy wat jy soek nie. Dit is dalk "
-"geskuif of uitgevee."
+msgid "We're very sorry, but the page you requested has not been found! It may have been moved or deleted."
+msgstr "Ons is baie jammer, maar ons kry nie die bladsy wat jy soek nie. Dit is dalk geskuif of uitgevee."
 
 #: 404.php:23
-msgid ""
-"I'm not blaming you, but have you checked your address bar? There might be a "
-"typo in the URL."
-msgstr ""
-"Ek sê nie dis jou skuld nie, maar het jy die adresbalk nagegaan? Dalk het jy "
-"'n spelfout in die URL gemaak."
+msgid "I'm not blaming you, but have you checked your address bar? There might be a typo in the URL."
+msgstr "Ek sê nie dis jou skuld nie, maar het jy die adresbalk nagegaan? Dalk het jy 'n spelfout in die URL gemaak."
 
 #: 404.php:24
-msgid ""
-"If there isn't, you could try searching my website for the content you were "
-"looking for:"
-msgstr ""
-"As jy dit nie hier opspoor nie, kan jy probeer om op my webwerf te kyk vir "
-"die inligting waarvoor jy soek:"
+msgid "If there isn't, you could try searching my website for the content you were looking for:"
+msgstr "As jy dit nie hier opspoor nie, kan jy probeer om op my webwerf te kyk vir die inligting waarvoor jy soek:"
 
 #: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
 #: page_without_date.php:31 search.php:38 single.php:35
@@ -82,18 +69,15 @@ msgstr "Kantblok area 1"
 
 #: functions.php:209
 msgid "Widgets in this area will be shown below \"Pages\"."
-msgstr ""
-"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Bladsye\" wys."
+msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Bladsye\" wys."
 
 #: functions.php:216
 msgid "Sidebar Area 2"
 msgstr "Kantblok area 2"
 
 #: functions.php:218
-msgid "Widgets in this area will be shown below \"What is this place\"."
-msgstr ""
-"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Wat gaan hier aan"
-"\" wys."
+msgid "Widgets in this area will be shown below \"What is this place?\"."
+msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Wat gaan hier aan\" wys."
 
 #: functions.php:225
 msgid "Sidebar Area 3"
@@ -101,9 +85,7 @@ msgstr "Kantblok area 3"
 
 #: functions.php:227
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
-msgstr ""
-"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Vriende en skakels"
-"\" wys."
+msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Vriende en skakels\" wys."
 
 #: functions.php:234
 msgid "Sidebar Area 4"
@@ -111,9 +93,7 @@ msgstr "Kantblok area 4"
 
 #: functions.php:236
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr ""
-"Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Onlangse "
-"inskrywingsplakker\" wys."
+msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Onlangse inskrywingsplakker\" wys."
 
 #: functions.php:248
 msgid "Footer Area 1"
@@ -435,247 +415,211 @@ msgstr "Bevat"
 msgid "Cover"
 msgstr "Aangesig"
 
-#: inc/theme_info.php:55
+#: inc/theme_info.php:48
 msgid "Theme \"Anarcho Notepad\""
 msgstr ""
 
-#: inc/theme_info.php:56
+#: inc/theme_info.php:49
 msgid "by Space X-Chimp"
 msgstr ""
 
-#: inc/theme_info.php:61
-msgid ""
-"Inspired by the idea of anarchy, we designed this free WordPress theme for "
-"your personal blogs and diaries. This theme is perfect for writers and "
-"artists. \"Anarcho Notepad\" can be easily customized and already translated "
-"to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress "
-"native functions for creating the awesomeness that looks good on every "
-"browser. We are constantly adding new features to this theme to allow you to "
-"personalize it to your own needs. We are glad to present you the Most "
-"Anarchist WP-Theme Of All! Enjoy!"
+#: inc/theme_info.php:54
+msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
-#: inc/theme_info.php:64
+#: inc/theme_info.php:57
 msgid "Features"
 msgstr ""
 
-#: inc/theme_info.php:66
+#: inc/theme_info.php:59
 msgid "Cross browser compatible (work smooth in any modern browser)"
 msgstr ""
 
-#: inc/theme_info.php:67
+#: inc/theme_info.php:60
 msgid "RTL compatible (right to left)"
 msgstr ""
 
-#: inc/theme_info.php:68
-msgid "Ready for translation (Translated to 12 languages)"
+#: inc/theme_info.php:61
+msgid "Ready for translation (Translated to 13 languages)"
 msgstr ""
 
-#: inc/theme_info.php:69
+#: inc/theme_info.php:62
 msgid "Hand-coded, no WYSIWYG stuff"
 msgstr ""
 
-#: inc/theme_info.php:70
+#: inc/theme_info.php:63
 msgid "HTML5 Inside"
 msgstr ""
 
-#: inc/theme_info.php:71
+#: inc/theme_info.php:64
 msgid "CSS3 Inside"
 msgstr ""
 
-#: inc/theme_info.php:72
+#: inc/theme_info.php:65
 msgid "Easy to set up - Theme Customizer"
 msgstr ""
 
-#: inc/theme_info.php:73
+#: inc/theme_info.php:66
 msgid "Customize using \"Google Web Fonts\""
 msgstr ""
 
-#: inc/theme_info.php:74
+#: inc/theme_info.php:67
 msgid "Built-in iconic font \"Font Awesome\""
 msgstr ""
 
-#: inc/theme_info.php:75
+#: inc/theme_info.php:68
 msgid "Widget ready (in sidebar and footer)"
 msgstr ""
 
-#: inc/theme_info.php:76
+#: inc/theme_info.php:69
 msgid "Built-in Pagination"
 msgstr ""
 
-#: inc/theme_info.php:77
+#: inc/theme_info.php:70
 msgid "Built-in Breadcrumbs"
 msgstr ""
 
-#: inc/theme_info.php:78
+#: inc/theme_info.php:71
 msgid "Template page \"HTML map of the website\""
 msgstr ""
 
-#: inc/theme_info.php:79
+#: inc/theme_info.php:72
 msgid "Template page \"Without date\""
 msgstr ""
 
-#: inc/theme_info.php:80
+#: inc/theme_info.php:73
 msgid "Block \"About Author\" below posts"
 msgstr ""
 
-#: inc/theme_info.php:81
+#: inc/theme_info.php:74
 msgid "Custom text of copyright below posts"
 msgstr ""
 
-#: inc/theme_info.php:82
+#: inc/theme_info.php:75
 msgid "Custom text of copyright in footer"
 msgstr ""
 
-#: inc/theme_info.php:83
+#: inc/theme_info.php:76
 msgid "Custom header image"
 msgstr ""
 
-#: inc/theme_info.php:84
+#: inc/theme_info.php:77
 msgid "Custom background"
 msgstr ""
 
-#: inc/theme_info.php:85
+#: inc/theme_info.php:78
 msgid "Custom menu"
 msgstr ""
 
-#: inc/theme_info.php:86
+#: inc/theme_info.php:79
 msgid "And many more..."
 msgstr ""
 
-#: inc/theme_info.php:87
+#: inc/theme_info.php:80
 msgid "Got more ideas? Tell us!"
 msgstr ""
 
-#: inc/theme_info.php:90
-msgid ""
-"If you have any questions or suggestions for improving and adding new "
-"features, feel free to "
-msgstr ""
-"Indien jy enige vrae of voorstelle het om die tema te verbeter, of nuwe "
-"funksies wil byvoeg, kontak my gerus vir bystand "
+#: inc/theme_info.php:83
+msgid "If you have any questions or suggestions for improving and adding new features, feel free to "
+msgstr "Indien jy enige vrae of voorstelle het om die tema te verbeter, of nuwe funksies wil byvoeg, kontak my gerus vir bystand "
 
-#: inc/theme_info.php:94
+#: inc/theme_info.php:87
 msgid "Translation"
 msgstr ""
 
-#: inc/theme_info.php:95
-msgid ""
-"This theme is ready for translation. It written on <strong>English</strong> "
-"and translated into:"
+#: inc/theme_info.php:88
+msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr ""
 
-#: inc/theme_info.php:110
-msgid ""
-"If you want to help translate this theme, please use the POT file, that is "
-"included and placed in the \"languages\" folder, in order to create a "
-"translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) "
-"to us at"
+#: inc/theme_info.php:103
+msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us"
 msgstr ""
 
-#: inc/theme_info.php:112
+#: inc/theme_info.php:105
 msgid "and we will include the translation within the next theme update."
 msgstr ""
 
-#: inc/theme_info.php:113
-msgid ""
-"Also you can use an existing PO file that placed in the \"languages\" "
-"folder, in order to make corrections."
+#: inc/theme_info.php:106
+msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr ""
 
-#: inc/theme_info.php:114
-msgid ""
-"Many of theme users would be delighted if you share your translation with "
-"the community. Thanks for your contribution!"
+#: inc/theme_info.php:107
+msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr ""
 
-#: inc/theme_info.php:117
+#: inc/theme_info.php:110
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr ""
 
-#: inc/theme_info.php:118
+#: inc/theme_info.php:111
 msgid "Thank you very much for your contribution!"
 msgstr ""
 
-#: inc/theme_info.php:121
+#: inc/theme_info.php:114
 msgid "PREMIUM versions"
 msgstr ""
 
-#: inc/theme_info.php:122
-msgid ""
-"Elevate your website to the next level by upgrading to one of the PREMIUM "
-"Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
+#: inc/theme_info.php:115
+msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr ""
 
-#: inc/theme_info.php:126
+#: inc/theme_info.php:119
 msgid "Responsive layout"
 msgstr ""
 
-#: inc/theme_info.php:127
+#: inc/theme_info.php:120
 msgid "Better SEO"
 msgstr ""
 
-#: inc/theme_info.php:128
+#: inc/theme_info.php:121
 msgid "Optimized load time"
 msgstr ""
 
-#: inc/theme_info.php:131
+#: inc/theme_info.php:124
 msgid "More secure"
 msgstr ""
 
-#: inc/theme_info.php:132
+#: inc/theme_info.php:125
 msgid "Improved design"
 msgstr ""
 
-#: inc/theme_info.php:133
+#: inc/theme_info.php:126
 msgid "Better typography"
 msgstr ""
 
-#: inc/theme_info.php:136
+#: inc/theme_info.php:129
 msgid "WooCommerce supported"
 msgstr ""
 
-#: inc/theme_info.php:137
+#: inc/theme_info.php:130
 msgid "More settings"
 msgstr ""
 
-#: inc/theme_info.php:138
+#: inc/theme_info.php:131
 msgid "More features"
 msgstr ""
 
-#: inc/theme_info.php:142
-msgid ""
-"These premium versions have significantly more customization options, "
-"improved design and many functional improvements. Importantly, both are "
-"<b>optimized for mobile devices</b> by having a responsive/mobile friendly "
-"layout."
+#: inc/theme_info.php:135
+msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr ""
 
-#: inc/theme_info.php:146
-msgid "Theme \"Author's Notepad\""
-msgstr ""
-
-#: inc/theme_info.php:152
-msgid "Theme \"Simple Notepad\""
-msgstr ""
-
-#: inc/theme_info.php:160
+#: inc/theme_info.php:141
 msgid "Happy to enjoy the theme?"
 msgstr "Is jy gelukkig met die tema?"
 
-#: inc/theme_info.php:164
+#: inc/theme_info.php:145
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/theme_info.php:169
+#: inc/theme_info.php:150
 msgid "Follow our Founder"
 msgstr "Volg my"
 
-#: inc/theme_info.php:179
+#: inc/theme_info.php:160
 msgid "Explore our website"
 msgstr ""
 
-#: inc/theme_info.php:201 inc/theme_info.php:202
+#: inc/theme_info.php:182 inc/theme_info.php:183
 msgid "Theme Info"
 msgstr "Tema Info"
 
@@ -684,14 +628,7 @@ msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
 msgstr ""
 
 #: inc/upgrade_notice.php:29
-msgid ""
-"Hello. My name is Arthur, and I'm a man behind the Anarcho-Notepad theme. "
-"I'm pleased to inform you that there are now two premium versions of this "
-"theme available: the Author's-Notepad and the Simple-Notepad. These premium "
-"versions have significantly more customization options, improved design and "
-"many functional improvements. Importantly, both are optimized for mobile "
-"devices by having a responsive/mobile friendly layout. Elevate your website "
-"to the next level by upgrading to one of the PREMIUM Anarcho versions!"
+msgid "Hello. My name is Arthur, and I'm a man behind the Anarcho-Notepad theme. I'm pleased to inform you that there are now two premium versions of this theme available: the Author's-Notepad and the Simple-Notepad. These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are optimized for mobile devices by having a responsive/mobile friendly layout. Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions!"
 msgstr ""
 
 #: inc/upgrade_notice.php:39

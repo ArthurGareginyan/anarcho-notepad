@@ -1,11 +1,14 @@
 /*
- Theme Customizer live preview v1.2 | @agareginyan | GPL v3 Licensed
-
- This file adds some LIVE to the Theme Customizer live preview. To leverage
- this, set your custom settings to 'postMessage' and then add your handling
- here. Your javascript should grab settings from customizer controls, and 
- then make any necessary changes to the page using jQuery.
-*/
+ * Theme Customizer live preview v1.2 | @agareginyan | GPL v3 Licensed
+ *
+ * Copyright (c) 2018, Space X-Chimp ( https://www.spacexchimp.com ).
+ * All Rights Reserved.
+ *
+ * This file adds some LIVE to the Theme Customizer live preview. To leverage
+ * this, set your custom settings to 'postMessage' and then add your handling
+ * here. Your javascript should grab settings from customizer controls, and
+ * then make any necessary changes to the page using jQuery.
+ */
 
 ( function( $ ) {
 
@@ -51,7 +54,7 @@
                 $( '#content .col01 .post-inner' ).html( newval );
             } );
         } );
-                  
+
         // Update the font of posts in real time...
         wp.customize( 'post_font_size', function( value ) {
             value.bind( function( newval ) {

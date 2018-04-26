@@ -3,8 +3,8 @@
  * Theme Information Page
  *
  * @package     Anarcho Notepad
- * @since       2.32
- * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
+ * @since       2.33
+ * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
@@ -27,13 +27,7 @@ function anarcho_theme_options_do_page() {
         $anarcho_spacexchimp_banner = get_template_directory_uri() . '/images/theme_info/spacexchimp-banner.png';
         $anarcho_spacexchimp_uri = "https://www.spacexchimp.com";
         $anarcho_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
-
-        $anarcho_twitter = "https://twitter.com/AGareginyan";
-        $anarcho_facebook = "https://www.facebook.com/arthur.gareginyan";
-        $anarcho_instagram = "https://www.instagram.com/arthur_gareginyan/";
-        $anarcho_linkedin = "https://www.linkedin.com/in/arthurgareginyan";
-
-        $anarcho_donate_link = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS";
+        $anarcho_donate_link = "https://www.spacexchimp.com/donate.html";
         $anarcho_donate_image = get_template_directory_uri() . '/images/theme_info/donate.png';
 
 
@@ -58,7 +52,7 @@ function anarcho_theme_options_do_page() {
                 <ul class="fa-ul">
                     <li type="none"><i class="fa-li fa fa-check-square-o"></i><?php _e( 'Cross browser compatible (work smooth in any modern browser)', 'anarcho-notepad' ); ?></li>
                     <li type="none"><i class="fa-li fa fa-check-square-o"></i><?php _e( 'RTL compatible (right to left)', 'anarcho-notepad' ); ?></li>
-                    <li type="none"><i class="fa-li fa fa-check-square-o"></i><?php _e( 'Ready for translation (Translated to 12 languages)', 'anarcho-notepad' ); ?></li>
+                    <li type="none"><i class="fa-li fa fa-check-square-o"></i><?php _e( 'Ready for translation (Translated to 13 languages)', 'anarcho-notepad' ); ?></li>
                     <li type="none"><i class="fa-li fa fa-check-square-o"></i><?php _e( 'Hand-coded, no WYSIWYG stuff', 'anarcho-notepad' ); ?></li>
                     <li type="none"><i class="fa-li fa fa-check-square-o"></i><?php _e( 'HTML5 Inside', 'anarcho-notepad' ); ?></li>
                     <li type="none"><i class="fa-li fa fa-check-square-o"></i><?php _e( 'CSS3 Inside', 'anarcho-notepad' ); ?></li>
@@ -98,10 +92,11 @@ function anarcho_theme_options_do_page() {
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Catalan</strong> (translated by <strong>Nestor Malet</strong>)</li>
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Danish</strong> (translated by <strong>Chano Klinck Andersen</strong>)</li>
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>French</strong> (translated by <strong>Rolland Dudemaine</strong>)</li>
+                    <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Chinese</strong> (translated by <strong>Weiquan Bao</strong>)</li>
                 </ul>
                 <p>
-                    <?php _e( 'If you want to help translate this theme, please use the POT file, that is included and placed in the "languages" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us at', 'anarcho-notepad' ); ?>
-                    <a href="mailto:arthurgareginyan@gmail.com?subject=Anarcho Notepad">arthurgareginyan@gmail.com</a>
+                    <?php _e( 'If you want to help translate this theme, please use the POT file, that is included and placed in the "languages" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us', 'anarcho-notepad' ); ?>
+                    <a href="https://www.spacexchimp.com/contact.html">(www.spacexchimp.com/contact.html)</a>
                     <?php _e( 'and we will include the translation within the next theme update.', 'anarcho-notepad' ); ?>
                     <?php _e( 'Also you can use an existing PO file that placed in the "languages" folder, in order to make corrections.', 'anarcho-notepad' ); ?>
                     <?php _e( 'Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!', 'anarcho-notepad' ); ?>
@@ -143,16 +138,6 @@ function anarcho_theme_options_do_page() {
                     <p>
                         <a href="<?php echo $anarcho_donate_link; ?>" target="_blank" rel="nofollow"><img class="tc-donate" src="<?php echo $anarcho_donate_image; ?>" alt="Make a donation for Anarcho-Notepad"></a>
                         <?php _e( 'Thanks for your support!', 'anarcho-notepad' ); ?>
-                    </p>
-                </div>
-
-                <div class="follow">
-                    <h3><?php _e( 'Follow our Founder', 'anarcho-notepad' ); ?></h3>
-                    <p>
-                        <a href="<?php echo $anarcho_instagram; ?>" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a href="<?php echo $anarcho_linkedin; ?>" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                        <a href="<?php echo $anarcho_twitter; ?>" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                        <a href="<?php echo $anarcho_facebook; ?>" target="_blank"><i class="fa fa-facebook-square"></i></a>
                     </p>
                 </div>
 

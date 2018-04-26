@@ -3,28 +3,27 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.32
- * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
+ * @since       2.33
+ * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
  *
- *
- *               █████╗ ██████╗ ████████╗██╗  ██╗██╗   ██╗██████╗
- *              ██╔══██╗██╔══██╗╚══██╔══╝██║  ██║██║   ██║██╔══██╗
- *              ███████║██████╔╝   ██║   ███████║██║   ██║██████╔╝
- *              ██╔══██║██╔══██╗   ██║   ██╔══██║██║   ██║██╔══██╗
- *              ██║  ██║██║  ██║   ██║   ██║  ██║╚██████╔╝██║  ██║
- *              ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
- *
- *   ██████╗  █████╗ ██████╗ ███████╗ ██████╗ ██╗███╗   ██╗██╗   ██╗ █████╗ ███╗   ██╗
- *  ██╔════╝ ██╔══██╗██╔══██╗██╔════╝██╔════╝ ██║████╗  ██║╚██╗ ██╔╝██╔══██╗████╗  ██║
- *  ██║  ███╗███████║██████╔╝█████╗  ██║  ███╗██║██╔██╗ ██║ ╚████╔╝ ███████║██╔██╗ ██║
- *  ██║   ██║██╔══██║██╔══██╗██╔══╝  ██║   ██║██║██║╚██╗██║  ╚██╔╝  ██╔══██║██║╚██╗██║
- *  ╚██████╔╝██║  ██║██║  ██║███████╗╚██████╔╝██║██║ ╚████║   ██║   ██║  ██║██║ ╚████║
- *   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝
+ * ███████╗██████╗  █████╗  ██████╗███████╗    ██╗  ██╗      ██████╗██╗  ██╗██╗███╗   ███╗██████╗
+ * ██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝    ╚██╗██╔╝     ██╔════╝██║  ██║██║████╗ ████║██╔══██╗
+ * ███████╗██████╔╝███████║██║     █████╗       ╚███╔╝█████╗██║     ███████║██║██╔████╔██║██████╔╝
+ * ╚════██║██╔═══╝ ██╔══██║██║     ██╔══╝       ██╔██╗╚════╝██║     ██╔══██║██║██║╚██╔╝██║██╔═══╝
+ * ███████║██║     ██║  ██║╚██████╗███████╗    ██╔╝ ██╗     ╚██████╗██║  ██║██║██║ ╚═╝ ██║██║
+ * ╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝  ╚═╝      ╚═════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚═╝
  *
  */
+
+/******************************************************************************
+ *              PLEASE DON'T EDIT THIS FILE DIRECTLY                          *
+ *                                                                            *
+ *  To add custom functions, consider using a plugin from the same developer  *
+ * "My Custom Functions" (https://wordpress.org/plugins/my-custom-functions/) *
+ ******************************************************************************/
 
 
 /* Ladies and Gentlemans, boys and girls let's start our engine */
@@ -215,7 +214,7 @@ function anarcho_widgets_init() {
 	register_sidebar(array(
 			'name' => __( 'Sidebar Area 2', 'anarcho-notepad' ),
 			'id' => 'sidebar-2',
-			'description' => __( 'Widgets in this area will be shown below "What is this place".', 'anarcho-notepad' ),
+			'description' => __( 'Widgets in this area will be shown below "What is this place?".', 'anarcho-notepad' ),
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget' => '</aside>',
 			'before_title' => '<h3 class="widget-title">',
@@ -637,5 +636,12 @@ function anarcho_entry_meta() {
     </div>
     <?php
 }
+
+/******************************************************************************
+ *              PLEASE DON'T EDIT THIS FILE DIRECTLY                          *
+ *                                                                            *
+ *  To add custom functions, consider using a plugin from the same developer  *
+ * "My Custom Functions" (https://wordpress.org/plugins/my-custom-functions/) *
+ ******************************************************************************/
 
 ?>

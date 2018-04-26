@@ -2,8 +2,8 @@
  * Styles for theme info page.
  *
  * @package     Anarcho Notepad
- * @since       2.32
- * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
+ * @since       2.33
+ * @author      Space X-Chimp
  * @copyright   Copyright (c) 2013-2018, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
@@ -219,20 +219,6 @@
 
 #sidebar .donate p {
     font-size: 100%;
-}
-
-#sidebar .follow {
-    border-bottom: 2px solid lightgray;
-}
-
-#sidebar .follow h3 {
-    margin-bottom: 8px;
-}
-
-#sidebar .follow p {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 10px;
 }
 
 #sidebar .store {

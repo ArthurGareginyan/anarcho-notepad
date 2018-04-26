@@ -3,8 +3,8 @@
  * Upgrade notice
  *
  * @package     Anarcho Notepad
- * @since       2.32
- * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
+ * @since       2.33
+ * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
@@ -45,7 +45,7 @@ function anarcho_upgrade_notice() {
                         <span class="dashicons dashicons-star-filled"></span>
                         <?php _e( 'Simple Notepad', 'anarcho-notepad' ); ?>
                     </a>
-                    <a  href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8A88KC7TFF6CS"
+                    <a  href="https://www.spacexchimp.com/donate.html"
                         target="_blank"
                         rel="nofollow"
                         class="anarcho-notice-button anarcho-notice-button-white button"

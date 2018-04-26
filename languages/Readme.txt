@@ -15,7 +15,7 @@ This theme is ready for translation. It written on English and translated into:
   * Danish (translated by Chano Klinck Andersen)
   * French (translated by Rolland Dudemaine)
 
-If you want to help translate this theme, please use the POT file, that is included and placed in the "languages" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us at arthurgareginyan@gmail.com and we will include the translation within the next theme update.
+If you want to help translate this theme, please use the POT file, that is included and placed in the "languages" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us (https://www.spacexchimp.com/contact.html) and we will include the translation within the next theme update.
 
 Also you can use an existing PO file that placed in the "languages" folder, in order to make corrections.
 

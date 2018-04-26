@@ -1,10 +1,10 @@
 /*
  Theme Name: Anarcho Notepad
  Theme URI: https://www.spacexchimp.com/themes/anarcho-notepad.html
- Author: Arthur Gareginyan
- Author URI: https://www.arthurgareginyan.com
+ Author: Space X-Chimp
+ Author URI: https://www.spacexchimp.com
  Description: Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. If you want a new feature or just want to be able to change something just ask us and we would be happy to add it. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
- Version: 2.32
+ Version: 2.33
  License: GNU General Public License v3
  License URI: http://www.gnu.org/licenses/gpl-3.0.html
  Tags: two-columns, right-sidebar, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
@@ -15,10 +15,10 @@
 */
 
 /******************************************************************************
-              PLEASE DON'T EDIT THIS FILE DIRECTLY
-
-  Consider using a Child Theme (http://codex.wordpress.org/Child_Themes)
-  or overriding CSS by using the Custom CSS box in the theme options panel.
+ *              PLEASE DON'T EDIT THIS FILE DIRECTLY                          *
+ *                                                                            *
+ *  To add custom functions, consider using a plugin from the same developer  *
+ *    "My Custom Styles" (https://wordpress.org/plugins/my-custom-styles/)    *
  ******************************************************************************/
 
 /* Fonts
@@ -1071,3 +1071,11 @@ p.comments-title {
 img#wpstats {
     display: none;
 }
+
+
+/******************************************************************************
+ *              PLEASE DON'T EDIT THIS FILE DIRECTLY                          *
+ *                                                                            *
+ *  To add custom functions, consider using a plugin from the same developer  *
+ *    "My Custom Styles" (https://wordpress.org/plugins/my-custom-styles/)    *
+ ******************************************************************************/

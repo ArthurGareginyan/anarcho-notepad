@@ -1,668 +1,687 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-12 18:49+0300\n"
-"PO-Revision-Date: 2018-04-12 18:49+0300\n"
+"POT-Creation-Date: 2018-04-26 01:34+0300\n"
+"PO-Revision-Date: 2018-04-26 01:35+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
-"Language: fr\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.0.6\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Textdomain-Support: yes\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: 404.php:21
 msgid "Page Not Found"
-msgstr "Page Introuvable"
+msgstr "未找到页面"
 
 #: 404.php:22
 msgid "We're very sorry, but the page you requested has not been found! It may have been moved or deleted."
-msgstr "Désolé, cette page est introuvable ! Elle a peut-être été déplacée ou supprimée."
+msgstr "很抱歉没有找到您要访问的页面！可能被删除或移到其它地方了。"
 
 #: 404.php:23
 msgid "I'm not blaming you, but have you checked your address bar? There might be a typo in the URL."
-msgstr "Vérifiez peut-être la barre d'addresse ? Il y a peut-être une erreur dans l'URL."
+msgstr "并不是我责怪您，但是请您检查一下地址栏，是否在URL连接里输错了某个字符？"
 
 #: 404.php:24
 msgid "If there isn't, you could try searching my website for the content you were looking for:"
-msgstr "Sinon, vous pouvez utiliser la recherche sur le site pour trouver ce que vous cherchez :"
+msgstr "如果您确信没有，您应该搜索整个网站来寻找您需要的内容："
 
 #: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
 #: page_without_date.php:31 search.php:38 single.php:35
 msgid "Continue reading"
-msgstr "Lire plus"
+msgstr "继续阅读"
 
 #: author-bio.php:19
 msgid "About the Author"
-msgstr "A propos de l'Auteur"
+msgstr "关于作者"
 
 #: comments.php:42
 msgid "Comment navigation"
-msgstr "Navigation commentaires"
+msgstr "浏览评论"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Commentaires désactivés"
+msgstr "关闭评论"
 
 #: functions.php:68
 msgid "Primary"
-msgstr "Principal"
+msgstr "主要"
 
 #: functions.php:147
 msgid "Help"
-msgstr "Aide"
+msgstr "帮助"
 
 #: functions.php:150
 msgid "Need help with Anarcho-Notepad? Click here!"
-msgstr "Besin d'aide sur Anarcho-Notepad ? Cliquez ici !"
+msgstr "需要关于Anarcho-Notepad的帮助吗？请点击此处！"
 
 #: functions.php:207
 msgid "Sidebar Area 1"
-msgstr "Barre Latérale 1"
+msgstr "边栏区域1"
 
 #: functions.php:209
 msgid "Widgets in this area will be shown below \"Pages\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Pages\""
+msgstr "此区域的小工具将显示在\"页面\"下方。"
 
 #: functions.php:216
 msgid "Sidebar Area 2"
-msgstr "Barre Latérale 2"
+msgstr "边栏区域2"
 
 #: functions.php:218
 msgid "Widgets in this area will be shown below \"What is this place?\"."
-msgstr "Les Widgets de cette zone seront affichés après \"A Propos\"."
+msgstr "此区域的小工具将显示在\"这是什么？\"下方。"
 
 #: functions.php:225
 msgid "Sidebar Area 3"
-msgstr "Barre Latérale 3"
+msgstr "边栏区域3"
 
 #: functions.php:227
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Liens & Amis\"."
+msgstr "此区域的小工具将显示在\"友情链接\"下方。"
 
 #: functions.php:234
 msgid "Sidebar Area 4"
-msgstr "Barre Latérale 4"
+msgstr "边栏区域4"
 
 #: functions.php:236
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr "Les Widgets de cette zone seront affichés après \"Recent Posts\"."
+msgstr "此区域的小工具将显示在\"最近文章\"下方。"
 
 #: functions.php:248
 msgid "Footer Area 1"
-msgstr "Bas de Page 1"
+msgstr "页脚区域1"
 
 #: functions.php:250
 msgid "Widgets in this area will be shown left."
-msgstr "Les Widgets de cette zone seront alignés à gauche."
+msgstr "此区域的小工具将显示在左边。"
 
 #: functions.php:257
 msgid "Footer Area 2"
-msgstr "Bas de Page 2"
+msgstr "页脚区域2"
 
 #: functions.php:259
 msgid "Widgets in this area will be shown center."
-msgstr "Les Widgets de cette zone seront centrés."
+msgstr "此区域的小工具将显示在中间。"
 
 #: functions.php:266
 msgid "Footer Area 3"
-msgstr "Bas de Page 3"
+msgstr "页脚区域3"
 
 #: functions.php:268
 msgid "Widgets in this area will be shown right."
-msgstr "Les Widgets de cette zone seront alignés à droite."
+msgstr "此区域的小工具将显示在右边。"
 
 #: functions.php:350
 msgid "Archive by category "
-msgstr "Archive par catégorie"
+msgstr "Archive by category "
 
 #: functions.php:354
 msgid "Archive by date "
-msgstr "Archive par date"
+msgstr "按日期归档 "
 
 #: functions.php:357
 msgid "Archive by month "
-msgstr "Archive par mois"
+msgstr "按月份归档 "
 
 #: functions.php:359
 msgid "Archive by year "
-msgstr "Archive par année"
+msgstr "按年份归档 "
 
 #: functions.php:369 functions.php:397
 msgid "You&apos;re currently reading "
-msgstr "Vous lisez actuellement "
+msgstr "您正在阅读 "
 
 #: functions.php:399
 msgid "Search results for "
-msgstr "Résultats de recherche pour"
+msgstr "搜索结果 "
 
 #: functions.php:401
 msgid "Archive by tag "
-msgstr "Archive par tag "
+msgstr "按tag标记归档 "
 
 #: functions.php:405
 msgid "Articles posted by "
-msgstr "Articles postés par "
+msgstr "文章发表自 "
 
 #: functions.php:407
 msgid "You got it "
-msgstr "Introuvable, Voilà "
+msgstr "You got it "
 
 #: functions.php:434
 msgid "Previous page"
-msgstr "Page précédente"
+msgstr "上一页"
 
 #: functions.php:435
 msgid "Next page"
-msgstr "Page suivante"
+msgstr "下一页"
 
 #: functions.php:437
 msgid "Page "
-msgstr "Page"
+msgstr "页 "
 
 #: functions.php:437
 msgid " of the "
-msgstr " sur "
+msgstr " 共 "
 
 #: functions.php:447
 msgid "Posts navigation"
-msgstr "Navigation des articles"
+msgstr "文章浏览"
 
 #: functions.php:478
 msgid "Post navigation"
-msgstr "Navigation de l'article"
+msgstr "文章浏览"
 
 #: functions.php:501
 msgid "Pingback:"
-msgstr "Pinback :"
+msgstr "引用通告:"
 
 #: functions.php:501
 msgid "(Edit)"
-msgstr "(Modifier)"
+msgstr "(编辑)"
 
 #: functions.php:516
 msgid "(Post author) "
-msgstr "(Auteur) "
+msgstr "(文章作者) "
 
 #: functions.php:527
 msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de modération."
+msgstr "您的评论正等待审核。"
 
 #: functions.php:532
 msgid "Edit"
-msgstr "Modifier"
+msgstr "编辑"
 
 #: functions.php:536
 msgid "Reply"
-msgstr "Répondre"
+msgstr "回复"
 
 #: functions.php:549 single.php:45
 msgid "Copyright 2018. All rights reserved."
-msgstr ""
+msgstr "(C)2018. 版权所有。"
 
 #: functions.php:573
 msgid " queries in "
-msgstr " requêtes en "
+msgstr " 查询自 "
 
 #: functions.php:575
 msgid " seconds"
-msgstr " secondes"
+msgstr " 秒"
 
 #: functions.php:578
 msgid " mb"
-msgstr " Mo"
+msgstr " mb"
 
 #: functions.php:606
 msgid "Not Found"
-msgstr "Introuvable"
+msgstr "未找到"
 
 #: functions.php:607
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr "Désolé, ce que vous cherchez n'est pas ici."
+msgstr "抱歉，您所寻找的东西并不在这里。"
 
 #: functions.php:622 functions.php:632 functions.php:634 sitemap.php:52
 msgid "Category: "
-msgstr "Catégorie : "
+msgstr "分类："
 
 #: functions.php:624 functions.php:626 functions.php:632 functions.php:634
 msgid "EDIT"
-msgstr "Modifier"
+msgstr "编辑"
 
 #: functions.php:626
 msgid "Posted "
-msgstr "Ecrit "
+msgstr "发表 "
 
 #: functions.php:626
 msgid " by "
-msgstr " par "
+msgstr " 自 "
 
 #: functions.php:626
 msgid " in category \""
-msgstr " dans la catégorie \""
+msgstr " 类别 \""
 
 #: functions.php:632 functions.php:634
 msgid "LEAVE A COMMENT"
-msgstr "Commenter"
+msgstr "留下评论"
 
 #: inc/customizer.php:35
 msgid "Meta"
-msgstr "Méta"
+msgstr "Meta"
 
 #: inc/customizer.php:41 sidebar.php:40
 msgid "Paste here small text about you and/or about your site."
-msgstr ""
+msgstr "此处剪贴一小段关于您的网站的文字。"
 
 #: inc/customizer.php:46
 msgid "About widget - \"What is this place?\""
-msgstr ""
+msgstr "关于小工具 - \"这是什么？\""
 
 #: inc/customizer.php:58
 msgid "Copyright after post"
-msgstr "Copyright après article"
+msgstr "Copyright after post"
 
 #: inc/customizer.php:70
 msgid "Copyright in footer"
-msgstr ""
+msgstr "页脚处的版权"
 
 #: inc/customizer.php:78
 msgid "Stuff"
-msgstr "Divers"
+msgstr "功能"
 
 #: inc/customizer.php:90
 msgid "Disable \"Paper Search\""
-msgstr "Désactiver \"Recherche\""
+msgstr "禁用\"文章搜索\""
 
 #: inc/customizer.php:102
 msgid "Disable \"Red Date Ribbons\""
-msgstr ""
+msgstr "禁用\"红色日期丝带\""
 
 #: inc/customizer.php:114
 msgid "Enable Year in \"Red Date Ribbons\""
-msgstr ""
+msgstr "启用\"红色日期丝带\"中的年份"
 
 #: inc/customizer.php:126
 msgid "Disable RSS feed ribbon tag"
-msgstr ""
+msgstr "禁用RSS Feed丝带标志"
 
 #: inc/customizer.php:138
 msgid "Disable widget \"What is this place?\""
-msgstr ""
+msgstr "禁用\"这是什么？\"小工具"
 
 #: inc/customizer.php:150
 msgid "Disable widget \"Friends & Links\""
-msgstr ""
+msgstr "禁用\"友情链接\"小工具"
 
 #: inc/customizer.php:162
 msgid "Disable \"Recent Posts Sticker\""
-msgstr "Désactiver \"Recent Posts\""
+msgstr "禁用\"最近文章粘贴\""
 
 #: inc/customizer.php:174
 msgid "Disable block \"About the Author\""
-msgstr "Désactiver \"A propos de l'auteur\""
+msgstr "禁用\"关于作者\"区块"
 
 #: inc/customizer.php:186
 msgid "Enable \"Breadcrumbs\""
-msgstr "Activer \"Breadcrumbs\""
+msgstr "启用\"面包屑\""
 
 #: inc/customizer.php:198
 msgid "Enable \"Page Navigation\""
-msgstr "Activer \"Navigation\""
+msgstr "启用\"页面浏览\""
 
 #: inc/customizer.php:210
 msgid "Enable \"Title animation\""
-msgstr "Activer \"Animation du titre\""
+msgstr "启用\"标题动画\""
 
 #: inc/customizer.php:222
 msgid "Disable button \"Scroll To Top\""
-msgstr ""
+msgstr "禁用\"上滚至顶部\"按钮"
 
 #: inc/customizer.php:234
 msgid "Show info line in footer"
-msgstr "Montrer information dans le bas de page"
+msgstr "显示页面的信息栏"
 
 #: inc/customizer.php:256
 msgid "Numbers of recent posts in sidebar"
-msgstr "Nombres d'articles dans la barre latérale"
+msgstr "边栏显示最近文章数目"
 
 #: inc/customizer.php:266
 msgid "Scripts"
-msgstr "Scripts"
+msgstr "脚本"
 
 #: inc/customizer.php:267
 msgid "Put here your scripts"
-msgstr "Placer vos scripts ici"
+msgstr "此处放置您的脚本"
 
 #: inc/customizer.php:278
 msgid "Scripts before posts"
-msgstr "Scripts avant les articles"
+msgstr "文章前的脚本"
 
 #: inc/customizer.php:290
 msgid "Scripts at the beginning of the posts"
-msgstr "Scripts au début des articles"
+msgstr "文章开始处的脚本"
 
 #: inc/customizer.php:302
 msgid "Scripts at the end of the posts"
-msgstr "Scripts à la fin des articles"
+msgstr "文章结尾处的脚本"
 
 #: inc/customizer.php:314
 msgid "Scripts after posts"
-msgstr "Scripts après les articles"
+msgstr "文章后的脚本"
 
 #: inc/customizer.php:321
 msgid "Post"
-msgstr "Article"
+msgstr "文章"
 
 #: inc/customizer.php:344
 msgid "Font size of posts"
-msgstr "Taille de la police des articles"
+msgstr "文章字体尺寸"
 
 #: inc/customizer.php:654
 msgid "Font of posts (Google Webfonts)"
-msgstr "Police des articles (Google Webfonts)"
+msgstr "文章字体（谷歌Webfonts）"
 
 #: inc/customizer.php:675
 msgid "Site Title font (Google Webfonts)"
-msgstr "Police du Titre du Site (Google Webfonts)"
+msgstr "网站标题字体（谷歌Webfonts）"
 
 #: inc/customizer.php:690
 msgid "Site Tagline font (Google Webfonts)"
-msgstr "Police du Sous-Titre (Google Webfonts)"
+msgstr "网站标志线字体（谷歌Webfonts）"
 
 #: inc/customizer.php:706
 msgid "Site Title color"
-msgstr "Couleur du Titre du Site"
+msgstr "网站标题颜色"
 
 #: inc/customizer.php:720
 msgid "Site Tagline color"
-msgstr "Couleur du Sous-Titre"
+msgstr "网站标志线颜色"
 
 #: inc/customizer.php:732
 msgid "Site Title Position"
-msgstr "Position du Titre du Site"
+msgstr "网站标题位置"
 
 #: inc/customizer.php:738
 msgid "Left"
-msgstr "Gauche"
+msgstr "左边"
 
 #: inc/customizer.php:739
 msgid "Center"
-msgstr "Centre"
+msgstr "中间"
 
 #: inc/customizer.php:753
 msgid "Background Color"
-msgstr "Couleur de fond"
+msgstr "背景色"
 
 #: inc/customizer.php:764
 msgid "Background Size"
-msgstr "Taille du fond"
+msgstr "背景尺寸"
 
 #: inc/customizer.php:770
 msgid "Auto (Default)"
-msgstr "Automatique (par Défaut)"
+msgstr "自动（默认）"
 
 #: inc/customizer.php:771
 msgid "Contain"
-msgstr "Contient"
+msgstr "包含"
 
 #: inc/customizer.php:772
 msgid "Cover"
-msgstr "Couverture"
+msgstr "封面"
 
 #: inc/theme_info.php:48
 msgid "Theme \"Anarcho Notepad\""
-msgstr ""
+msgstr "主题 \"Anarcho Notepad\""
 
 #: inc/theme_info.php:49
 msgid "by Space X-Chimp"
-msgstr ""
+msgstr "由 Space X-Chimp"
 
 #: inc/theme_info.php:54
 msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
-msgstr ""
+msgstr "因灵感启发，我们设计了这个免费的WordPress主题，共个人博客和日志使用。这个主题可以完美应用于写作者和艺术家。\"Anarcho-Notepad\"可以很容易定制，并已经被翻译成不同的语言。主题使用了HTML-5, CSS-3, PHP及WordPress原生的功能以完美支持不用的浏览器。我们会持续增加新的功能来满足您的个性化需求。我们非常乐意向您展示最具灵感的WP主题。Enjoy！"
 
 #: inc/theme_info.php:57
 msgid "Features"
-msgstr ""
+msgstr "特点"
 
 #: inc/theme_info.php:59
 msgid "Cross browser compatible (work smooth in any modern browser)"
-msgstr ""
+msgstr "跨浏览器兼容（无缝支持任何现代浏览器）"
 
 #: inc/theme_info.php:60
 msgid "RTL compatible (right to left)"
-msgstr ""
+msgstr "RTL兼容（从右至左）"
 
 #: inc/theme_info.php:61
 msgid "Ready for translation (Translated to 13 languages)"
-msgstr ""
+msgstr "多语言支持（多达12种语言）"
 
 #: inc/theme_info.php:62
 msgid "Hand-coded, no WYSIWYG stuff"
-msgstr ""
+msgstr "手工编码，无WYSIWYG素材"
 
 #: inc/theme_info.php:63
 msgid "HTML5 Inside"
-msgstr ""
+msgstr "内置HTML5"
 
 #: inc/theme_info.php:64
 msgid "CSS3 Inside"
-msgstr ""
+msgstr "内置CSS3"
 
 #: inc/theme_info.php:65
 msgid "Easy to set up - Theme Customizer"
-msgstr ""
+msgstr "轻松设置 - 主题客户化"
 
 #: inc/theme_info.php:66
 msgid "Customize using \"Google Web Fonts\""
-msgstr ""
+msgstr "定制使用\"谷歌Web字体\""
 
 #: inc/theme_info.php:67
 msgid "Built-in iconic font \"Font Awesome\""
-msgstr ""
+msgstr "内建图标字体 \"Font Awesome\""
 
 #: inc/theme_info.php:68
 msgid "Widget ready (in sidebar and footer)"
-msgstr ""
+msgstr "支持小工具（边栏和页脚）"
 
 #: inc/theme_info.php:69
 msgid "Built-in Pagination"
-msgstr ""
+msgstr "内建页码"
 
 #: inc/theme_info.php:70
 msgid "Built-in Breadcrumbs"
-msgstr ""
+msgstr "内建面包屑"
 
 #: inc/theme_info.php:71
 msgid "Template page \"HTML map of the website\""
-msgstr ""
+msgstr "模版页面\"网站的HTML地图\""
 
 #: inc/theme_info.php:72
 msgid "Template page \"Without date\""
-msgstr ""
+msgstr "模版页面\"无日期\""
 
 #: inc/theme_info.php:73
 msgid "Block \"About Author\" below posts"
-msgstr ""
+msgstr "文章下面的\"关于作者\"内容块"
 
 #: inc/theme_info.php:74
 msgid "Custom text of copyright below posts"
-msgstr ""
+msgstr "文章下面的版权信息定制文本"
 
 #: inc/theme_info.php:75
 msgid "Custom text of copyright in footer"
-msgstr ""
+msgstr "页脚的版权信息定制文本"
 
 #: inc/theme_info.php:76
 msgid "Custom header image"
-msgstr ""
+msgstr "定制头部图像"
 
 #: inc/theme_info.php:77
 msgid "Custom background"
-msgstr ""
+msgstr "定制背景"
 
 #: inc/theme_info.php:78
 msgid "Custom menu"
-msgstr ""
+msgstr "定制菜单"
 
 #: inc/theme_info.php:79
 msgid "And many more..."
-msgstr ""
+msgstr "更多..."
 
 #: inc/theme_info.php:80
 msgid "Got more ideas? Tell us!"
-msgstr ""
+msgstr "您有更好的建议吗？请告诉我们！"
 
 #: inc/theme_info.php:83
 msgid "If you have any questions or suggestions for improving and adding new features, feel free to "
-msgstr "Si vous avez des questions ou des suggestions pour améliorer ou rajouter des fonctionnalités, n'hésitez pas à me contacter sur :"
+msgstr "如果您有关于改进或增加新功能的任何问题或建议, 随时告诉我 "
 
 #: inc/theme_info.php:87
 msgid "Translation"
-msgstr "Traduction"
+msgstr "翻译"
 
 #: inc/theme_info.php:88
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
-msgstr ""
+msgstr "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 
 #: inc/theme_info.php:103
 msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us"
-msgstr ""
+msgstr "如果您想翻译这个主题，请使用POT文件来创建*.po, *.mo文件，它位于\"languages\"文件夹。您只需把翻译好的*.po, *mo文件发送给我们："
 
 #: inc/theme_info.php:105
 msgid "and we will include the translation within the next theme update."
-msgstr ""
+msgstr "我们将在下一次主题更新时包含您的翻译。"
 
 #: inc/theme_info.php:106
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
-msgstr ""
+msgstr "或者您也可以使用文件夹\"languages\"中一个已有的PO文件进行修改。"
 
 #: inc/theme_info.php:107
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
-msgstr ""
+msgstr "相信很多使用该主题的用户会非常乐于分享您的翻译工作。感谢您的贡献！"
 
 #: inc/theme_info.php:110
 msgid "Thanks to all who helped us translate this theme into other languages!"
-msgstr "Merci à tous ceux qui m'ont aidé a traduire \"Anarcho-Notepad\" dans d'autres langues !"
+msgstr "感谢所有帮助翻译主题的人！"
 
 #: inc/theme_info.php:111
 msgid "Thank you very much for your contribution!"
-msgstr "Merci pour votre contribution !"
+msgstr "万分感谢您的贡献！"
 
 #: inc/theme_info.php:114
 msgid "PREMIUM versions"
-msgstr ""
+msgstr "增值版本"
 
 #: inc/theme_info.php:115
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
-msgstr ""
+msgstr "请试用我们的增值版本：Author's-Notepad及Simple-Notepad！"
 
 #: inc/theme_info.php:119
 msgid "Responsive layout"
-msgstr ""
+msgstr "响应层"
 
 #: inc/theme_info.php:120
 msgid "Better SEO"
-msgstr ""
+msgstr "更好的SEO"
 
 #: inc/theme_info.php:121
 msgid "Optimized load time"
-msgstr ""
+msgstr "优化的加载时间"
 
 #: inc/theme_info.php:124
 msgid "More secure"
-msgstr ""
+msgstr "更安全"
 
 #: inc/theme_info.php:125
 msgid "Improved design"
-msgstr ""
+msgstr "改良的设计"
 
 #: inc/theme_info.php:126
 msgid "Better typography"
-msgstr ""
+msgstr "更好的拓扑结构"
 
 #: inc/theme_info.php:129
 msgid "WooCommerce supported"
-msgstr ""
+msgstr "WooCommerce支持"
 
 #: inc/theme_info.php:130
 msgid "More settings"
-msgstr ""
+msgstr "更多的设置"
 
 #: inc/theme_info.php:131
 msgid "More features"
-msgstr ""
+msgstr "更多的功能"
 
 #: inc/theme_info.php:135
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
-msgstr ""
+msgstr "增值版本包括更高效的更过的定制选项，改进的设计和更多的功能优化。更重要的是针对\"移动设备\"的优化，具有更友好的界面分层和响应速度。"
 
 #: inc/theme_info.php:141
 msgid "Happy to enjoy the theme?"
-msgstr "Vous appréciez \"Anarcho-Notepad\" ?"
+msgstr "喜欢这个主题吗？"
 
 #: inc/theme_info.php:145
 msgid "Thanks for your support!"
-msgstr ""
+msgstr "感谢支持！"
 
 #: inc/theme_info.php:150
 msgid "Follow our Founder"
-msgstr "Suivez-moi aussi sur :"
+msgstr "关注我们的创始人"
 
 #: inc/theme_info.php:160
 msgid "Explore our website"
-msgstr ""
+msgstr "浏览我们的网站"
 
 #: inc/theme_info.php:182 inc/theme_info.php:183
 msgid "Theme Info"
-msgstr "Informations sur le thème"
+msgstr "主题信息"
 
 #: inc/upgrade_notice.php:26
 msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
-msgstr ""
+msgstr "升级到Anarcho-Notepad主题到增值版本！"
 
 #: inc/upgrade_notice.php:29
 msgid "Hello. My name is Arthur, and I'm a man behind the Anarcho-Notepad theme. I'm pleased to inform you that there are now two premium versions of this theme available: the Author's-Notepad and the Simple-Notepad. These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are optimized for mobile devices by having a responsive/mobile friendly layout. Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions!"
-msgstr ""
+msgstr "您好！我叫Arthur，是Anarcho-Notepad主题的作者。我很高兴地告诉您已经有另外两个增值的版本可以使用：Author’s-Notepad和Simple-Notepad。这些增值版本更高效，支持更多的定制选项，改良的设计和很多改进的功能。更重要的是，它们都为移动设备进行了优化，更友好的显示层次和更高的响应速度。请升级至增值的版本，让您的网站更上一个层次！"
 
 #: inc/upgrade_notice.php:39
 msgid "Author's Notepad"
-msgstr ""
+msgstr "Author's Notepad"
 
 #: inc/upgrade_notice.php:46
 msgid "Simple Notepad"
-msgstr ""
+msgstr "Simple Notepad"
 
 #: inc/upgrade_notice.php:53
 msgid "or please DONATE"
-msgstr ""
+msgstr "或者请捐赠"
 
 #: search.php:48
 msgid "Sorry for your result nothing found"
-msgstr "Désolé, aucun résultat de recherche"
+msgstr "抱歉没有找到您想要的结果"
 
 #: searchform.php:17
 msgid "Write your search and hit Enter"
-msgstr "Tapez votre recherche puis Entrée"
+msgstr "输入搜索的内容并按回车键"
 
 #: single.php:36 sitemap.php:39
 msgid "Pages:"
-msgstr "Pages :"
+msgstr "总页数："
 
 #: sitemap.php:32
 msgid "Author(s):"
-msgstr "Auteur(s) :"
+msgstr "作者："
 
 #: sitemap.php:46
 msgid "Posts:"
-msgstr "Articles :"
+msgstr "文章："
 
 #: sitemap.php:74
 msgid "Archives:"
-msgstr "Archives :"
+msgstr "归档："
+
+#. Theme Name of the plugin/theme
+msgid "Anarcho Notepad"
+msgstr "Anarcho Notepad"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.spacexchimp.com/themes/anarcho-notepad.html"
+msgstr "https://www.spacexchimp.com/themes/anarcho-notepad.html"
+
+#. Description of the plugin/theme
+msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. If you want a new feature or just want to be able to change something just ask us and we would be happy to add it. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
+msgstr "因灵感启发，我们设计了这个免费的WordPress主题，共个人博客和日志使用。这个主题可以完美应用于写作者和艺术家。”Anarcho-Notepad”可以很容易定制，并已经被翻译成不同的语言。主题使用了HTML-5, CSS-3, PHP及WordPress原生的功能以完美支持不用的浏览器。我们会持续增加新的功能来满足您的个性化需求。If you want a new feature or just want to be able to change something just ask us and we would be happy to add it. 我们非常乐意向您展示最具灵感的WP主题。Enjoy！"
+
+#. Author of the plugin/theme
+msgid "Space X-Chimp"
+msgstr "由 Space X-Chimp"
+
+#. Author URI of the plugin/theme
+msgid "https://www.spacexchimp.com"
+msgstr "https://www.spacexchimp.com"

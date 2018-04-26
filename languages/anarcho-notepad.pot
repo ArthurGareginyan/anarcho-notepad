@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
-"POT-Creation-Date: 2018-02-15 23:20+0300\n"
+"POT-Creation-Date: 2018-04-12 18:49+0300\n"
 "PO-Revision-Date: 2015-08-11 10:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,9 +13,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -24,21 +22,15 @@ msgid "Page Not Found"
 msgstr ""
 
 #: 404.php:22
-msgid ""
-"We're very sorry, but the page you requested has not been found! It may have "
-"been moved or deleted."
+msgid "We're very sorry, but the page you requested has not been found! It may have been moved or deleted."
 msgstr ""
 
 #: 404.php:23
-msgid ""
-"I'm not blaming you, but have you checked your address bar? There might be a "
-"typo in the URL."
+msgid "I'm not blaming you, but have you checked your address bar? There might be a typo in the URL."
 msgstr ""
 
 #: 404.php:24
-msgid ""
-"If there isn't, you could try searching my website for the content you were "
-"looking for:"
+msgid "If there isn't, you could try searching my website for the content you were looking for:"
 msgstr ""
 
 #: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
@@ -83,7 +75,7 @@ msgid "Sidebar Area 2"
 msgstr ""
 
 #: functions.php:218
-msgid "Widgets in this area will be shown below \"What is this place\"."
+msgid "Widgets in this area will be shown below \"What is this place?\"."
 msgstr ""
 
 #: functions.php:225
@@ -431,15 +423,7 @@ msgid "by Space X-Chimp"
 msgstr ""
 
 #: inc/theme_info.php:54
-msgid ""
-"Inspired by the idea of anarchy, we designed this free WordPress theme for your "
-"personal blogs and diaries. This theme is perfect for writers and artists. "
-"\"Anarcho Notepad\" can be easily customized and already translated to "
-"different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native "
-"functions for creating the awesomeness that looks good on every browser. We are "
-"constantly adding new features to this theme to allow you to personalize it to "
-"your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! "
-"Enjoy!"
+msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
 #: inc/theme_info.php:57
@@ -455,7 +439,7 @@ msgid "RTL compatible (right to left)"
 msgstr ""
 
 #: inc/theme_info.php:61
-msgid "Ready for translation (Translated to 12 languages)"
+msgid "Ready for translation (Translated to 13 languages)"
 msgstr ""
 
 #: inc/theme_info.php:62
@@ -535,9 +519,7 @@ msgid "Got more ideas? Tell us!"
 msgstr ""
 
 #: inc/theme_info.php:83
-msgid ""
-"If you have any questions or suggestions for improving and adding new features, "
-"feel free to "
+msgid "If you have any questions or suggestions for improving and adding new features, feel free to "
 msgstr ""
 
 #: inc/theme_info.php:87
@@ -545,17 +527,11 @@ msgid "Translation"
 msgstr ""
 
 #: inc/theme_info.php:88
-msgid ""
-"This theme is ready for translation. It written on <strong>English</strong> and "
-"translated into:"
+msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr ""
 
 #: inc/theme_info.php:103
-msgid ""
-"If you want to help translate this theme, please use the POT file, that is "
-"included and placed in the \"languages\" folder, in order to create a "
-"translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to "
-"us at"
+msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us"
 msgstr ""
 
 #: inc/theme_info.php:105
@@ -563,15 +539,11 @@ msgid "and we will include the translation within the next theme update."
 msgstr ""
 
 #: inc/theme_info.php:106
-msgid ""
-"Also you can use an existing PO file that placed in the \"languages\" folder, "
-"in order to make corrections."
+msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr ""
 
 #: inc/theme_info.php:107
-msgid ""
-"Many of theme users would be delighted if you share your translation with the "
-"community. Thanks for your contribution!"
+msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr ""
 
 #: inc/theme_info.php:110
@@ -587,9 +559,7 @@ msgid "PREMIUM versions"
 msgstr ""
 
 #: inc/theme_info.php:115
-msgid ""
-"Elevate your website to the next level by upgrading to one of the PREMIUM "
-"Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
+msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr ""
 
 #: inc/theme_info.php:119
@@ -629,10 +599,7 @@ msgid "More features"
 msgstr ""
 
 #: inc/theme_info.php:135
-msgid ""
-"These premium versions have significantly more customization options, improved "
-"design and many functional improvements. Importantly, both are <b>optimized for "
-"mobile devices</b> by having a responsive/mobile friendly layout."
+msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr ""
 
 #: inc/theme_info.php:141
@@ -660,14 +627,7 @@ msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
 msgstr ""
 
 #: inc/upgrade_notice.php:29
-msgid ""
-"Hello. My name is Arthur, and I'm a man behind the Anarcho-Notepad theme. I'm "
-"pleased to inform you that there are now two premium versions of this theme "
-"available: the Author's-Notepad and the Simple-Notepad. These premium versions "
-"have significantly more customization options, improved design and many "
-"functional improvements. Importantly, both are optimized for mobile devices by "
-"having a responsive/mobile friendly layout. Elevate your website to the next "
-"level by upgrading to one of the PREMIUM Anarcho versions!"
+msgid "Hello. My name is Arthur, and I'm a man behind the Anarcho-Notepad theme. I'm pleased to inform you that there are now two premium versions of this theme available: the Author's-Notepad and the Simple-Notepad. These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are optimized for mobile devices by having a responsive/mobile friendly layout. Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions!"
 msgstr ""
 
 #: inc/upgrade_notice.php:39
@@ -715,22 +675,13 @@ msgid "https://www.spacexchimp.com/themes/anarcho-notepad.html"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid ""
-"Inspired by the idea of anarchy, we designed this free WordPress theme for your "
-"personal blogs and diaries. This theme is perfect for writers and artists. "
-"\"Anarcho Notepad\" can be easily customized and already translated to "
-"different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native "
-"functions for creating the awesomeness that looks good on every browser. We are "
-"constantly adding new features to this theme to allow you to personalize it to "
-"your own needs. If you want a new feature or just want to be able to change "
-"something just ask us and we would be happy to add it. We are glad to present "
-"you the Most Anarchist WP-Theme Of All! Enjoy!"
+msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. If you want a new feature or just want to be able to change something just ask us and we would be happy to add it. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Arthur Gareginyan"
+msgid "Space X-Chimp"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://www.arthurgareginyan.com"
+msgid "https://www.spacexchimp.com"
 msgstr ""

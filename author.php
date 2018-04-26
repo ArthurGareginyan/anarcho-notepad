@@ -4,7 +4,7 @@
  *
  * @package     Anarcho Notepad
  * @since       2.16
- * @author      Arthur Gareginyan <arthurgareginyan@gmail.com>
+ * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license   	http://www.gnu.org/licenses/gpl-3.0.html
