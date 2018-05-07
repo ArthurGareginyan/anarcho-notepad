@@ -3,7 +3,7 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.33
+ * @since       2.34
  * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -25,6 +25,21 @@
  * "My Custom Functions" (https://wordpress.org/plugins/my-custom-functions/) *
  ******************************************************************************/
 
+
+/**
+ * Define global constants
+ *
+ * @since 2.34
+ */
+$theme_data = wp_get_theme();
+function spacexchimp_t001_define_constants( $constant_name, $value ) {
+    $constant_name = 'SPACEXCHIMP_T001_' . $constant_name;
+    if ( !defined( $constant_name ) )
+        define( $constant_name, $value );
+}
+spacexchimp_t001_define_constants( 'VERSION', $theme_data->get( 'Version' ) );
+spacexchimp_t001_define_constants( 'TEXT', $theme_data->get( 'TextDomain' ) );
+spacexchimp_t001_define_constants( 'PREFIX', 'spacexchimp_t001' );
 
 /* Ladies and Gentlemans, boys and girls let's start our engine */
 function anarcho_setup() {
@@ -172,7 +187,7 @@ add_action( 'wp_head', 'anarcho_add_ie_html5_shiv' );
 function anarcho_scripts_admin() {
 
     // Load additional stylesheet for admin screens
-    wp_enqueue_style( 'anarcho-admin-css', get_template_directory_uri() . '/inc/admin.css' );
+    wp_enqueue_style( 'anarcho-admin-css', get_template_directory_uri() . '/inc/admin.css', array(), SPACEXCHIMP_T001_VERSION, 'all' );
 
 }
 add_action( 'admin_enqueue_scripts', 'anarcho_scripts_admin' );
@@ -186,13 +201,13 @@ function anarcho_scripts_frontend() {
     wp_enqueue_script( 'jquery' );
 
     // Load the Font-Awesome iconic font
-    wp_enqueue_style( 'anarcho-font-awesome-css', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css', 'screen' );
+    wp_enqueue_style( 'anarcho-font-awesome-css', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css', array(), SPACEXCHIMP_T001_VERSION, 'screen' );
 
     // Comments. Enable comment_reply
     if ( is_singular() ) wp_enqueue_script( "comment-reply" );
 
     // Scroll to Top Button. Load the smoothscroll.js
-    wp_enqueue_script( 'anarcho-smooth-scroll-js', get_template_directory_uri() . '/js/smoothscroll.js', array( 'jquery' ), '',  true );
+    wp_enqueue_script( 'anarcho-smooth-scroll-js', get_template_directory_uri() . '/js/smoothscroll.js', array( 'jquery' ), SPACEXCHIMP_T001_VERSION, true );
 
 }
 add_action( 'wp_enqueue_scripts', 'anarcho_scripts_frontend' );
