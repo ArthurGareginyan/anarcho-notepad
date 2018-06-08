@@ -3,7 +3,7 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.34
+ * @since       2.35
  * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -38,7 +38,6 @@ function spacexchimp_t001_define_constants( $constant_name, $value ) {
         define( $constant_name, $value );
 }
 spacexchimp_t001_define_constants( 'VERSION', $theme_data->get( 'Version' ) );
-spacexchimp_t001_define_constants( 'TEXT', $theme_data->get( 'TextDomain' ) );
 spacexchimp_t001_define_constants( 'PREFIX', 'spacexchimp_t001' );
 
 /* Ladies and Gentlemans, boys and girls let's start our engine */
@@ -213,6 +212,7 @@ function anarcho_scripts_frontend() {
 add_action( 'wp_enqueue_scripts', 'anarcho_scripts_frontend' );
 
 /* Add Theme Customizer functionality */
+require get_template_directory() . '/inc/customizer-arrays.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /* This feature enables widgets area in the sidebar */

@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 2.35 (2018.06.08) =
+* The constant "SPACEXCHIMP_T001_TEXT" is deleted.
+* Loading the font "Permanent Marker" (from the Google Fonts online library) moved from the file "header.php" to "customizer.php".
+* Changed the loading of user selected fonts from the Google Fonts online library.
+* The arrays used in the file 'customizer.php' are moved to a separate file 'customizer-arrays.php'.
+* Options in the Customizer are sorted.
+
 = 2.34 (2018.05.07) =
 * Added auto-versioning of the CSS and JavaScript files to avoid cache issues.
 * Added function for generating the theme constants.

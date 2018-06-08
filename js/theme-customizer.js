@@ -55,7 +55,7 @@
             } );
         } );
 
-        // Update the font of posts in real time...
+        // Update the font size of posts in real time...
         wp.customize( 'post_font_size', function( value ) {
             value.bind( function( newval ) {
                 $( '#content .col01 .post-inner' ).html( newval );
