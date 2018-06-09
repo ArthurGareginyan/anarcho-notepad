@@ -1,5 +1,9 @@
 == Changelog ==
 
+= 2.36 (2018.06.09) =
+* The list of Google Fonts is sorted in alphabetical order.
+* The font names in the list of Google Fonts are made more human-readable.
+
 = 2.35 (2018.06.08) =
 * The constant "SPACEXCHIMP_T001_TEXT" is deleted.
 * Loading the font "Permanent Marker" (from the Google Fonts online library) moved from the file "header.php" to "customizer.php".
