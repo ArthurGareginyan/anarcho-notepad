@@ -3,7 +3,7 @@
  * The template for displaying all single posts.
  *
  * @package     Anarcho Notepad
- * @since       2.32
+ * @since       2.37
  * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -27,7 +27,7 @@
 
       <?php anarcho_date_tag(); ?>
 
-      <h1><?php the_title(); ?></h1>
+      <h1 class="post-title"><?php the_title(); ?></h1>
       <div class="post-inner">
 
 		<div class="beginning-posts"><?php echo get_theme_mod('scripts_beginning_posts'); ?></div>

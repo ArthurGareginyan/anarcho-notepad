@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 2.37 (2018.07.24) =
+* The site title moved from the tag H1 to P, which will positively affect the site's SEO.
+* The site description moved from the tag H2 to P, which will positively affect the site's SEO.
+* On the home page, the posts title moved from the tag H1 to H2, which will positively affect the site's SEO.
+* The 'Post navigation' button moved from the tag H1 to H2, which will positively affect the site's SEO.
+* The HTML class 'post-title' added to every mention of the post title.
+
 = 2.36 (2018.06.09) =
 * The list of Google Fonts is sorted in alphabetical order.
 * The font names in the list of Google Fonts are made more human-readable.

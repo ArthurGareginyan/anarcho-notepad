@@ -3,7 +3,7 @@
  * The template for displaying Archive pages.
  *
  * @package     Anarcho Notepad
- * @since       2.31
+ * @since       2.37
  * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -23,7 +23,7 @@
 
       <?php anarcho_date_tag(); ?>
 
-      <h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h1>
+      <h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
       <div class="post-inner">
 
 		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>

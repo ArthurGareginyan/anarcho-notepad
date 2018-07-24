@@ -3,7 +3,7 @@
  * The Header for our theme.
  *
  * @package     Anarcho Notepad
- * @since       2.31
+ * @since       2.37
  * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -46,7 +46,7 @@
 		<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 
 			<?php $header_image = get_header_image();
-					if ( !empty( $header_image ) ) : ?>
+				  if ( !empty( $header_image ) ) : ?>
 						<img
 							class="logo"
 							src="<?php esc_url(header_image()); ?>"
@@ -56,8 +56,12 @@
 						/>
 			<?php endif; ?>
 
-			<h1 class="site-title"><?php bloginfo('name'); ?></h1>
-			<h2 class="site-description"><?php bloginfo('description'); ?></h2>
+			<?php if ( is_front_page() ) : ?>
+			             <h1 class="site-title"><?php bloginfo('name'); ?></h1>
+			<?php else : ?>
+			             <p class="site-title"><?php bloginfo('name'); ?></p>
+			<?php endif; ?>
+			<p class="site-description"><?php bloginfo('description'); ?></p>
 
 		</a>
 	</div>

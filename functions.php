@@ -3,7 +3,7 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.36
+ * @since       2.37
  * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -489,7 +489,7 @@ function anarcho_post_nav() {
 	if ( ! $next && ! $previous ) return;
     ?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'anarcho-notepad' ); ?></h1>
+		<h2 class="screen-reader-text"><?php _e( 'Post navigation', 'anarcho-notepad' ); ?></h1>
 		<div class="nav-links">
 
 			<?php previous_post_link( '%link', '<i class="fa fa-arrow-left"></i> %title' ); ?>

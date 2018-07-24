@@ -5,7 +5,7 @@
  * Template Name: Page without date
  *
  * @package     Anarcho Notepad
- * @since       2.16
+ * @since       2.37
  * @author      Space X-Chimp
  * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
  * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -23,7 +23,7 @@
 
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-      <h1><?php the_title(); ?></h1>
+      <h1 class="post-title"><?php the_title(); ?></h1>
       <div class="post-inner">
 
 	        <?php the_post_thumbnail(); ?>
