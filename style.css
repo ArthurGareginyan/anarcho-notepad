@@ -4,7 +4,7 @@
  Author: Space X-Chimp
  Author URI: https://www.spacexchimp.com
  Description: Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. If you want a new feature or just want to be able to change something just ask us and we would be happy to add it. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!
- Version: 2.37
+ Version: 2.38
  License: GNU General Public License v3
  License URI: http://www.gnu.org/licenses/gpl-3.0.html
  Tags: two-columns, right-sidebar, custom-header, custom-background, featured-images, rtl-language-support, translation-ready, theme-options, threaded-comments
@@ -17,7 +17,7 @@
 /******************************************************************************
  *              PLEASE DON'T EDIT THIS FILE DIRECTLY                          *
  *                                                                            *
- *  To add custom functions, consider using a plugin from the same developer  *
+ *    To add custom styles, consider using a plugin from the same developer   *
  *    "My Custom Styles" (https://wordpress.org/plugins/my-custom-styles/)    *
  ******************************************************************************/
 
@@ -327,6 +327,15 @@ blockquote cite::before {
 /* Author info box after post
 -------------------------------------------------------------- */
 
+.author-avatar-big {
+    text-align: center;
+}
+.author-avatar-big img {
+    width: 200px;
+    height: 200px;
+    float: none;
+}
+
 /* Transforme author-avatar */
 .author-avatar img {
     -moz-transform: rotate(-9deg);
@@ -359,6 +368,9 @@ blockquote cite::before {
 }
 #content .col01 .author-info p.author-bio {
     margin-left: 1px;
+}
+#content .col01 .author-info p.author-bio .author-link::after {
+    content: "\2192";
 }
 
 #content .col01 .meta {
@@ -559,7 +571,8 @@ blockquote cite::before {
     text-decoration: none;
     color: #000;
 }
-#sidebar .white-sticker-middle ul li i {
+#sidebar .white-sticker-middle ul li a i {
+    margin-right: 6px;
     color: navy;
     font-size: 70%;
 }
@@ -1079,6 +1092,6 @@ img#wpstats {
 /******************************************************************************
  *              PLEASE DON'T EDIT THIS FILE DIRECTLY                          *
  *                                                                            *
- *  To add custom functions, consider using a plugin from the same developer  *
+ *    To add custom styles, consider using a plugin from the same developer   *
  *    "My Custom Styles" (https://wordpress.org/plugins/my-custom-styles/)    *
  ******************************************************************************/

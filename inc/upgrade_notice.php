@@ -5,9 +5,9 @@
  * @package     Anarcho Notepad
  * @since       2.33
  * @author      Space X-Chimp
- * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
- * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
- * @license   	http://www.gnu.org/licenses/gpl-3.0.html
+ * @copyright   Copyright (c) 2013-2018, Space X-Chimp
+ * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
+ * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
 
 

@@ -1,5 +1,14 @@
 == Changelog ==
 
+= 2.38 (2018.11.16) =
+* Improvement: Code in PHP and CSS files is better formatted using the best coding standards.
+* Improvement: The breadcrumbs on the Search page is redesigned.
+* The "Font Awesome" icon in the "Help" button, which used in the top bar, is replaced with a new one from the "Dashicons".
+* Fix: The closing tag "</h1>" did not match the opening tag "<h2>" in the 492 line of the file "functions.php".
+* Fix: The closing tag "</i>" is registered twice in the 51 line of the file "inc/theme_info.php".
+* Fix: Not all text strings are prepared for translation into other languages.
+* Translation files are updated.
+
 = 2.37 (2018.07.24) =
 * The site title moved from the tag H1 to P, which will positively affect the site's SEO.
 * The site description moved from the tag H2 to P, which will positively affect the site's SEO.

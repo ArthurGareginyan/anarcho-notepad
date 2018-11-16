@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-24 20:14+0300\n"
-"PO-Revision-Date: 2018-07-24 20:14+0300\n"
+"POT-Creation-Date: 2018-11-16 06:19+0300\n"
+"PO-Revision-Date: 2018-11-16 06:19+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -11,243 +11,276 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:21
+#: 404.php:22
 msgid "Page Not Found"
 msgstr "Сторiнка не знайдена"
 
-#: 404.php:22
+#: 404.php:25
 msgid "We're very sorry, but the page you requested has not been found! It may have been moved or deleted."
 msgstr "Вибачте, але сторiнка, яку ви запрошуєте, не знайдена. Вона, можливо, переміщена або знищена."
 
-#: 404.php:23
+#: 404.php:28
 msgid "I'm not blaming you, but have you checked your address bar? There might be a typo in the URL."
 msgstr "Я  вас не звинувачую, але чи перевірили ви адресу? Можливо в URL у вас опечатка."
 
-#: 404.php:24
+#: 404.php:31
 msgid "If there isn't, you could try searching my website for the content you were looking for:"
 msgstr "Ви можете скористуватися пошуком на моєму сайті:"
 
-#: archive.php:31 category.php:33 home.php:31 index.php:33 page.php:33
-#: page_without_date.php:31 search.php:38 single.php:35
+#: archive.php:29 category.php:29 home.php:27 search.php:40
+msgid "Permanent Link to"
+msgstr ""
+
+#: archive.php:38 category.php:38 home.php:36 index.php:34 page.php:34
+#: page_without_date.php:34 search.php:49 single.php:41
 msgid "Continue reading"
 msgstr "Продовжити читання"
 
-#: author-bio.php:19
+#: author-bio.php:20
 msgid "About the Author"
 msgstr "Про Автора"
 
-#: comments.php:42
+#: author-bio.php:29
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: author.php:29
+msgid "Author:"
+msgstr "Автор:"
+
+#: author.php:39
+msgid "Profile:"
+msgstr ""
+
+#: author.php:45
+msgid "Website:"
+msgstr ""
+
+#: author.php:53 sitemap.php:55
+msgid "Posts:"
+msgstr "Записи:"
+
+#: author.php:66
+msgid "in"
+msgstr ""
+
+#: author.php:74
+msgid "No posts by this author."
+msgstr ""
+
+#: comments.php:43
 msgid "Comment navigation"
 msgstr "Навігація по коментарям"
 
-#: comments.php:53
+#: comments.php:61
 msgid "Comments are closed."
 msgstr "Коментарі вимкнені."
 
-#: functions.php:81
+#: functions.php:82
 msgid "Primary"
 msgstr "Головне"
 
-#: functions.php:160
+#: functions.php:162
 msgid "Help"
 msgstr "Допомога"
 
-#: functions.php:163
+#: functions.php:165
 msgid "Need help with Anarcho-Notepad? Click here!"
 msgstr "Потрібна допомога з Anarcho-Notepad? Натисніть тут!"
 
-#: functions.php:221
+#: functions.php:223
 msgid "Sidebar Area 1"
 msgstr "Бічна зона 1"
 
-#: functions.php:223
+#: functions.php:225
 msgid "Widgets in this area will be shown below \"Pages\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Сторінки\"."
 
-#: functions.php:230
+#: functions.php:232
 msgid "Sidebar Area 2"
 msgstr "Бічна зона 2"
 
-#: functions.php:232
+#: functions.php:234
 msgid "Widgets in this area will be shown below \"What is this place?\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Що це за місце?\"."
 
-#: functions.php:239
+#: functions.php:241
 msgid "Sidebar Area 3"
 msgstr "Бічна зона 3"
 
-#: functions.php:241
+#: functions.php:243
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Друзі та посилання\"."
 
-#: functions.php:248
+#: functions.php:250
 msgid "Sidebar Area 4"
 msgstr "Бічна зона 4"
 
-#: functions.php:250
+#: functions.php:252
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Останні Записи”."
 
-#: functions.php:262
+#: functions.php:264
 msgid "Footer Area 1"
 msgstr "Область колонтитула 1"
 
-#: functions.php:264
+#: functions.php:266
 msgid "Widgets in this area will be shown left."
 msgstr "Віджети у цій зоні будуть показані зліва."
 
-#: functions.php:271
+#: functions.php:273
 msgid "Footer Area 2"
 msgstr "Область колонтитула 2"
 
-#: functions.php:273
+#: functions.php:275
 msgid "Widgets in this area will be shown center."
 msgstr "Віджети у цій зоні будуть показані в центрі."
 
-#: functions.php:280
+#: functions.php:282
 msgid "Footer Area 3"
 msgstr "Область колонтитула 3"
 
-#: functions.php:282
+#: functions.php:284
 msgid "Widgets in this area will be shown right."
 msgstr "Віджети у цій зоні будуть показані справа."
 
-#: functions.php:364
+#: functions.php:366
 msgid "Archive by category "
 msgstr "Архів по категорії "
 
-#: functions.php:368
+#: functions.php:370
 msgid "Archive by date "
 msgstr "Архів по даті "
 
-#: functions.php:371
+#: functions.php:373
 msgid "Archive by month "
 msgstr "Архів по місяцю "
 
-#: functions.php:373
+#: functions.php:375
 msgid "Archive by year "
 msgstr "Архів по року "
 
-#: functions.php:383 functions.php:411
+#: functions.php:385 functions.php:413
 msgid "You&apos;re currently reading "
 msgstr "Ви зараз читаєте "
 
-#: functions.php:413
+#: functions.php:415
 msgid "Search results for "
 msgstr "Знайти результати для "
 
-#: functions.php:415
+#: functions.php:417
 msgid "Archive by tag "
 msgstr "Архів по тегу "
 
-#: functions.php:419
+#: functions.php:421
 msgid "Articles posted by "
 msgstr "Записи оприлюднени "
 
-#: functions.php:421
+#: functions.php:423
 msgid "You got it "
 msgstr "Ось воно "
 
-#: functions.php:448
+#: functions.php:450
 msgid "Previous page"
 msgstr "Попередня сторінка"
 
-#: functions.php:449
+#: functions.php:451
 msgid "Next page"
 msgstr "Наступна сторінка"
 
-#: functions.php:451
+#: functions.php:453
 msgid "Page "
 msgstr "Сторінка "
 
-#: functions.php:451
+#: functions.php:453
 msgid " of the "
 msgstr " з "
 
-#: functions.php:461
+#: functions.php:464
 msgid "Posts navigation"
 msgstr "Навігація по записам"
 
-#: functions.php:492
+#: functions.php:501
 msgid "Post navigation"
 msgstr "Навігація по запису"
 
-#: functions.php:515
+#: functions.php:526
 msgid "Pingback:"
 msgstr "Сповіщення:"
 
-#: functions.php:515
+#: functions.php:526
 msgid "(Edit)"
 msgstr "(Редактувати)"
 
-#: functions.php:530
+#: functions.php:543
 msgid "(Post author) "
 msgstr "(Автор запису) "
 
-#: functions.php:541
+#: functions.php:555
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш коментар чекає перевірки."
 
-#: functions.php:546
+#: functions.php:560
 msgid "Edit"
 msgstr "Редактувати"
 
-#: functions.php:550
+#: functions.php:564
 msgid "Reply"
 msgstr "Відповісти"
 
-#: functions.php:563 single.php:45
+#: functions.php:577 inc/customizer.php:53 inc/customizer.php:65 single.php:53
 msgid "Copyright 2018. All rights reserved."
 msgstr "Копірайт 2018. Всі права захищені."
 
-#: functions.php:587
+#: functions.php:601
 msgid " queries in "
 msgstr " запитів в "
 
-#: functions.php:589
+#: functions.php:603
 msgid " seconds"
 msgstr " секунд"
 
-#: functions.php:592
+#: functions.php:606
 msgid " mb"
 msgstr " мб"
 
-#: functions.php:620
+#: functions.php:635
 msgid "Not Found"
 msgstr "Не знайдено"
 
-#: functions.php:621
+#: functions.php:638
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr "Пробачте, але тут немає того, що ви шукаєте."
 
-#: functions.php:636 functions.php:646 functions.php:648 sitemap.php:52
+#: functions.php:657 functions.php:677 functions.php:689 sitemap.php:65
 msgid "Category: "
 msgstr "Категорія: "
 
-#: functions.php:638 functions.php:640 functions.php:646 functions.php:648
+#: functions.php:660 functions.php:668 functions.php:684 functions.php:696
 msgid "EDIT"
 msgstr "Редагувати"
 
-#: functions.php:640
+#: functions.php:662
 msgid "Posted "
 msgstr "Оприлюднено "
 
-#: functions.php:640
+#: functions.php:664
 msgid " by "
 msgstr ""
 
-#: functions.php:640
+#: functions.php:666
 msgid " in category \""
 msgstr " в категоріі \""
 
-#: functions.php:646 functions.php:648
+#: functions.php:683 functions.php:695
 msgid "LEAVE A COMMENT"
 msgstr "ЗАЛИШИТИ КОМЕНТАР"
 
@@ -415,207 +448,205 @@ msgstr "Помістити"
 msgid "Cover"
 msgstr "Обкладинка"
 
-#: inc/theme_info.php:42
+#: inc/theme_info.php:38
 msgid "Theme \"Anarcho Notepad\""
 msgstr "Тема \"Anarcho Notepad\""
 
-#: inc/theme_info.php:43
+#: inc/theme_info.php:42
 msgid "by Space X-Chimp"
 msgstr "від Space X-Chimp"
 
-#: inc/theme_info.php:48
+#: inc/theme_info.php:49
 msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
-#: inc/theme_info.php:51
+#: inc/theme_info.php:54
 msgid "Features"
 msgstr "Особливості"
 
-#: inc/theme_info.php:53
+#: inc/theme_info.php:57
 msgid "Cross browser compatible (work smooth in any modern browser)"
 msgstr "Кросс-браузерна сумісність (працює гладко в будь-якому сучасному браузері)"
 
-#: inc/theme_info.php:54
+#: inc/theme_info.php:58
 msgid "RTL compatible (right to left)"
 msgstr "RTL сумісний (справа наліво)"
 
-#: inc/theme_info.php:55
+#: inc/theme_info.php:59
 msgid "Ready for translation (Translated to 13 languages)"
 msgstr "Готовий до перекладу (Перекладено на 12 мов)"
 
-#: inc/theme_info.php:56
+#: inc/theme_info.php:60
 msgid "Hand-coded, no WYSIWYG stuff"
 msgstr "Код написаний вручну, ніяких WYSIWYG"
 
-#: inc/theme_info.php:57
+#: inc/theme_info.php:61
 msgid "HTML5 Inside"
 msgstr ""
 
-#: inc/theme_info.php:58
+#: inc/theme_info.php:62
 msgid "CSS3 Inside"
 msgstr ""
 
-#: inc/theme_info.php:59
+#: inc/theme_info.php:63
 msgid "Easy to set up - Theme Customizer"
 msgstr "Простота установки - Theme Customizer"
 
-#: inc/theme_info.php:60
+#: inc/theme_info.php:64
 msgid "Customize using \"Google Web Fonts\""
 msgstr "Налаштування за допомогою “Google Web Fonts”"
 
-#: inc/theme_info.php:61
+#: inc/theme_info.php:65
 msgid "Built-in iconic font \"Font Awesome\""
 msgstr "Вбудований шрифт-іконки \"Font Awesome\""
 
-#: inc/theme_info.php:62
+#: inc/theme_info.php:66
 msgid "Widget ready (in sidebar and footer)"
 msgstr "Готовий до віджетів (в бічній панелі і нижньому колонтитулі)"
 
-#: inc/theme_info.php:63
+#: inc/theme_info.php:67
 msgid "Built-in Pagination"
 msgstr "Вбудовано розбиття на сторінці"
 
-#: inc/theme_info.php:64
+#: inc/theme_info.php:68
 msgid "Built-in Breadcrumbs"
 msgstr "Вбудовано “Хлібні крихти”"
 
-#: inc/theme_info.php:65
+#: inc/theme_info.php:69
 msgid "Template page \"HTML map of the website\""
 msgstr "Шаблон сторінки \"HTML мапа сайту\""
 
-#: inc/theme_info.php:66
+#: inc/theme_info.php:70
 msgid "Template page \"Without date\""
 msgstr "Шаблон сторінки \"Без дати\""
 
-#: inc/theme_info.php:67
+#: inc/theme_info.php:71
 msgid "Block \"About Author\" below posts"
 msgstr "Блок “Про автора\" нижче записів"
 
-#: inc/theme_info.php:68
+#: inc/theme_info.php:72
 msgid "Custom text of copyright below posts"
 msgstr "Користувацький текст копірайту нижче записів"
 
-#: inc/theme_info.php:69
+#: inc/theme_info.php:73
 msgid "Custom text of copyright in footer"
 msgstr "Користувацький текст копірайту в нижньому колонтитулі"
 
-#: inc/theme_info.php:70
+#: inc/theme_info.php:74
 msgid "Custom header image"
 msgstr "Користувацьке зображення в верхньому колонтитулі"
 
-#: inc/theme_info.php:71
+#: inc/theme_info.php:75
 msgid "Custom background"
 msgstr "Користувацький фон"
 
-#: inc/theme_info.php:72
+#: inc/theme_info.php:76
 msgid "Custom menu"
 msgstr "Користувацьке меню"
 
-#: inc/theme_info.php:73
+#: inc/theme_info.php:77
 msgid "And many more..."
 msgstr ""
 
-#: inc/theme_info.php:74
+#: inc/theme_info.php:78
 msgid "Got more ideas? Tell us!"
 msgstr "Є ще ідеї? Скажи мені!"
 
-#: inc/theme_info.php:77
-msgid "If you have any questions or suggestions for improving and adding new features, feel free to "
-msgstr "Якщо у вас є які-небудь питання або пропозиції щодо поліпшення і додавання нових можливостей, не соромтеся зв'язатися зі мною за адресою:"
+#: inc/theme_info.php:83
+#, php-format
+msgid "If you have any questions or suggestions for improving and adding new features, feel free to %1$s contact us %2$s."
+msgstr "Якщо у вас є які-небудь питання або пропозиції щодо поліпшення і додавання нових можливостей, не соромтеся %1$s зв'язатися з нами %2$s."
 
-#: inc/theme_info.php:81
+#: inc/theme_info.php:92
 msgid "Translation"
 msgstr "Переклад"
 
-#: inc/theme_info.php:82
+#: inc/theme_info.php:95
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr "Ця тема готова до перекладу. Вона написана на <strong>English</strong> і переведена на:"
 
-#: inc/theme_info.php:98
-msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us"
+#: inc/theme_info.php:114
+#, php-format
+msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update."
 msgstr ""
 
-#: inc/theme_info.php:100
-msgid "and we will include the translation within the next theme update."
-msgstr "і я додам переклад в наступне оновлення теми."
-
-#: inc/theme_info.php:101
+#: inc/theme_info.php:118
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr ""
 
-#: inc/theme_info.php:102
+#: inc/theme_info.php:119
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr "Багато з користувачів теми були б раді, якщо ви поділитеся своїм перекладом з спільнотою. Дякуемо за ваш внесок!"
 
-#: inc/theme_info.php:105
+#: inc/theme_info.php:122
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr "Дякуемо всіх, хто допоміг нам перекласти цю тему на інші мови!"
 
-#: inc/theme_info.php:106
+#: inc/theme_info.php:123
 msgid "Thank you very much for your contribution!"
 msgstr "Спасибі вам велике за ваш внесок!"
 
-#: inc/theme_info.php:109
+#: inc/theme_info.php:128
 msgid "PREMIUM versions"
 msgstr ""
 
-#: inc/theme_info.php:110
+#: inc/theme_info.php:131
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr ""
 
-#: inc/theme_info.php:114
+#: inc/theme_info.php:136
 msgid "Responsive layout"
 msgstr ""
 
-#: inc/theme_info.php:115
+#: inc/theme_info.php:137
 msgid "Better SEO"
 msgstr ""
 
-#: inc/theme_info.php:116
+#: inc/theme_info.php:138
 msgid "Optimized load time"
 msgstr ""
 
-#: inc/theme_info.php:119
+#: inc/theme_info.php:141
 msgid "More secure"
 msgstr ""
 
-#: inc/theme_info.php:120
+#: inc/theme_info.php:142
 msgid "Improved design"
 msgstr ""
 
-#: inc/theme_info.php:121
+#: inc/theme_info.php:143
 msgid "Better typography"
 msgstr ""
 
-#: inc/theme_info.php:124
+#: inc/theme_info.php:146
 msgid "WooCommerce supported"
 msgstr ""
 
-#: inc/theme_info.php:125
+#: inc/theme_info.php:147
 msgid "More settings"
 msgstr ""
 
-#: inc/theme_info.php:126
+#: inc/theme_info.php:148
 msgid "More features"
 msgstr ""
 
-#: inc/theme_info.php:130
+#: inc/theme_info.php:153
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr ""
 
-#: inc/theme_info.php:136
+#: inc/theme_info.php:161
 msgid "Happy to enjoy the theme?"
 msgstr "Щасливий володар Anarcho-Notepad?"
 
-#: inc/theme_info.php:140
+#: inc/theme_info.php:168
 msgid "Thanks for your support!"
 msgstr "Дякуємо за вашу підтримку!"
 
-#: inc/theme_info.php:145
+#: inc/theme_info.php:174
 msgid "Explore our website"
 msgstr ""
 
-#: inc/theme_info.php:167 inc/theme_info.php:168
+#: inc/theme_info.php:197 inc/theme_info.php:198
 msgid "Theme Info"
 msgstr "Інфо про тему"
 
@@ -639,7 +670,7 @@ msgstr "Simple Notepad"
 msgid "or please DONATE"
 msgstr "або будь-ласка підтримайте"
 
-#: search.php:48
+#: search.php:61
 msgid "Sorry for your result nothing found"
 msgstr "Вибачте, але по вашому запросу нічого не знайдено"
 
@@ -647,21 +678,28 @@ msgstr "Вибачте, але по вашому запросу нічого н�
 msgid "Write your search and hit Enter"
 msgstr "Впишіть слово і нажміть Enter"
 
-#: single.php:36 sitemap.php:39
+#: searchform.php:24
+msgid "Search for:"
+msgstr "Знайти результати для:"
+
+#: searchform.php:26 searchform.php:28
+msgid "Search"
+msgstr ""
+
+#: single.php:42 sitemap.php:46
 msgid "Pages:"
 msgstr "Сторінки:"
 
-#: sitemap.php:32
+#: sitemap.php:38
 msgid "Author(s):"
 msgstr "Автор(и)"
 
-#: sitemap.php:46
-msgid "Posts:"
-msgstr "Записи:"
-
-#: sitemap.php:74
+#: sitemap.php:97
 msgid "Archives:"
 msgstr "Архіви:"
+
+#~ msgid "and we will include the translation within the next theme update."
+#~ msgstr "і я додам переклад в наступне оновлення теми."
 
 #~ msgid "Follow our Founder"
 #~ msgstr "Ідіть за мною"

@@ -3,47 +3,57 @@
  * The template for displaying Home page.
  *
  * @package     Anarcho Notepad
- * @since       2.37
+ * @since       2.38
  * @author      Space X-Chimp
- * @copyright 	Copyright (c) 2013-2018, Space X-Chimp
- * @link      	https://www.spacexchimp.com/themes/anarcho-notepad.html
- * @license   	http://www.gnu.org/licenses/gpl-3.0.html
+ * @copyright   Copyright (c) 2013-2018, Space X-Chimp
+ * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
+ * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
 ?>
 
 <?php get_header(); ?>
 
 <section id="content" role="main">
-  <div class="col01">
+    <div class="col01">
 
-  <?php if (have_posts()) : ?>
-  <?php while (have_posts()) : the_post(); ?>
+        <?php if ( have_posts() ) : ?>
+        <?php while ( have_posts() ) : the_post(); ?>
 
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-      <?php anarcho_date_tag(); ?>
+            <?php anarcho_date_tag(); ?>
 
-      <h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
-      <div class="post-inner">
+            <h2 class="post-title">
+                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e( 'Permanent Link to', 'anarcho-notepad' ); ?> <?php the_title(); ?>">
+                    <?php the_title(); ?>
+                </a>
+            </h2>
 
-		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+            <div class="post-inner">
+                <a href="<?php the_permalink(); ?>">
+                    <?php the_post_thumbnail(); ?>
+                </a>
+                <?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
+            </div>
 
-		<?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
+            <?php anarcho_entry_meta(); ?>
 
-      </div>
+        </article>
 
-      <?php anarcho_entry_meta(); ?>
+        <?php endwhile; ?>
 
-    </article>
-    <?php endwhile; ?>
+        <?php anarcho_page_nav(); ?>
 
-    <?php anarcho_page_nav(); ?>
+        <?php else : ?>
+            <?php anarcho_not_found(); ?>
+        <?php endif; ?>
 
-    <?php else : anarcho_not_found(); endif; ?>
-  </div>
+    </div>
 
-   <?php get_sidebar(); ?>
+    <?php get_sidebar(); ?>
+
 </section>
-<br clear="all" />
+
+<br clear="all">
 
 <?php get_footer(); ?>
