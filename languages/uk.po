@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 06:19+0300\n"
-"PO-Revision-Date: 2018-11-16 06:19+0300\n"
+"POT-Creation-Date: 2019-01-07 15:27+0200\n"
+"PO-Revision-Date: 2019-01-07 15:27+0200\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -84,203 +84,203 @@ msgstr "Навігація по коментарям"
 msgid "Comments are closed."
 msgstr "Коментарі вимкнені."
 
-#: functions.php:82
+#: functions.php:81
 msgid "Primary"
 msgstr "Головне"
 
-#: functions.php:162
+#: functions.php:161
 msgid "Help"
 msgstr "Допомога"
 
-#: functions.php:165
+#: functions.php:164
 msgid "Need help with Anarcho-Notepad? Click here!"
 msgstr "Потрібна допомога з Anarcho-Notepad? Натисніть тут!"
 
-#: functions.php:223
+#: functions.php:222
 msgid "Sidebar Area 1"
 msgstr "Бічна зона 1"
 
-#: functions.php:225
+#: functions.php:224
 msgid "Widgets in this area will be shown below \"Pages\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Сторінки\"."
 
-#: functions.php:232
+#: functions.php:231
 msgid "Sidebar Area 2"
 msgstr "Бічна зона 2"
 
-#: functions.php:234
+#: functions.php:233
 msgid "Widgets in this area will be shown below \"What is this place?\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Що це за місце?\"."
 
-#: functions.php:241
+#: functions.php:240
 msgid "Sidebar Area 3"
 msgstr "Бічна зона 3"
 
-#: functions.php:243
+#: functions.php:242
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Друзі та посилання\"."
 
-#: functions.php:250
+#: functions.php:249
 msgid "Sidebar Area 4"
 msgstr "Бічна зона 4"
 
-#: functions.php:252
+#: functions.php:251
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
 msgstr "Віджети у цій зоні будуть показані нижче \"Останні Записи”."
 
-#: functions.php:264
+#: functions.php:263
 msgid "Footer Area 1"
 msgstr "Область колонтитула 1"
 
-#: functions.php:266
+#: functions.php:265
 msgid "Widgets in this area will be shown left."
 msgstr "Віджети у цій зоні будуть показані зліва."
 
-#: functions.php:273
+#: functions.php:272
 msgid "Footer Area 2"
 msgstr "Область колонтитула 2"
 
-#: functions.php:275
+#: functions.php:274
 msgid "Widgets in this area will be shown center."
 msgstr "Віджети у цій зоні будуть показані в центрі."
 
-#: functions.php:282
+#: functions.php:281
 msgid "Footer Area 3"
 msgstr "Область колонтитула 3"
 
-#: functions.php:284
+#: functions.php:283
 msgid "Widgets in this area will be shown right."
 msgstr "Віджети у цій зоні будуть показані справа."
 
-#: functions.php:366
+#: functions.php:365
 msgid "Archive by category "
 msgstr "Архів по категорії "
 
-#: functions.php:370
+#: functions.php:369
 msgid "Archive by date "
 msgstr "Архів по даті "
 
-#: functions.php:373
+#: functions.php:372
 msgid "Archive by month "
 msgstr "Архів по місяцю "
 
-#: functions.php:375
+#: functions.php:374
 msgid "Archive by year "
 msgstr "Архів по року "
 
-#: functions.php:385 functions.php:413
+#: functions.php:384 functions.php:412
 msgid "You&apos;re currently reading "
 msgstr "Ви зараз читаєте "
 
-#: functions.php:415
+#: functions.php:414
 msgid "Search results for "
 msgstr "Знайти результати для "
 
-#: functions.php:417
+#: functions.php:416
 msgid "Archive by tag "
 msgstr "Архів по тегу "
 
-#: functions.php:421
+#: functions.php:420
 msgid "Articles posted by "
 msgstr "Записи оприлюднени "
 
-#: functions.php:423
+#: functions.php:422
 msgid "You got it "
 msgstr "Ось воно "
 
-#: functions.php:450
+#: functions.php:449
 msgid "Previous page"
 msgstr "Попередня сторінка"
 
-#: functions.php:451
+#: functions.php:450
 msgid "Next page"
 msgstr "Наступна сторінка"
 
-#: functions.php:453
+#: functions.php:452
 msgid "Page "
 msgstr "Сторінка "
 
-#: functions.php:453
+#: functions.php:452
 msgid " of the "
 msgstr " з "
 
-#: functions.php:464
+#: functions.php:463
 msgid "Posts navigation"
 msgstr "Навігація по записам"
 
-#: functions.php:501
+#: functions.php:500
 msgid "Post navigation"
 msgstr "Навігація по запису"
 
-#: functions.php:526
+#: functions.php:525
 msgid "Pingback:"
 msgstr "Сповіщення:"
 
-#: functions.php:526
+#: functions.php:525
 msgid "(Edit)"
 msgstr "(Редактувати)"
 
-#: functions.php:543
+#: functions.php:542
 msgid "(Post author) "
 msgstr "(Автор запису) "
 
-#: functions.php:555
+#: functions.php:554
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш коментар чекає перевірки."
 
-#: functions.php:560
+#: functions.php:559
 msgid "Edit"
 msgstr "Редактувати"
 
-#: functions.php:564
+#: functions.php:563
 msgid "Reply"
 msgstr "Відповісти"
 
-#: functions.php:577 inc/customizer.php:53 inc/customizer.php:65 single.php:53
-msgid "Copyright 2018. All rights reserved."
-msgstr "Копірайт 2018. Всі права захищені."
+#: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
+msgid "Copyright 2019. All rights reserved."
+msgstr "Копірайт 2019. Всі права захищені."
 
-#: functions.php:601
+#: functions.php:600
 msgid " queries in "
 msgstr " запитів в "
 
-#: functions.php:603
+#: functions.php:602
 msgid " seconds"
 msgstr " секунд"
 
-#: functions.php:606
+#: functions.php:605
 msgid " mb"
 msgstr " мб"
 
-#: functions.php:635
+#: functions.php:634
 msgid "Not Found"
 msgstr "Не знайдено"
 
-#: functions.php:638
+#: functions.php:637
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr "Пробачте, але тут немає того, що ви шукаєте."
 
-#: functions.php:657 functions.php:677 functions.php:689 sitemap.php:65
+#: functions.php:656 functions.php:676 functions.php:688 sitemap.php:65
 msgid "Category: "
 msgstr "Категорія: "
 
-#: functions.php:660 functions.php:668 functions.php:684 functions.php:696
+#: functions.php:659 functions.php:667 functions.php:683 functions.php:695
 msgid "EDIT"
 msgstr "Редагувати"
 
-#: functions.php:662
+#: functions.php:661
 msgid "Posted "
 msgstr "Оприлюднено "
 
-#: functions.php:664
+#: functions.php:663
 msgid " by "
 msgstr ""
 
-#: functions.php:666
+#: functions.php:665
 msgid " in category \""
 msgstr " в категоріі \""
 
-#: functions.php:683 functions.php:695
+#: functions.php:682 functions.php:694
 msgid "LEAVE A COMMENT"
 msgstr "ЗАЛИШИТИ КОМЕНТАР"
 

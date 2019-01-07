@@ -5,7 +5,7 @@
  * @package     Anarcho Notepad
  * @since       2.38
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2018, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -16,7 +16,7 @@
 <section id="content" role="main">
     <div class="col01">
 
-        <?php anarcho_breadcrumbs(); ?>
+        <?php spacexchimp_theme_breadcrumbs(); ?>
 
         <?php if ( have_posts() ) : ?>
         <?php while ( have_posts() ) : the_post(); ?>
@@ -27,7 +27,7 @@
 
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-            <?php anarcho_date_tag(); ?>
+            <?php spacexchimp_theme_date_tag(); ?>
 
             <h1 class="post-title">
                 <?php the_title(); ?>
@@ -50,13 +50,13 @@
                 <?php the_tags(); ?>
                 <br>
                 <?php
-                    $anarcho_copy_post = __( 'Copyright 2018. All rights reserved.', 'anarcho-notepad' );
-                    echo esc_html( get_theme_mod( 'copyright_post', $anarcho_copy_post ) );
+                    $spacexchimp_theme_copy_post = __( 'Copyright 2019. All rights reserved.', 'anarcho-notepad' );
+                    echo esc_html( get_theme_mod( 'copyright_post', $spacexchimp_theme_copy_post ) );
                 ?>
             </p>
 
-            <?php anarcho_entry_meta(); ?>
-            <?php anarcho_post_nav(); ?>
+            <?php spacexchimp_theme_entry_meta(); ?>
+            <?php spacexchimp_theme_post_nav(); ?>
 
             <div class="end-posts">
                 <?php echo get_theme_mod('scripts_end_posts'); ?>
@@ -69,7 +69,7 @@
         <?php endwhile; ?>
 
         <?php else : ?>
-            <?php anarcho_not_found(); ?>
+            <?php spacexchimp_theme_not_found(); ?>
         <?php endif; ?>
 
     </div>

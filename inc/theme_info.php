@@ -5,27 +5,27 @@
  * @package     Anarcho Notepad
  * @since       2.38
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2018, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
 
 /* Add some CSS so we can Style the Theme Options Page */
-function anarcho_include_theme_options_style() {
-    wp_enqueue_style('anarcho_theme_options_styles', get_template_directory_uri() . '/inc/theme_info.css', false, '1.0');
-    wp_enqueue_style('anarcho_theme_options_font_awesome', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css', 'screen');
+function spacexchimp_theme_include_theme_options_style() {
+    wp_enqueue_style('spacexchimp_theme_options_styles', get_template_directory_uri() . '/inc/theme_info.css', false, '1.0');
+    wp_enqueue_style('spacexchimp_theme_options_font_awesome', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.css', 'screen');
 }
-add_action( 'admin_print_styles-appearance_page_theme_options', 'anarcho_include_theme_options_style' );
+add_action( 'admin_print_styles-appearance_page_theme_options', 'spacexchimp_theme_include_theme_options_style' );
 
 /* Create the Theme Information page (Theme Options) */
-function anarcho_theme_options_do_page() {
+function spacexchimp_theme_options_do_page() {
 
-    $anarcho_spacexchimp_logo = get_template_directory_uri() . '/images/theme_info/spacexchimp-logo.png';
-    $anarcho_spacexchimp_banner = get_template_directory_uri() . '/images/theme_info/spacexchimp-banner.png';
-    $anarcho_spacexchimp_uri = "https://www.spacexchimp.com";
-    $anarcho_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
-    $anarcho_donate_link = "https://www.spacexchimp.com/donate.html";
-    $anarcho_donate_image = get_template_directory_uri() . '/images/theme_info/donate.png';
+    $spacexchimp_theme_brand_logo = get_template_directory_uri() . '/images/theme_info/spacexchimp-logo.png';
+    $spacexchimp_theme_brand_banner = get_template_directory_uri() . '/images/theme_info/spacexchimp-banner.png';
+    $spacexchimp_theme_brand_uri = "https://www.spacexchimp.com";
+    $spacexchimp_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
+    $spacexchimp_theme_donate_link = "https://www.spacexchimp.com/donate.html";
+    $spacexchimp_theme_donate_image = get_template_directory_uri() . '/images/theme_info/donate.png';
 
     ?>
     <div class="cover">
@@ -38,13 +38,13 @@ function anarcho_theme_options_do_page() {
                     <?php _e( 'Theme "Anarcho Notepad"', 'anarcho-notepad' ); ?>
                 </h3>
                 <h4>
-                    <a title="Space X-Chimp" target="_blank" href="<?php echo $anarcho_spacexchimp_uri; ?>">
+                    <a title="Space X-Chimp" target="_blank" href="<?php echo $spacexchimp_theme_brand_uri; ?>">
                         <?php _e( 'by Space X-Chimp', 'anarcho-notepad' ); ?>
                     </a>
                 </h4>
                 <p>
-                    <a title="Space X-Chimp" target="_blank" href="<?php echo $anarcho_spacexchimp_uri; ?>">
-                        <img src="<?php echo $anarcho_spacexchimp_logo; ?>" alt="Space X-Chimp" width="170" height="170" class="alignleft size-thumbnail logo-img" />
+                    <a title="Space X-Chimp" target="_blank" href="<?php echo $spacexchimp_theme_brand_uri; ?>">
+                        <img src="<?php echo $spacexchimp_theme_brand_logo; ?>" alt="Space X-Chimp" width="170" height="170" class="alignleft size-thumbnail logo-img" />
                     </a>
                     <?php _e( 'Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. "Anarcho Notepad" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!', 'anarcho-notepad' ); ?>
                 </p>
@@ -162,8 +162,8 @@ function anarcho_theme_options_do_page() {
                     </h3>
 
                     <p>
-                        <a href="<?php echo $anarcho_donate_link; ?>" target="_blank" rel="nofollow">
-                            <img class="tc-donate" src="<?php echo $anarcho_donate_image; ?>" alt="Make a donation for Anarcho-Notepad">
+                        <a href="<?php echo $spacexchimp_theme_donate_link; ?>" target="_blank" rel="nofollow">
+                            <img class="tc-donate" src="<?php echo $spacexchimp_theme_donate_image; ?>" alt="Make a donation for Anarcho-Notepad">
                         </a>
                         <?php _e( 'Thanks for your support!', 'anarcho-notepad' ); ?>
                     </p>
@@ -173,8 +173,8 @@ function anarcho_theme_options_do_page() {
                     <h3>
                         <?php _e( 'Explore our website', 'anarcho-notepad' ); ?>
                     </h3>
-                    <a href="<?php echo $anarcho_spacexchimp_uri; ?>" title="Space X-Chimp studio" target="_blank">
-                        <img src="<?php echo $anarcho_spacexchimp_banner; ?>" alt="Space X-Chimp">
+                    <a href="<?php echo $spacexchimp_theme_brand_uri; ?>" title="Space X-Chimp studio" target="_blank">
+                        <img src="<?php echo $spacexchimp_theme_brand_banner; ?>" alt="Space X-Chimp">
                     </a>
                 </div>
 
@@ -189,15 +189,15 @@ function anarcho_theme_options_do_page() {
 
     <?php
 }
-add_action('admin_menu', 'anarcho_theme_options_add_page');
+add_action('admin_menu', 'spacexchimp_theme_options_add_page');
 
 /* Page "Theme info" in dashboard */
-function anarcho_theme_options_add_page() {
+function spacexchimp_theme_options_add_page() {
     add_theme_page(
         __( 'Theme Info' , 'anarcho-notepad' ),      // Name of page
         __( 'Theme Info' , 'anarcho-notepad' ),      // Label in menu
         'edit_theme_options',                        // Capability required
         'theme_options',                             // Menu slug, used to uniquely identify the page
-        'anarcho_theme_options_do_page'              // Function to be called to output the content of this page
+        'spacexchimp_theme_options_do_page'              // Function to be called to output the content of this page
     );
 }

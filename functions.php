@@ -3,9 +3,9 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.38
+ * @since       2.39
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2018, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -32,16 +32,15 @@
  * @since 2.34
  */
 $theme_data = wp_get_theme();
-function spacexchimp_t001_define_constants( $constant_name, $value ) {
+function spacexchimp_theme_define_constants( $constant_name, $value ) {
     $constant_name = 'SPACEXCHIMP_T001_' . $constant_name;
     if ( !defined( $constant_name ) )
         define( $constant_name, $value );
 }
-spacexchimp_t001_define_constants( 'VERSION', $theme_data->get( 'Version' ) );
-spacexchimp_t001_define_constants( 'PREFIX', 'spacexchimp_t001' );
+spacexchimp_theme_define_constants( 'VERSION', $theme_data->get( 'Version' ) );
 
 /* Ladies and Gentlemans, boys and girls let's start our engine */
-function anarcho_setup() {
+function spacexchimp_theme_setup() {
     global $content_width;
 
     // Localization Init
@@ -85,14 +84,14 @@ function anarcho_setup() {
     // This feature enables Link Manager in Admin page.
     add_filter( 'pre_option_link_manager_enabled', '__return_true' );
 }
-add_action( 'after_setup_theme', 'anarcho_setup' );
+add_action( 'after_setup_theme', 'spacexchimp_theme_setup' );
 
 /**
  * Upgrade DB settings
  *
  * @since 2.31
  */
-function anarcho_upgrade_settings() {
+function spacexchimp_theme_upgrade_settings() {
 
     // Read saved theme settings
     $settings_saved = get_option( 'theme_mods_anarcho-notepad' );
@@ -135,25 +134,25 @@ function anarcho_upgrade_settings() {
     update_option( 'theme_mods_anarcho-notepad', $settings );
 
 }
-anarcho_upgrade_settings();
+spacexchimp_theme_upgrade_settings();
 
 //Adding backwards compatibility for title-tag less than WordPress version 4.1
 if ( ! function_exists( '_wp_render_title_tag' ) ) {
-    function anarcho_render_title() {
+    function spacexchimp_theme_render_title() {
         ?>
         <title>
             <?php wp_title( '|', true, 'right' ); ?>
         </title>
         <?php
     }
-    add_action( 'wp_head', 'anarcho_render_title' );
+    add_action( 'wp_head', 'spacexchimp_theme_render_title' );
 }
 
 /* Add Theme Information Page */
 require get_template_directory() . '/inc/theme_info.php';
 
 /* Add help button to admin bar */
-function anarcho_add_help_button() {
+function spacexchimp_theme_add_help_button() {
     if ( current_user_can( 'edit_theme_options' ) ) {
         global $wp_admin_bar;
         $wp_admin_bar->add_menu( array(
@@ -167,36 +166,36 @@ function anarcho_add_help_button() {
         ));
     }
 }
-add_action ( 'wp_before_admin_bar_render', 'anarcho_add_help_button' );
+add_action ( 'wp_before_admin_bar_render', 'spacexchimp_theme_add_help_button' );
 
 /* Add the Upgrade notice */
 require get_template_directory() . '/inc/upgrade_notice.php';
 
 /* Add IE conditional HTML5 shim to header */
-function anarcho_add_ie_html5_shiv () {
+function spacexchimp_theme_add_ie_html5_shiv () {
     global $is_IE;
     if ( $is_IE )
         echo '<!--[if lt IE 9]>';
         echo '<script src="', get_template_directory_uri() .'/js/html5shiv.min.js"></script>';
         echo '<![endif]-->';
 }
-add_action( 'wp_head', 'anarcho_add_ie_html5_shiv' );
+add_action( 'wp_head', 'spacexchimp_theme_add_ie_html5_shiv' );
 
 /**
  * Enqueue scripts and styles on the admin pages.
  */
-function anarcho_scripts_admin() {
+function spacexchimp_theme_scripts_admin() {
 
     // Load additional stylesheet for admin screens
     wp_enqueue_style( 'anarcho-admin-css', get_template_directory_uri() . '/inc/admin.css', array(), SPACEXCHIMP_T001_VERSION, 'all' );
 
 }
-add_action( 'admin_enqueue_scripts', 'anarcho_scripts_admin' );
+add_action( 'admin_enqueue_scripts', 'spacexchimp_theme_scripts_admin' );
 
 /**
  * Enqueue scripts and styles on the front end.
  */
-function anarcho_scripts_frontend() {
+function spacexchimp_theme_scripts_frontend() {
 
     // Load JQuery library
     wp_enqueue_script( 'jquery' );
@@ -211,14 +210,14 @@ function anarcho_scripts_frontend() {
     wp_enqueue_script( 'anarcho-smooth-scroll-js', get_template_directory_uri() . '/js/smoothscroll.js', array( 'jquery' ), SPACEXCHIMP_T001_VERSION, true );
 
 }
-add_action( 'wp_enqueue_scripts', 'anarcho_scripts_frontend' );
+add_action( 'wp_enqueue_scripts', 'spacexchimp_theme_scripts_frontend' );
 
 /* Add Theme Customizer functionality */
 require get_template_directory() . '/inc/customizer-arrays.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /* This feature enables widgets area in the sidebar */
-function anarcho_widgets_init() {
+function spacexchimp_theme_widgets_init() {
     register_sidebar(array(
         'name'          => __( 'Sidebar Area 1', 'anarcho-notepad' ),
         'id'            => 'sidebar-1',
@@ -256,10 +255,10 @@ function anarcho_widgets_init() {
         'after_title'   => '</h3>',
     ));
 }
-add_action( 'widgets_init', 'anarcho_widgets_init' );
+add_action( 'widgets_init', 'spacexchimp_theme_widgets_init' );
 
 /* This feature enables widgets area in the footer */
-function anarcho_widgets_footer_init() {
+function spacexchimp_theme_widgets_footer_init() {
     register_sidebar(array(
         'name'          => __( 'Footer Area 1', 'anarcho-notepad' ),
         'id'            => 'footer-1',
@@ -288,18 +287,18 @@ function anarcho_widgets_footer_init() {
         'after_title'   => '</h3>',
     ));
 }
-add_action( 'widgets_init', 'anarcho_widgets_footer_init' );
+add_action( 'widgets_init', 'spacexchimp_theme_widgets_footer_init' );
 
 /* Adds a custom default avatar */
-function anarcho_avatar( $avatar_defaults ) {
+function spacexchimp_theme_avatar( $avatar_defaults ) {
     $myavatar = get_stylesheet_directory_uri() . '/images/anarchy-symbol.png';
     $avatar_defaults[$myavatar] = 'Anarcho symbol';
     return $avatar_defaults;
 }
-add_filter( 'avatar_defaults', 'anarcho_avatar' );
+add_filter( 'avatar_defaults', 'spacexchimp_theme_avatar' );
 
 /* Display block "About the Author" */
-function anarcho_author_bio() {
+function spacexchimp_theme_author_bio() {
     if ( get_theme_mod('disable_about_bio') !== '1' ) {
         if ( ( get_the_author_meta( 'description' ) != '' ) ) {
             echo esc_html( get_template_part( 'author-bio' ) );
@@ -308,7 +307,7 @@ function anarcho_author_bio() {
 }
 
 /* Date Tag (Red ribbon) */
-function anarcho_date_tag() {
+function spacexchimp_theme_date_tag() {
     if ( get_theme_mod('disable_ribbons') !== '1' ) {
         if ( get_theme_mod('enable_year_ribbons') !== '1' ) {
             if ( is_home() || is_category() || is_archive() || is_search() ) {
@@ -347,7 +346,7 @@ function anarcho_date_tag() {
 }
 
 /* Enable Breadcrumbs */
-function anarcho_breadcrumbs() {
+function spacexchimp_theme_breadcrumbs() {
     if ( get_theme_mod('enable_breadcrumbs') == '1' ) {
         $delimiter = '&raquo;';
         $before = '<span>';
@@ -435,7 +434,7 @@ function anarcho_breadcrumbs() {
  * Page Navigation
  * Display navigation to next/previous set of posts when applicable
  */
-function anarcho_page_nav() {
+function spacexchimp_theme_page_nav() {
     if ( get_theme_mod('enable_page-nav') == '1' ) {
         global $wp_query, $wp_rewrite;
         $pages = '';
@@ -487,7 +486,7 @@ function anarcho_page_nav() {
  * Post navigation
  * Display navigation to next/previous post when applicable
  */
-function anarcho_post_nav() {
+function spacexchimp_theme_post_nav() {
     global $post;
 
     // Don't print empty markup if there's nowhere to navigate.
@@ -514,7 +513,7 @@ function anarcho_post_nav() {
  * Template for comments and pingbacks.
  * Used as a callback by wp_list_comments() for displaying the comments.
  */
-function anarcho_comment( $comment, $args, $depth ) {
+function spacexchimp_theme_comment( $comment, $args, $depth ) {
     $GLOBALS['comment'] = $comment;
     switch ( $comment->comment_type ) :
         case 'pingback' :
@@ -572,29 +571,29 @@ function anarcho_comment( $comment, $args, $depth ) {
 /*
  * Copyright
  */
-function anarcho_copyright() {
+function spacexchimp_theme_copyright() {
 
-    $anarcho_copy_website = __( 'Copyright 2018. All rights reserved.', 'anarcho-notepad' );
-    echo get_theme_mod( 'site-info', $anarcho_copy_website ) . "<br>";
+    $spacexchimp_theme_copy_website = __( 'Copyright 2019. All rights reserved.', 'anarcho-notepad' );
+    echo get_theme_mod( 'site-info', $spacexchimp_theme_copy_website ) . "<br>";
 
-    $anarcho_copy_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
-    $anarcho_copy_theme_name = "Anarcho Notepad";
-    $anarcho_copy_theme_link = '<a title="Theme page" target="_blank" href=' . $anarcho_copy_theme_uri . '>' . $anarcho_copy_theme_name . '</a>';
+    $spacexchimp_theme_copy_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
+    $spacexchimp_theme_copy_theme_name = "Anarcho Notepad";
+    $spacexchimp_theme_copy_theme_link = '<a title="Theme page" target="_blank" href=' . $spacexchimp_theme_copy_theme_uri . '>' . $spacexchimp_theme_copy_theme_name . '</a>';
 
-    $anarcho_copy_author_uri = "https://www.spacexchimp.com/";
-    $anarcho_copy_author_name = "Space X-Chimp";
-    $anarcho_copy_author_link = '<a title="Theme author" target="_blank" href=' . $anarcho_copy_author_uri . '>' . $anarcho_copy_author_name . '</a>';
+    $spacexchimp_theme_copy_author_uri = "https://www.spacexchimp.com/";
+    $spacexchimp_theme_copy_author_name = "Space X-Chimp";
+    $spacexchimp_theme_copy_author_link = '<a title="Theme author" target="_blank" href=' . $spacexchimp_theme_copy_author_uri . '>' . $spacexchimp_theme_copy_author_name . '</a>';
 
-    echo '<div class="anarchocopy" style="margin-top:10px;">' . 'WordPress theme "' . $anarcho_copy_theme_link . '" by ' . $anarcho_copy_author_link . '.' . '</div>';
+    echo '<div class="anarchocopy" style="margin-top:10px;">' . 'WordPress theme "' . $spacexchimp_theme_copy_theme_link . '" by ' . $spacexchimp_theme_copy_author_link . '.' . '</div>';
 
 }
-add_action( 'wp_footer','anarcho_copyright', 999 );
+add_action( 'wp_footer','spacexchimp_theme_copyright', 999 );
 
 /*
  * Queries
  * Display info about a database queries
  */
-function anarcho_mysql_queries() {
+function spacexchimp_theme_mysql_queries() {
     if ( get_theme_mod('show_info_line') == '1' ) {
         echo "\n";
         echo get_num_queries();
@@ -607,13 +606,13 @@ function anarcho_mysql_queries() {
         echo "\n";
     }
 }
-add_action( 'wp_footer','anarcho_mysql_queries', 999 );
+add_action( 'wp_footer','spacexchimp_theme_mysql_queries', 999 );
 
 /*
  * Scroll to Top Button
  * Load smoothscroll.js and Enable Scroll to Top Button
  */
-function anarcho_scroll_to_top() {
+function spacexchimp_theme_scroll_to_top() {
     if ( get_theme_mod('disable_scroll_to_top') !== '1' ) {
         echo '
             <a class="scroll-to-top" href="#top">
@@ -622,13 +621,13 @@ function anarcho_scroll_to_top() {
         ';
     }
 }
-add_action( 'wp_footer','anarcho_scroll_to_top', 999 );
+add_action( 'wp_footer','spacexchimp_theme_scroll_to_top', 999 );
 
 /*
  * No Content
  * The Message if no content
  */
-function anarcho_not_found() {
+function spacexchimp_theme_not_found() {
     ?>
     <div class="no-results">
         <h1>
@@ -645,7 +644,7 @@ function anarcho_not_found() {
  * Entry Meta
  * Display Entry Meta
  */
-function anarcho_entry_meta() {
+function spacexchimp_theme_entry_meta() {
     ?>
     <div class="meta">
         <?php
@@ -669,7 +668,7 @@ function anarcho_entry_meta() {
                 ?>
                 <br>
                 <?php
-                anarcho_author_bio();
+                spacexchimp_theme_author_bio();
             } elseif ( is_home() || is_category() || is_archive() || is_search() ) {
                 ?>
                 <i class="fa fa-folder-open"></i>

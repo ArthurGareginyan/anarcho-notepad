@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 06:18+0300\n"
-"PO-Revision-Date: 2018-11-16 06:18+0300\n"
+"POT-Creation-Date: 2019-01-07 15:26+0200\n"
+"PO-Revision-Date: 2019-01-07 15:26+0200\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: ca_ES\n"
@@ -84,203 +84,203 @@ msgstr "Navegació pels comentaris"
 msgid "Comments are closed."
 msgstr "Els comentaris estan tancats."
 
-#: functions.php:82
+#: functions.php:81
 msgid "Primary"
 msgstr "Principal"
 
-#: functions.php:162
+#: functions.php:161
 msgid "Help"
 msgstr "Ajuda"
 
-#: functions.php:165
+#: functions.php:164
 msgid "Need help with Anarcho-Notepad? Click here!"
 msgstr "Necessites ajuda amb Anarcho-Notepad? Clica aquí!"
 
-#: functions.php:223
+#: functions.php:222
 msgid "Sidebar Area 1"
 msgstr "Barra lateral Àrea 1"
 
-#: functions.php:225
+#: functions.php:224
 msgid "Widgets in this area will be shown below \"Pages\"."
 msgstr "Els Widgets en aquesta àrea es mostraran a continuació \"Pagines\"."
 
-#: functions.php:232
+#: functions.php:231
 msgid "Sidebar Area 2"
 msgstr "Barra lateral Área 2"
 
-#: functions.php:234
+#: functions.php:233
 msgid "Widgets in this area will be shown below \"What is this place?\"."
 msgstr "Els Widgets en aquesta àrea es mostraran a continuació \"¿Què és aquest lloc?”."
 
-#: functions.php:241
+#: functions.php:240
 msgid "Sidebar Area 3"
 msgstr "Barra lateral Àrea 3"
 
-#: functions.php:243
+#: functions.php:242
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
 msgstr "Els Widgets d'aquesta àrea es mostraran a continuació \"Amics i enllaços\"."
 
-#: functions.php:250
+#: functions.php:249
 msgid "Sidebar Area 4"
 msgstr "Barra lateral Àrea 4"
 
-#: functions.php:252
+#: functions.php:251
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
 msgstr "Els Widgets en aquesta àrea es mostraran a continuació \"Articles Recents”."
 
-#: functions.php:264
+#: functions.php:263
 msgid "Footer Area 1"
 msgstr "Peu de pàgina Àrea 1"
 
-#: functions.php:266
+#: functions.php:265
 msgid "Widgets in this area will be shown left."
 msgstr "Els Widgets en aquesta àrea seran mostrats a l'esquerra."
 
-#: functions.php:273
+#: functions.php:272
 msgid "Footer Area 2"
 msgstr "Peu de pàgina Àrea 2"
 
-#: functions.php:275
+#: functions.php:274
 msgid "Widgets in this area will be shown center."
 msgstr "Els Widgets en aquest àrea seran mostrats al centre."
 
-#: functions.php:282
+#: functions.php:281
 msgid "Footer Area 3"
 msgstr "Peu de pàgina Àrea 3"
 
-#: functions.php:284
+#: functions.php:283
 msgid "Widgets in this area will be shown right."
 msgstr "Els Widgets en aquesta àrea seran mostrats a la dreta."
 
-#: functions.php:366
+#: functions.php:365
 msgid "Archive by category "
 msgstr "Arxiu per categoria "
 
-#: functions.php:370
+#: functions.php:369
 msgid "Archive by date "
 msgstr "Arxiu per data "
 
-#: functions.php:373
+#: functions.php:372
 msgid "Archive by month "
 msgstr "Arxiu per mes "
 
-#: functions.php:375
+#: functions.php:374
 msgid "Archive by year "
 msgstr "Arxiu per any "
 
-#: functions.php:385 functions.php:413
+#: functions.php:384 functions.php:412
 msgid "You&apos;re currently reading "
 msgstr "Actualment estas llegint "
 
-#: functions.php:415
+#: functions.php:414
 msgid "Search results for "
 msgstr "Resultats per la cerca "
 
-#: functions.php:417
+#: functions.php:416
 msgid "Archive by tag "
 msgstr "Arxiu per etiqueta "
 
-#: functions.php:421
+#: functions.php:420
 msgid "Articles posted by "
 msgstr "Articles publicats per "
 
-#: functions.php:423
+#: functions.php:422
 msgid "You got it "
 msgstr "Ja ho tens "
 
-#: functions.php:450
+#: functions.php:449
 msgid "Previous page"
 msgstr "Pàgina prèvia"
 
-#: functions.php:451
+#: functions.php:450
 msgid "Next page"
 msgstr "Pàgina següent"
 
-#: functions.php:453
+#: functions.php:452
 msgid "Page "
 msgstr "Pàgina "
 
-#: functions.php:453
+#: functions.php:452
 msgid " of the "
 msgstr " de la "
 
-#: functions.php:464
+#: functions.php:463
 msgid "Posts navigation"
 msgstr "Navegació d'articles"
 
-#: functions.php:501
+#: functions.php:500
 msgid "Post navigation"
 msgstr "Navegació d'article"
 
-#: functions.php:526
+#: functions.php:525
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: functions.php:526
+#: functions.php:525
 msgid "(Edit)"
 msgstr "(Editar)"
 
-#: functions.php:543
+#: functions.php:542
 msgid "(Post author) "
 msgstr "(Autor de l'article) "
 
-#: functions.php:555
+#: functions.php:554
 msgid "Your comment is awaiting moderation."
 msgstr "El teu comentari esta pendent de moderació."
 
-#: functions.php:560
+#: functions.php:559
 msgid "Edit"
 msgstr "Editar"
 
-#: functions.php:564
+#: functions.php:563
 msgid "Reply"
 msgstr "Contestar"
 
-#: functions.php:577 inc/customizer.php:53 inc/customizer.php:65 single.php:53
-msgid "Copyright 2018. All rights reserved."
+#: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
+msgid "Copyright 2019. All rights reserved."
 msgstr ""
 
-#: functions.php:601
+#: functions.php:600
 msgid " queries in "
 msgstr " consultes a "
 
-#: functions.php:603
+#: functions.php:602
 msgid " seconds"
 msgstr " segons"
 
-#: functions.php:606
+#: functions.php:605
 msgid " mb"
 msgstr " mb"
 
-#: functions.php:635
+#: functions.php:634
 msgid "Not Found"
 msgstr "No s'ha trobat"
 
-#: functions.php:638
+#: functions.php:637
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr "Disculpa les molèsties, però estas buscant alguna cosa que no està aquí."
 
-#: functions.php:657 functions.php:677 functions.php:689 sitemap.php:65
+#: functions.php:656 functions.php:676 functions.php:688 sitemap.php:65
 msgid "Category: "
 msgstr "Categoria: "
 
-#: functions.php:660 functions.php:668 functions.php:684 functions.php:696
+#: functions.php:659 functions.php:667 functions.php:683 functions.php:695
 msgid "EDIT"
 msgstr ""
 
-#: functions.php:662
+#: functions.php:661
 msgid "Posted "
 msgstr "Publicat "
 
-#: functions.php:664
+#: functions.php:663
 msgid " by "
 msgstr " per "
 
-#: functions.php:666
+#: functions.php:665
 msgid " in category \""
 msgstr ""
 
-#: functions.php:683 functions.php:695
+#: functions.php:682 functions.php:694
 msgid "LEAVE A COMMENT"
 msgstr "DEIXA UN COMENTARI"
 

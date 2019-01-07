@@ -5,14 +5,14 @@
  * @package     Anarcho Notepad
  * @since       2.33
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2018, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
 
 
 // Upgrade notice template
-function anarcho_upgrade_notice() {
+function spacexchimp_theme_upgrade_notice() {
 
     // Print template
     ?>
@@ -60,12 +60,12 @@ function anarcho_upgrade_notice() {
     <?php
 
     // Enqueue stylesheet
-    wp_enqueue_style( 'anarcho_upgrade_notice_styles', get_template_directory_uri() . '/inc/upgrade_notice.css' );
+    wp_enqueue_style( 'spacexchimp_theme_upgrade_notice_styles', get_template_directory_uri() . '/inc/upgrade_notice.css' );
 
 }
 
 // Add the Upgrade notice to some pages in Admin area
 global $pagenow;
 if ( $pagenow == 'index.php' OR $pagenow == 'theme-editor.php' OR $pagenow == 'themes.php' ) {
-        add_action( 'admin_notices', 'anarcho_upgrade_notice' );
+        add_action( 'admin_notices', 'spacexchimp_theme_upgrade_notice' );
 }

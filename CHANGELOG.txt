@@ -1,5 +1,12 @@
 == Changelog ==
 
+= 2.39 (2019.01.07) =
+* The copyright date updated.
+* The variables prefix replaced from "anarcho_" to "spacexchimp_theme_".
+* The functions prefix replaced from "anarcho_" to "spacexchimp_theme_".
+* The "spacexchimp_t001_define_constants" function renamed to "spacexchimp_theme_define_constants".
+* All translation files are updated.
+
 = 2.38 (2018.11.16) =
 * Improvement: Code in PHP and CSS files is better formatted using the best coding standards.
 * Improvement: The breadcrumbs on the Search page is redesigned.

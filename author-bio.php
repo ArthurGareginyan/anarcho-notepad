@@ -5,7 +5,7 @@
  * @package     Anarcho Notepad
  * @since       2.38
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2018, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -13,7 +13,7 @@
 
 <div class="author-info">
     <div class="author-avatar">
-        <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'anarcho_author_bio_avatar_size', 80 ) ); ?>
+        <?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'spacexchimp_theme_author_bio_avatar_size', 80 ) ); ?>
     </div>
     <div class="author-description">
         <h2 class="author-title">

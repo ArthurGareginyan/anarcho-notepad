@@ -6,7 +6,7 @@
 
     Author URI: https://www.spacexchimp.com
 
-    Copyright (c) 2013-2018, Space X-Chimp
+    Copyright (c) 2013-2019, Space X-Chimp
 
     License: GNU General Public License, version 3 (GPLv3)
 

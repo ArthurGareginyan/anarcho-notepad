@@ -1,7 +1,7 @@
 /*
  * Theme Customizer live preview v1.2 | @agareginyan | GPL v3 Licensed
  *
- * Copyright (c) 2018, Space X-Chimp ( https://www.spacexchimp.com ).
+ * Copyright (c) 2019, Space X-Chimp ( https://www.spacexchimp.com ).
  * All Rights Reserved.
  *
  * This file adds some LIVE to the Theme Customizer live preview. To leverage
