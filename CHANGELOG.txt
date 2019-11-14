@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 2.40 (2019.11.11) =
+* Maintenance: Compatibility with upcoming WordPress 5.3.
+* Framework update: The contents of the "humans.txt" file has been updated.
+* Framework update: The contents of the "languages/Readme.txt" file has been updated to provide a more detailed explanation of the theme translation process to the user.
+* Fix: The theme translation files de_DE and ru_RU have been corrected.
+
 = 2.39 (2019.01.07) =
 * The copyright date updated.
 * The variables prefix replaced from "anarcho_" to "spacexchimp_theme_".

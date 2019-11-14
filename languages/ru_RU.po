@@ -390,7 +390,7 @@ msgstr "Скрипты после постов"
 
 #: inc/customizer.php:311
 msgid "Post"
-msgstr "Опубликовать"
+msgstr "Запись"
 
 #: inc/customizer.php:323
 msgid "Font of posts (Google Fonts)"

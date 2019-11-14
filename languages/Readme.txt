@@ -2,7 +2,9 @@
 CONTRIBUTING YOUR TRANSLATION
 
 
-This theme is ready for translation. It written on English and translated into:
+This theme is ready for translation and has already been translated into several languages. But If your language is not available then you can make one. It is also possible that not all existing translations are up-to-date or correct, so you are welcome to make corrections. Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!
+
+  * English (default)
   * Russian (translated by Arthur Gareginyan)
   * Ukrainian (translated by Svetlana Drotyanko)
   * Slovak (translated by Martin Petrus)
@@ -15,10 +17,4 @@ This theme is ready for translation. It written on English and translated into:
   * Danish (translated by Chano Klinck Andersen)
   * French (translated by Rolland Dudemaine)
 
-If you want to help translate this theme, please use the POT file, that is included and placed in the "languages" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us (https://www.spacexchimp.com/contact.html) and we will include the translation within the next theme update.
-
-Also you can use an existing PO file that placed in the "languages" folder, in order to make corrections.
-
-Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!
-
-Thanks for your contribution!
+If you want to help translate this theme, please visit the [translation page](https://translate.wordpress.org/projects/wp-themes/anarcho-notepad). You can also use the POT file that is included and placed in the "languages" folder to create a translation PO file. Just send the PO file to us (https://www.spacexchimp.com/contact.html) and we will include this translation within the next plugin update.
