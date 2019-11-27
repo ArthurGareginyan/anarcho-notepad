@@ -90,6 +90,6 @@ Arthur Gareginyan
 [![CSS3](http://mycyberuniverse.com/public-files/images/logos/CSS3.png)]()
 [![PHP](http://mycyberuniverse.com/public-files/images/logos/PHP.png)]()
 [![JS](http://mycyberuniverse.com/public-files/images/logos/JavaScript.png)]()
-[![JQuery](http://mycyberuniverse.com/public-files/images/logos/jQurery.png)]()
+[![JQuery](http://mycyberuniverse.com/public-files/images/logos/jQuery.png)]()
 [![WordPress](http://mycyberuniverse.com/public-files/images/logos/WordPress.png)](https://wordpress.org)
 [![License](http://mycyberuniverse.com/public-files/images/logos/GPLv3.png)](http://www.gnu.org/licenses/gpl-3.0.html)
