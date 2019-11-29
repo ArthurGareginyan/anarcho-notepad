@@ -709,6 +709,3 @@ msgstr "Autorid(d):"
 #: sitemap.php:97
 msgid "Archives:"
 msgstr "Arhiivid:"
-
-#~ msgid "Follow our Founder"
-#~ msgstr "Ole mu tegevusega kursis :"

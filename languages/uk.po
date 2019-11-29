@@ -28,7 +28,7 @@ msgstr "Вибачте, але сторiнка, яку ви запрошуєте
 
 #: 404.php:28
 msgid "I'm not blaming you, but have you checked your address bar? There might be a typo in the URL."
-msgstr "Я  вас не звинувачую, але чи перевірили ви адресу? Можливо в URL у вас опечатка."
+msgstr "Я вас не звинувачую, але чи перевірили ви адресу? Можливо в URL у вас опечатка."
 
 #: 404.php:31
 msgid "If there isn't, you could try searching my website for the content you were looking for:"
@@ -50,7 +50,7 @@ msgstr "Про Автора"
 #: author-bio.php:29
 #, php-format
 msgid "View all posts by %s"
-msgstr "Переглянути всі повідомлення від %s"
+msgstr "Переглянути всі записи від %s"
 
 #: author.php:29
 msgid "Author:"
@@ -126,7 +126,7 @@ msgstr "Бічна зона 4"
 
 #: functions.php:251
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr "Віджети у цій зоні будуть показані нижче \"Останні Записи”."
+msgstr "Віджети у цій зоні будуть показані нижче \"Останні записи\"."
 
 #: functions.php:263
 msgid "Footer Area 1"
@@ -186,7 +186,7 @@ msgstr "Архів по тегу "
 
 #: functions.php:420
 msgid "Articles posted by "
-msgstr "Записи оприлюднени "
+msgstr "Статті, оприлюднени "
 
 #: functions.php:422
 msgid "You got it "
@@ -210,7 +210,7 @@ msgstr " з "
 
 #: functions.php:463
 msgid "Posts navigation"
-msgstr "Навігація по записам"
+msgstr "Навігація по записах"
 
 #: functions.php:469
 msgid "Older posts"
@@ -318,7 +318,7 @@ msgstr "Копірайт в нижньому колонтитулі"
 
 #: inc/customizer.php:78
 msgid "Stuff"
-msgstr "Stuff"
+msgstr "Стафф"
 
 #: inc/customizer.php:90
 msgid "Disable \"Paper Search\""
@@ -370,7 +370,7 @@ msgstr "Вимкнути кнопку ”Нагору\""
 
 #: inc/customizer.php:234
 msgid "Show info line in footer"
-msgstr "Показати інформаційний рядок в"
+msgstr "Відображати інфо-рядок в футере"
 
 #: inc/customizer.php:246
 msgid "Numbers of recent posts in sidebar"
@@ -382,7 +382,7 @@ msgstr "Скрипти"
 
 #: inc/customizer.php:257
 msgid "Put here your scripts"
-msgstr "Оголошення тут ваші скрипти"
+msgstr "Помістіть сюди свої скрипти"
 
 #: inc/customizer.php:268
 msgid "Scripts before posts"
@@ -474,7 +474,7 @@ msgstr "Натхненні ідеєю анархії, ми розробили ц
 
 #: inc/theme_info.php:54
 msgid "Features"
-msgstr "Особливості"
+msgstr "Можливості"
 
 #: inc/theme_info.php:57
 msgid "Cross browser compatible (work smooth in any modern browser)"
@@ -709,9 +709,3 @@ msgstr "Автор(и)"
 #: sitemap.php:97
 msgid "Archives:"
 msgstr "Архіви:"
-
-#~ msgid "and we will include the translation within the next theme update."
-#~ msgstr "і я додам переклад в наступне оновлення теми."
-
-#~ msgid "Follow our Founder"
-#~ msgstr "Ідіть за мною"

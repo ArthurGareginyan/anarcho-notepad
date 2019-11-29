@@ -738,9 +738,3 @@ msgstr ""
 #| msgid "Template page \"Without date\""
 msgid "Page without date"
 msgstr "模版页面\"无日期\""
-
-#~ msgid "and we will include the translation within the next theme update."
-#~ msgstr "我们将在下一次主题更新时包含您的翻译。"
-
-#~ msgid "Follow our Founder"
-#~ msgstr "关注我们的创始人"

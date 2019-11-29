@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-29 15:56+0300\n"
-"PO-Revision-Date: 2019-11-29 15:56+0300\n"
+"PO-Revision-Date: 2019-11-29 16:12+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -66,7 +66,7 @@ msgstr "Веб-сайт:"
 
 #: author.php:53 sitemap.php:55
 msgid "Posts:"
-msgstr "Посты:"
+msgstr "Записи:"
 
 #: author.php:66
 msgid "in"
@@ -74,7 +74,7 @@ msgstr "в"
 
 #: author.php:74
 msgid "No posts by this author."
-msgstr "Нет статей этого автора."
+msgstr "Нет записей этого автора."
 
 #: comments.php:43
 msgid "Comment navigation"
@@ -126,7 +126,7 @@ msgstr "Боковая зона 4"
 
 #: functions.php:251
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr "Виджеты этой области будут показаны ниже \"Recent Posts\"."
+msgstr "Виджеты этой области будут показаны ниже \"Недавние записи\"."
 
 #: functions.php:263
 msgid "Footer Area 1"
@@ -310,7 +310,7 @@ msgstr "Виджет - \"What is this place?\" (Что это за место?)"
 
 #: inc/customizer.php:58
 msgid "Copyright after post"
-msgstr "Копирайт после поста"
+msgstr "Копирайт после записи"
 
 #: inc/customizer.php:70
 msgid "Copyright in footer"
@@ -346,7 +346,7 @@ msgstr "Выключить виджет “Frends & Links” (Друзья и С
 
 #: inc/customizer.php:162
 msgid "Disable \"Recent Posts Sticker\""
-msgstr "Выключить \"Стикер - Недавние Записи\""
+msgstr "Выключить \"Стикер - Недавние записи\""
 
 #: inc/customizer.php:174
 msgid "Disable block \"About the Author\""
@@ -386,19 +386,19 @@ msgstr "Поместите сюда свои скрипты"
 
 #: inc/customizer.php:268
 msgid "Scripts before posts"
-msgstr "Скрипты перед постами"
+msgstr "Скрипты перед записями"
 
 #: inc/customizer.php:280
 msgid "Scripts at the beginning of the posts"
-msgstr "Скрипты в начале постов"
+msgstr "Скрипты в начале записей"
 
 #: inc/customizer.php:292
 msgid "Scripts at the end of the posts"
-msgstr "Скрипты в конце постов"
+msgstr "Скрипты в конце записей"
 
 #: inc/customizer.php:304
 msgid "Scripts after posts"
-msgstr "Скрипты после постов"
+msgstr "Скрипты после записей"
 
 #: inc/customizer.php:311
 msgid "Post"
@@ -478,7 +478,7 @@ msgstr "Возможности"
 
 #: inc/theme_info.php:57
 msgid "Cross browser compatible (work smooth in any modern browser)"
-msgstr "Кросс-браузерная совместимость (работает гладко в любом современном браузере )"
+msgstr "Кросс-браузерная совместимость (работает гладко в любом современном браузере)"
 
 #: inc/theme_info.php:58
 msgid "RTL compatible (right to left)"
@@ -592,7 +592,7 @@ msgstr "Многие из пользователей темы будут рад�
 
 #: inc/theme_info.php:123
 msgid "Thanks to all who helped us translate this theme into other languages!"
-msgstr "Спасибо всем тем кто помогал нам переводить \"Anarcho-Notepad\" на другие языки!"
+msgstr "Спасибо всем, кто помог нам перевести эту тему на другие языки!"
 
 #: inc/theme_info.php:124
 msgid "Thank you very much for your contribution!"
@@ -709,15 +709,3 @@ msgstr "Автор(ы):"
 #: sitemap.php:97
 msgid "Archives:"
 msgstr "Архивы:"
-
-#~ msgid "and we will include the translation within the next theme update."
-#~ msgstr "и мы добавим перевод в следующее обновление темы."
-
-#~ msgid "Follow our Founder"
-#~ msgstr "Следуйте за нашим Основателем"
-
-#~ msgid "Theme \"Author's Notepad\""
-#~ msgstr "Тема \"Author's Notepad\""
-
-#~ msgid "Theme \"Simple Notepad\""
-#~ msgstr "Тема “Simple Notepad\""

@@ -709,6 +709,3 @@ msgstr "Autor/Autorzy:"
 #: sitemap.php:97
 msgid "Archives:"
 msgstr "Archiwa:"
-
-#~ msgid "Follow our Founder"
-#~ msgstr "Za mną"
