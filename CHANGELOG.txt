@@ -1,5 +1,11 @@
 == Changelog ==
 
+= 2.41 (2019.11.28) =
+* New: The translation into Italian has been added. (Thanks to Demetrio Fiumanò)
+* Improvement: The translation into Ukrainian has been updated.
+* Improvement: The translation into Russian has been updated.
+* Fix: Not all text strings were prepared for translation. (Thanks to Demetrio Fiumanò)
+
 = 2.40 (2019.11.11) =
 * Maintenance: Compatibility with upcoming WordPress 5.3.
 * Framework update: The contents of the "humans.txt" file has been updated.

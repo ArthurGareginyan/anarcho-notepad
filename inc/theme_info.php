@@ -3,7 +3,7 @@
  * Theme Information Page
  *
  * @package     Anarcho Notepad
- * @since       2.38
+ * @since       2.41
  * @author      Space X-Chimp
  * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -107,6 +107,7 @@ function spacexchimp_theme_options_do_page() {
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Danish</strong> (translated by <strong>Chano Klinck Andersen</strong>)</li>
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>French</strong> (translated by <strong>Rolland Dudemaine</strong>)</li>
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Chinese</strong> (translated by <strong>Weiquan Bao</strong>)</li>
+                    <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Italian</strong> (translated by <strong>Demetrio Fiumanò</strong>)</li>
                 </ul>
                 <p>
                     <?php

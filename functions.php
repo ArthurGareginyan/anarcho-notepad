@@ -3,7 +3,7 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.39
+ * @since       2.41
  * @author      Space X-Chimp
  * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -396,9 +396,9 @@ function spacexchimp_theme_breadcrumbs() {
             }
             $breadcrumbs = array_reverse($breadcrumbs);
             foreach ($breadcrumbs as $crumb) echo ' ' . $crumb . ' ' . $delimiter . ' ';
-            echo $before . 'You&apos;re currently viewing "' . get_the_title() . '"' . $after;
+            echo $before . __( 'You&apos;re currently viewing ', 'anarcho-notepad' ) . '"' . get_the_title() . '"' . $after;
         } elseif ( is_page() && !$post->post_parent ) {
-            echo $before . 'You&apos;re currently reading "' . get_the_title() . '"' . $after;
+            echo $before . __( 'You&apos;re currently reading ', 'anarcho-notepad' ) . '"' . get_the_title() . '"' . $after;
         } elseif ( is_page() && $post->post_parent ) {
             $parent_id  = $post->post_parent;
             $breadcrumbs = array();
@@ -466,13 +466,13 @@ function spacexchimp_theme_page_nav() {
 
                 <?php if ( get_next_posts_link() ) : ?>
                     <div class="nav-previous">
-                        <?php next_posts_link( '<i class="fa fa-arrow-left"></i> Older posts' ); ?>
+                        <?php next_posts_link( '<i class="fa fa-arrow-left"></i> ' . __( 'Older posts', 'anarcho-notepad' ) ); ?>
                     </div>
                 <?php endif; ?>
 
                 <?php if ( get_previous_posts_link() ) : ?>
                     <div class="nav-next">
-                        <?php previous_posts_link( 'Newer posts <i class="fa fa-arrow-right"></i>' ); ?>
+                        <?php previous_posts_link( __( 'Newer posts', 'anarcho-notepad' ) . ' <i class="fa fa-arrow-right"></i>' ); ?>
                     </div>
                 <?php endif; ?>
 

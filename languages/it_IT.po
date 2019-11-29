@@ -2,175 +2,175 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-29 15:55+0300\n"
-"PO-Revision-Date: 2019-11-29 15:55+0300\n"
-"Last-Translator: Arthur Gareginyan\n"
+"POT-Creation-Date: 2019-11-29 15:56+0300\n"
+"PO-Revision-Date: 2019-11-29 15:56+0300\n"
+"Last-Translator: \n"
 "Language-Team: \n"
-"Language: af_ZA\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 2.2.4\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: 404.php:22
 msgid "Page Not Found"
-msgstr "Jammer, ons kry nie die bladsy nie"
+msgstr "Pagina Non Trovata"
 
 #: 404.php:25
 msgid "We're very sorry, but the page you requested has not been found! It may have been moved or deleted."
-msgstr "Ons is baie jammer, maar ons kry nie die bladsy wat jy soek nie. Dit is dalk geskuif of uitgevee."
+msgstr "Ci dispiace ma la pagina che cerchi non è stata trovata! Potrebbe essere stata spostata o eliminata."
 
 #: 404.php:28
 msgid "I'm not blaming you, but have you checked your address bar? There might be a typo in the URL."
-msgstr "Ek sê nie dis jou skuld nie, maar het jy die adresbalk nagegaan? Dalk het jy 'n spelfout in die URL gemaak."
+msgstr "Non è colpa tua, hai controllato la barra degli indirizzi? Potrebbe esserci un errore di digitazione della URL."
 
 #: 404.php:31
 msgid "If there isn't, you could try searching my website for the content you were looking for:"
-msgstr "As jy dit nie hier opspoor nie, kan jy probeer om op my webwerf te kyk vir die inligting waarvoor jy soek:"
+msgstr "Se non c’è puoi provare a fare una ricerca sul mio sito web:"
 
 #: archive.php:29 category.php:29 home.php:27 search.php:40
 msgid "Permanent Link to"
-msgstr ""
+msgstr "Link Permanente a"
 
 #: archive.php:38 category.php:38 home.php:36 index.php:34 page.php:34
 #: page_without_date.php:34 search.php:49 single.php:41
 msgid "Continue reading"
-msgstr "Lees verder"
+msgstr "Continua a leggere"
 
 #: author-bio.php:20
 msgid "About the Author"
-msgstr "Oor die outeur"
+msgstr "Riguardo l’Autore"
 
 #: author-bio.php:29
 #, php-format
 msgid "View all posts by %s"
-msgstr ""
+msgstr "Visualizza tutti gli articoli di %s"
 
 #: author.php:29
 msgid "Author:"
-msgstr "Outeur:"
+msgstr "Autore:"
 
 #: author.php:39
 msgid "Profile:"
-msgstr ""
+msgstr "Profilo:"
 
 #: author.php:45
 msgid "Website:"
-msgstr ""
+msgstr "Sito Web:"
 
 #: author.php:53 sitemap.php:55
 msgid "Posts:"
-msgstr "Inskrywings:"
+msgstr "Articolo:"
 
 #: author.php:66
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: author.php:74
 msgid "No posts by this author."
-msgstr ""
+msgstr "Nessun post da questo autore."
 
 #: comments.php:43
 msgid "Comment navigation"
-msgstr "Boodskap navigasie"
+msgstr "Navigazione commenti"
 
 #: comments.php:61
 msgid "Comments are closed."
-msgstr "Boodskappe is nou gesluit."
+msgstr "I commenti sono chiusi."
 
 #: functions.php:81
 msgid "Primary"
-msgstr "Primêr"
+msgstr "Primario"
 
 #: functions.php:161
 msgid "Help"
-msgstr "Help"
+msgstr "Aiuto"
 
 #: functions.php:164
 msgid "Need help with Anarcho-Notepad? Click here!"
-msgstr "Het jy hulp nodig met Anarcho-Notepad? Klik hier!"
+msgstr "Serve aiuto con Anarcho-Notepad? Clicca qui!"
 
 #: functions.php:222
 msgid "Sidebar Area 1"
-msgstr "Kantblok area 1"
+msgstr "Sidebar Area 1"
 
 #: functions.php:224
 msgid "Widgets in this area will be shown below \"Pages\"."
-msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Bladsye\" wys."
+msgstr "I widget in questa area verranno mostrati sotto “Pagine”."
 
 #: functions.php:231
 msgid "Sidebar Area 2"
-msgstr "Kantblok area 2"
+msgstr "Sidebar Area 2"
 
 #: functions.php:233
 msgid "Widgets in this area will be shown below \"What is this place?\"."
-msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Wat gaan hier aan\" wys."
+msgstr "I widget in questa area verranno mostrati sotto “Cos’è questo posto?”."
 
 #: functions.php:240
 msgid "Sidebar Area 3"
-msgstr "Kantblok area 3"
+msgstr "Sidebar Area 3"
 
 #: functions.php:242
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
-msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Vriende en skakels\" wys."
+msgstr "I widget in questa area verranno mostrati sotto “Amici & Link”."
 
 #: functions.php:249
 msgid "Sidebar Area 4"
-msgstr "Kantblok area 4"
+msgstr "Sidebar Area 4"
 
 #: functions.php:251
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
-msgstr "Koppelvlakelement (widget) in hierdie gedeelte sal onder \"Onlangse inskrywingsplakker\" wys."
+msgstr "I widget in questa area verranno mostrati sotto “Articoli Recenti”."
 
 #: functions.php:263
 msgid "Footer Area 1"
-msgstr ""
+msgstr "Footer Area 1"
 
 #: functions.php:265
 msgid "Widgets in this area will be shown left."
-msgstr ""
+msgstr "I widget in questa area verranno mostrati a sinistra."
 
 #: functions.php:272
 msgid "Footer Area 2"
-msgstr ""
+msgstr "Footer Area 2"
 
 #: functions.php:274
 msgid "Widgets in this area will be shown center."
-msgstr ""
+msgstr "I widget in questa area verranno mostrati al centro."
 
 #: functions.php:281
 msgid "Footer Area 3"
-msgstr ""
+msgstr "Footer Area 3"
 
 #: functions.php:283
 msgid "Widgets in this area will be shown right."
-msgstr ""
+msgstr "I widget in questa area verranno mostrati a destra."
 
 #: functions.php:365
 msgid "Archive by category "
-msgstr "Argieveer volgens categorie "
+msgstr "Archivia per categoria "
 
 #: functions.php:369
 msgid "Archive by date "
-msgstr "Argieveer volgens datum "
+msgstr "Archivia per data "
 
 #: functions.php:372
 msgid "Archive by month "
-msgstr "Argieveer volgens maand "
+msgstr "Archivia per mese "
 
 #: functions.php:374
 msgid "Archive by year "
-msgstr "Argieveer volgens jaar "
+msgstr "Archivia per anno "
 
 #: functions.php:384 functions.php:401 functions.php:412
 msgid "You&apos;re currently reading "
-msgstr "Jy lees tans "
+msgstr "Stai leggendo "
 
 #: functions.php:399
 msgid "You&apos;re currently viewing "
@@ -178,39 +178,39 @@ msgstr ""
 
 #: functions.php:414
 msgid "Search results for "
-msgstr "Soektogresultate vir "
+msgstr "Risultati di ricerca per "
 
 #: functions.php:416
 msgid "Archive by tag "
-msgstr "Argieveer volgens tag "
+msgstr "Archivia per tag "
 
 #: functions.php:420
 msgid "Articles posted by "
-msgstr "Artikels opgelaaid deur "
+msgstr "Articoli pubblicati da "
 
 #: functions.php:422
 msgid "You got it "
-msgstr "Jy het dit! "
+msgstr "Hai capito "
 
 #: functions.php:449
 msgid "Previous page"
-msgstr "Vorige bladsy"
+msgstr "Pagina precedente"
 
 #: functions.php:450
 msgid "Next page"
-msgstr "Volgende bladsy"
+msgstr "Pagina successiva"
 
 #: functions.php:452
 msgid "Page "
-msgstr "Bladsy "
+msgstr "Pagina "
 
 #: functions.php:452
 msgid " of the "
-msgstr " van die "
+msgstr " delle "
 
 #: functions.php:463
 msgid "Posts navigation"
-msgstr "Navigeer inskrywings"
+msgstr "Navigazione articoli"
 
 #: functions.php:469
 msgid "Older posts"
@@ -222,43 +222,43 @@ msgstr ""
 
 #: functions.php:500
 msgid "Post navigation"
-msgstr "Navigeer inskrywing"
+msgstr "Navigazione articolo"
 
 #: functions.php:525
 msgid "Pingback:"
-msgstr "Terug pieng:"
+msgstr "Pingback:"
 
 #: functions.php:525
 msgid "(Edit)"
-msgstr "(Verander)"
+msgstr "(Modifica)"
 
 #: functions.php:542
 msgid "(Post author) "
-msgstr "(Inskrywing deur my) "
+msgstr "(Autore dell’articolo) "
 
 #: functions.php:554
 msgid "Your comment is awaiting moderation."
-msgstr "Jou boodskap word goedgekeur."
+msgstr "Il commento è in attesa di moderazione."
 
 #: functions.php:559
 msgid "Edit"
-msgstr "Verander"
+msgstr "Modifica"
 
 #: functions.php:563
 msgid "Reply"
-msgstr "Antwoord"
+msgstr "Rispondi"
 
 #: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
 msgid "Copyright 2019. All rights reserved."
-msgstr ""
+msgstr "Copyright 2019. Tutti i diritti sono riservati."
 
 #: functions.php:600
 msgid " queries in "
-msgstr ""
+msgstr " richieste in "
 
 #: functions.php:602
 msgid " seconds"
-msgstr " sekonde"
+msgstr " secondi"
 
 #: functions.php:605
 msgid " mb"
@@ -266,35 +266,35 @@ msgstr " mb"
 
 #: functions.php:634
 msgid "Not Found"
-msgstr "Jammer, ons kry dit nie"
+msgstr "Non Trovato"
 
 #: functions.php:637
 msgid "Sorry, but you are looking for something that isn't here."
-msgstr "Jammer, maar jy soek iets wat nie hier is nie."
+msgstr "Scusa, stai cercando qualcosa che non è qui."
 
 #: functions.php:656 functions.php:676 functions.php:688 sitemap.php:65
 msgid "Category: "
-msgstr "Kategorie: "
+msgstr "Categoria: "
 
 #: functions.php:659 functions.php:667 functions.php:683 functions.php:695
 msgid "EDIT"
-msgstr ""
+msgstr "MODIFICA"
 
 #: functions.php:661
 msgid "Posted "
-msgstr "Inskrywing "
+msgstr "Pubblicato "
 
 #: functions.php:663
 msgid " by "
-msgstr " deur "
+msgstr " da "
 
 #: functions.php:665
 msgid " in category \""
-msgstr ""
+msgstr " nella categoria \""
 
 #: functions.php:682 functions.php:694
 msgid "LEAVE A COMMENT"
-msgstr ""
+msgstr "LASCIA UN COMMENTO"
 
 #: inc/customizer.php:35
 msgid "Meta"
@@ -302,377 +302,377 @@ msgstr "Meta"
 
 #: inc/customizer.php:41 sidebar.php:40
 msgid "Paste here small text about you and/or about your site."
-msgstr ""
+msgstr "Incolla qui un piccolo testo su di te e/o sul tuo sito."
 
 #: inc/customizer.php:46
 msgid "About widget - \"What is this place?\""
-msgstr ""
+msgstr "Widget informativo - “Cos’è questo posto?”"
 
 #: inc/customizer.php:58
 msgid "Copyright after post"
-msgstr "Kopiereg na die inskrywing"
+msgstr "Copyright dopo gli articoli"
 
 #: inc/customizer.php:70
 msgid "Copyright in footer"
-msgstr ""
+msgstr "Copyright nel footer"
 
 #: inc/customizer.php:78
 msgid "Stuff"
-msgstr "Allerande dinge"
+msgstr "Cose"
 
 #: inc/customizer.php:90
 msgid "Disable \"Paper Search\""
-msgstr "De-aktiveer \"Papier soektog\""
+msgstr "Disabilita “Paper Serch”"
 
 #: inc/customizer.php:102
 msgid "Disable \"Red Date Ribbons\""
-msgstr ""
+msgstr "Disable “Data nel Nastro Rosso”"
 
 #: inc/customizer.php:114
 msgid "Enable Year in \"Red Date Ribbons\""
-msgstr ""
+msgstr "Abilita Anno in “Data nel Nastro Rosso”"
 
 #: inc/customizer.php:126
 msgid "Disable RSS feed ribbon tag"
-msgstr ""
+msgstr "Disabilita il nastro del feed RSS"
 
 #: inc/customizer.php:138
 msgid "Disable widget \"What is this place?\""
-msgstr ""
+msgstr "Disabilita widget “Cos’è questo posto?”"
 
 #: inc/customizer.php:150
 msgid "Disable widget \"Friends & Links\""
-msgstr ""
+msgstr "Disabilita widget “Amici & Link”"
 
 #: inc/customizer.php:162
 msgid "Disable \"Recent Posts Sticker\""
-msgstr "De-aktiveer \"Onlangse inskrywingsplakker\""
+msgstr "Disabilita “Sticker Articoli Recenti”"
 
 #: inc/customizer.php:174
 msgid "Disable block \"About the Author\""
-msgstr ""
+msgstr "Disabilita blocco “Riguardo l’Autore”"
 
 #: inc/customizer.php:186
 msgid "Enable \"Breadcrumbs\""
-msgstr "Aktiveer \"Breadcrumbs\""
+msgstr "Abilita \"Breadcrumbs\""
 
 #: inc/customizer.php:198
 msgid "Enable \"Page Navigation\""
-msgstr "Aktiveer \"Bladsy navigasie\""
+msgstr "Abilita “Navigazione Pagine”"
 
 #: inc/customizer.php:210
 msgid "Enable \"Title animation\""
-msgstr "Aktiveer \"Titel animasie\""
+msgstr "Abilita “Animazione titolo”"
 
 #: inc/customizer.php:222
 msgid "Disable button \"Scroll To Top\""
-msgstr ""
+msgstr "Disabilita il pulsante “Scorri Fino All’Inizio”"
 
 #: inc/customizer.php:234
 msgid "Show info line in footer"
-msgstr "Wys inligtingslyn in die footer"
+msgstr "Mostra la riga informativa nel footer"
 
 #: inc/customizer.php:246
 msgid "Numbers of recent posts in sidebar"
-msgstr ""
+msgstr "Numero di articoli recenti nella sidebar"
 
 #: inc/customizer.php:256
 msgid "Scripts"
-msgstr "Kodes"
+msgstr "Script"
 
 #: inc/customizer.php:257
 msgid "Put here your scripts"
-msgstr "Sit jou kode hier"
+msgstr "Metti qui i tuoi script"
 
 #: inc/customizer.php:268
 msgid "Scripts before posts"
-msgstr "Kode voor inskrywings"
+msgstr "Script prima degli articoli"
 
 #: inc/customizer.php:280
 msgid "Scripts at the beginning of the posts"
-msgstr "Kode aan die begin van inskrywings"
+msgstr "Script all’inizio degli articoli"
 
 #: inc/customizer.php:292
 msgid "Scripts at the end of the posts"
-msgstr "Kode aan die einde van inskrywings"
+msgstr "Script alla fine degli articoli"
 
 #: inc/customizer.php:304
 msgid "Scripts after posts"
-msgstr "Kode na inskrywings"
+msgstr "Script dopo gli articoli"
 
 #: inc/customizer.php:311
 msgid "Post"
-msgstr "Inskrywing"
+msgstr "Articolo"
 
 #: inc/customizer.php:323
 msgid "Font of posts (Google Fonts)"
-msgstr "Lettertipe van inskrywings (Google Fonts)"
+msgstr "Font degli articoli (Google Fonts)"
 
 #: inc/customizer.php:339
 msgid "Font size of posts"
-msgstr "Lettergrootte poste"
+msgstr "Dimensione carattere degli articoli"
 
 #: inc/customizer.php:360
 msgid "Site Title font (Google Fonts)"
-msgstr "Lettertipe van webwerf titel (Google Fonts)"
+msgstr "Font del Titolo del sito (Google Fonts)"
 
 #: inc/customizer.php:376
 msgid "Site Tagline font (Google Fonts)"
-msgstr "Lettertipe van webwerf etiket (Google Fonts)"
+msgstr "Font Motto del sito (Google Fonts)"
 
 #: inc/customizer.php:392
 msgid "Site Title color"
-msgstr "Kleur van webwerf titel"
+msgstr "Colore del Titolo del sito"
 
 #: inc/customizer.php:406
 msgid "Site Tagline color"
-msgstr "Webwerf etiket kleur"
+msgstr "Colore del Motto del sito"
 
 #: inc/customizer.php:418
 msgid "Site Title position"
-msgstr "Posisie van webwerf titel"
+msgstr "Posizione del Titolo del sito"
 
 #: inc/customizer.php:424
 msgid "Left"
-msgstr "Links"
+msgstr "Sinistra"
 
 #: inc/customizer.php:425
 msgid "Center"
-msgstr "Middel"
+msgstr "Centro"
 
 #: inc/customizer.php:439
 msgid "Background Color"
-msgstr "Agtergrond kleur"
+msgstr "Colore di Sfondo"
 
 #: inc/customizer.php:450
 msgid "Background Size"
-msgstr "Agtergrond grootte"
+msgstr "Dimensione dello Sfondo"
 
 #: inc/customizer.php:456
 msgid "Auto (Default)"
-msgstr "Outomaties (Default)"
+msgstr "Auto (Default)"
 
 #: inc/customizer.php:457
 msgid "Contain"
-msgstr "Bevat"
+msgstr "Adatta"
 
 #: inc/customizer.php:458
 msgid "Cover"
-msgstr "Aangesig"
+msgstr "Copri"
 
 #: inc/theme_info.php:38
 msgid "Theme \"Anarcho Notepad\""
-msgstr ""
+msgstr "Tema \"Anarcho Notepad\""
 
 #: inc/theme_info.php:42
 msgid "by Space X-Chimp"
-msgstr ""
+msgstr "by Space X-Chimp"
 
 #: inc/theme_info.php:49
 msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
-msgstr ""
+msgstr "Inspirato dall’idea di anarchia, creiamo temi WordPress gratuiti per blog personali e diari. Questo tema è perfetto per scrittori ed artisti. “Anarcho Notepad” può essere personalizzato facilmente ed è già tradotto in diverse lingue. Utilizza HTML-5, CSS-3, PHP e le funzioni native di WordPress per creare uno splendore visto su tutti i browser. Aggiungiamo in continuazione nuove funzionalità a questo tema per permetterti di personalizzarlo in base ai tuoi bisogni. Siamo lieti di presentarti il Più Anarchico Tema WP Di Sempre! Divertiti!"
 
 #: inc/theme_info.php:54
 msgid "Features"
-msgstr ""
+msgstr "Funzionalità"
 
 #: inc/theme_info.php:57
 msgid "Cross browser compatible (work smooth in any modern browser)"
-msgstr ""
+msgstr "Compatibile con diversi browser (funziona fluidamente in qualsiasi browser moderno)"
 
 #: inc/theme_info.php:58
 msgid "RTL compatible (right to left)"
-msgstr ""
+msgstr "Compatibile RTL (da destra a sinistra)"
 
 #: inc/theme_info.php:59
 msgid "Ready for translation (Translated to 13 languages)"
-msgstr ""
+msgstr "Pronto per la traduzione (Tradotto in 13 lingue)"
 
 #: inc/theme_info.php:60
 msgid "Hand-coded, no WYSIWYG stuff"
-msgstr ""
+msgstr "Scritto a mano, nessuna roba WYSIWYG"
 
 #: inc/theme_info.php:61
 msgid "HTML5 Inside"
-msgstr ""
+msgstr "HTML5 Inside"
 
 #: inc/theme_info.php:62
 msgid "CSS3 Inside"
-msgstr ""
+msgstr "CSS3 Inside"
 
 #: inc/theme_info.php:63
 msgid "Easy to set up - Theme Customizer"
-msgstr ""
+msgstr "Facile da impostare - Personalizzatore del Tema"
 
 #: inc/theme_info.php:64
 msgid "Customize using \"Google Web Fonts\""
-msgstr ""
+msgstr "Personalizza usando “Google Web Fonts”"
 
 #: inc/theme_info.php:65
 msgid "Built-in iconic font \"Font Awesome\""
-msgstr ""
+msgstr "Iconico font “Font Awesome” integrato"
 
 #: inc/theme_info.php:66
 msgid "Widget ready (in sidebar and footer)"
-msgstr ""
+msgstr "Widget pronti (nella sidebare e nel footer)"
 
 #: inc/theme_info.php:67
 msgid "Built-in Pagination"
-msgstr ""
+msgstr "Paginazione integrata"
 
 #: inc/theme_info.php:68
 msgid "Built-in Breadcrumbs"
-msgstr ""
+msgstr "Breadcrumb integrati"
 
 #: inc/theme_info.php:69
 msgid "Template page \"HTML map of the website\""
-msgstr ""
+msgstr "Template per “mappa del sito HTML”"
 
 #: inc/theme_info.php:70
 msgid "Template page \"Without date\""
-msgstr ""
+msgstr "Template per “Senza data”"
 
 #: inc/theme_info.php:71
 msgid "Block \"About Author\" below posts"
-msgstr ""
+msgstr "Blocco “Riguardo l’Autore” sotto i post"
 
 #: inc/theme_info.php:72
 msgid "Custom text of copyright below posts"
-msgstr ""
+msgstr "Testo personalizzato di copyright sotto i post"
 
 #: inc/theme_info.php:73
 msgid "Custom text of copyright in footer"
-msgstr ""
+msgstr "Testo personalizzato di copyright nel footer"
 
 #: inc/theme_info.php:74
 msgid "Custom header image"
-msgstr ""
+msgstr "Immagine intestazione personalizzata"
 
 #: inc/theme_info.php:75
 msgid "Custom background"
-msgstr ""
+msgstr "Sfondo personalizzato"
 
 #: inc/theme_info.php:76
 msgid "Custom menu"
-msgstr ""
+msgstr "Menu personalizzato"
 
 #: inc/theme_info.php:77
 msgid "And many more..."
-msgstr ""
+msgstr "E molte altre…"
 
 #: inc/theme_info.php:78
 msgid "Got more ideas? Tell us!"
-msgstr ""
+msgstr "Hai idee? Scrivicele!"
 
 #: inc/theme_info.php:83
 #, php-format
 msgid "If you have any questions or suggestions for improving and adding new features, feel free to %1$s contact us %2$s."
-msgstr "Indien jy enige vrae of voorstelle het om die tema te verbeter, of nuwe funksies wil byvoeg, %1$s kontak ons asseblief %2$s."
+msgstr "Se hai domande o suggerimenti per migliorare o aggiungere nuove funzionalità, sentiti libero di %1$s contattarci %2$s."
 
 #: inc/theme_info.php:92
 msgid "Translation"
-msgstr ""
+msgstr "Traduzione"
 
 #: inc/theme_info.php:95
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
-msgstr ""
+msgstr "Questo tema è pronto per la traduzione. Scritto originariamente in <strong>Inglese</strong> e tradotto in:"
 
 #: inc/theme_info.php:115
 #, php-format
 msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update."
-msgstr ""
+msgstr "Se vuoi aiutare a tradurre questo tema, puoi usare il file POT, incluso e posizionato nella cartella “languages”, per creare i file di traduzione (*.po, *.mo). Inviaci i file di traduzione (*.po, *.mo) a noi ( %s ) e li includeremo nei prossimi update del tema."
 
 #: inc/theme_info.php:119
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
-msgstr ""
+msgstr "Inoltre, puoi trovare il file PO nella cartella “languages” per effettuare correzioni."
 
 #: inc/theme_info.php:120
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
-msgstr ""
+msgstr "Molti utilizzatori del tema sarebbero grati se tu condividessi la traduzione con la community. Grazie per la tua collaborazione!"
 
 #: inc/theme_info.php:123
 msgid "Thanks to all who helped us translate this theme into other languages!"
-msgstr ""
+msgstr "Grazie a chiunque abbia aiutato a tradurre questo tema in altre lingue!"
 
 #: inc/theme_info.php:124
 msgid "Thank you very much for your contribution!"
-msgstr ""
+msgstr "Grazie mille per la tua collaborazione!"
 
 #: inc/theme_info.php:129
 msgid "PREMIUM versions"
-msgstr ""
+msgstr "Versioni PREMIUM"
 
 #: inc/theme_info.php:132
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
-msgstr ""
+msgstr "Porta il tuo sito al passo successivo con una delle versioni PREMIUM di Anarcho: Author’s-Notepad e Simple-Notepad!"
 
 #: inc/theme_info.php:137
 msgid "Responsive layout"
-msgstr ""
+msgstr "Layout responsivo"
 
 #: inc/theme_info.php:138
 msgid "Better SEO"
-msgstr ""
+msgstr "SEO migliorata"
 
 #: inc/theme_info.php:139
 msgid "Optimized load time"
-msgstr ""
+msgstr "Tempi di carica ottimizzati"
 
 #: inc/theme_info.php:142
 msgid "More secure"
-msgstr ""
+msgstr "Più sicuro"
 
 #: inc/theme_info.php:143
 msgid "Improved design"
-msgstr ""
+msgstr "Design migliorato"
 
 #: inc/theme_info.php:144
 msgid "Better typography"
-msgstr ""
+msgstr "Tipografia migliore"
 
 #: inc/theme_info.php:147
 msgid "WooCommerce supported"
-msgstr ""
+msgstr "WooCommerce supportato"
 
 #: inc/theme_info.php:148
 msgid "More settings"
-msgstr ""
+msgstr "Più impostazioni"
 
 #: inc/theme_info.php:149
 msgid "More features"
-msgstr ""
+msgstr "Altre funzionalità"
 
 #: inc/theme_info.php:154
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
-msgstr ""
+msgstr "Queste versioni premium hanno molte possibilità di personalizzazioni in più, design migliorato e molte migliorie funzionali. In più, entrambe sono <b>ottimizzate per i dispositivi mobili</b> usando un layout responsivo/mobile friendly."
 
 #: inc/theme_info.php:162
 msgid "Happy to enjoy the theme?"
-msgstr "Is jy gelukkig met die tema?"
+msgstr "Ti piace il tema?"
 
 #: inc/theme_info.php:169
 msgid "Thanks for your support!"
-msgstr ""
+msgstr "Grazie per il tuo supporto!"
 
 #: inc/theme_info.php:175
 msgid "Explore our website"
-msgstr ""
+msgstr "Esplora il nostro sito web"
 
 #: inc/theme_info.php:198 inc/theme_info.php:199
 msgid "Theme Info"
-msgstr "Tema Info"
+msgstr "Info sul Tema"
 
 #: inc/upgrade_notice.php:26
 msgid "Upgrade the Anarcho-Notepad theme to PREMIUM version!"
-msgstr ""
+msgstr "Effettua l’upgrade del tema Anarcho-Notepad alla versione PREMIUM!"
 
 #: inc/upgrade_notice.php:29
 msgid "Hello. My name is Arthur, and I'm a man behind the Anarcho-Notepad theme. I'm pleased to inform you that there are now two premium versions of this theme available: the Author's-Notepad and the Simple-Notepad. These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are optimized for mobile devices by having a responsive/mobile friendly layout. Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions!"
-msgstr ""
+msgstr "Ciao. Mi chiamo Arthur e sono la persona dietro il tema Anarcho-Notepad. Sono lieto di informarti che ci sono due versioni premium disponibili: Author’s-Notepad e Simple-Notepad. Queste versioni premium hanno molte possibilità di personalizzazioni in più, design migliorato e molte migliorie funzionali. In più, entrambe sono ottimizzate per i dispositivi mobili usando un layout responsivo/mobile friendly. Porta il tuo sito al passo successivo con una delle versioni PREMIUM di Anarcho!"
 
 #: inc/upgrade_notice.php:39
 msgid "Author's Notepad"
-msgstr "Author's Notepad"
+msgstr "Author’s Notepad"
 
 #: inc/upgrade_notice.php:46
 msgid "Simple Notepad"
@@ -680,35 +680,60 @@ msgstr "Simple Notepad"
 
 #: inc/upgrade_notice.php:53
 msgid "or please DONATE"
-msgstr ""
+msgstr "o fai una DONAZIONE"
 
 #: search.php:61
 msgid "Sorry for your result nothing found"
-msgstr "Jammer, ons kry niks vir jou soektog nie"
+msgstr "Spiacente, non è stato trovato niente"
 
 #: searchform.php:17
 msgid "Write your search and hit Enter"
-msgstr "Tik jou soektog en kliek Enter"
+msgstr "Scrivi cosa cerchi e premi Invio"
 
 #: searchform.php:24
 msgid "Search for:"
-msgstr "Soektogresultate vir:"
+msgstr "Cerca:"
 
 #: searchform.php:26 searchform.php:28
 msgid "Search"
-msgstr ""
+msgstr "Ricerca"
 
 #: single.php:42 sitemap.php:46
 msgid "Pages:"
-msgstr "Bladsye:"
+msgstr "Pagine:"
 
 #: sitemap.php:38
 msgid "Author(s):"
-msgstr "Outeur(s):"
+msgstr "Autore/i:"
 
 #: sitemap.php:97
 msgid "Archives:"
-msgstr "Argief:"
+msgstr "Archivi:"
 
-#~ msgid "Follow our Founder"
-#~ msgstr "Volg my"
+#. Theme Name of the plugin/theme
+msgid "Anarcho Notepad"
+msgstr "Anarcho Notepad"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.spacexchimp.com/themes/anarcho-notepad.html"
+msgstr "https://www.spacexchimp.com/themes/anarcho-notepad.html"
+
+#. Description of the plugin/theme
+msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. If you want a new feature or just want to be able to change something just ask us and we would be happy to add it. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
+msgstr "Inspirato dall’idea di anarchia, creiamo temi WordPress gratuiti per blog personali e diari. Questo tema è perfetto per scrittori ed artisti. “Anarcho Notepad” può essere personalizzato facilmente ed è già tradotto in diverse lingue. Utilizza HTML-5, CSS-3, PHP e le funzioni native di WordPress per creare uno splendore visto su tutti i browser. Aggiungiamo in continuazione nuove funzionalità a questo tema per permetterti di personalizzarlo in base ai tuoi bisogni. Siamo lieti di presentarti il Più Anarchico Tema WP Di Sempre! Divertiti!"
+
+#. Author of the plugin/theme
+msgid "Space X-Chimp"
+msgstr "Space X-Chimp"
+
+#. Author URI of the plugin/theme
+msgid "https://www.spacexchimp.com"
+msgstr "https://www.spacexchimp.com"
+
+#. Template Name of the plugin/theme
+msgid "Sitemap Page"
+msgstr "Pagina della mappa del sito"
+
+#. Template Name of the plugin/theme
+msgid "Page without date"
+msgstr "Pagina senza data"

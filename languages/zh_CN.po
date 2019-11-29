@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
-"POT-Creation-Date: 2019-01-07 15:27+0200\n"
-"PO-Revision-Date: 2019-01-07 15:27+0200\n"
+"POT-Creation-Date: 2019-11-29 15:56+0300\n"
+"PO-Revision-Date: 2019-11-29 15:56+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -167,9 +167,13 @@ msgstr "按月份归档 "
 msgid "Archive by year "
 msgstr "按年份归档 "
 
-#: functions.php:384 functions.php:412
+#: functions.php:384 functions.php:401 functions.php:412
 msgid "You&apos;re currently reading "
 msgstr "您正在阅读 "
+
+#: functions.php:399
+msgid "You&apos;re currently viewing "
+msgstr ""
 
 #: functions.php:414
 msgid "Search results for "
@@ -206,6 +210,14 @@ msgstr " 共 "
 #: functions.php:463
 msgid "Posts navigation"
 msgstr "文章浏览"
+
+#: functions.php:469
+msgid "Older posts"
+msgstr ""
+
+#: functions.php:475
+msgid "Newer posts"
+msgstr ""
 
 #: functions.php:500
 msgid "Post navigation"
@@ -564,88 +576,88 @@ msgstr "翻译"
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr ""
 
-#: inc/theme_info.php:114
+#: inc/theme_info.php:115
 #, php-format
 msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update."
 msgstr "如果您想翻译这个主题，请使用POT文件来创建*.po, *.mo文件，它位于\"languages\"文件夹。您只需把翻译好的*.po, *mo文件发送给我们 ( %s )."
 
-#: inc/theme_info.php:118
+#: inc/theme_info.php:119
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr "或者您也可以使用文件夹\"languages\"中一个已有的PO文件进行修改。"
 
-#: inc/theme_info.php:119
+#: inc/theme_info.php:120
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr "相信很多使用该主题的用户会非常乐于分享您的翻译工作。感谢您的贡献！"
 
-#: inc/theme_info.php:122
+#: inc/theme_info.php:123
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr "感谢所有帮助翻译主题的人！"
 
-#: inc/theme_info.php:123
+#: inc/theme_info.php:124
 msgid "Thank you very much for your contribution!"
 msgstr "万分感谢您的贡献！"
 
-#: inc/theme_info.php:128
+#: inc/theme_info.php:129
 msgid "PREMIUM versions"
 msgstr "增值版本"
 
-#: inc/theme_info.php:131
+#: inc/theme_info.php:132
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr "请试用我们的增值版本：Author's-Notepad及Simple-Notepad！"
 
-#: inc/theme_info.php:136
+#: inc/theme_info.php:137
 msgid "Responsive layout"
 msgstr "响应层"
 
-#: inc/theme_info.php:137
+#: inc/theme_info.php:138
 msgid "Better SEO"
 msgstr "更好的SEO"
 
-#: inc/theme_info.php:138
+#: inc/theme_info.php:139
 msgid "Optimized load time"
 msgstr "优化的加载时间"
 
-#: inc/theme_info.php:141
+#: inc/theme_info.php:142
 msgid "More secure"
 msgstr "更安全"
 
-#: inc/theme_info.php:142
+#: inc/theme_info.php:143
 msgid "Improved design"
 msgstr "改良的设计"
 
-#: inc/theme_info.php:143
+#: inc/theme_info.php:144
 msgid "Better typography"
 msgstr "更好的拓扑结构"
 
-#: inc/theme_info.php:146
+#: inc/theme_info.php:147
 msgid "WooCommerce supported"
 msgstr "WooCommerce支持"
 
-#: inc/theme_info.php:147
+#: inc/theme_info.php:148
 msgid "More settings"
 msgstr "更多的设置"
 
-#: inc/theme_info.php:148
+#: inc/theme_info.php:149
 msgid "More features"
 msgstr "更多的功能"
 
-#: inc/theme_info.php:153
+#: inc/theme_info.php:154
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr "增值版本包括更高效的更过的定制选项，改进的设计和更多的功能优化。更重要的是针对\"移动设备\"的优化，具有更友好的界面分层和响应速度。"
 
-#: inc/theme_info.php:161
+#: inc/theme_info.php:162
 msgid "Happy to enjoy the theme?"
 msgstr "喜欢这个主题吗？"
 
-#: inc/theme_info.php:168
+#: inc/theme_info.php:169
 msgid "Thanks for your support!"
 msgstr "感谢支持！"
 
-#: inc/theme_info.php:174
+#: inc/theme_info.php:175
 msgid "Explore our website"
 msgstr "浏览我们的网站"
 
-#: inc/theme_info.php:197 inc/theme_info.php:198
+#: inc/theme_info.php:198 inc/theme_info.php:199
 msgid "Theme Info"
 msgstr "主题信息"
 

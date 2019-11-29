@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-07 15:27+0200\n"
-"PO-Revision-Date: 2019-01-07 15:27+0200\n"
+"POT-Creation-Date: 2019-11-29 15:55+0300\n"
+"PO-Revision-Date: 2019-11-29 15:55+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
@@ -168,9 +168,13 @@ msgstr "Archivo por mes "
 msgid "Archive by year "
 msgstr "Archivo por año "
 
-#: functions.php:384 functions.php:412
+#: functions.php:384 functions.php:401 functions.php:412
 msgid "You&apos;re currently reading "
 msgstr "Estás leyendo actualmente "
+
+#: functions.php:399
+msgid "You&apos;re currently viewing "
+msgstr ""
 
 #: functions.php:414
 msgid "Search results for "
@@ -207,6 +211,14 @@ msgstr " de la "
 #: functions.php:463
 msgid "Posts navigation"
 msgstr "Navegación de artículos"
+
+#: functions.php:469
+msgid "Older posts"
+msgstr ""
+
+#: functions.php:475
+msgid "Newer posts"
+msgstr ""
 
 #: functions.php:500
 msgid "Post navigation"
@@ -565,88 +577,88 @@ msgstr ""
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr ""
 
-#: inc/theme_info.php:114
+#: inc/theme_info.php:115
 #, php-format
 msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update."
 msgstr ""
 
-#: inc/theme_info.php:118
+#: inc/theme_info.php:119
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr ""
 
-#: inc/theme_info.php:119
+#: inc/theme_info.php:120
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr ""
 
-#: inc/theme_info.php:122
+#: inc/theme_info.php:123
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr ""
 
-#: inc/theme_info.php:123
+#: inc/theme_info.php:124
 msgid "Thank you very much for your contribution!"
 msgstr ""
 
-#: inc/theme_info.php:128
+#: inc/theme_info.php:129
 msgid "PREMIUM versions"
 msgstr ""
 
-#: inc/theme_info.php:131
+#: inc/theme_info.php:132
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr ""
 
-#: inc/theme_info.php:136
+#: inc/theme_info.php:137
 msgid "Responsive layout"
 msgstr ""
 
-#: inc/theme_info.php:137
+#: inc/theme_info.php:138
 msgid "Better SEO"
 msgstr ""
 
-#: inc/theme_info.php:138
+#: inc/theme_info.php:139
 msgid "Optimized load time"
 msgstr ""
 
-#: inc/theme_info.php:141
+#: inc/theme_info.php:142
 msgid "More secure"
 msgstr ""
 
-#: inc/theme_info.php:142
+#: inc/theme_info.php:143
 msgid "Improved design"
 msgstr ""
 
-#: inc/theme_info.php:143
+#: inc/theme_info.php:144
 msgid "Better typography"
 msgstr ""
 
-#: inc/theme_info.php:146
+#: inc/theme_info.php:147
 msgid "WooCommerce supported"
 msgstr ""
 
-#: inc/theme_info.php:147
+#: inc/theme_info.php:148
 msgid "More settings"
 msgstr ""
 
-#: inc/theme_info.php:148
+#: inc/theme_info.php:149
 msgid "More features"
 msgstr ""
 
-#: inc/theme_info.php:153
+#: inc/theme_info.php:154
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr ""
 
-#: inc/theme_info.php:161
+#: inc/theme_info.php:162
 msgid "Happy to enjoy the theme?"
 msgstr "¿Feliz de disfrutar de Anarcho-Notepad?"
 
-#: inc/theme_info.php:168
+#: inc/theme_info.php:169
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/theme_info.php:174
+#: inc/theme_info.php:175
 msgid "Explore our website"
 msgstr ""
 
-#: inc/theme_info.php:197 inc/theme_info.php:198
+#: inc/theme_info.php:198 inc/theme_info.php:199
 msgid "Theme Info"
 msgstr "Información del tema"
 
