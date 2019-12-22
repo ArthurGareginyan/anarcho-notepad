@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 2.42 (2019.12.22) =
+* New: The translation into Portuguese (Brazil) has been added. (Thanks to Fabio Correia Pimenta)
+
 = 2.41 (2019.11.28) =
 * New: The translation into Italian has been added. (Thanks to Demetrio Fiumanò)
 * Improvement: The translation into Ukrainian has been updated.
