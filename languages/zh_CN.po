@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
-"POT-Creation-Date: 2019-11-29 15:56+0300\n"
-"PO-Revision-Date: 2019-11-29 15:56+0300\n"
+"POT-Creation-Date: 2020-01-13 21:32+0300\n"
+"PO-Revision-Date: 2020-01-13 21:32+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -248,8 +248,8 @@ msgid "Reply"
 msgstr "回复"
 
 #: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
-msgid "Copyright 2019. All rights reserved."
-msgstr "Copyright 2019. 版权所有。"
+msgid "Copyright 2020. All rights reserved."
+msgstr "Copyright 2020. 版权所有。"
 
 #: functions.php:600
 msgid " queries in "
@@ -459,205 +459,205 @@ msgstr "包含"
 msgid "Cover"
 msgstr "封面"
 
-#: inc/theme_info.php:38
+#: inc/theme_info.php:40
 msgid "Theme \"Anarcho Notepad\""
 msgstr "主题 \"Anarcho Notepad\""
 
-#: inc/theme_info.php:42
+#: inc/theme_info.php:44
 msgid "by Space X-Chimp"
 msgstr "由 Space X-Chimp"
 
-#: inc/theme_info.php:49
+#: inc/theme_info.php:51
 msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr "因灵感启发，我们设计了这个免费的WordPress主题，共个人博客和日志使用。这个主题可以完美应用于写作者和艺术家。\"Anarcho-Notepad\"可以很容易定制，并已经被翻译成不同的语言。主题使用了HTML-5, CSS-3, PHP及WordPress原生的功能以完美支持不用的浏览器。我们会持续增加新的功能来满足您的个性化需求。我们非常乐意向您展示最具灵感的WP主题。Enjoy！"
 
-#: inc/theme_info.php:54
+#: inc/theme_info.php:56
 msgid "Features"
 msgstr "特点"
 
-#: inc/theme_info.php:57
+#: inc/theme_info.php:59
 msgid "Cross browser compatible (work smooth in any modern browser)"
 msgstr "跨浏览器兼容（无缝支持任何现代浏览器）"
 
-#: inc/theme_info.php:58
+#: inc/theme_info.php:60
 msgid "RTL compatible (right to left)"
 msgstr "RTL兼容（从右至左）"
 
-#: inc/theme_info.php:59
+#: inc/theme_info.php:61
 msgid "Ready for translation (Translated to 13 languages)"
 msgstr "多语言支持（多达12种语言）"
 
-#: inc/theme_info.php:60
+#: inc/theme_info.php:62
 msgid "Hand-coded, no WYSIWYG stuff"
 msgstr "手工编码，无WYSIWYG素材"
 
-#: inc/theme_info.php:61
+#: inc/theme_info.php:63
 msgid "HTML5 Inside"
 msgstr "内置HTML5"
 
-#: inc/theme_info.php:62
+#: inc/theme_info.php:64
 msgid "CSS3 Inside"
 msgstr "内置CSS3"
 
-#: inc/theme_info.php:63
+#: inc/theme_info.php:65
 msgid "Easy to set up - Theme Customizer"
 msgstr "轻松设置 - 主题客户化"
 
-#: inc/theme_info.php:64
+#: inc/theme_info.php:66
 msgid "Customize using \"Google Web Fonts\""
 msgstr "定制使用\"谷歌Web字体\""
 
-#: inc/theme_info.php:65
+#: inc/theme_info.php:67
 msgid "Built-in iconic font \"Font Awesome\""
 msgstr "内建图标字体 \"Font Awesome\""
 
-#: inc/theme_info.php:66
+#: inc/theme_info.php:68
 msgid "Widget ready (in sidebar and footer)"
 msgstr "支持小工具（边栏和页脚）"
 
-#: inc/theme_info.php:67
+#: inc/theme_info.php:69
 msgid "Built-in Pagination"
 msgstr "内建页码"
 
-#: inc/theme_info.php:68
+#: inc/theme_info.php:70
 msgid "Built-in Breadcrumbs"
 msgstr "内建面包屑"
 
-#: inc/theme_info.php:69
+#: inc/theme_info.php:71
 msgid "Template page \"HTML map of the website\""
 msgstr "模版页面\"网站的HTML地图\""
 
-#: inc/theme_info.php:70
+#: inc/theme_info.php:72
 msgid "Template page \"Without date\""
 msgstr "模版页面\"无日期\""
 
-#: inc/theme_info.php:71
+#: inc/theme_info.php:73
 msgid "Block \"About Author\" below posts"
 msgstr "文章下面的\"关于作者\"内容块"
 
-#: inc/theme_info.php:72
+#: inc/theme_info.php:74
 msgid "Custom text of copyright below posts"
 msgstr "文章下面的版权信息定制文本"
 
-#: inc/theme_info.php:73
+#: inc/theme_info.php:75
 msgid "Custom text of copyright in footer"
 msgstr "页脚的版权信息定制文本"
 
-#: inc/theme_info.php:74
+#: inc/theme_info.php:76
 msgid "Custom header image"
 msgstr "定制头部图像"
 
-#: inc/theme_info.php:75
+#: inc/theme_info.php:77
 msgid "Custom background"
 msgstr "定制背景"
 
-#: inc/theme_info.php:76
+#: inc/theme_info.php:78
 msgid "Custom menu"
 msgstr "定制菜单"
 
-#: inc/theme_info.php:77
+#: inc/theme_info.php:79
 msgid "And many more..."
 msgstr "更多..."
 
-#: inc/theme_info.php:78
+#: inc/theme_info.php:80
 msgid "Got more ideas? Tell us!"
 msgstr "您有更好的建议吗？请告诉我们！"
 
-#: inc/theme_info.php:83
+#: inc/theme_info.php:85
 #, php-format
 msgid "If you have any questions or suggestions for improving and adding new features, feel free to %1$s contact us %2$s."
 msgstr "如果您有关于改进或增加新功能的任何问题或建议, %1$s 请随时与我们联系 %2$s。"
 
-#: inc/theme_info.php:92
+#: inc/theme_info.php:94
 msgid "Translation"
 msgstr "翻译"
 
-#: inc/theme_info.php:95
+#: inc/theme_info.php:97
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr ""
 
-#: inc/theme_info.php:115
+#: inc/theme_info.php:118
 #, php-format
 msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update."
 msgstr "如果您想翻译这个主题，请使用POT文件来创建*.po, *.mo文件，它位于\"languages\"文件夹。您只需把翻译好的*.po, *mo文件发送给我们 ( %s )."
 
-#: inc/theme_info.php:119
+#: inc/theme_info.php:122
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr "或者您也可以使用文件夹\"languages\"中一个已有的PO文件进行修改。"
 
-#: inc/theme_info.php:120
+#: inc/theme_info.php:123
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr "相信很多使用该主题的用户会非常乐于分享您的翻译工作。感谢您的贡献！"
 
-#: inc/theme_info.php:123
+#: inc/theme_info.php:126
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr "感谢所有帮助翻译主题的人！"
 
-#: inc/theme_info.php:124
+#: inc/theme_info.php:127
 msgid "Thank you very much for your contribution!"
 msgstr "万分感谢您的贡献！"
 
-#: inc/theme_info.php:129
+#: inc/theme_info.php:132
 msgid "PREMIUM versions"
 msgstr "增值版本"
 
-#: inc/theme_info.php:132
+#: inc/theme_info.php:135
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr "请试用我们的增值版本：Author's-Notepad及Simple-Notepad！"
 
-#: inc/theme_info.php:137
+#: inc/theme_info.php:140
 msgid "Responsive layout"
 msgstr "响应层"
 
-#: inc/theme_info.php:138
+#: inc/theme_info.php:141
 msgid "Better SEO"
 msgstr "更好的SEO"
 
-#: inc/theme_info.php:139
+#: inc/theme_info.php:142
 msgid "Optimized load time"
 msgstr "优化的加载时间"
 
-#: inc/theme_info.php:142
+#: inc/theme_info.php:145
 msgid "More secure"
 msgstr "更安全"
 
-#: inc/theme_info.php:143
+#: inc/theme_info.php:146
 msgid "Improved design"
 msgstr "改良的设计"
 
-#: inc/theme_info.php:144
+#: inc/theme_info.php:147
 msgid "Better typography"
 msgstr "更好的拓扑结构"
 
-#: inc/theme_info.php:147
+#: inc/theme_info.php:150
 msgid "WooCommerce supported"
 msgstr "WooCommerce支持"
 
-#: inc/theme_info.php:148
+#: inc/theme_info.php:151
 msgid "More settings"
 msgstr "更多的设置"
 
-#: inc/theme_info.php:149
+#: inc/theme_info.php:152
 msgid "More features"
 msgstr "更多的功能"
 
-#: inc/theme_info.php:154
+#: inc/theme_info.php:157
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr "增值版本包括更高效的更过的定制选项，改进的设计和更多的功能优化。更重要的是针对\"移动设备\"的优化，具有更友好的界面分层和响应速度。"
 
-#: inc/theme_info.php:162
+#: inc/theme_info.php:165
 msgid "Happy to enjoy the theme?"
 msgstr "喜欢这个主题吗？"
 
-#: inc/theme_info.php:169
+#: inc/theme_info.php:172
 msgid "Thanks for your support!"
 msgstr "感谢支持！"
 
-#: inc/theme_info.php:175
+#: inc/theme_info.php:178
 msgid "Explore our website"
 msgstr "浏览我们的网站"
 
-#: inc/theme_info.php:198 inc/theme_info.php:199
+#: inc/theme_info.php:201 inc/theme_info.php:202
 msgid "Theme Info"
 msgstr "主题信息"
 

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
-"POT-Creation-Date: 2019-11-29 15:56+0300\n"
+"POT-Creation-Date: 2020-01-13 21:32+0300\n"
 "PO-Revision-Date: 2015-08-11 10:16+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -248,7 +248,7 @@ msgid "Reply"
 msgstr ""
 
 #: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
-msgid "Copyright 2019. All rights reserved."
+msgid "Copyright 2020. All rights reserved."
 msgstr ""
 
 #: functions.php:600
@@ -459,205 +459,205 @@ msgstr ""
 msgid "Cover"
 msgstr ""
 
-#: inc/theme_info.php:38
+#: inc/theme_info.php:40
 msgid "Theme \"Anarcho Notepad\""
 msgstr ""
 
-#: inc/theme_info.php:42
+#: inc/theme_info.php:44
 msgid "by Space X-Chimp"
 msgstr ""
 
-#: inc/theme_info.php:49
+#: inc/theme_info.php:51
 msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr ""
 
-#: inc/theme_info.php:54
+#: inc/theme_info.php:56
 msgid "Features"
 msgstr ""
 
-#: inc/theme_info.php:57
+#: inc/theme_info.php:59
 msgid "Cross browser compatible (work smooth in any modern browser)"
 msgstr ""
 
-#: inc/theme_info.php:58
+#: inc/theme_info.php:60
 msgid "RTL compatible (right to left)"
 msgstr ""
 
-#: inc/theme_info.php:59
+#: inc/theme_info.php:61
 msgid "Ready for translation (Translated to 13 languages)"
 msgstr ""
 
-#: inc/theme_info.php:60
+#: inc/theme_info.php:62
 msgid "Hand-coded, no WYSIWYG stuff"
 msgstr ""
 
-#: inc/theme_info.php:61
+#: inc/theme_info.php:63
 msgid "HTML5 Inside"
 msgstr ""
 
-#: inc/theme_info.php:62
+#: inc/theme_info.php:64
 msgid "CSS3 Inside"
 msgstr ""
 
-#: inc/theme_info.php:63
+#: inc/theme_info.php:65
 msgid "Easy to set up - Theme Customizer"
 msgstr ""
 
-#: inc/theme_info.php:64
+#: inc/theme_info.php:66
 msgid "Customize using \"Google Web Fonts\""
 msgstr ""
 
-#: inc/theme_info.php:65
+#: inc/theme_info.php:67
 msgid "Built-in iconic font \"Font Awesome\""
 msgstr ""
 
-#: inc/theme_info.php:66
+#: inc/theme_info.php:68
 msgid "Widget ready (in sidebar and footer)"
 msgstr ""
 
-#: inc/theme_info.php:67
+#: inc/theme_info.php:69
 msgid "Built-in Pagination"
 msgstr ""
 
-#: inc/theme_info.php:68
+#: inc/theme_info.php:70
 msgid "Built-in Breadcrumbs"
 msgstr ""
 
-#: inc/theme_info.php:69
+#: inc/theme_info.php:71
 msgid "Template page \"HTML map of the website\""
 msgstr ""
 
-#: inc/theme_info.php:70
+#: inc/theme_info.php:72
 msgid "Template page \"Without date\""
 msgstr ""
 
-#: inc/theme_info.php:71
+#: inc/theme_info.php:73
 msgid "Block \"About Author\" below posts"
 msgstr ""
 
-#: inc/theme_info.php:72
+#: inc/theme_info.php:74
 msgid "Custom text of copyright below posts"
 msgstr ""
 
-#: inc/theme_info.php:73
+#: inc/theme_info.php:75
 msgid "Custom text of copyright in footer"
 msgstr ""
 
-#: inc/theme_info.php:74
+#: inc/theme_info.php:76
 msgid "Custom header image"
 msgstr ""
 
-#: inc/theme_info.php:75
+#: inc/theme_info.php:77
 msgid "Custom background"
 msgstr ""
 
-#: inc/theme_info.php:76
+#: inc/theme_info.php:78
 msgid "Custom menu"
 msgstr ""
 
-#: inc/theme_info.php:77
+#: inc/theme_info.php:79
 msgid "And many more..."
 msgstr ""
 
-#: inc/theme_info.php:78
+#: inc/theme_info.php:80
 msgid "Got more ideas? Tell us!"
 msgstr ""
 
-#: inc/theme_info.php:83
+#: inc/theme_info.php:85
 #, php-format
 msgid "If you have any questions or suggestions for improving and adding new features, feel free to %1$s contact us %2$s."
 msgstr ""
 
-#: inc/theme_info.php:92
+#: inc/theme_info.php:94
 msgid "Translation"
 msgstr ""
 
-#: inc/theme_info.php:95
+#: inc/theme_info.php:97
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr ""
 
-#: inc/theme_info.php:115
+#: inc/theme_info.php:118
 #, php-format
 msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update."
 msgstr ""
 
-#: inc/theme_info.php:119
+#: inc/theme_info.php:122
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr ""
 
-#: inc/theme_info.php:120
+#: inc/theme_info.php:123
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr ""
 
-#: inc/theme_info.php:123
+#: inc/theme_info.php:126
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr ""
 
-#: inc/theme_info.php:124
+#: inc/theme_info.php:127
 msgid "Thank you very much for your contribution!"
 msgstr ""
 
-#: inc/theme_info.php:129
+#: inc/theme_info.php:132
 msgid "PREMIUM versions"
 msgstr ""
 
-#: inc/theme_info.php:132
+#: inc/theme_info.php:135
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr ""
 
-#: inc/theme_info.php:137
+#: inc/theme_info.php:140
 msgid "Responsive layout"
 msgstr ""
 
-#: inc/theme_info.php:138
+#: inc/theme_info.php:141
 msgid "Better SEO"
 msgstr ""
 
-#: inc/theme_info.php:139
+#: inc/theme_info.php:142
 msgid "Optimized load time"
 msgstr ""
 
-#: inc/theme_info.php:142
+#: inc/theme_info.php:145
 msgid "More secure"
 msgstr ""
 
-#: inc/theme_info.php:143
+#: inc/theme_info.php:146
 msgid "Improved design"
 msgstr ""
 
-#: inc/theme_info.php:144
+#: inc/theme_info.php:147
 msgid "Better typography"
 msgstr ""
 
-#: inc/theme_info.php:147
+#: inc/theme_info.php:150
 msgid "WooCommerce supported"
 msgstr ""
 
-#: inc/theme_info.php:148
+#: inc/theme_info.php:151
 msgid "More settings"
 msgstr ""
 
-#: inc/theme_info.php:149
+#: inc/theme_info.php:152
 msgid "More features"
 msgstr ""
 
-#: inc/theme_info.php:154
+#: inc/theme_info.php:157
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr ""
 
-#: inc/theme_info.php:162
+#: inc/theme_info.php:165
 msgid "Happy to enjoy the theme?"
 msgstr ""
 
-#: inc/theme_info.php:169
+#: inc/theme_info.php:172
 msgid "Thanks for your support!"
 msgstr ""
 
-#: inc/theme_info.php:175
+#: inc/theme_info.php:178
 msgid "Explore our website"
 msgstr ""
 
-#: inc/theme_info.php:198 inc/theme_info.php:199
+#: inc/theme_info.php:201 inc/theme_info.php:202
 msgid "Theme Info"
 msgstr ""
 

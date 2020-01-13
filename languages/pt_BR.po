@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-22 17:11+0300\n"
-"PO-Revision-Date: 2019-12-22 17:11+0300\n"
+"POT-Creation-Date: 2020-01-13 21:31+0300\n"
+"PO-Revision-Date: 2020-01-13 21:31+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -249,8 +249,8 @@ msgid "Reply"
 msgstr "Responda"
 
 #: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
-msgid "Copyright 2019. All rights reserved."
-msgstr "Copyright 2019. Todos os Direitos Reservados."
+msgid "Copyright 2020. All rights reserved."
+msgstr "Copyright 2020. Todos os Direitos Reservados."
 
 #: functions.php:600
 msgid " queries in "
@@ -460,205 +460,205 @@ msgstr "Conter"
 msgid "Cover"
 msgstr ""
 
-#: inc/theme_info.php:38
+#: inc/theme_info.php:40
 msgid "Theme \"Anarcho Notepad\""
 msgstr "Tema \"Anarcho Notepad\""
 
-#: inc/theme_info.php:42
+#: inc/theme_info.php:44
 msgid "by Space X-Chimp"
 msgstr "por Space X-Chimp"
 
-#: inc/theme_info.php:49
+#: inc/theme_info.php:51
 msgid "Inspired by the idea of anarchy, we designed this free WordPress theme for your personal blogs and diaries. This theme is perfect for writers and artists. \"Anarcho Notepad\" can be easily customized and already translated to different languages. It utilizes latest HTML-5, CSS-3, PHP and WordPress native functions for creating the awesomeness that looks good on every browser. We are constantly adding new features to this theme to allow you to personalize it to your own needs. We are glad to present you the Most Anarchist WP-Theme Of All! Enjoy!"
 msgstr "Inspirados na ideia de anarquia, criamos este tema gratuito do WordPress para seus blogs e diários pessoais. Este tema é perfeito para escritores e artistas. O \"Anarcho Notepad\" pode ser facilmente personalizado e já está traduzido para diferentes idiomas. Ele utiliza as mais recentes funções nativas HTML-5, CSS-3, PHP e WordPress para criar a grandiosidade que fica bem em todos os navegadores. Estamos constantemente adicionando novos recursos a este tema para permitir que você o personalize de acordo com suas próprias necessidades. Temos o prazer de apresentar o tema WP mais anarquista de todos! Aproveite!"
 
-#: inc/theme_info.php:54
+#: inc/theme_info.php:56
 msgid "Features"
 msgstr "Recursos"
 
-#: inc/theme_info.php:57
+#: inc/theme_info.php:59
 msgid "Cross browser compatible (work smooth in any modern browser)"
 msgstr "Compatível com vários navegadores (trabalhe suave em qualquer navegador moderno)"
 
-#: inc/theme_info.php:58
+#: inc/theme_info.php:60
 msgid "RTL compatible (right to left)"
 msgstr "Compatível com RTL (escrita da direita para esquerda)"
 
-#: inc/theme_info.php:59
+#: inc/theme_info.php:61
 msgid "Ready for translation (Translated to 13 languages)"
 msgstr "Traduções prontas (Traduzido para 14 idiomas)"
 
-#: inc/theme_info.php:60
+#: inc/theme_info.php:62
 msgid "Hand-coded, no WYSIWYG stuff"
 msgstr "Codificado à mão, sem aquilo de WYSIWYG"
 
-#: inc/theme_info.php:61
+#: inc/theme_info.php:63
 msgid "HTML5 Inside"
 msgstr "Feito com HTML5"
 
-#: inc/theme_info.php:62
+#: inc/theme_info.php:64
 msgid "CSS3 Inside"
 msgstr "Feito com CSS3"
 
-#: inc/theme_info.php:63
+#: inc/theme_info.php:65
 msgid "Easy to set up - Theme Customizer"
 msgstr "Fácil configurar - Personalizador de Tema"
 
-#: inc/theme_info.php:64
+#: inc/theme_info.php:66
 msgid "Customize using \"Google Web Fonts\""
 msgstr "Personalize usando \"Google Web Fonts\""
 
-#: inc/theme_info.php:65
+#: inc/theme_info.php:67
 msgid "Built-in iconic font \"Font Awesome\""
 msgstr "Fonte icônica incorporada \"Font Awesome\""
 
-#: inc/theme_info.php:66
+#: inc/theme_info.php:68
 msgid "Widget ready (in sidebar and footer)"
 msgstr "Widget pronto (na barra lateral e no rodapé)"
 
-#: inc/theme_info.php:67
+#: inc/theme_info.php:69
 msgid "Built-in Pagination"
 msgstr "Paginação Integrada"
 
-#: inc/theme_info.php:68
+#: inc/theme_info.php:70
 msgid "Built-in Breadcrumbs"
 msgstr "Breadcrumbs integrado"
 
-#: inc/theme_info.php:69
+#: inc/theme_info.php:71
 msgid "Template page \"HTML map of the website\""
 msgstr "Modelo de página \"Mapa HTML do site\""
 
-#: inc/theme_info.php:70
+#: inc/theme_info.php:72
 msgid "Template page \"Without date\""
 msgstr "Modelo de página \"Sem data\""
 
-#: inc/theme_info.php:71
+#: inc/theme_info.php:73
 msgid "Block \"About Author\" below posts"
 msgstr "Bloco \"Sobre o autor\" no fim dos posts"
 
-#: inc/theme_info.php:72
+#: inc/theme_info.php:74
 msgid "Custom text of copyright below posts"
 msgstr "Texto personalizado de Copyright no fim dos posts"
 
-#: inc/theme_info.php:73
+#: inc/theme_info.php:75
 msgid "Custom text of copyright in footer"
 msgstr "Texto personalizado de copyright no rodapé"
 
-#: inc/theme_info.php:74
+#: inc/theme_info.php:76
 msgid "Custom header image"
 msgstr "Imagem personalizada no cabeçalho"
 
-#: inc/theme_info.php:75
+#: inc/theme_info.php:77
 msgid "Custom background"
 msgstr "Fundo personalizado"
 
-#: inc/theme_info.php:76
+#: inc/theme_info.php:78
 msgid "Custom menu"
 msgstr "Menu personalizado"
 
-#: inc/theme_info.php:77
+#: inc/theme_info.php:79
 msgid "And many more..."
 msgstr "E muito mais..."
 
-#: inc/theme_info.php:78
+#: inc/theme_info.php:80
 msgid "Got more ideas? Tell us!"
 msgstr "Tem mais ideias? Diga-nos!"
 
-#: inc/theme_info.php:83
+#: inc/theme_info.php:85
 #, php-format
 msgid "If you have any questions or suggestions for improving and adding new features, feel free to %1$s contact us %2$s."
 msgstr "Se você tiver alguma dúvida ou sugestão pra melhoria ou para adicionar novos recursos, fique à vontade para entrar em %1$s entrar em contato %2$s conosco."
 
-#: inc/theme_info.php:92
+#: inc/theme_info.php:94
 msgid "Translation"
 msgstr "Tradução"
 
-#: inc/theme_info.php:95
+#: inc/theme_info.php:97
 msgid "This theme is ready for translation. It written on <strong>English</strong> and translated into:"
 msgstr "Este tema está pronto para tradução. Ele foi escrito em <strong>inglês</strong> e traduzido para:"
 
-#: inc/theme_info.php:116
+#: inc/theme_info.php:118
 #, php-format
 msgid "If you want to help translate this theme, please use the POT file, that is included and placed in the \"languages\" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update."
 msgstr "Se você quer ajudar a traduzir esse tema, por favor use o arquivo POT, que está incluso e pode ser encontrado na pasta \"languages\", para criar os arquivos de tradução (*.po, *.mo). Envie os arquivos da tradução (*.po, *.mo) pra nós ( %s ) e iremos incluir a tradução junto com a próxima atualização do tema."
 
-#: inc/theme_info.php:120
+#: inc/theme_info.php:122
 msgid "Also you can use an existing PO file that placed in the \"languages\" folder, in order to make corrections."
 msgstr "Além disso, você pode usar um arquivo PO existente na pasta \"languages\", para fazer as correções."
 
-#: inc/theme_info.php:121
+#: inc/theme_info.php:123
 msgid "Many of theme users would be delighted if you share your translation with the community. Thanks for your contribution!"
 msgstr "Muitos usuários do tema ficariam encantados se você compartilhasse sua tradução com a comunidade. Obrigado pela sua contribuição!"
 
-#: inc/theme_info.php:124
+#: inc/theme_info.php:126
 msgid "Thanks to all who helped us translate this theme into other languages!"
 msgstr "Obrigado a todos que nos ajudaram a traduzir esse tema para outros idiomas!"
 
-#: inc/theme_info.php:125
+#: inc/theme_info.php:127
 msgid "Thank you very much for your contribution!"
 msgstr "Muito obrigado por sua contribuição!"
 
-#: inc/theme_info.php:130
+#: inc/theme_info.php:132
 msgid "PREMIUM versions"
 msgstr "Versões PREMIUM"
 
-#: inc/theme_info.php:133
+#: inc/theme_info.php:135
 msgid "Elevate your website to the next level by upgrading to one of the PREMIUM Anarcho versions: the Author's-Notepad and the Simple-Notepad!"
 msgstr "Eleve seu site ao próximo nível, atualizando para uma das versões PREMIUM Anarcho: o Author's-Notepad e o Simple-Notepad!"
 
-#: inc/theme_info.php:138
+#: inc/theme_info.php:140
 msgid "Responsive layout"
 msgstr "Layout responsivo"
 
-#: inc/theme_info.php:139
+#: inc/theme_info.php:141
 msgid "Better SEO"
 msgstr "SEO melhorado"
 
-#: inc/theme_info.php:140
+#: inc/theme_info.php:142
 msgid "Optimized load time"
 msgstr "Tempo de carregamento otimizado"
 
-#: inc/theme_info.php:143
+#: inc/theme_info.php:145
 msgid "More secure"
 msgstr "Mais seguro"
 
-#: inc/theme_info.php:144
+#: inc/theme_info.php:146
 msgid "Improved design"
 msgstr "Design aprimorado"
 
-#: inc/theme_info.php:145
+#: inc/theme_info.php:147
 msgid "Better typography"
 msgstr "Tipografia melhorada"
 
-#: inc/theme_info.php:148
+#: inc/theme_info.php:150
 msgid "WooCommerce supported"
 msgstr "WooCommerce suportado"
 
-#: inc/theme_info.php:149
+#: inc/theme_info.php:151
 msgid "More settings"
 msgstr "Mais configurações"
 
-#: inc/theme_info.php:150
+#: inc/theme_info.php:152
 msgid "More features"
 msgstr "Mais recursos"
 
-#: inc/theme_info.php:155
+#: inc/theme_info.php:157
 msgid "These premium versions have significantly more customization options, improved design and many functional improvements. Importantly, both are <b>optimized for mobile devices</b> by having a responsive/mobile friendly layout."
 msgstr "Essas versões premium têm significativamente mais opções de personalização, design aprimorado e muitas melhorias funcionais. É importante ressaltar que ambos são <b> otimizados para dispositivos móveis </b> por ter um layout responsivo / compatível com dispositivos móveis."
 
-#: inc/theme_info.php:163
+#: inc/theme_info.php:165
 msgid "Happy to enjoy the theme?"
 msgstr "Feliz em apreciar o tema?"
 
-#: inc/theme_info.php:170
+#: inc/theme_info.php:172
 msgid "Thanks for your support!"
 msgstr "Obrigado pelo seu apoio!"
 
-#: inc/theme_info.php:176
+#: inc/theme_info.php:178
 msgid "Explore our website"
 msgstr "Explore o nosso site"
 
-#: inc/theme_info.php:199 inc/theme_info.php:200
+#: inc/theme_info.php:201 inc/theme_info.php:202
 msgid "Theme Info"
 msgstr "Informações do tema"
 

@@ -5,7 +5,7 @@
  * @package     Anarcho Notepad
  * @since       2.41
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2019, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2020, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  *
@@ -573,7 +573,7 @@ function spacexchimp_theme_comment( $comment, $args, $depth ) {
  */
 function spacexchimp_theme_copyright() {
 
-    $spacexchimp_theme_copy_website = __( 'Copyright 2019. All rights reserved.', 'anarcho-notepad' );
+    $spacexchimp_theme_copy_website = __( 'Copyright 2020. All rights reserved.', 'anarcho-notepad' );
     echo get_theme_mod( 'site-info', $spacexchimp_theme_copy_website ) . "<br>";
 
     $spacexchimp_theme_copy_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";

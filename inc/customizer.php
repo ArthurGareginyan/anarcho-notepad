@@ -5,7 +5,7 @@
  * @package     Anarcho Notepad
  * @since       2.38
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2019, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2020, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -50,7 +50,7 @@ function spacexchimp_theme_customize_register( $wp_customize ) {
 
         // Copyright after post
         $wp_customize->add_setting( 'copyright_post', array(
-                'default'           => __( 'Copyright 2019. All rights reserved.', 'anarcho-notepad' ),
+                'default'           => __( 'Copyright 2020. All rights reserved.', 'anarcho-notepad' ),
                 'sanitize_callback' => 'esc_attr',
         ));
         $wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'copyright_post', array(
@@ -62,7 +62,7 @@ function spacexchimp_theme_customize_register( $wp_customize ) {
 
         // Copyright in footer
         $wp_customize->add_setting( 'site-info', array(
-                'default'           => __( 'Copyright 2019. All rights reserved.', 'anarcho-notepad' ),
+                'default'           => __( 'Copyright 2020. All rights reserved.', 'anarcho-notepad' ),
                 'sanitize_callback' => 'esc_attr',
         ));
         $wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'site-info', array(
