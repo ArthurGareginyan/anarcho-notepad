@@ -3,7 +3,7 @@
  * Theme Information Page
  *
  * @package     Anarcho Notepad
- * @since       2.42
+ * @since       2.43
  * @author      Space X-Chimp
  * @copyright   Copyright (c) 2013-2019, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
@@ -26,6 +26,8 @@ function spacexchimp_theme_options_do_page() {
     $spacexchimp_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
     $spacexchimp_theme_donate_link = "https://www.spacexchimp.com/donate.html";
     $spacexchimp_theme_donate_image = get_template_directory_uri() . '/images/theme_info/donate.png';
+    $spacexchimp_theme_contact_link = "https://www.spacexchimp.com/contact.html";
+    $spacexchimp_theme_contact_link_short = "www.spacexchimp.com/contact.html";
 
     ?>
     <div class="cover">
@@ -81,7 +83,7 @@ function spacexchimp_theme_options_do_page() {
                     <?php
                         printf(
                             __( 'If you have any questions or suggestions for improving and adding new features, feel free to %1$s contact us %2$s.', 'anarcho-notepad' ),
-                            '<a href="https://www.spacexchimp.com/contact.html" target="_blank">',
+                            '<a href="' . $spacexchimp_theme_contact_link . '" target="_blank">',
                             '</a>'
                         );
                     ?>
@@ -107,14 +109,14 @@ function spacexchimp_theme_options_do_page() {
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Danish</strong> (translated by <strong>Chano Klinck Andersen</strong>)</li>
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>French</strong> (translated by <strong>Rolland Dudemaine</strong>)</li>
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Chinese</strong> (translated by <strong>Weiquan Bao</strong>)</li>
-                    <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Italian</strong> (translated by <strong>Demetrio Fiumanò</strong>)</li>
+                    <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Italian</strong> (translated by <strong>Demetrio Fiumano</strong>)</li>
                     <li type="none"><i class="fa-li fa fa-check-circle"></i><strong>Portuguese (Brazil)</strong> (translated by <strong>Fabio Correia Pimenta</strong>)</li>
                 </ul>
                 <p>
                     <?php
                         printf(
                             __( 'If you want to help translate this theme, please use the POT file, that is included and placed in the "languages" folder, in order to create a translation files (*.po, *.mo). Just send the translation files (*.po, *.mo) to us ( %s ) and we will include the translation within the next theme update.', 'anarcho-notepad' ),
-                            '<a href="https://www.spacexchimp.com/contact.html" target="_blank">www.spacexchimp.com/contact.html</a>'
+                            '<a href="' . $spacexchimp_theme_contact_link . '" target="_blank">' . $spacexchimp_theme_contact_link_short . '</a>'
                         );
                     ?>
                     <?php _e( 'Also you can use an existing PO file that placed in the "languages" folder, in order to make corrections.', 'anarcho-notepad' ); ?>
