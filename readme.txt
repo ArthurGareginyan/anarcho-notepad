@@ -20,7 +20,7 @@
 
 == Copyrights for resources used in this theme.
 
-    1. The "Font Awesome" iconic font are under the MIT License. http://fontawesome.io
+    1. The "Font Awesome" iconic font are under the MIT License. https://fontawesome.com
     2. The "Forum" font are under the SIL Open Font License v1.1.
     3. The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
     4. The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
