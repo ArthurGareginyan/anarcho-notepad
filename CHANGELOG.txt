@@ -3,7 +3,7 @@
 = 2.43 (2020.01.13) =
 * Fix: Non-printable characters were found in the inc/theme_info.php file on line 110.
 * Fix: Possible hard-coded links were found in the file inc/theme_info.php on line 84 and 117.
-* Framework: The copyright date updated to 2020.
+* Maintenance: The copyright date updated to support the 2020 year.
 
 = 2.42 (2019.12.22) =
 * New: The translation into Portuguese (Brazil) has been added. (Thanks to Fabio Correia Pimenta)
