@@ -20,12 +20,12 @@
 
 == Copyrights for resources used in this theme.
 
-    1. The "Font Awesome" iconic font are under the MIT License. https://fontawesome.com
-    2. The "Forum" font are under the SIL Open Font License v1.1.
-    3. The html5.js file present in the "/js" folder are under the MIT/GPL2 License. https://github.com/aFarkas/html5shiv
-    4. The follow.png file in the "/images" folder are under the Creative Commons License. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
+    1. The "Font Awesome" iconic font released under the SIL OFL 1.1 license and MIT license for code. https://fontawesome.com
+    2. The "Forum" font released under the SIL OFL 1.1 license.
+    3. The html5.js file present in the "/js" folder released under the MIT/GPL2 license. https://github.com/aFarkas/html5shiv
+    4. The follow.png file in the "/images" folder released under the Creative Commons license. By Colaja. https://www.iconfinder.com/icons/87493/rss_icon#size=128
     5. The notepad-middle.png, yellow-sticker-middle, yellow-sticker-bottom, white-sticker-top, white-sticker-middle, white-sticker-bottom images are from the theme ["Notepad Chaos v2.0"](http://www.notepadchaos.com) by [Evan Eckard](http://www.evaneckard.com).
-    6. The anarchy-symbol-big.png and anarchy-symbol.png images is under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
+    6. The anarchy-symbol-big.png and anarchy-symbol.png images are under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
     7. The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
 
     Everything else used in this theme has been created by the Space X-Chimp team, especially for "Anarcho Notepad" theme.
