@@ -90,9 +90,6 @@ div.aligncenter {
     background-color: #f3f3f3;
     padding-top: 4px;
     margin: 10px;
-    -moz-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    -webkit-border-radius: 3px;
     border-radius: 3px;
 }
 .wp-caption img {
@@ -216,8 +213,6 @@ code {
     background: #ececec;
     box-sizing: border-box;
     border: 1px solid #939393;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     display: block;
     overflow-x: auto;
 }
@@ -341,16 +336,14 @@ blockquote cite::before {
 
 /* Transforme author-avatar */
 .author-avatar img {
-    -moz-transform: rotate(-9deg);
     -webkit-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg);
-    transform: rotate(-9deg);
-    -ms-transform: rotate(-9deg);
-    -ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod="auto expand", enabled=true)';
+            transform: rotate(-9deg);
+    filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod="auto expand", enabled=true)';
 }
 
 * + html .transform img {
-    filter: progid:dximagetransform.microsoft.matrix(M11=6.123031769111886e-17, M12=-1, M21=1, M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true);
+    -webkit-filter: progid:dximagetransform.microsoft.matrix(M11=6.123031769111886e-17, M12=-1, M21=1, M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true);
+            filter: progid:dximagetransform.microsoft.matrix(M11=6.123031769111886e-17, M12=-1, M21=1, M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true);
 }
 #content .col01 .author-info {
     border-top: 2px solid #939393;
@@ -403,8 +396,6 @@ blockquote cite::before {
     background-color: #a00b0b;
     border-radius: 8px 1px 1px;
     text-shadow: 0 1px 2px #c53d3d;
-    -webkit-box-shadow: 0 2px 4px #110303;
-    -moz-box-shadow: 0 2px 4px #110303;
     box-shadow: 0 2px 4px #110303;
 }
 #content .col01 .date-tab::before {
@@ -519,10 +510,6 @@ blockquote cite::before {
     width: 170px;
     margin-left: 10px;
     padding: 4px 0 4px 25px;
-    -webkit-transition: margin 0.3s;
-    -moz-transition: margin 0.3s;
-    -ms-transition: margin 0.3s;
-    -o-transition: margin 0.3s;
     transition: margin 0.3s;
 }
 #sidebar .yellow-sticker-middle ul li a:hover {
@@ -715,7 +702,6 @@ img.alignleft {
     border-bottom: 5px solid #bbb;
     background: #fff;
     border: 1px #ccc solid;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -748,7 +734,6 @@ img.alignleft {
 }
 #footer-widgets span {
     float: left;
-    width: -webkit-calc(33% - 20px);
     width: calc(33% - 20px);
     margin-left: 10px;
     margin-right: 10px;
@@ -849,8 +834,6 @@ p.comments-title {
     clear: left;
     margin-top: 10px;
     margin-right: 10px;
-    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .edit-link {
@@ -1023,9 +1006,6 @@ p.comments-title {
     padding: 11px 13px;
     cursor: pointer;
     border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -o-border-radius: 2px;
     z-index: 10000;
     height: 30px;
     width: 30px;
@@ -1034,9 +1014,6 @@ p.comments-title {
     font-family: Fontawesome;
     background-color: #3f3b3b;
     transition: background-color 0.1s linear;
-    -moz-transition: background-color 0.1s linear;
-    -webkit-transition: background-color 0.1s linear;
-    -o-transition: background-color 0.1s linear;
 }
 .scroll-to-top:hover {
     opacity: 1;

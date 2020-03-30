@@ -51,8 +51,6 @@
 }
 
 .cover a {
-    -webkit-transition: color 0.12s ease-in-out;
-    -moz-transition: color 0.12s ease-in-out;
     transition: color 0.12s ease-in-out;
     color: #0b6492;
     text-decoration: none;
@@ -76,8 +74,7 @@
     height: 110px;
     background: url(../images/notepad-bottom.png) no-repeat top center;
     -webkit-transform: scale(1, -1);
-    -moz-transform: scale(1, -1);
-    -o-transform: scale(1, -1);
+            transform: scale(1, -1);
 }
 
 #footer {
