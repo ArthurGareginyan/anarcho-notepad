@@ -42,8 +42,8 @@
 
 .ab-top-menu > #wp-admin-bar-anarcho-help:hover > .ab-item {
     color: #fff;
-    background: #768d44;                                                                 /* Old browsers */       /* FF3.6+ */ /* Chrome,Safari4+ */    /* Chrome10+,Safari5.1+ */         /* Opera 11.10+ */        /* IE10+ */
-    background: linear-gradient(to bottom, #768d44 1%, #9db668 100%, #9db668 100%);      /* W3C */
+    background: #768d44;
+    background: linear-gradient(to bottom, #768d44 1%, #9db668 100%, #9db668 100%);
     -webkit-filter: progid:dximagetransform.microsoft.gradient(startColorstr='#768d44', endColorstr='#9db668', GradientType=0);
-            filter: progid:dximagetransform.microsoft.gradient(startColorstr='#768d44', endColorstr='#9db668', GradientType=0); /* IE6-9 */
+            filter: progid:dximagetransform.microsoft.gradient(startColorstr='#768d44', endColorstr='#9db668', GradientType=0);
 }
