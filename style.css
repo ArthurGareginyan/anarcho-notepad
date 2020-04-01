@@ -27,15 +27,15 @@
 /* Fonts
 -------------------------------------------------------------- */
 @font-face {
-    font-family: 'Forum';
     src: url('fonts/forum/Forum.eot');
     src:
         url('fonts/forum/Forum.eot?#iefix') format('embedded-opentype'),
         url('fonts/forum/Forum.woff') format('woff'),
         url('fonts/forum/Forum.ttf') format('truetype'),
         url('fonts/forum/Forum.svg#Forum') format('svg');
-    font-weight: normal;
+    font-family: 'Forum';
     font-style: normal;
+    font-weight: normal;
 }
 
 section,
@@ -55,19 +55,19 @@ hgroup {
 /* Links
 -------------------------------------------------------------- */
 a:link {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 a:visited {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 a:hover,
 a:active {
-    text-decoration: underline;
     color: black;
+    text-decoration: underline;
 }
 
 /* Align
@@ -75,8 +75,8 @@ a:active {
 .aligncenter,
 div.aligncenter {
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     text-align: center;
 }
 
@@ -89,12 +89,12 @@ div.aligncenter {
 }
 
 .wp-caption {
-    border: 1px solid #ddd;
-    text-align: center;
-    background-color: #f3f3f3;
-    padding-top: 4px;
     margin: 10px;
+    padding-top: 4px;
+    border: 1px solid #ddd;
     border-radius: 3px;
+    background-color: #f3f3f3;
+    text-align: center;
 }
 
 .wp-caption img {
@@ -104,25 +104,25 @@ div.aligncenter {
 }
 
 .wp-caption p.wp-caption-text {
+    margin: 0;
+    padding: 0 4px 5px;
     font-size: 11px;
     line-height: 17px;
-    padding: 0 4px 5px;
-    margin: 0;
 }
 
 /* Background
 -------------------------------------------------------------- */
 body {
     margin: 0;
-    font-size: 100%;
     font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 100%;
 }
 
 .site-header {
-    width: 960px;
-    margin: 0 auto;
     position: relative;
+    width: 960px;
     height: 238px;
+    margin: 0 auto;
 }
 
 /* Blog Title
@@ -132,11 +132,11 @@ body {
 }
 
 #title {
-    margin-left: 4%;
+    word-wrap: break-word;
     width: 52%;
     height: 70%;
+    margin-left: 4%;
     overflow: hidden;
-    word-wrap: break-word;
 }
 
 #title a {
@@ -148,19 +148,19 @@ body {
 }
 
 .site-title {
+    position: relative;
+    margin: 0;
+    padding: 58px 0 10px;
     font-size: 300%;
     line-height: 0.8;
-    margin: 0;
     text-align: center;
-    position: relative;
-    padding: 58px 0 10px;
 }
 
 .site-description {
-    font-size: 120%;
-    text-align: center;
     position: relative;
     margin: 0;
+    font-size: 120%;
+    text-align: center;
 }
 
 .site-description .home-link a {
@@ -175,16 +175,16 @@ body {
 /* Search Form (Header)
 -------------------------------------------------------------- */
 .top-search-form {
-    padding-top: 0.3%;
-    margin-left: 67%;
     width: 25%;
+    margin-left: 67%;
+    padding-top: 0.3%;
 }
 
 /* Assistive Text
 -------------------------------------------------------------- */
 .screen-reader-text {
-    position: absolute !important;
     clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
 }
 
 /* Search Form (Widget)
@@ -200,91 +200,91 @@ body {
 /* Notepad
 -------------------------------------------------------------- */
 .notepad-bottom {
-    background: url(images/notepad-bottom.png) no-repeat top center;
+    position: relative;
     width: 960px;
     height: 60px;
     margin: 0 auto;
     margin-top: -20px;
-    position: relative;
+    background: url(images/notepad-bottom.png) no-repeat top center;
 }
 
 /* Content (Column 1)
 -------------------------------------------------------------- */
 #content {
-    background: url(images/notepad-middle.png) repeat-y top center;
+    word-wrap: break-word;
     width: 870px;
     min-height: 500px;
     margin: 0 auto;
     margin-top: -1px;
     padding: 0 20px 0 70px;
-    word-wrap: break-word;
+    background: url(images/notepad-middle.png) repeat-y top center;
 }
 
 pre,
 code {
+    box-sizing: border-box;
+    display: block;
     margin: 3px;
     padding: 10px;
-    background: #ececec;
-    box-sizing: border-box;
-    border: 1px solid #939393;
-    display: block;
     overflow-x: auto;
+    border: 1px solid #939393;
+    background: #ececec;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    text-align: left;
     width: 100%;
     margin: 1.5em 0;
     padding: 1em;
-    line-height: 2;
+    border-collapse: collapse;
+    border-spacing: 0;
     font-size: 90%;
+    line-height: 2;
+    text-align: left;
 }
 
 td,
 th {
-    border: 1px solid #111;
     padding: 0.5em;
+    border: 1px solid #111;
     text-align: center;
 }
 
 tbody tr:nth-child(odd) {
+    border: none;
     background: #eee;
     background: rgba(0, 0, 0, 0.08);
-    border: none;
 }
 
 blockquote {
-    border-left: 1px solid #bbb;
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
+    position: relative;
     max-width: 450px;
     margin: 0.25em 0;
     padding: 0.25em 40px;
-    line-height: 1.45;
-    position: relative;
-    color: #383838;
+    border-left: 1px solid #bbb;
     background: #ececec;
+    color: #383838;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.45;
 }
 
 blockquote::before {
     display: block;
-    content: "\201C";
-    font-size: 80px;
     position: absolute;
-    left: -10px;
     top: -10px;
+    left: -10px;
     color: #7a7a7a;
+    font-size: 80px;
+    content: "\201C";
 }
 
 blockquote cite {
-    text-align: right;
-    color: #2b2a2a;
-    font-size: 14px;
     display: block;
     margin-top: 5px;
+    color: #2b2a2a;
+    font-size: 14px;
+    text-align: right;
 }
 
 blockquote cite::before {
@@ -292,24 +292,24 @@ blockquote cite::before {
 }
 
 #content .col01 {
-    float: left;
     width: 73%;
     padding-bottom: 3px;
+    float: left;
     font-size: 100%;
     line-height: 150%;
 }
 
 #content .col01 h1,
 #content .col01 .post-title {
-    text-align: center;
-    font-size: 180%;
-    line-height: 110%;
-    font-weight: normal;
-    font-family: Forum, Times New Roman, Times, Georgia, serif;
     margin: 0;
     padding: 0 0 10px;
     overflow: hidden;
     background: url(images/line.png) repeat-x bottom;
+    font-family: Forum, Times New Roman, Times, Georgia, serif;
+    font-size: 180%;
+    font-weight: normal;
+    line-height: 110%;
+    text-align: center;
 }
 
 #content .col01 h1 a,
@@ -337,13 +337,13 @@ blockquote cite::before {
 }
 
 #content .col01 .thumbnail {
-    float: right;
     margin: 10px 0 10px 10px;
+    float: right;
 }
 
 #content .col01 .tagsandcopy {
-    font-size: 90%;
     margin-bottom: 0;
+    font-size: 90%;
 }
 
 #content .col01 article {
@@ -376,12 +376,12 @@ blockquote cite::before {
 }
 
 #content .col01 .author-info {
-    border-top: 2px solid #939393;
-    border-bottom: 2px solid #939393;
-    text-align: justify;
-    font-size: 120%;
     margin-top: 50px;
     margin-bottom: 30px;
+    border-top: 2px solid #939393;
+    border-bottom: 2px solid #939393;
+    font-size: 120%;
+    text-align: justify;
 }
 
 #content .col01 .author-info .author-description {
@@ -390,9 +390,9 @@ blockquote cite::before {
 
 #content .col01 .author-info .author-title {
     width: 85%;
-    text-align: center;
-    line-height: 100%;
     padding-top: 1px;
+    line-height: 100%;
+    text-align: center;
 }
 
 #content .col01 .author-info p.author-bio {
@@ -404,10 +404,10 @@ blockquote cite::before {
 }
 
 #content .col01 .meta {
-    font-size: 90%;
-    text-align: right;
     padding-top: 8px;
     background: url(images/line.png) repeat-x top;
+    font-size: 90%;
+    text-align: right;
 }
 
 #content .col01 .post-inner {
@@ -418,60 +418,60 @@ blockquote cite::before {
 /* Date-tab (Ribbons)
 -------------------------------------------------------------- */
 #content .col01 .date-tab {
-    position: relative;
     z-index: 1;
+    position: relative;
     width: 20%;
+    margin: -5px 10px 10px -90px;
     float: left;
+    border-radius: 8px 1px 1px;
+    background-color: #a00b0b;
+    box-shadow: 0 2px 4px #110303;
+    color: #000;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 70%;
-    margin: -5px 10px 10px -90px;
-    color: #000;
-    background-color: #a00b0b;
-    border-radius: 8px 1px 1px;
     text-shadow: 0 1px 2px #c53d3d;
-    box-shadow: 0 2px 4px #110303;
 }
 
 #content .col01 .date-tab::before {
-    content: ' ';
     position: absolute;
+    top: 30px;
+    left: -40px;
     width: 40px;
     height: 0;
-    left: -40px;
-    top: 30px;
-    border-radius: 0 0 10px;
     border-width: 20px 10px;
     border-style: solid;
+    border-radius: 0 0 10px;
     border-color: #a00b0b #a00b0b #a00b0b transparent;
+    content: ' ';
 }
 
 #content .col01 .date-tab::after {
-    content: ' ';
     position: absolute;
+    top: 100%;
+    left: 0;
     width: 0;
     height: 0;
-    left: 0;
-    top: 100%;
-    border-radius: 8px 0 0;
     border-width: 5px 10px;
     border-style: solid;
+    border-radius: 8px 0 0;
     border-color: #6d0404 #6d0404 transparent transparent;
+    content: ' ';
 }
 
 #content .col01 .date-tab .month {
-    text-align: right;
     display: block;
     padding: 6px 16px 6px 0;
     font-size: 70%;
+    text-align: right;
 }
 
 #content .col01 .date-tab .day {
-    text-align: right;
     display: block;
     padding: 6px 16px 2px 0;
     font-size: 112%;
     font-weight: bold;
+    text-align: right;
 }
 
 /* END-Date-tab (Ribbons) */
@@ -485,8 +485,8 @@ blockquote cite::before {
 }
 
 #content .col01 .thumbnail {
-    float: right;
     margin: 12px 0 12px 12px;
+    float: right;
 }
 
 #content .col01 .meta a {
@@ -501,8 +501,8 @@ blockquote cite::before {
 #content .col01 figure {
     display: inline-block;
     max-width: 90%;
-    margin-left: 20px;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 /* END-Content (Column 1) */
@@ -510,8 +510,8 @@ blockquote cite::before {
 /* Sidebar (Column 2)
 -------------------------------------------------------------- */
 #sidebar {
-    float: right;
     width: 210px;
+    float: right;
     font-size: 100%;
     line-height: 110%;
 }
@@ -519,8 +519,8 @@ blockquote cite::before {
 /* Follow
 -------------------------------------------------------------- */
 .follow {
-    margin-left: 221px;
     height: 0;
+    margin-left: 221px;
 }
 
 .follow img {
@@ -535,17 +535,17 @@ blockquote cite::before {
 }
 
 #sidebar .yellow-sticker-middle ul {
-    padding: 0;
     margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
 #sidebar .yellow-sticker-middle ul li {
+    margin: 0;
+    padding: 0;
     font-size: 100%;
     line-height: 110%;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 #sidebar .yellow-sticker-middle ul li .listMeta {
@@ -553,19 +553,19 @@ blockquote cite::before {
 }
 
 #sidebar .yellow-sticker-middle ul li a {
-    color: #21565e;
-    border-top: 1px solid #ffe5be;
     display: block;
     width: 170px;
     margin-left: 10px;
     padding: 4px 0 4px 25px;
+    border-top: 1px solid #ffe5be;
+    color: #21565e;
     transition: margin 0.3s;
 }
 
 #sidebar .yellow-sticker-middle ul li a:hover {
-    text-decoration: none;
     margin-left: 20px;
     color: #000;
+    text-decoration: none;
 }
 
 #sidebar .yellow-sticker-middle ul .sub-menu {
@@ -576,8 +576,8 @@ blockquote cite::before {
 #sidebar .yellow-sticker-bottom {
     width: 188px;
     height: 62px;
-    background: url(images/yellow-sticker-bottom.png) no-repeat left bottom;
     padding: 12px 12px 0;
+    background: url(images/yellow-sticker-bottom.png) no-repeat left bottom;
     font-size: 100%;
     text-align: right;
 }
@@ -595,28 +595,28 @@ blockquote cite::before {
 }
 
 #sidebar .white-sticker-middle ul {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 #sidebar .white-sticker-middle ul li {
+    margin: 0;
+    padding: 0;
     font-size: 93%;
     line-height: 130%;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 #sidebar .white-sticker-middle ul li a {
-    color: #21565e;
     display: block;
     width: 170px;
     padding: 4px 0 4px 25px;
+    color: #21565e;
 }
 
 #sidebar .white-sticker-middle ul li a:hover {
-    text-decoration: none;
     color: #000;
+    text-decoration: none;
 }
 
 #sidebar .white-sticker-middle ul li a i {
@@ -628,8 +628,8 @@ blockquote cite::before {
 #sidebar .white-sticker-bottom {
     width: 188px;
     height: 62px;
-    background: url(images/white-sticker-bottom.png) no-repeat;
     padding: 12px 12px 0;
+    background: url(images/white-sticker-bottom.png) no-repeat;
     font-size: 70%;
     text-align: right;
 }
@@ -648,8 +648,8 @@ blockquote cite::before {
 
 /* About Widget */
 #sidebar .about-widget {
-    background: url(images/about-label.png) no-repeat 10px 5px;
     padding: 30px 10px 20px;
+    background: url(images/about-label.png) no-repeat 10px 5px;
     font-family: Forum, Times New Roman, Times, Georgia, serif;
     font-size: 100%;
     line-height: 110%;
@@ -657,9 +657,9 @@ blockquote cite::before {
 
 /* Links Widget */
 #sidebar .links-widget {
-    text-align: center;
-    background: url(images/links-label.png) no-repeat 10px 5px;
     padding: 30px 10px 20px;
+    background: url(images/links-label.png) no-repeat 10px 5px;
+    text-align: center;
 }
 
 #sidebar .links-widget ul {
@@ -668,30 +668,30 @@ blockquote cite::before {
 }
 
 #sidebar .links-widget ul li {
+    background: url(images/line.png) no-repeat bottom;
     font-size: 100%;
     line-height: 110%;
     list-style: none;
-    background: url(images/line.png) no-repeat bottom;
 }
 
 #sidebar .links-widget ul li a {
-    color: #21565e;
-    margin: 0 auto;
     display: block;
     width: 186px;
+    margin: 0 auto;
     padding: 3px 0;
+    color: #21565e;
 }
 
 #sidebar .links-widget ul li a:hover {
-    text-decoration: none;
     color: #000;
+    text-decoration: none;
 }
 
 /* Other Widgets */
 #sidebar .widget {
     display: block;
-    padding: 10px;
     width: 90%;
+    padding: 10px;
 }
 
 #sidebar .widget-title {
@@ -747,57 +747,57 @@ video {
 -------------------------------------------------------------- */
 img.centered {
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 
 img.alignright {
-    padding: 4px;
-    margin: 0 0 2px 15px;
     display: inline;
+    margin: 0 0 2px 15px;
+    padding: 4px;
 }
 
 img.alignleft {
-    padding: 4px;
-    margin: 0 15px 2px 0;
     display: inline;
+    margin: 0 15px 2px 0;
+    padding: 4px;
 }
 
 /* Miniatures
 -------------------------------------------------------------- */
 .wp-post-image {
-    margin: 10px auto 3px;
     display: block;
+    margin: 10px auto 3px;
+    border: 1px #ccc solid;
     border-bottom: 5px solid #bbb;
     background: #fff;
-    border: 1px #ccc solid;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer
 -------------------------------------------------------------- */
 #footer {
-    min-width: 1070px;
-    text-align: center;
-    font-size: 92%;
-    padding: 1% 0 0;
-    line-height: 110%;
-    overflow: hidden;
-    margin-top: 40px;
-    color: #ccc;
     position: relative;
-    background-color: #2d3032;
+    min-width: 1070px;
+    margin-top: 40px;
+    padding: 1% 0 0;
+    overflow: hidden;
     border-top: 1px solid #8a8989;
+    background-color: #2d3032;
+    color: #ccc;
+    font-size: 92%;
+    line-height: 110%;
+    text-align: center;
 }
 
 #footer a {
-    text-decoration: none;
     color: #909490;
+    text-decoration: none;
 }
 
 #footer a:visited {
-    text-decoration: none;
     color: #909490;
+    text-decoration: none;
 }
 
 #footer-widgets {
@@ -806,10 +806,10 @@ img.alignleft {
 }
 
 #footer-widgets span {
-    float: left;
     width: calc(33% - 20px);
-    margin-left: 10px;
     margin-right: 10px;
+    margin-left: 10px;
+    float: left;
 }
 
 /* END-Footer */
@@ -817,58 +817,58 @@ img.alignleft {
 /* Comment
 -------------------------------------------------------------- */
 #submit {
-    text-decoration: none;
-    border: 1px solid #bfbfbf;
     padding: 2px 7px;
-    background-color: whitesmoke;
-    background-clip: padding-box;
+    border: 1px solid #bfbfbf;
     border-radius: 10px;
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    text-decoration: none;
     text-shadow: 0 0 1px #aaa;
 }
 
 #submit:hover {
-    text-decoration: none;
-    border: 1px solid #000;
     padding: 2px 7px;
-    background-color: whitesmoke;
-    background-clip: padding-box;
+    border: 1px solid #000;
     border-radius: 10px;
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    text-decoration: none;
 }
 
 #commentform {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 #commentform .comment-field {
-    border: 1px solid #939393;
     width: 290px;
     margin: 0;
     padding: 3px;
+    float: left;
+    border: 1px solid #939393;
+    background: #fff;
     font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
     font-size: 75%;
-    background: #fff;
-    float: left;
 }
 
 #commentform .comment-box {
-    border: 1px solid #939393;
+    position: relative;
     width: 70%;
     margin: 0 0 10px;
     padding: 3px;
-    font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
-    background: #fff;
+    border: 1px solid #939393;
     border-radius: 10px;
+    background: #fff;
+    font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
     opacity: 0.6;
-    position: relative;
 }
 
 #commentform .btnComment {
     margin: 0;
     padding: 2px;
-    font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
     float: left;
     clear: left;
+    font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
 }
 
 #commentform .comment-notes {
@@ -887,8 +887,8 @@ img.alignleft {
     display: inline;
     border: none;
     background: none;
-    font-size: 90%;
     font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 90%;
 }
 
 #commentform .form-allowed-tags {
@@ -917,10 +917,10 @@ p.comments-title {
 /* Comment list
 -------------------------------------------------------------- */
 .avatar {
-    float: left;
-    clear: left;
     margin-top: 10px;
     margin-right: 10px;
+    float: left;
+    clear: left;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -945,16 +945,16 @@ p.comments-title {
 }
 
 .commentlist li a {
-    color: #000;
     position: relative;
+    color: #000;
     text-decoration: none;
 }
 
 .commentlist li a:hover {
-    color: #000;
-    text-decoration: none;
     border-bottom: 1px solid #000;
     background: #fffbc1;
+    color: #000;
+    text-decoration: none;
 }
 
 .commentdate {
@@ -964,8 +964,8 @@ p.comments-title {
 }
 
 .commentlist li cite {
-    font-weight: bold;
     font-style: normal;
+    font-weight: bold;
 }
 
 /* END-Comment */
@@ -974,42 +974,42 @@ p.comments-title {
 /* "Continue reading" button
 -------------------------------------------------------------- */
 #content .col01 .post-inner a.more-link {
-    position: relative;
     display: inline-block;
+    position: relative;
+    padding: 2px 6px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    background-clip: padding-box;
+    background-color: whitesmoke;
     color: #000;
     text-decoration: none;
-    border: 1px solid #bfbfbf;
-    padding: 2px 6px;
-    background-color: whitesmoke;
-    background-clip: padding-box;
-    border-radius: 10px;
     text-shadow: 0 0 1px #aaa;
 }
 
 /* Next page
 -------------------------------------------------------------- */
 #content .col01 .post-inner .page-links {
+    width: 104%;
     margin-top: 15px;
     margin-bottom: 10px;
     overflow: hidden;
+    line-height: 180%;
     text-shadow: 0 0 1px #aaa;
     white-space: nowrap;
-    width: 104%;
-    line-height: 180%;
 }
 
 #content .col01 .post-inner .page-links a {
-    text-decoration: none;
     border-bottom: none;
+    text-decoration: none;
 }
 
 #content .col01 .post-inner .page-links span {
-    text-decoration: none;
-    border: 1px solid #bfbfbf;
     padding: 2px 7px;
-    background-color: whitesmoke;
-    background-clip: padding-box;
+    border: 1px solid #bfbfbf;
     border-radius: 10px;
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -1018,22 +1018,22 @@ p.comments-title {
 /* Breadcrumbs
 -------------------------------------------------------------- */
 #breadcrumbs {
+    width: 104%;
     margin-bottom: 20px;
     overflow: hidden;
+    line-height: 180%;
     text-shadow: 0 0 1px #aaa;
     white-space: nowrap;
-    width: 104%;
-    line-height: 180%;
 }
 
 #breadcrumbs a,
 #breadcrumbs span {
-    text-decoration: none;
-    border: 1px solid #bfbfbf;
     padding: 2px 7px;
-    background-color: whitesmoke;
-    background-clip: padding-box;
+    border: 1px solid #bfbfbf;
     border-radius: 10px;
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    text-decoration: none;
 }
 
 /* End-Breadcrumbs */
@@ -1041,11 +1041,11 @@ p.comments-title {
 /* Navigation Links
 -------------------------------------------------------------- */
 .nav-links {
+    padding: 20px 0;
     color: #000;
     font-size: 105%;
     font-style: italic;
     font-weight: 300;
-    padding: 20px 0;
 }
 
 /* End-Navigation Links */
@@ -1053,19 +1053,19 @@ p.comments-title {
 /* Page Navigation
 -------------------------------------------------------------- */
 #page-nav {
-    clear: both;
     margin: 5px;
+    clear: both;
     text-shadow: 0 0 1px #aaa;
 }
 
 #page-nav a,
 #page-nav span {
-    text-decoration: none;
-    border: 1px solid #bfbfbf;
     padding: 3px 12px;
-    background-color: whitesmoke;
-    background-clip: padding-box;
+    border: 1px solid #bfbfbf;
     border-radius: 10px;
+    background-clip: padding-box;
+    background-color: whitesmoke;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -1079,8 +1079,8 @@ p.comments-title {
 }
 
 .paging-navigation .nav-links {
-    margin: 0 auto;
     max-width: 1040px;
+    margin: 0 auto;
 }
 
 .paging-navigation .nav-previous {
@@ -1096,8 +1096,8 @@ p.comments-title {
 /* Post Navigation
 -------------------------------------------------------------- */
 .post-navigation .nav-links {
-    margin: 0 auto;
     max-width: 1040px;
+    margin: 0 auto;
 }
 
 .post-navigation a[rel="next"] {
@@ -1110,20 +1110,20 @@ p.comments-title {
 /* Scroll to Top button
 -------------------------------------------------------------- */
 .scroll-to-top {
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
-    opacity: 0.8;
-    padding: 11px 13px;
-    cursor: pointer;
-    border-radius: 2px;
     z-index: 10000;
-    height: 30px;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
     width: 30px;
+    height: 30px;
+    padding: 11px 13px;
+    border-radius: 2px;
+    background-color: #3f3b3b;
+    font-family: Fontawesome;
     line-height: 30px;
     text-align: center;
-    font-family: Fontawesome;
-    background-color: #3f3b3b;
+    cursor: pointer;
+    opacity: 0.8;
     transition: background-color 0.1s linear;
 }
 
@@ -1141,18 +1141,18 @@ p.comments-title {
 }
 
 .category {
-    list-style: none;
     padding-bottom: 5px;
+    list-style: none;
 }
 
 .grey {
-    color: #777;
     background-color: inherit;
+    color: #777;
 }
 
 .cat-posts {
-    padding-bottom: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 

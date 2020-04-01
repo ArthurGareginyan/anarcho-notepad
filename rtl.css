@@ -70,8 +70,8 @@ div.aligncenter {
 /* Comment list
 -------------------------------------------------------------- */
 .avatar {
+    margin-right: auto;
+    margin-left: 10px;
     float: right;
     clear: right;
-    margin-left: 10px;
-    margin-right: auto;
 }
