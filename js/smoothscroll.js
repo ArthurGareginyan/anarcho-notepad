@@ -12,14 +12,16 @@ jQuery(document).ready(function($) {
 
     $(window).scroll(function() {
         if ($(this).scrollTop() < 200) {
-            $('.scroll-to-top') .fadeOut();
+            $('.scroll-to-top').fadeOut();
         } else {
-            $('.scroll-to-top') .fadeIn();
+            $('.scroll-to-top').fadeIn();
         }
     });
 
     $('.scroll-to-top').on('click', function() {
-        $('html, body').animate({scrollTop:0}, 'fast');
+        $('html, body').animate({
+            scrollTop: 0
+        }, 'fast');
         return false;
     });
 

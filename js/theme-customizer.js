@@ -10,66 +10,66 @@
  * then make any necessary changes to the page using jQuery.
  */
 
-( function( $ ) {
+(function($) {
 
     // Title & Description
 
-        // Update the site title in real time...
-        wp.customize( 'blogname', function( value ) {
-            value.bind( function( newval ) {
-                $( '.site-title' ).html( newval );
-            } );
-        } );
+    // Update the site title in real time...
+    wp.customize('blogname', function(value) {
+        value.bind(function(newval) {
+            $('.site-title').html(newval);
+        });
+    });
 
-        // Update site Title color in real time...
-        wp.customize( 'title_color', function( value ) {
-            value.bind( function( newval ) {
-                $('.site-title').css('color', newval );
-            } );
-        } );
+    // Update site Title color in real time...
+    wp.customize('title_color', function(value) {
+        value.bind(function(newval) {
+            $('.site-title').css('color', newval);
+        });
+    });
 
 
     // Description
 
-        // Update the site description in real time...
-        wp.customize( 'blogdescription', function( value ) {
-            value.bind( function( newval ) {
-                $( '.site-description' ).html( newval );
-            } );
-        } );
+    // Update the site description in real time...
+    wp.customize('blogdescription', function(value) {
+        value.bind(function(newval) {
+            $('.site-description').html(newval);
+        });
+    });
 
-        // Update site Description color in real time...
-        wp.customize( 'tagline_color', function( value ) {
-            value.bind( function( newval ) {
-                $('.site-description').css('color', newval );
-            } );
-        } );
+    // Update site Description color in real time...
+    wp.customize('tagline_color', function(value) {
+        value.bind(function(newval) {
+            $('.site-description').css('color', newval);
+        });
+    });
 
 
     // Posts
 
-        // Update the font of posts in real time...
-        wp.customize( 'post_font', function( value ) {
-            value.bind( function( newval ) {
-                $( '#content .col01 .post-inner' ).html( newval );
-            } );
-        } );
+    // Update the font of posts in real time...
+    wp.customize('post_font', function(value) {
+        value.bind(function(newval) {
+            $('#content .col01 .post-inner').html(newval);
+        });
+    });
 
-        // Update the font size of posts in real time...
-        wp.customize( 'post_font_size', function( value ) {
-            value.bind( function( newval ) {
-                $( '#content .col01 .post-inner' ).html( newval );
-            } );
-        } );
+    // Update the font size of posts in real time...
+    wp.customize('post_font_size', function(value) {
+        value.bind(function(newval) {
+            $('#content .col01 .post-inner').html(newval);
+        });
+    });
 
 
     // Background
 
-        // Update site Background color...
-        wp.customize( 'background_color', function( value ) {
-            value.bind( function( newval ) {
-                $('body').css('background-color', newval );
-            } );
-        } );
+    // Update site Background color...
+    wp.customize('background_color', function(value) {
+        value.bind(function(newval) {
+            $('body').css('background-color', newval);
+        });
+    });
 
-} )( jQuery );
+})(jQuery);
