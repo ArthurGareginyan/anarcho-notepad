@@ -58,10 +58,12 @@ a:link {
     text-decoration: none;
     color: black;
 }
+
 a:visited {
     text-decoration: none;
     color: black;
 }
+
 a:hover,
 a:active {
     text-decoration: underline;
@@ -77,9 +79,11 @@ div.aligncenter {
     margin-right: auto;
     text-align: center;
 }
+
 .alignleft {
     float: left;
 }
+
 .alignright {
     float: right;
 }
@@ -92,11 +96,13 @@ div.aligncenter {
     margin: 10px;
     border-radius: 3px;
 }
+
 .wp-caption img {
     margin: 0;
     padding: 0;
     border: 0 none;
 }
+
 .wp-caption p.wp-caption-text {
     font-size: 11px;
     line-height: 17px;
@@ -111,6 +117,7 @@ body {
     font-size: 100%;
     font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
 }
+
 .site-header {
     width: 960px;
     margin: 0 auto;
@@ -123,6 +130,7 @@ body {
 .logo {
     position: absolute;
 }
+
 #title {
     margin-left: 4%;
     width: 52%;
@@ -130,12 +138,15 @@ body {
     overflow: hidden;
     word-wrap: break-word;
 }
+
 #title a {
     color: #e5e5e5;
 }
+
 #title a:hover {
     text-decoration: none;
 }
+
 .site-title {
     font-size: 300%;
     line-height: 0.8;
@@ -144,16 +155,19 @@ body {
     position: relative;
     padding: 58px 0 10px;
 }
+
 .site-description {
     font-size: 120%;
     text-align: center;
     position: relative;
     margin: 0;
 }
+
 .site-description .home-link a {
     text-decoration: none;
     text-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
 }
+
 .site-header .home-link a:hover {
     text-decoration: none;
 }
@@ -216,6 +230,7 @@ code {
     display: block;
     overflow-x: auto;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -226,12 +241,14 @@ table {
     line-height: 2;
     font-size: 90%;
 }
+
 td,
 th {
     border: 1px solid #111;
     padding: 0.5em;
     text-align: center;
 }
+
 tbody tr:nth-child(odd) {
     background: #eee;
     background: rgba(0, 0, 0, 0.08);
@@ -251,6 +268,7 @@ blockquote {
     color: #383838;
     background: #ececec;
 }
+
 blockquote::before {
     display: block;
     content: "\201C";
@@ -260,6 +278,7 @@ blockquote::before {
     top: -10px;
     color: #7a7a7a;
 }
+
 blockquote cite {
     text-align: right;
     color: #2b2a2a;
@@ -267,6 +286,7 @@ blockquote cite {
     display: block;
     margin-top: 5px;
 }
+
 blockquote cite::before {
     content: "\2014 \2009";
 }
@@ -278,6 +298,7 @@ blockquote cite::before {
     font-size: 100%;
     line-height: 150%;
 }
+
 #content .col01 h1,
 #content .col01 .post-title {
     text-align: center;
@@ -290,15 +311,18 @@ blockquote cite::before {
     overflow: hidden;
     background: url(images/line.png) repeat-x bottom;
 }
+
 #content .col01 h1 a,
 #content .col01 .post-title a {
     color: #000;
     text-decoration: none;
 }
+
 #content .col01 h1 a:hover,
 #content .col01 .post-title a:hover {
     color: gray;
 }
+
 #content .col01 h2,
 #content .col01 h3,
 #content .col01 h4,
@@ -306,18 +330,22 @@ blockquote cite::before {
 #content .col01 h6 {
     text-align: center;
 }
+
 #content .col01 .post {
     padding-top: 5px;
     padding-bottom: 30px;
 }
+
 #content .col01 .thumbnail {
     float: right;
     margin: 10px 0 10px 10px;
 }
+
 #content .col01 .tagsandcopy {
     font-size: 90%;
     margin-bottom: 0;
 }
+
 #content .col01 article {
     padding-bottom: 30px;
 }
@@ -328,6 +356,7 @@ blockquote cite::before {
 .author-avatar-big {
     text-align: center;
 }
+
 .author-avatar-big img {
     width: 200px;
     height: 200px;
@@ -337,14 +366,15 @@ blockquote cite::before {
 /* Transforme author-avatar */
 .author-avatar img {
     -webkit-transform: rotate(-9deg);
-            transform: rotate(-9deg);
+    transform: rotate(-9deg);
     filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17,M12=-1,M21=1,M22=6.123031769111886e-17, SizingMethod="auto expand", enabled=true)';
 }
 
-* + html .transform img {
+*+html .transform img {
     -webkit-filter: progid:dximagetransform.microsoft.matrix(M11=6.123031769111886e-17, M12=-1, M21=1, M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true);
-            filter: progid:dximagetransform.microsoft.matrix(M11=6.123031769111886e-17, M12=-1, M21=1, M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true);
+    filter: progid:dximagetransform.microsoft.matrix(M11=6.123031769111886e-17, M12=-1, M21=1, M22=6.123031769111886e-17, SizingMethod='auto expand', enabled=true);
 }
+
 #content .col01 .author-info {
     border-top: 2px solid #939393;
     border-bottom: 2px solid #939393;
@@ -353,18 +383,22 @@ blockquote cite::before {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
 #content .col01 .author-info .author-description {
     margin-top: -13px;
 }
+
 #content .col01 .author-info .author-title {
     width: 85%;
     text-align: center;
     line-height: 100%;
     padding-top: 1px;
 }
+
 #content .col01 .author-info p.author-bio {
     margin-left: 1px;
 }
+
 #content .col01 .author-info p.author-bio .author-link::after {
     content: "\2192";
 }
@@ -398,6 +432,7 @@ blockquote cite::before {
     text-shadow: 0 1px 2px #c53d3d;
     box-shadow: 0 2px 4px #110303;
 }
+
 #content .col01 .date-tab::before {
     content: ' ';
     position: absolute;
@@ -410,6 +445,7 @@ blockquote cite::before {
     border-style: solid;
     border-color: #a00b0b #a00b0b #a00b0b transparent;
 }
+
 #content .col01 .date-tab::after {
     content: ' ';
     position: absolute;
@@ -422,12 +458,14 @@ blockquote cite::before {
     border-style: solid;
     border-color: #6d0404 #6d0404 transparent transparent;
 }
+
 #content .col01 .date-tab .month {
     text-align: right;
     display: block;
     padding: 6px 16px 6px 0;
     font-size: 70%;
 }
+
 #content .col01 .date-tab .day {
     text-align: right;
     display: block;
@@ -435,22 +473,27 @@ blockquote cite::before {
     font-size: 112%;
     font-weight: bold;
 }
+
 /* END-Date-tab (Ribbons) */
 
 #content .col01 .post-inner p {
     overflow: visible;
 }
+
 #content .col01 .post-inner a {
     text-decoration: underline;
 }
+
 #content .col01 .thumbnail {
     float: right;
     margin: 12px 0 12px 12px;
 }
+
 #content .col01 .meta a {
     color: #000;
     text-decoration: none;
 }
+
 #content .col01 .meta a:hover {
     text-decoration: underline;
 }
@@ -461,6 +504,7 @@ blockquote cite::before {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 /* END-Content (Column 1) */
 
 /* Sidebar (Column 2)
@@ -478,6 +522,7 @@ blockquote cite::before {
     margin-left: 221px;
     height: 0;
 }
+
 .follow img {
     width: 80px;
 }
@@ -488,11 +533,13 @@ blockquote cite::before {
     width: 212px;
     background: url(images/yellow-sticker-middle.png) repeat-y;
 }
+
 #sidebar .yellow-sticker-middle ul {
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
+
 #sidebar .yellow-sticker-middle ul li {
     font-size: 100%;
     line-height: 110%;
@@ -500,9 +547,11 @@ blockquote cite::before {
     padding: 0;
     margin: 0;
 }
+
 #sidebar .yellow-sticker-middle ul li .listMeta {
     font-size: 10px;
 }
+
 #sidebar .yellow-sticker-middle ul li a {
     color: #21565e;
     border-top: 1px solid #ffe5be;
@@ -512,15 +561,18 @@ blockquote cite::before {
     padding: 4px 0 4px 25px;
     transition: margin 0.3s;
 }
+
 #sidebar .yellow-sticker-middle ul li a:hover {
     text-decoration: none;
     margin-left: 20px;
     color: #000;
 }
+
 #sidebar .yellow-sticker-middle ul .sub-menu {
     padding-left: 10px;
     overflow: hidden;
 }
+
 #sidebar .yellow-sticker-bottom {
     width: 188px;
     height: 62px;
@@ -536,14 +588,17 @@ blockquote cite::before {
     height: 124px;
     background: url(images/white-sticker-top.png) no-repeat;
 }
+
 #sidebar .white-sticker-middle {
     width: 212px;
     background: url(images/white-sticker-middle.png) repeat-y;
 }
+
 #sidebar .white-sticker-middle ul {
     padding: 0;
     margin: 0;
 }
+
 #sidebar .white-sticker-middle ul li {
     font-size: 93%;
     line-height: 130%;
@@ -551,21 +606,25 @@ blockquote cite::before {
     padding: 0;
     margin: 0;
 }
+
 #sidebar .white-sticker-middle ul li a {
     color: #21565e;
     display: block;
     width: 170px;
     padding: 4px 0 4px 25px;
 }
+
 #sidebar .white-sticker-middle ul li a:hover {
     text-decoration: none;
     color: #000;
 }
+
 #sidebar .white-sticker-middle ul li a i {
     margin-right: 6px;
     color: navy;
     font-size: 70%;
 }
+
 #sidebar .white-sticker-bottom {
     width: 188px;
     height: 62px;
@@ -574,9 +633,11 @@ blockquote cite::before {
     font-size: 70%;
     text-align: right;
 }
+
 #sidebar .white-sticker-bottom a {
     color: #21565e;
 }
+
 #sidebar .white-sticker-bottom a:hover {
     color: #21565e;
     text-decoration: none;
@@ -600,16 +661,19 @@ blockquote cite::before {
     background: url(images/links-label.png) no-repeat 10px 5px;
     padding: 30px 10px 20px;
 }
+
 #sidebar .links-widget ul {
     margin: 0;
     padding: 0;
 }
+
 #sidebar .links-widget ul li {
     font-size: 100%;
     line-height: 110%;
     list-style: none;
     background: url(images/line.png) no-repeat bottom;
 }
+
 #sidebar .links-widget ul li a {
     color: #21565e;
     margin: 0 auto;
@@ -617,6 +681,7 @@ blockquote cite::before {
     width: 186px;
     padding: 3px 0;
 }
+
 #sidebar .links-widget ul li a:hover {
     text-decoration: none;
     color: #000;
@@ -628,6 +693,7 @@ blockquote cite::before {
     padding: 10px;
     width: 90%;
 }
+
 #sidebar .widget-title {
     font-family: Permanent Marker;
     font-size: 18px;
@@ -636,6 +702,7 @@ blockquote cite::before {
 select {
     width: 100%;
 }
+
 /* END-Sidebar (Column 2) */
 
 /* Responsive * Fluid image, embed, object & video
@@ -683,11 +750,13 @@ img.centered {
     margin-left: auto;
     margin-right: auto;
 }
+
 img.alignright {
     padding: 4px;
     margin: 0 0 2px 15px;
     display: inline;
 }
+
 img.alignleft {
     padding: 4px;
     margin: 0 15px 2px 0;
@@ -720,24 +789,29 @@ img.alignleft {
     background-color: #2d3032;
     border-top: 1px solid #8a8989;
 }
+
 #footer a {
     text-decoration: none;
     color: #909490;
 }
+
 #footer a:visited {
     text-decoration: none;
     color: #909490;
 }
+
 #footer-widgets {
     display: block;
     text-align: initial;
 }
+
 #footer-widgets span {
     float: left;
     width: calc(33% - 20px);
     margin-left: 10px;
     margin-right: 10px;
 }
+
 /* END-Footer */
 
 /* Comment
@@ -751,6 +825,7 @@ img.alignleft {
     border-radius: 10px;
     text-shadow: 0 0 1px #aaa;
 }
+
 #submit:hover {
     text-decoration: none;
     border: 1px solid #000;
@@ -759,10 +834,12 @@ img.alignleft {
     background-clip: padding-box;
     border-radius: 10px;
 }
+
 #commentform {
     padding: 0;
     margin: 0;
 }
+
 #commentform .comment-field {
     border: 1px solid #939393;
     width: 290px;
@@ -773,6 +850,7 @@ img.alignleft {
     background: #fff;
     float: left;
 }
+
 #commentform .comment-box {
     border: 1px solid #939393;
     width: 70%;
@@ -784,6 +862,7 @@ img.alignleft {
     opacity: 0.6;
     position: relative;
 }
+
 #commentform .btnComment {
     margin: 0;
     padding: 2px;
@@ -791,15 +870,19 @@ img.alignleft {
     float: left;
     clear: left;
 }
+
 #commentform .comment-notes {
     display: none;
 }
+
 #commentform label {
     font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
 }
+
 #commentform p {
     margin-bottom: 0;
 }
+
 #commentform code {
     display: inline;
     border: none;
@@ -807,10 +890,12 @@ img.alignleft {
     font-size: 90%;
     font-family: Forum, Tahoma, Arial, Helvetica, sans-serif;
 }
+
 #commentform .form-allowed-tags {
     margin-top: 0;
     font-size: 90%;
 }
+
 #author,
 #email,
 #url,
@@ -818,10 +903,12 @@ img.alignleft {
     display: block;
     width: 48%;
 }
+
 #comment {
     width: 98%;
     height: 100px;
 }
+
 p.comments-title {
     font-size: 130%;
     font-weight: bold;
@@ -836,42 +923,51 @@ p.comments-title {
     margin-right: 10px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), -2px 2px 2px rgba(0, 0, 0, 0.2);
 }
+
 .edit-link {
     display: inline;
 }
+
 .reply {
     display: inline;
 }
+
 .commentlist {
     margin: 20px 0;
     padding: 0;
 }
+
 .commentlist li {
     padding: 12px 0;
     background: url(images/line.png) no-repeat bottom;
     line-height: 125%;
     list-style: none;
 }
+
 .commentlist li a {
     color: #000;
     position: relative;
     text-decoration: none;
 }
+
 .commentlist li a:hover {
     color: #000;
     text-decoration: none;
     border-bottom: 1px solid #000;
     background: #fffbc1;
 }
+
 .commentdate {
     display: block;
     padding: 0 0 6px;
     font-size: 60%;
 }
+
 .commentlist li cite {
     font-weight: bold;
     font-style: normal;
 }
+
 /* END-Comment */
 
 /************************** Navigation **************************/
@@ -901,10 +997,12 @@ p.comments-title {
     width: 104%;
     line-height: 180%;
 }
+
 #content .col01 .post-inner .page-links a {
     text-decoration: none;
     border-bottom: none;
 }
+
 #content .col01 .post-inner .page-links span {
     text-decoration: none;
     border: 1px solid #bfbfbf;
@@ -914,6 +1012,7 @@ p.comments-title {
     border-radius: 10px;
     text-transform: uppercase;
 }
+
 /* End-Breadcrumbs */
 
 /* Breadcrumbs
@@ -926,6 +1025,7 @@ p.comments-title {
     width: 104%;
     line-height: 180%;
 }
+
 #breadcrumbs a,
 #breadcrumbs span {
     text-decoration: none;
@@ -935,6 +1035,7 @@ p.comments-title {
     background-clip: padding-box;
     border-radius: 10px;
 }
+
 /* End-Breadcrumbs */
 
 /* Navigation Links
@@ -946,6 +1047,7 @@ p.comments-title {
     font-weight: 300;
     padding: 20px 0;
 }
+
 /* End-Navigation Links */
 
 /* Page Navigation
@@ -955,6 +1057,7 @@ p.comments-title {
     margin: 5px;
     text-shadow: 0 0 1px #aaa;
 }
+
 #page-nav a,
 #page-nav span {
     text-decoration: none;
@@ -965,23 +1068,29 @@ p.comments-title {
     border-radius: 10px;
     text-transform: uppercase;
 }
+
 #page-nav a:hover,
 #page-nav span.current {
     border-color: #bfbfbf;
 }
+
 #page-nav span.current {
     font-weight: bold;
 }
+
 .paging-navigation .nav-links {
     margin: 0 auto;
     max-width: 1040px;
 }
+
 .paging-navigation .nav-previous {
     float: left;
 }
+
 .paging-navigation .nav-next {
     text-align: right;
 }
+
 /* End-Page Navigation */
 
 /* Post Navigation
@@ -990,10 +1099,12 @@ p.comments-title {
     margin: 0 auto;
     max-width: 1040px;
 }
+
 .post-navigation a[rel="next"] {
     float: right;
     text-align: right;
 }
+
 /* End-Post Navigation */
 
 /* Scroll to Top button
@@ -1015,9 +1126,11 @@ p.comments-title {
     background-color: #3f3b3b;
     transition: background-color 0.1s linear;
 }
+
 .scroll-to-top:hover {
     opacity: 1;
 }
+
 /* End-Scroll to Top button */
 /************************** END-Navigation **************************/
 
@@ -1026,23 +1139,28 @@ p.comments-title {
 .html-sitemap h2 {
     padding-top: 10px;
 }
+
 .category {
     list-style: none;
     padding-bottom: 5px;
 }
+
 .grey {
     color: #777;
     background-color: inherit;
 }
+
 .cat-posts {
     padding-bottom: 10px;
     padding-top: 10px;
     overflow: hidden;
 }
+
 .cat-posts li {
     padding-bottom: 5px;
     list-style: square;
 }
+
 .sitemap-authors li,
 .sitemap-pages li,
 .sitemap-archives li {
@@ -1054,9 +1172,11 @@ p.comments-title {
 .sticky {
     position: relative;
 }
+
 .gallery-caption {
     text-align: center;
 }
+
 .bypostauthor {
     font-style: normal;
 }

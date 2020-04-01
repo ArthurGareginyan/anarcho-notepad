@@ -74,7 +74,7 @@
     height: 110px;
     background: url(../images/notepad-bottom.png) no-repeat top center;
     -webkit-transform: scale(1, -1);
-            transform: scale(1, -1);
+    transform: scale(1, -1);
 }
 
 #footer {
@@ -133,7 +133,7 @@
     text-align: center;
 }
 
-#page .content h3 + h4 {
+#page .content h3+h4 {
     padding-top: 0;
     text-transform: none;
 }
@@ -231,8 +231,9 @@
     border: 3px solid white;
 }
 
-@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
-    #page > li {
+@media only screen and (max-width: 700px),
+only screen and (max-device-width: 700px) {
+    #page>li {
         width: 85%;
     }
 }
