@@ -3,7 +3,7 @@
  * Theme functions and definitions.
  *
  * @package     Anarcho Notepad
- * @since       2.44
+ * @since       2.45
  * @author      Space X-Chimp
  * @copyright   Copyright (c) 2013-2020, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
