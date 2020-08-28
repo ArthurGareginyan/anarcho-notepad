@@ -136,18 +136,6 @@ function spacexchimp_theme_upgrade_settings() {
 }
 spacexchimp_theme_upgrade_settings();
 
-//Adding backwards compatibility for title-tag less than WordPress version 4.1
-if ( ! function_exists( '_wp_render_title_tag' ) ) {
-    function spacexchimp_theme_render_title() {
-        ?>
-        <title>
-            <?php wp_title( '|', true, 'right' ); ?>
-        </title>
-        <?php
-    }
-    add_action( 'wp_head', 'spacexchimp_theme_render_title' );
-}
-
 /* Add Theme Information Page */
 require get_template_directory() . '/inc/theme_info.php';
 
