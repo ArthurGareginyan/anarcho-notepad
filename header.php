@@ -36,6 +36,8 @@
 
 <body <?php body_class(); ?>>
 
+    <?php wp_body_open(); ?>
+
     <header id="masthead" class="site-header" role="banner">
 
         <?php if ( get_theme_mod('disable_paper_search') !== '1') { ?>
