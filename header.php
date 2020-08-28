@@ -3,7 +3,7 @@
  * The Header for our theme.
  *
  * @package     Anarcho Notepad
- * @since       2.38
+ * @since       2.46
  * @author      Space X-Chimp
  * @copyright   Copyright (c) 2013-2020, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html

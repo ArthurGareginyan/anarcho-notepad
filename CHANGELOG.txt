@@ -1,5 +1,10 @@
 == Changelog ==
 
+= 2.46 (2020.08.28) =
+* New feature: Added the 'wp_body_open()' function introduced in WordPress 5.2 to support the new function and action.
+* Maintenance: To support WordPress versions prior to 5.2.0, added a function that registers the 'wp_body_open()' function if the site is using an older version of WordPress that does not have the 'wp_body_open()' function.
+* Maintenance: Checking for the '_wp_render_title_tag' function and defining the 'spacexchimp_theme_render_title' function have been removed due to uselessness after discontinuing of support of WordPress versions prior to 4.1.
+
 = 2.45 (2020.08.10) =
 * Maintenance: Ensure compatibility with upcoming WordPress 5.5.
 * Maintenance: Content of the CSS files has been beautified.
