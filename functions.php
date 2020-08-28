@@ -136,6 +136,16 @@ function spacexchimp_theme_upgrade_settings() {
 }
 spacexchimp_theme_upgrade_settings();
 
+/**
+ * Fire the wp_body_open action (triggered after the opening <body> tag).
+ * Added for backwards compatibility to support WordPress versions prior to 5.2.0.
+ */
+if ( ! function_exists( 'wp_body_open' ) ) {
+    function wp_body_open() {
+        do_action( 'wp_body_open' );
+    }
+}
+
 /* Add Theme Information Page */
 require get_template_directory() . '/inc/theme_info.php';
 
