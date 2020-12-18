@@ -51,7 +51,7 @@
                 <br>
                 <?php
                     $spacexchimp_theme_copy_post = __( 'Copyright 2020. All rights reserved.', 'anarcho-notepad' );
-                    echo esc_html( get_theme_mod( 'copyright_post', $spacexchimp_theme_copy_post ) );
+                    echo wp_kses_post( get_theme_mod( 'copyright_post', $spacexchimp_theme_copy_post ) );
                 ?>
             </p>
 

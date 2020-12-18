@@ -38,7 +38,7 @@
         <p>
             <?php
                 $about_text = __( 'Paste here small text about you and/or about your site.', 'anarcho-notepad' );
-                echo sanitize_text_field( get_theme_mod( 'about_box', $about_text ) );
+                echo wp_kses_post( get_theme_mod( 'about_box', $about_text ) );
             ?>
         </p>
     </div>
