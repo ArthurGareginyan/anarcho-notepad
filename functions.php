@@ -562,7 +562,7 @@ function spacexchimp_theme_comment( $comment, $args, $depth ) {
 function spacexchimp_theme_copyright() {
 
     $spacexchimp_theme_copy_website = __( 'Copyright 2020. All rights reserved.', 'anarcho-notepad' );
-    echo get_theme_mod( 'site-info', $spacexchimp_theme_copy_website ) . "<br>";
+    echo wp_kses_post( get_theme_mod( 'site-info', $spacexchimp_theme_copy_website ) ) . "<br>";
 
     $spacexchimp_theme_copy_theme_uri = "https://www.spacexchimp.com/themes/anarcho-notepad.html";
     $spacexchimp_theme_copy_theme_name = "Anarcho Notepad";
