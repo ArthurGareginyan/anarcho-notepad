@@ -520,11 +520,11 @@ blockquote cite::before {
 -------------------------------------------------------------- */
 .follow {
     height: 0;
-    margin-left: 221px;
 }
 
 .follow img {
     width: 80px;
+    margin-left: 221px;
 }
 
 /* Yellow Sticker
