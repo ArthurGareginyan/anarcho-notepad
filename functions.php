@@ -200,6 +200,71 @@ function spacexchimp_theme_scripts_frontend() {
 }
 add_action( 'wp_enqueue_scripts', 'spacexchimp_theme_scripts_frontend' );
 
+/* Custom sanitizer function for the Scripts options */
+function spacexchimp_theme_sanitize_scripts( $input ){
+    global $allowedposttags;
+    $tags = $allowedposttags;
+    $atts_default = array(
+        'accesskey'       => true,
+        'autocapitalize'  => true,
+        'class'           => true,
+        'contenteditable' => true,
+        'contextmenu'     => true,
+        'dir'             => true,
+        'draggable'       => true,
+        'dropzone'        => true,
+        'exportparts'     => true,
+        'hidden'          => true,
+        'id'              => true,
+        'inputmode'       => true,
+        'is'              => true,
+        'itemid'          => true,
+        'itemprop'        => true,
+        'itemref'         => true,
+        'itemscope'       => true,
+        'itemtype'        => true,
+        'lang'            => true,
+        'part'            => true,
+        'slot'            => true,
+        'spellcheck'      => true,
+        'style'           => true,
+        'tabindex'        => true,
+        'title'           => true,
+        'translate'       => true,
+    );
+	$tags['style']    = array_merge(
+        array(
+            'media'          => true,
+    		'type'           => true,
+        ),
+        $atts_default
+    );
+    $tags['script']   = array_merge(
+        array(
+    		'async'          => true,
+    		'crossorigin'    => true,
+    		'defer'          => true,
+    		'integrity'      => true,
+            'nomodule'       => true,
+            'nonce'          => true,
+            'referrerpolicy' => true,
+            'src'            => true,
+            'type'           => true,
+        ),
+        $atts_default
+    );
+    $tags['noscript'] = array_merge(
+        array(
+            'class'          => true,
+    		'href'           => true,
+    		'rel'            => true,
+    		'title'          => true,
+        ),
+        $atts_default
+    );
+    return wp_kses( $input, $tags );
+}
+
 /* Add Theme Customizer functionality */
 require get_template_directory() . '/inc/customizer-arrays.php';
 require get_template_directory() . '/inc/customizer.php';

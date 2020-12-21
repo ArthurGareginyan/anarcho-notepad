@@ -261,7 +261,7 @@ function spacexchimp_theme_customize_register( $wp_customize ) {
         // Scripts before posts
         $wp_customize->add_setting( 'scripts_before_posts', array(
                 'default'           => '',
-                'sanitize_callback' => 'esc_attr',
+                'sanitize_callback' => 'spacexchimp_theme_sanitize_scripts',
         ));
         $wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_before_posts', array(
                 'priority'          => 2,
@@ -273,7 +273,7 @@ function spacexchimp_theme_customize_register( $wp_customize ) {
         // Scripts at the beginning of the posts
         $wp_customize->add_setting( 'scripts_beginning_posts', array(
                 'default'           => '',
-                'sanitize_callback' => 'esc_attr',
+                'sanitize_callback' => 'spacexchimp_theme_sanitize_scripts',
         ));
         $wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_beginning_posts', array(
                 'priority'          => 3,
@@ -285,7 +285,7 @@ function spacexchimp_theme_customize_register( $wp_customize ) {
         // Scripts at the end of the posts
         $wp_customize->add_setting( 'scripts_end_posts', array(
                 'default'           => '',
-                'sanitize_callback' => 'esc_attr',
+                'sanitize_callback' => 'spacexchimp_theme_sanitize_scripts',
         ));
         $wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_end_posts', array(
                 'priority'          => 4,
@@ -297,7 +297,7 @@ function spacexchimp_theme_customize_register( $wp_customize ) {
         // Scripts after posts
         $wp_customize->add_setting( 'scripts_after_posts', array(
                 'default'           => '',
-                'sanitize_callback' => 'esc_attr',
+                'sanitize_callback' => 'spacexchimp_theme_sanitize_scripts',
         ));
         $wp_customize->add_control( new Anarcho_Customize_Textarea_Control( $wp_customize, 'scripts_after_posts', array(
                 'priority'          => 5,

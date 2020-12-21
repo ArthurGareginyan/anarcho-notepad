@@ -22,7 +22,7 @@
         <?php while ( have_posts() ) : the_post(); ?>
 
         <div class="before-posts">
-            <?php echo get_theme_mod('scripts_before_posts'); ?>
+            <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_before_posts') ); ?>
         </div>
 
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -35,7 +35,7 @@
 
             <div class="post-inner">
                 <div class="beginning-posts">
-                    <?php echo get_theme_mod('scripts_beginning_posts'); ?>
+                    <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_beginning_posts') ); ?>
                 </div>
                 <?php the_post_thumbnail(); ?>
                 <?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="after-posts">
-                <?php echo get_theme_mod('scripts_after_posts'); ?>
+                <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_after_posts') ); ?>
             </div>
             <br>
             <p class="tagsandcopy">
@@ -59,7 +59,7 @@
             <?php spacexchimp_theme_post_nav(); ?>
 
             <div class="end-posts">
-                <?php echo get_theme_mod('scripts_end_posts'); ?>
+                <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_end_posts') ); ?>
             </div>
 
         </article>
