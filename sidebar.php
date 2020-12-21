@@ -16,7 +16,7 @@
     <!--FOLLOW-->
     <?php if ( get_theme_mod('disable_rss_icon') !== '1' ) { ?>
     <div class="follow">
-        <a href="http://click-to-follow.me" target="_blank" rel="nofollow">
+        <a href="https://www.follow.it/now" target="_blank" rel="nofollow">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/follow.png" alt="RSS" />
         </a>
     </div>
