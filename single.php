@@ -40,12 +40,11 @@
                 <?php the_post_thumbnail(); ?>
                 <?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
                 <?php wp_link_pages( array( 'before' => '<div class="page-links"><span>' . __( 'Pages:', 'anarcho-notepad' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
+                <div class="end-posts">
+                    <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_end_posts') ); ?>
+                </div>
             </div>
 
-            <div class="after-posts">
-                <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_after_posts') ); ?>
-            </div>
-            <br>
             <p class="tagsandcopy">
                 <?php the_tags(); ?>
                 <br>
@@ -58,8 +57,8 @@
             <?php spacexchimp_theme_entry_meta(); ?>
             <?php spacexchimp_theme_post_nav(); ?>
 
-            <div class="end-posts">
-                <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_end_posts') ); ?>
+            <div class="after-posts">
+                <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_after_posts') ); ?>
             </div>
 
         </article>
