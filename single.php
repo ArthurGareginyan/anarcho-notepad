@@ -34,15 +34,19 @@
             </h1>
 
             <div class="post-inner">
+
                 <div class="beginning-posts">
                     <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_beginning_posts') ); ?>
                 </div>
+
                 <?php the_post_thumbnail(); ?>
                 <?php the_content( __( 'Continue reading', 'anarcho-notepad' ) ); ?>
                 <?php wp_link_pages( array( 'before' => '<div class="page-links"><span>' . __( 'Pages:', 'anarcho-notepad' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
+
                 <div class="end-posts">
                     <?php echo spacexchimp_theme_sanitize_scripts( get_theme_mod('scripts_end_posts') ); ?>
                 </div>
+
             </div>
 
             <p class="tagsandcopy">
