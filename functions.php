@@ -169,9 +169,7 @@ add_action ( 'wp_before_admin_bar_render', 'spacexchimp_theme_add_help_button' )
 /* Add the Upgrade notice */
 require get_template_directory() . '/inc/upgrade_notice.php';
 
-/**
- * Enqueue scripts and styles on the admin pages.
- */
+/* Enqueue scripts and styles on the admin pages */
 function spacexchimp_theme_scripts_admin() {
 
     // Load additional stylesheet for admin screens
@@ -180,9 +178,7 @@ function spacexchimp_theme_scripts_admin() {
 }
 add_action( 'admin_enqueue_scripts', 'spacexchimp_theme_scripts_admin' );
 
-/**
- * Enqueue scripts and styles on the front end.
- */
+/* Enqueue scripts and styles on the front end */
 function spacexchimp_theme_scripts_frontend() {
 
     // Load JQuery library
