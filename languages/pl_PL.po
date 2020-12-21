@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-13 21:31+0300\n"
-"PO-Revision-Date: 2020-01-13 21:31+0300\n"
+"POT-Creation-Date: 2020-12-21 11:07+0300\n"
+"PO-Revision-Date: 2020-12-21 11:07+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
@@ -39,7 +39,7 @@ msgid "Permanent Link to"
 msgstr ""
 
 #: archive.php:38 category.php:38 home.php:36 index.php:34 page.php:34
-#: page_without_date.php:34 search.php:49 single.php:41
+#: page_without_date.php:34 search.php:49 single.php:43
 msgid "Continue reading"
 msgstr "Czytaj dalej"
 
@@ -88,211 +88,211 @@ msgstr "Komentarze zamknięto."
 msgid "Primary"
 msgstr "Główny"
 
-#: functions.php:161
+#: functions.php:159
 msgid "Help"
 msgstr "Pomoc"
 
-#: functions.php:164
+#: functions.php:162
 msgid "Need help with Anarcho-Notepad? Click here!"
 msgstr "Potrzebujesz pomocy z Anarcho-Notepad? Kliknij tutaj!"
 
-#: functions.php:222
+#: functions.php:271
 msgid "Sidebar Area 1"
 msgstr "Pasek boczny obszar 1"
 
-#: functions.php:224
+#: functions.php:273
 msgid "Widgets in this area will be shown below \"Pages\"."
 msgstr "Wtyczki w tym obszarze będą się wyświetlały poniżej \"Stron\"."
 
-#: functions.php:231
+#: functions.php:280
 msgid "Sidebar Area 2"
 msgstr "Pasek boczny obszar 2"
 
-#: functions.php:233
+#: functions.php:282
 msgid "Widgets in this area will be shown below \"What is this place?\"."
 msgstr "Wtyczki w tym obszarze będą się wyświetlały poniżej \"Cóż to za miejsce\"."
 
-#: functions.php:240
+#: functions.php:289
 msgid "Sidebar Area 3"
 msgstr "Pasek boczny obszar 3"
 
-#: functions.php:242
+#: functions.php:291
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
 msgstr ""
 
-#: functions.php:249
+#: functions.php:298
 msgid "Sidebar Area 4"
 msgstr "Pasek boczny obszar 4"
 
-#: functions.php:251
+#: functions.php:300
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
 msgstr "Wtyczki w tym obszarze będą się wyświetlały poniżej \"Ostatnie Wpisy\"."
 
-#: functions.php:263
+#: functions.php:312
 msgid "Footer Area 1"
 msgstr "Stopka obszar 1"
 
-#: functions.php:265
+#: functions.php:314
 msgid "Widgets in this area will be shown left."
 msgstr ""
 
-#: functions.php:272
+#: functions.php:321
 msgid "Footer Area 2"
 msgstr "Stopka obszar 2"
 
-#: functions.php:274
+#: functions.php:323
 msgid "Widgets in this area will be shown center."
 msgstr ""
 
-#: functions.php:281
+#: functions.php:330
 msgid "Footer Area 3"
 msgstr "Stopka obszar 3"
 
-#: functions.php:283
+#: functions.php:332
 msgid "Widgets in this area will be shown right."
 msgstr ""
 
-#: functions.php:365
+#: functions.php:414
 msgid "Archive by category "
 msgstr "Archiwum wg kategorii "
 
-#: functions.php:369
+#: functions.php:418
 msgid "Archive by date "
 msgstr "Archiwum wg daty "
 
-#: functions.php:372
+#: functions.php:421
 msgid "Archive by month "
 msgstr "Archiwum wg miesięcy "
 
-#: functions.php:374
+#: functions.php:423
 msgid "Archive by year "
 msgstr "Archiwum wg lat "
 
-#: functions.php:384 functions.php:401 functions.php:412
+#: functions.php:433 functions.php:450 functions.php:461
 msgid "You&apos;re currently reading "
 msgstr "Aktualnie czytasz "
 
-#: functions.php:399
+#: functions.php:448
 msgid "You&apos;re currently viewing "
 msgstr ""
 
-#: functions.php:414
+#: functions.php:463
 msgid "Search results for "
 msgstr "Wyszukaj wyniki dla "
 
-#: functions.php:416
+#: functions.php:465
 msgid "Archive by tag "
 msgstr "Archiwum wg tagów "
 
-#: functions.php:420
+#: functions.php:469
 msgid "Articles posted by "
 msgstr "Artykuł napisany przez "
 
-#: functions.php:422
+#: functions.php:471
 msgid "You got it "
 msgstr "Masz to "
 
-#: functions.php:449
+#: functions.php:498
 msgid "Previous page"
 msgstr "Poprzednia strona"
 
-#: functions.php:450
+#: functions.php:499
 msgid "Next page"
 msgstr "Następna strona"
 
-#: functions.php:452
+#: functions.php:501
 msgid "Page "
 msgstr "Strona "
 
-#: functions.php:452
+#: functions.php:501
 msgid " of the "
 msgstr " z "
 
-#: functions.php:463
+#: functions.php:512
 msgid "Posts navigation"
 msgstr "Nawigacja wpisów"
 
-#: functions.php:469
+#: functions.php:518
 msgid "Older posts"
 msgstr ""
 
-#: functions.php:475
+#: functions.php:524
 msgid "Newer posts"
 msgstr ""
 
-#: functions.php:500
+#: functions.php:549
 msgid "Post navigation"
 msgstr "Nawigacja wpisu"
 
-#: functions.php:525
+#: functions.php:574
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: functions.php:525
+#: functions.php:574
 msgid "(Edit)"
 msgstr "(Edycja)"
 
-#: functions.php:542
+#: functions.php:591
 msgid "(Post author) "
 msgstr "(Autor wpisu) "
 
-#: functions.php:554
+#: functions.php:603
 msgid "Your comment is awaiting moderation."
 msgstr "Twój komentarz oczekuje na moderacje."
 
-#: functions.php:559
+#: functions.php:608
 msgid "Edit"
 msgstr "Edytuj"
 
-#: functions.php:563
+#: functions.php:612
 msgid "Reply"
 msgstr "Odpowiedź"
 
-#: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
+#: functions.php:625 inc/customizer.php:53 inc/customizer.php:65 single.php:56
 msgid "Copyright 2020. All rights reserved."
 msgstr ""
 
-#: functions.php:600
+#: functions.php:649
 msgid " queries in "
 msgstr " zapytań w "
 
-#: functions.php:602
+#: functions.php:651
 msgid " seconds"
 msgstr " sekundy"
 
-#: functions.php:605
+#: functions.php:654
 msgid " mb"
 msgstr " mb"
 
-#: functions.php:634
+#: functions.php:683
 msgid "Not Found"
 msgstr "Nie znaleziono"
 
-#: functions.php:637
+#: functions.php:686
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr "Przepraszamy, ale szukasz czegoś czego tu nie ma."
 
-#: functions.php:656 functions.php:676 functions.php:688 sitemap.php:65
+#: functions.php:705 functions.php:725 functions.php:737 sitemap.php:65
 msgid "Category: "
 msgstr "Kategoria: "
 
-#: functions.php:659 functions.php:667 functions.php:683 functions.php:695
+#: functions.php:708 functions.php:716 functions.php:732 functions.php:744
 msgid "EDIT"
 msgstr ""
 
-#: functions.php:661
+#: functions.php:710
 msgid "Posted "
 msgstr "Opublikowano "
 
-#: functions.php:663
+#: functions.php:712
 msgid " by "
 msgstr " przez "
 
-#: functions.php:665
+#: functions.php:714
 msgid " in category \""
 msgstr ""
 
-#: functions.php:682 functions.php:694
+#: functions.php:731 functions.php:743
 msgid "LEAVE A COMMENT"
 msgstr ""
 
@@ -698,7 +698,7 @@ msgstr "Wyszukaj wyniki dla:"
 msgid "Search"
 msgstr ""
 
-#: single.php:42 sitemap.php:46
+#: single.php:44 sitemap.php:46
 msgid "Pages:"
 msgstr "Strony:"
 

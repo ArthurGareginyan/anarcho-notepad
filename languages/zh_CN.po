@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
-"POT-Creation-Date: 2020-01-13 21:32+0300\n"
-"PO-Revision-Date: 2020-01-13 21:32+0300\n"
+"POT-Creation-Date: 2020-12-21 11:06+0300\n"
+"PO-Revision-Date: 2020-12-21 11:06+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -38,7 +38,7 @@ msgid "Permanent Link to"
 msgstr ""
 
 #: archive.php:38 category.php:38 home.php:36 index.php:34 page.php:34
-#: page_without_date.php:34 search.php:49 single.php:41
+#: page_without_date.php:34 search.php:49 single.php:43
 msgid "Continue reading"
 msgstr "继续阅读"
 
@@ -87,211 +87,211 @@ msgstr "关闭评论."
 msgid "Primary"
 msgstr "主要"
 
-#: functions.php:161
+#: functions.php:159
 msgid "Help"
 msgstr "帮助"
 
-#: functions.php:164
+#: functions.php:162
 msgid "Need help with Anarcho-Notepad? Click here!"
 msgstr "需要关于Anarcho-Notepad的帮助吗？请点击此处！"
 
-#: functions.php:222
+#: functions.php:271
 msgid "Sidebar Area 1"
 msgstr "边栏区域1"
 
-#: functions.php:224
+#: functions.php:273
 msgid "Widgets in this area will be shown below \"Pages\"."
 msgstr "此区域的小工具将显示在\"页面\"下方。"
 
-#: functions.php:231
+#: functions.php:280
 msgid "Sidebar Area 2"
 msgstr "边栏区域2"
 
-#: functions.php:233
+#: functions.php:282
 msgid "Widgets in this area will be shown below \"What is this place?\"."
 msgstr "此区域的小工具将显示在\"这是什么？\"下方。"
 
-#: functions.php:240
+#: functions.php:289
 msgid "Sidebar Area 3"
 msgstr "边栏区域3"
 
-#: functions.php:242
+#: functions.php:291
 msgid "Widgets in this area will be shown below \"Friends & Links\"."
 msgstr "此区域的小工具将显示在\"友情链接\"下方。"
 
-#: functions.php:249
+#: functions.php:298
 msgid "Sidebar Area 4"
 msgstr "边栏区域4"
 
-#: functions.php:251
+#: functions.php:300
 msgid "Widgets in this area will be shown below \"Recent Posts\"."
 msgstr "此区域的小工具将显示在\"最近文章\"下方。"
 
-#: functions.php:263
+#: functions.php:312
 msgid "Footer Area 1"
 msgstr "页脚区域1"
 
-#: functions.php:265
+#: functions.php:314
 msgid "Widgets in this area will be shown left."
 msgstr "此区域的小工具将显示在左边。"
 
-#: functions.php:272
+#: functions.php:321
 msgid "Footer Area 2"
 msgstr "页脚区域2"
 
-#: functions.php:274
+#: functions.php:323
 msgid "Widgets in this area will be shown center."
 msgstr "此区域的小工具将显示在中间。"
 
-#: functions.php:281
+#: functions.php:330
 msgid "Footer Area 3"
 msgstr "页脚区域3"
 
-#: functions.php:283
+#: functions.php:332
 msgid "Widgets in this area will be shown right."
 msgstr "此区域的小工具将显示在右边。"
 
-#: functions.php:365
+#: functions.php:414
 msgid "Archive by category "
 msgstr "Archive by category "
 
-#: functions.php:369
+#: functions.php:418
 msgid "Archive by date "
 msgstr "按日期归档 "
 
-#: functions.php:372
+#: functions.php:421
 msgid "Archive by month "
 msgstr "按月份归档 "
 
-#: functions.php:374
+#: functions.php:423
 msgid "Archive by year "
 msgstr "按年份归档 "
 
-#: functions.php:384 functions.php:401 functions.php:412
+#: functions.php:433 functions.php:450 functions.php:461
 msgid "You&apos;re currently reading "
 msgstr "您正在阅读 "
 
-#: functions.php:399
+#: functions.php:448
 msgid "You&apos;re currently viewing "
 msgstr ""
 
-#: functions.php:414
+#: functions.php:463
 msgid "Search results for "
 msgstr "搜索结果 "
 
-#: functions.php:416
+#: functions.php:465
 msgid "Archive by tag "
 msgstr "按tag标记归档 "
 
-#: functions.php:420
+#: functions.php:469
 msgid "Articles posted by "
 msgstr "文章发表自 "
 
-#: functions.php:422
+#: functions.php:471
 msgid "You got it "
 msgstr "You got it "
 
-#: functions.php:449
+#: functions.php:498
 msgid "Previous page"
 msgstr "上一页"
 
-#: functions.php:450
+#: functions.php:499
 msgid "Next page"
 msgstr "下一页"
 
-#: functions.php:452
+#: functions.php:501
 msgid "Page "
 msgstr "页 "
 
-#: functions.php:452
+#: functions.php:501
 msgid " of the "
 msgstr " 共 "
 
-#: functions.php:463
+#: functions.php:512
 msgid "Posts navigation"
 msgstr "文章浏览"
 
-#: functions.php:469
+#: functions.php:518
 msgid "Older posts"
 msgstr ""
 
-#: functions.php:475
+#: functions.php:524
 msgid "Newer posts"
 msgstr ""
 
-#: functions.php:500
+#: functions.php:549
 msgid "Post navigation"
 msgstr "文章浏览"
 
-#: functions.php:525
+#: functions.php:574
 msgid "Pingback:"
 msgstr "引用通告:"
 
-#: functions.php:525
+#: functions.php:574
 msgid "(Edit)"
 msgstr "(编辑)"
 
-#: functions.php:542
+#: functions.php:591
 msgid "(Post author) "
 msgstr "(文章作者) "
 
-#: functions.php:554
+#: functions.php:603
 msgid "Your comment is awaiting moderation."
 msgstr "您的评论正等待审核。"
 
-#: functions.php:559
+#: functions.php:608
 msgid "Edit"
 msgstr "编辑"
 
-#: functions.php:563
+#: functions.php:612
 msgid "Reply"
 msgstr "回复"
 
-#: functions.php:576 inc/customizer.php:53 inc/customizer.php:65 single.php:53
+#: functions.php:625 inc/customizer.php:53 inc/customizer.php:65 single.php:56
 msgid "Copyright 2020. All rights reserved."
 msgstr "Copyright 2020. 版权所有。"
 
-#: functions.php:600
+#: functions.php:649
 msgid " queries in "
 msgstr " 查询自 "
 
-#: functions.php:602
+#: functions.php:651
 msgid " seconds"
 msgstr " 秒"
 
-#: functions.php:605
+#: functions.php:654
 msgid " mb"
 msgstr " mb"
 
-#: functions.php:634
+#: functions.php:683
 msgid "Not Found"
 msgstr "未找到"
 
-#: functions.php:637
+#: functions.php:686
 msgid "Sorry, but you are looking for something that isn't here."
 msgstr "抱歉，您所寻找的东西并不在这里。"
 
-#: functions.php:656 functions.php:676 functions.php:688 sitemap.php:65
+#: functions.php:705 functions.php:725 functions.php:737 sitemap.php:65
 msgid "Category: "
 msgstr "分类: "
 
-#: functions.php:659 functions.php:667 functions.php:683 functions.php:695
+#: functions.php:708 functions.php:716 functions.php:732 functions.php:744
 msgid "EDIT"
 msgstr "编辑"
 
-#: functions.php:661
+#: functions.php:710
 msgid "Posted "
 msgstr "发表 "
 
-#: functions.php:663
+#: functions.php:712
 msgid " by "
 msgstr " 自 "
 
-#: functions.php:665
+#: functions.php:714
 msgid " in category \""
 msgstr " 类别 \""
 
-#: functions.php:682 functions.php:694
+#: functions.php:731 functions.php:743
 msgid "LEAVE A COMMENT"
 msgstr "留下评论"
 
@@ -697,7 +697,7 @@ msgstr "搜索结果:"
 msgid "Search"
 msgstr ""
 
-#: single.php:42 sitemap.php:46
+#: single.php:44 sitemap.php:46
 msgid "Pages:"
 msgstr "总页数："
 
