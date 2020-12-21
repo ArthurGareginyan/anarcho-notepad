@@ -3,7 +3,7 @@
  * Upgrade notice
  *
  * @package     Anarcho Notepad
- * @since       2.33
+ * @since       2.47
  * @author      Space X-Chimp
  * @copyright   Copyright (c) 2013-2020, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html

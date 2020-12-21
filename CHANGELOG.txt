@@ -1,5 +1,21 @@
 == Changelog ==
 
+= 2.47 (2020.12.21) =
+* Maintenance: Ensure compatibility with WordPress 5.6.
+* Improvement: The "click-to-follow.me" URL for the "RSS feed" ribbon tag has been replaced with the new "www.follow.it/now" and switched to secure HTTPS protocol.
+* Fix: The "RSS feed" ribbon tag is not showing up on the front end.
+* Fix: Custom scripts inserted into the "Scripts" option text fields are added to the wrong locations. The "Scripts at the end of the posts" and "Scripts after posts" are mixed up.
+* Fix: Custom scripts inserted into the "Scripts" option text fields displayed on the front end as raw code instead of being rendered by web browser. Options: "Scripts before posts", "Scripts at the beginning of the posts", "Scripts at the end of the posts" and "Scripts after posts".
+* Fix: REQUIRED: Found echo get_template_directory_uri in sidebar.php. get_template_directory_uri() must be escaped when output as part of a link or image source.
+* Fix: REQUIRED: Found echo get_template_directory_uri in inc/upgrade_notice.php. get_template_directory_uri() must be escaped when output as part of a link or image source.
+* Fix: WARNING: Found echo get_theme_mod in functions.php. Theme options must be escaped.
+* Fix: WARNING: Found echo get_theme_mod in single.php. Theme options must be escaped.
+* Fix: The image in the upgrade notice is displayed too large for a moment.
+* New feature: The "Copyright in footer" option now allows HTML tags to be passed. You can write a pretty much any HTML tags in the option's textfield (Appearance → Customize → Meta → "Copyright in footer") and it will be rendered before being showed up on the front end.
+* New feature: The "Copyright after post" option now allows HTML tags to be passed. You can write a pretty much any HTML tags in the option's textfield (Appearance → Customize → Meta → "Copyright after post") and it will be rendered before being showed up on the front end.
+* New feature: The "About widget - "What is this place?"" option now allows HTML tags to be passed. You can write a pretty much any HTML tags in the option's textfield (Appearance → Customize → Meta → "About widget - "What is this place?"") and it will be rendered before being showed up on the front end.
+* Maintenance: PHP and HTML code has been better formatted.
+
 = 2.46 (2020.08.28) =
 * New feature: Added the 'wp_body_open()' function introduced in WordPress 5.2 to support the new function and action.
 * Maintenance: To support WordPress versions prior to 5.2.0, added a function that registers the 'wp_body_open()' function if the site is using an older version of WordPress that does not have the 'wp_body_open()' function.
