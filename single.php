@@ -5,7 +5,7 @@
  * @package     Anarcho Notepad
  * @since       2.47
  * @author      Space X-Chimp
- * @copyright   Copyright (c) 2013-2020, Space X-Chimp
+ * @copyright   Copyright (c) 2013-2021, Space X-Chimp
  * @link        https://www.spacexchimp.com/themes/anarcho-notepad.html
  * @license     http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -53,7 +53,7 @@
                 <?php the_tags(); ?>
                 <br>
                 <?php
-                    $spacexchimp_theme_copy_post = __( 'Copyright 2020. All rights reserved.', 'anarcho-notepad' );
+                    $spacexchimp_theme_copy_post = __( 'Copyright 2021. All rights reserved.', 'anarcho-notepad' );
                     echo wp_kses_post( get_theme_mod( 'copyright_post', $spacexchimp_theme_copy_post ) );
                 ?>
             </p>

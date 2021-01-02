@@ -1,7 +1,7 @@
 /*
  * Smooth scroll v1.2 | @agareginyan | GPL v3 Licensed
  *
- * Copyright (c) 2020, Space X-Chimp ( https://www.spacexchimp.com ).
+ * Copyright (c) 2021, Space X-Chimp ( https://www.spacexchimp.com ).
  * All Rights Reserved.
  */
 
