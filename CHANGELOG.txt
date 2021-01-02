@@ -1,5 +1,8 @@
 == Changelog ==
 
+= 2.48 (2021.01.01) =
+* Maintenance: The copyright date updated to support the 2021 year.
+
 = 2.47 (2020.12.21) =
 * Maintenance: Ensure compatibility with WordPress 5.6.
 * Improvement: The "click-to-follow.me" URL for the "RSS feed" ribbon tag has been replaced with the new "www.follow.it/now" and switched to secure HTTPS protocol.
