@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Anarcho Notepad\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-21 11:06+0300\n"
-"PO-Revision-Date: 2020-12-21 11:07+0300\n"
+"POT-Creation-Date: 2021-01-02 23:27+0300\n"
+"PO-Revision-Date: 2021-01-02 23:27+0300\n"
 "Last-Translator: Arthur Gareginyan\n"
 "Language-Team: \n"
 "Language: sk_SK\n"
@@ -249,7 +249,7 @@ msgid "Reply"
 msgstr "Odpoveď"
 
 #: functions.php:625 inc/customizer.php:53 inc/customizer.php:65 single.php:56
-msgid "Copyright 2020. All rights reserved."
+msgid "Copyright 2021. All rights reserved."
 msgstr ""
 
 #: functions.php:649
