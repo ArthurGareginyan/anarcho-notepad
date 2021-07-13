@@ -1,5 +1,8 @@
 == Changelog ==
 
+=
+* Maintenance: Ensure compatibility with upcoming WordPress 5.8.
+
 = 2.48 (2021.01.01) =
 * Maintenance: The copyright date updated to support the 2021 year.
 
