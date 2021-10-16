@@ -27,7 +27,7 @@
     5. The anarchy-symbol-big.png and anarchy-symbol.png images are under public domain: http://www.layoutsparks.com/1/213916/anarchy-perfect-black-A-31000.html
     6. The Default Background Image (images/background.png) is under public domain: http://wallbox.ru/wallpaper/9422/#.UnLDFNQhCRs
 
-    Everything else used in this theme has been created by the Space X-Chimp team, especially for "Anarcho Notepad" theme.
+    Everything else used in this theme has been created by the Space X-Chimp team, especially for the "Anarcho Notepad" theme.
 
 
 == Installing Anarcho Notepad Manually (FTP) ==
